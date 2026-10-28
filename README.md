@@ -1,4 +1,4 @@
-# REPASO — app de repaso de 2.º de Primaria
+# CHENCHO REPASO — app de repaso de 2.º de Primaria
 
 App web instalable (PWA) estilo Duolingo para niños de 7-8 años. El niño elige asignatura; un adulto marca **qué temas se han dado ya en clase** y las preguntas salen **solo de esos temas**. Funciona sin conexión después de la primera carga, sin cuentas, sin anuncios ni analítica.
 

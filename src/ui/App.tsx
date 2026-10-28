@@ -63,7 +63,7 @@ function Inicio({ estado }: { estado: Estado }) {
     <main className="pantalla inicio">
       <header className="saludo">
         <img className="logo" src="./logo.png" alt="" />
-        <div><h1>REPASO</h1><p>¿Qué repasamos hoy?</p></div>
+        <div><h1>CHENCHO REPASO</h1><p>¿Qué repasamos hoy?</p></div>
       </header>
       {ultima && temasUltima.length > 0 && (
         <button className="continuar" style={{ ['--acento' as string]: meta(ultima.id).color }}

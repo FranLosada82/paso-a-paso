@@ -11,8 +11,8 @@ export default defineConfig({
       injectRegister: false,
       includeAssets: ['logo.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'REPASO – Estudio 2.º',
-        short_name: 'REPASO',
+        name: 'CHENCHO REPASO – Estudio 2.º',
+        short_name: 'CHENCHO REPASO',
         description: 'Repaso de 2.º de Primaria por temas, sin conexión.',
         lang: 'es',
         start_url: './',
