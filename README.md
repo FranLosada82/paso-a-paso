@@ -22,7 +22,7 @@ App web instalable (PWA) estilo Duolingo para niños de 7-8 años. El niño elig
 
 ## Uso
 
-1. **Zona de adultos** (abajo en la pantalla de inicio; pide una multiplicación para evitar toques accidentales).
+1. **Zona de adultos** (abajo en la pantalla de inicio; pregunta la raíz cúbica de 27 para evitar toques accidentales).
 2. En cada asignatura, **Marcar** → activa los temas dados o pulsa «Hasta aquí» en el último tema dado.
 3. El niño entra en la asignatura y pulsa «Repasar todo lo dado» o un tema concreto.
 4. En la Zona de adultos: dominio por asignatura, texto grande, sonido (apagado por defecto), copia de seguridad y reinicio.
@@ -39,6 +39,9 @@ npm run build && npm run preview   # versión final: http://localhost:4173
 ```
 
 ## Instalar en la tableta
+
+La app está publicada en **https://franlosada82.github.io/paso-a-paso/** (GitHub Pages; cada push a `main` la vuelve a publicar con `.github/workflows/pages.yml`). El repositorio es público.
+
 
 Para instalarla y que funcione offline, la tableta tiene que abrirla **una vez por HTTPS** (o desde `localhost`, que en una tableta no sirve). Opciones, sin publicar nada en Internet salvo que lo decidas:
 

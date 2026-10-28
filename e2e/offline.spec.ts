@@ -1,9 +1,8 @@
 import { expect, test, type Page } from '@playwright/test';
 
 async function entrarAdulto(page: Page) {
-  const etiqueta = await page.getByText(/¿Cuánto es \d+ × \d+\?/).textContent();
-  const [, a, b] = etiqueta!.match(/(\d+) × (\d+)/)!;
-  await page.getByRole('textbox').fill(String(Number(a) * Number(b)));
+  await expect(page.getByText('¿Cuál es la raíz cúbica de 27?')).toBeVisible();
+  await page.getByRole('textbox').fill('3');
   await page.getByRole('button', { name: 'Entrar' }).click();
 }
 

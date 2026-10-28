@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { ASIGNATURAS, meta } from '../content/asignaturas';
 import { estadoInicial, exportarCopia, importarCopia, type Estado } from '../storage/estado';
 import type { Asignatura } from '../types';
@@ -10,13 +10,12 @@ type Act = (f: (e: Estado) => Estado) => void;
 
 /** Pregunta sencilla para adultos; evita cambios accidentales del niño (no es seguridad). */
 export function PuertaAdulto({ onOk }: { onOk: () => void }) {
-  const [a, b] = useMemo(() => [6 + Math.floor(Math.random() * 4), 7 + Math.floor(Math.random() * 3)], []);
   const [v, setV] = useState('');
   const [error, setError] = useState(false);
   return (
     <main className="pantalla"><Cabecera titulo="Zona de adultos" />
-      <form className="tarjeta centro" onSubmit={(e) => { e.preventDefault(); if (Number(v) === a * b) onOk(); else setError(true); }}>
-        <label htmlFor="puerta" className="grande">¿Cuánto es {a} × {b}?</label>
+      <form className="tarjeta centro" onSubmit={(e) => { e.preventDefault(); if (Number(v.trim()) === 3) onOk(); else setError(true); }}>
+        <label htmlFor="puerta" className="grande">¿Cuál es la raíz cúbica de 27?</label>
         <input id="puerta" className="escribir" inputMode="numeric" value={v} onChange={(e) => { setV(e.target.value); setError(false); }} autoFocus />
         {error && <p role="alert">No es correcto.</p>}
         <button className="boton" type="submit">Entrar</button>
