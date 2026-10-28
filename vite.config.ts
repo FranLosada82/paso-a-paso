@@ -9,22 +9,22 @@ export default defineConfig({
     VitePWA({
       registerType: 'prompt',
       injectRegister: false,
-      includeAssets: ['icon.svg', 'apple-touch-icon.png'],
+      includeAssets: ['logo.png', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Paso a Paso – Estudio 2.º',
-        short_name: 'Paso a Paso',
+        name: 'REPASO – Estudio 2.º',
+        short_name: 'REPASO',
         description: 'Repaso de 2.º de Primaria por temas, sin conexión.',
         lang: 'es',
         start_url: './',
         scope: './',
         display: 'standalone',
         orientation: 'any',
-        background_color: '#FFF8EC',
+        background_color: '#FFFFFF',
         theme_color: '#2E9E6B',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: 'icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {

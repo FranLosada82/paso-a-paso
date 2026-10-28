@@ -103,7 +103,7 @@
           "elementos": [
             "It's",
             "Sunday",
-            "today"
+            "today."
           ],
           "explicacion": "«It's Sunday today» = «Hoy es domingo».",
           "ayuda": "Ordena las palabras para formar la frase."
@@ -249,7 +249,8 @@
           "enunciado": "¿Cómo se dice «tijeras» en inglés?",
           "respuestas": [
             "scissors",
-            "the scissors"
+            "the scissors",
+            "a pair of scissors"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! Tijeras es «scissors»."
@@ -259,7 +260,10 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «estuche» en inglés?",
           "respuestas": [
-            "pencil case"
+            "pencil case",
+            "a pencil case",
+            "the pencil case",
+            "pencilcase"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «estuche» se dice «pencil case»."
@@ -399,7 +403,8 @@
           "enunciado": "¿Cómo se dice «zapatillas de deporte» en inglés?",
           "respuestas": [
             "trainers",
-            "the trainers"
+            "the trainers",
+            "sneakers"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! Zapatillas de deporte es «trainers»."
@@ -440,7 +445,7 @@
           ],
           "correcta": 0,
           "explicacion": "Con «we» usamos «our» (nuestro): «We've got our...».",
-          "ayuda": "Tenemos nuestras camisetas de fútbol."
+          "ayuda": "Fíjate en quién habla: «We» (nosotros)."
         },
         {
           "id": "ingles-t02-p15",
@@ -453,7 +458,7 @@
           ],
           "correcta": 0,
           "explicacion": "Con «they» usamos «their» (su/sus de ellos).",
-          "ayuda": "Ellos tienen sus zapatillas."
+          "ayuda": "Fíjate en quién tiene las zapatillas: «They» (ellos)."
         },
         {
           "id": "ingles-t02-p16",
@@ -577,7 +582,8 @@
           "enunciado": "¿Cómo se dice «patatas» en inglés?",
           "respuestas": [
             "potatoes",
-            "the potatoes"
+            "the potatoes",
+            "potato"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! Patatas es «potatoes»."
@@ -630,7 +636,7 @@
             "have",
             "yoghurt",
             "for",
-            "breakfast"
+            "breakfast."
           ],
           "explicacion": "«I have yoghurt for breakfast» = «Desayuno yogur».",
           "ayuda": "Ordena las palabras para formar la frase."
@@ -903,7 +909,8 @@
           "enunciado": "¿Cómo se dice «insectos» en inglés?",
           "respuestas": [
             "insects",
-            "the insects"
+            "the insects",
+            "insect"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! Insectos es «insects»."
@@ -1138,7 +1145,10 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «pijama» en inglés?",
           "respuestas": [
-            "pyjamas"
+            "pyjamas",
+            "pajamas",
+            "pyjama",
+            "pajama"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! Pijama se dice «pyjamas»."
@@ -1146,7 +1156,7 @@
         {
           "id": "ingles-t05-p15",
           "tipo": "eleccion",
-          "enunciado": "Which one is clothes?",
+          "enunciado": "Which one can you wear?",
           "opciones": [
             "jeans",
             "guitar",
@@ -1154,7 +1164,7 @@
           ],
           "correcta": 0,
           "explicacion": "«Jeans» (vaqueros) es ropa.",
-          "ayuda": "¿Cuál es ropa?"
+          "ayuda": "¿Cuál te puedes poner (es ropa)?"
         },
         {
           "id": "ingles-t05-p16",
@@ -1181,7 +1191,9 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «comisaría» en inglés?",
           "respuestas": [
-            "police station"
+            "police station",
+            "a police station",
+            "the police station"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «comisaría» se dice «police station»."
@@ -1191,7 +1203,9 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «parada de autobús» en inglés?",
           "respuestas": [
-            "bus stop"
+            "bus stop",
+            "a bus stop",
+            "the bus stop"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «parada de autobús» se dice «bus stop»."
@@ -1340,12 +1354,12 @@
           "tipo": "ordenar",
           "enunciado": "Put the words in order.",
           "elementos": [
-            "The car",
-            "is",
+            "I'm",
             "behind",
-            "the van"
+            "the",
+            "van"
           ],
-          "explicacion": "«behind» = detrás de.",
+          "explicacion": "«I'm behind the van» = Estoy detrás de la furgoneta. «behind» = detrás de.",
           "ayuda": "Ordena las palabras para formar la frase."
         },
         {
@@ -1359,7 +1373,7 @@
           ],
           "correcta": 0,
           "explicacion": "«Between» significa «entre» dos cosas.",
-          "ayuda": "El gato está entre el coche y la bici."
+          "ayuda": "El gato tiene el coche a un lado y la bici al otro."
         },
         {
           "id": "ingles-t06-p14",
@@ -1458,12 +1472,14 @@
         {
           "id": "ingles-t07-p05",
           "tipo": "escribir",
-          "enunciado": "¿Cómo se dice «ping-pong» en inglés?",
+          "enunciado": "¿Cómo se dice «tenis de mesa» (ping-pong) en inglés?",
           "respuestas": [
-            "table tennis"
+            "table tennis",
+            "ping-pong",
+            "ping pong"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Bien! Al ping-pong se le llama «table tennis»."
+          "explicacion": "¡Bien! El tenis de mesa se llama «table tennis» (también «ping-pong»)."
         },
         {
           "id": "ingles-t07-p06",
@@ -1476,7 +1492,7 @@
           ],
           "correcta": 0,
           "explicacion": "Para algo que pasa ahora usamos -ing: «She's playing».",
-          "ayuda": "¿Qué está haciendo ella? – Está jugando al bádminton."
+          "ayuda": "Después de «She's» el verbo termina en -ing."
         },
         {
           "id": "ingles-t07-p07",
@@ -1568,7 +1584,7 @@
           ],
           "correcta": 0,
           "explicacion": "«They're playing» = están jugando.",
-          "ayuda": "Están jugando con amigos."
+          "ayuda": "Después de «They're» el verbo termina en -ing."
         },
         {
           "id": "ingles-t07-p14",
@@ -1608,7 +1624,8 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «levantarse» en inglés?",
           "respuestas": [
-            "get up"
+            "get up",
+            "to get up"
           ],
           "exigeAcentos": false,
           "explicacion": "«Get up» es levantarse."
@@ -1810,7 +1827,8 @@
           "tipo": "escribir",
           "enunciado": "Escribe en inglés: «ir a la cama».",
           "respuestas": [
-            "go to bed"
+            "go to bed",
+            "to go to bed"
           ],
           "exigeAcentos": false,
           "explicacion": "Irse a la cama es «go to bed»."
@@ -1831,8 +1849,7 @@
           "enunciado": "¿Cómo se dice «lanzar» en inglés?",
           "respuestas": [
             "throw",
-            "a throw",
-            "the throw"
+            "to throw"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «lanzar» se dice «throw»."
@@ -1935,7 +1952,7 @@
           ],
           "correcta": 0,
           "explicacion": "Con he/she: «likes».",
-          "ayuda": "A ella le gusta pintar cuadros."
+          "ayuda": "Habla de «She» (ella): ¿qué letra añades al verbo?"
         },
         {
           "id": "ingles-t09-p08",
@@ -2024,8 +2041,9 @@
           "enunciado": "¿Cómo se dice «patinar en línea» en inglés?",
           "respuestas": [
             "rollerblade",
-            "a rollerblade",
-            "the rollerblade"
+            "to rollerblade",
+            "rollerblading",
+            "go rollerblading"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «patinar en línea» se dice «rollerblade»."
@@ -2035,7 +2053,8 @@
           "tipo": "escribir",
           "enunciado": "Escribe en inglés: «actuar».",
           "respuestas": [
-            "act"
+            "act",
+            "to act"
           ],
           "exigeAcentos": false,
           "explicacion": "Actuar es «act»."
@@ -2056,7 +2075,7 @@
           "enunciado": "¿Cómo se dice «sillón» en inglés?",
           "respuestas": [
             "armchair",
-            "a armchair",
+            "an armchair",
             "the armchair"
           ],
           "exigeAcentos": false,
@@ -2067,7 +2086,8 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «cortinas» en inglés?",
           "respuestas": [
-            "curtains"
+            "curtains",
+            "the curtains"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «cortinas» se dice «curtains»."
@@ -2139,7 +2159,9 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «vaso» en inglés?",
           "respuestas": [
-            "glass"
+            "glass",
+            "a glass",
+            "the glass"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «vaso» se dice «glass»."
@@ -2230,9 +2252,11 @@
             "fork",
             "is",
             "shorter",
-            "than"
+            "than",
+            "the",
+            "knife"
           ],
-          "explicacion": "«shorter than» = «más corto que».",
+          "explicacion": "«The fork is shorter than the knife» = El tenedor es más corto que el cuchillo. «shorter than» = «más corto que».",
           "ayuda": "Ordena las palabras para formar la frase."
         },
         {
@@ -2288,7 +2312,10 @@
           "tipo": "escribir",
           "enunciado": "¿Cómo se dice «piscina» en inglés?",
           "respuestas": [
-            "swimming pool"
+            "swimming pool",
+            "a swimming pool",
+            "the swimming pool",
+            "pool"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Muy bien! «piscina» se dice «swimming pool»."
@@ -2358,11 +2385,9 @@
         {
           "id": "ingles-t11-p06",
           "tipo": "escribir",
-          "enunciado": "¿Cómo se dice «ventoso (hace viento)» en inglés?",
+          "enunciado": "¿Cómo se dice «ventoso» (hace viento) en inglés?",
           "respuestas": [
-            "windy",
-            "a windy",
-            "the windy"
+            "windy"
           ],
           "exigeAcentos": false,
           "explicacion": "Ventoso se dice «windy»."

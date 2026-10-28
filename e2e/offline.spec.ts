@@ -32,7 +32,7 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   test.info().annotations.push({ type: 'offline', description: sinRed ? 'probado sin red' : 'WebKit: sin red no probable en Playwright' });
   // 1. Primera carga online: el service worker precarga todo.
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Paso a Paso' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'REPASO' })).toBeVisible();
   if (sinRed) {
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.reload();
@@ -59,7 +59,7 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   // 4. Sin conexión: recarga y navegación por las 7 asignaturas.
   if (sinRed) await context.setOffline(true);
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Paso a Paso' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'REPASO' })).toBeVisible();
   await expect(page.getByText('2 de 9 temas dados')).toBeVisible();
   const nombres = ['Matemáticas', 'Lengua', 'Naturaleza', 'Sociales', 'Natural Science', 'Inglés', 'Música'];
   for (const n of nombres) {

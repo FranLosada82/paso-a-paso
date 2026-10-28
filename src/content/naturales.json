@@ -75,7 +75,7 @@
             ],
             [
               "Oído",
-              "Orejas"
+              "Oídos"
             ]
           ],
           "explicacion": "Cada sentido tiene su órgano: vemos con los ojos, olemos con la nariz, saboreamos con la lengua y oímos con los oídos."
@@ -298,7 +298,9 @@
           "enunciado": "¿Cuántas horas al día, más o menos, deben dormir los niños y niñas? Escribe el número.",
           "respuestas": [
             "10",
-            "diez"
+            "diez",
+            "10 horas",
+            "diez horas"
           ],
           "exigeAcentos": false,
           "explicacion": "Los niños necesitan dormir unas diez horas para descansar y crecer bien."
@@ -316,7 +318,7 @@
           "enunciado": "¿Cuál de estos es un hábito saludable?",
           "opciones": [
             "Comer fruta todos los días",
-            "Lavarse los dientes una vez al día",
+            "Comer bollos todos los días",
             "No dormir la siesta nunca y trasnochar"
           ],
           "correcta": 0,
@@ -328,7 +330,9 @@
           "enunciado": "¿Cuántas comidas al día es conveniente hacer? Escribe el número.",
           "respuestas": [
             "5",
-            "cinco"
+            "cinco",
+            "5 comidas",
+            "cinco comidas"
           ],
           "exigeAcentos": false,
           "explicacion": "Desayuno, media mañana, comida, merienda y cena: ¡cinco comidas!"
@@ -416,7 +420,8 @@
           "respuestas": [
             "casco",
             "el casco",
-            "un casco"
+            "un casco",
+            "cascos"
           ],
           "exigeAcentos": false,
           "explicacion": "El casco protege tu cabeza si te caes."
@@ -1009,15 +1014,15 @@
               "Natural: sale de la corteza de un árbol"
             ],
             [
-              "Plástico",
-              "Artificial: se fabrica"
+              "Goma elástica",
+              "Se estira y vuelve a su forma"
             ],
             [
               "Cristal",
               "Se rompe con facilidad"
             ]
           ],
-          "explicacion": "El corcho es natural, el plástico artificial y el cristal es frágil. Los naturales vienen de la naturaleza; los artificiales se fabrican a partir de otras sustancias."
+          "explicacion": "El corcho es natural, la goma es elástica y el cristal es frágil."
         },
         {
           "id": "naturales-t05-p12",
@@ -1082,7 +1087,7 @@
           "opciones": [
             "Grave",
             "Agudo",
-            "Invisible al oído"
+            "Silencioso"
           ],
           "correcta": 0,
           "explicacion": "El mugido es grave; un silbido, en cambio, es agudo."
@@ -1232,7 +1237,8 @@
             "virus",
             "un virus",
             "virus informatico",
-            "un virus informatico"
+            "un virus informatico",
+            "virus informaticos"
           ],
           "exigeAcentos": false,
           "explicacion": "Para evitar virus no debemos clicar en anuncios ni en páginas desconocidas."

@@ -68,6 +68,6 @@ export function importarCopia(texto: string): Estado {
   if (texto.length > TAMANO_MAX_COPIA) throw new Error('El archivo es demasiado grande (máx. 5 MB).');
   let datos: unknown;
   try { datos = JSON.parse(texto); } catch { throw new Error('El archivo no es un JSON válido.'); }
-  if (!esObj(datos) || datos.app !== 'paso-a-paso') throw new Error('Este archivo no es una copia de Paso a Paso.');
+  if (!esObj(datos) || datos.app !== 'paso-a-paso') throw new Error('Este archivo no es una copia de REPASO.');
   return migrarYValidar(datos);
 }

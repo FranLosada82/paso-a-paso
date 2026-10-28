@@ -80,7 +80,7 @@
           "id": "science-t01-p05",
           "tipo": "escribir",
           "enunciado": "We touch with our ___.",
-          "ayuda": "Tocamos con nuestra... (piel)",
+          "ayuda": "Tocamos con nuestra... (es el órgano del tacto)",
           "respuestas": [
             "skin",
             "the skin",
@@ -156,7 +156,7 @@
           "id": "science-t01-p11",
           "tipo": "escribir",
           "enunciado": "All our bones together make our ___.",
-          "ayuda": "Todos los huesos juntos forman nuestro... (esqueleto)",
+          "ayuda": "Todos los huesos juntos forman nuestro...",
           "respuestas": [
             "skeleton",
             "the skeleton",
@@ -440,17 +440,17 @@
               "helmet"
             ],
             [
-              "skating",
-              "knee pads"
+              "football",
+              "shin pads"
             ]
           ],
-          "explicacion": "Protection keeps us safe when we do sport. (La protección nos cuida al hacer deporte.)"
+          "explicacion": "Goggles for swimming, a helmet for cycling, shin pads for football. (Gafas para nadar, casco para la bici, espinilleras para el fútbol.)"
         },
         {
           "id": "science-t02-p16",
           "tipo": "escribir",
           "enunciado": "We wear a ___ on our head when we ride a bike.",
-          "ayuda": "Llevamos un ___ en la cabeza al ir en bici. (casco)",
+          "ayuda": "Llevamos esto en la cabeza al ir en bici.",
           "respuestas": [
             "helmet",
             "a helmet"
@@ -577,7 +577,7 @@
           "id": "science-t03-p08",
           "tipo": "escribir",
           "enunciado": "Animals that are born from eggs are ___.",
-          "ayuda": "Los animales que nacen de huevos son... (ovíparos)",
+          "ayuda": "Los animales que nacen de huevos son...",
           "respuestas": [
             "oviparous"
           ],
@@ -753,7 +753,7 @@
           "id": "science-t04-p04",
           "tipo": "escribir",
           "enunciado": "The process plants use to make food is called ___.",
-          "ayuda": "El proceso con el que las plantas fabrican alimento se llama... (fotosíntesis)",
+          "ayuda": "El proceso con el que las plantas fabrican su alimento con la luz del Sol se llama...",
           "respuestas": [
             "photosynthesis"
           ],
@@ -810,12 +810,12 @@
         {
           "id": "science-t04-p08",
           "tipo": "eleccion",
-          "enunciado": "Which tree loses its leaves in autumn?",
-          "ayuda": "¿Qué árbol pierde las hojas en otoño?",
+          "enunciado": "What do we call trees that lose their leaves in autumn?",
+          "ayuda": "¿Cómo se llaman los árboles que pierden las hojas en otoño?",
           "opciones": [
             "deciduous",
             "evergreen",
-            "fir"
+            "shrubs"
           ],
           "correcta": 0,
           "explicacion": "Deciduous trees lose their leaves in autumn. (Los de hoja caduca.)"
@@ -824,7 +824,7 @@
           "id": "science-t04-p09",
           "tipo": "escribir",
           "enunciado": "Trees that have leaves all year round are ___.",
-          "ayuda": "Los árboles que tienen hojas todo el año son... (perennes)",
+          "ayuda": "Los árboles que tienen hojas todo el año son...",
           "respuestas": [
             "evergreen",
             "evergreen trees"
@@ -1019,7 +1019,7 @@
           "id": "science-t05-p06",
           "tipo": "escribir",
           "enunciado": "Liquid water changes to water ___ when we heat it.",
-          "ayuda": "El agua líquida se convierte en ___ de agua al calentarla. (vapor)",
+          "ayuda": "El agua líquida se convierte en ___ de agua al calentarla.",
           "respuestas": [
             "vapour",
             "vapor"
@@ -1043,8 +1043,8 @@
         {
           "id": "science-t05-p08",
           "tipo": "vf",
-          "enunciado": "Salt and water is a solution.",
-          "ayuda": "Agua con sal es una disolución.",
+          "enunciado": "Salt water is a solution.",
+          "ayuda": "El agua con sal es una disolución.",
           "correcta": true,
           "explicacion": "In a solution we cannot see the different substances. (No se ven las sustancias.)"
         },
@@ -1149,16 +1149,16 @@
           "opciones": [
             "a cow",
             "a bird",
-            "a sparrow"
+            "a mouse"
           ],
           "correcta": 0,
-          "explicacion": "A cow makes a low sound; a bird makes a high sound. (La vaca: grave.)"
+          "explicacion": "A cow makes a low sound; birds and mice make high sounds. (La vaca hace un sonido grave; los pájaros y los ratones, agudo.)"
         },
         {
           "id": "science-t05-p16",
           "tipo": "escribir",
           "enunciado": "Sound travels in ___.",
-          "ayuda": "El sonido viaja en... (ondas)",
+          "ayuda": "El sonido viaja en...",
           "respuestas": [
             "waves",
             "sound waves"
@@ -1264,7 +1264,7 @@
           "id": "science-t06-p05",
           "tipo": "escribir",
           "enunciado": "We type our search words in the search ___.",
-          "ayuda": "Escribimos las palabras en el ... de búsqueda (engine)",
+          "ayuda": "Escribimos las palabras en el «search ___» (el buscador).",
           "respuestas": [
             "engine",
             "search engine"
@@ -1323,7 +1323,7 @@
           "id": "science-t06-p10",
           "tipo": "escribir",
           "enunciado": "A way to show information with images and short texts is an ___.",
-          "ayuda": "Forma de mostrar información con imágenes y textos cortos (infografía)",
+          "ayuda": "Forma de mostrar información con imágenes y textos cortos.",
           "respuestas": [
             "infographic",
             "an infographic"
@@ -1348,7 +1348,7 @@
           "id": "science-t06-p12",
           "tipo": "escribir",
           "enunciado": "A program that can destroy data is a computer ___.",
-          "ayuda": "Un programa que puede destruir datos es un ___ informático (virus)",
+          "ayuda": "Un programa que puede destruir datos es un ___ informático.",
           "respuestas": [
             "virus",
             "computer virus"

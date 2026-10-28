@@ -56,7 +56,9 @@
           "enunciado": "¿Cómo se llama la parte del terreno que está junto al mar?",
           "respuestas": [
             "costa",
-            "la costa"
+            "la costa",
+            "litoral",
+            "el litoral"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Genial! La costa es la tierra que está cerca del mar."
@@ -193,7 +195,7 @@
         {
           "id": "sociales-t01-p16",
           "tipo": "vf",
-          "enunciado": "Un campo de cultivo es un elemento construido por las personas.",
+          "enunciado": "Un campo de cultivo es un elemento hecho por las personas.",
           "correcta": true,
           "explicacion": "Sí: los cultivos los preparan y cuidan las personas."
         }
@@ -265,7 +267,8 @@
             "vecinas",
             "vecinos y vecinas",
             "vecinas y vecinos",
-            "los vecinos"
+            "los vecinos",
+            "las vecinas"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Genial! Son vecinos y vecinas."
@@ -323,17 +326,15 @@
         },
         {
           "id": "sociales-t02-p11",
-          "tipo": "escribir",
-          "enunciado": "¿Quién dirige el ayuntamiento? (escribe alcalde o alcaldesa)",
-          "respuestas": [
-            "alcalde",
-            "alcaldesa",
-            "el alcalde",
-            "la alcaldesa",
-            "alcalde o alcaldesa"
+          "tipo": "eleccion",
+          "enunciado": "¿Quién dirige el ayuntamiento?",
+          "explicacion": "¡Eso es! El alcalde o la alcaldesa dirige el ayuntamiento con ayuda de los concejales.",
+          "opciones": [
+            "El alcalde o la alcaldesa",
+            "El director del colegio",
+            "El médico del barrio"
           ],
-          "exigeAcentos": false,
-          "explicacion": "¡Eso es! El alcalde o la alcaldesa dirige el ayuntamiento con ayuda de los concejales."
+          "correcta": 0
         },
         {
           "id": "sociales-t02-p12",
@@ -508,7 +509,13 @@
             "dependienta",
             "dependientes",
             "el dependiente",
-            "la dependienta"
+            "la dependienta",
+            "vendedor",
+            "vendedora",
+            "el vendedor",
+            "la vendedora",
+            "tendero",
+            "tendera"
           ],
           "exigeAcentos": false,
           "explicacion": "¡Eso es! El dependiente o la dependienta."
@@ -1053,7 +1060,7 @@
             ],
             [
               "Museo",
-              "Lugar que guarda objetos del pasado"
+              "Lugar donde se guardan obras y objetos"
             ]
           ],
           "explicacion": "¡Muy bien! Distingues lo antiguo de lo moderno."
@@ -1061,14 +1068,14 @@
         {
           "id": "sociales-t06-p10",
           "tipo": "eleccion",
-          "enunciado": "¿Qué inventó Galileo para mirar el cielo? (lo usó y mejoró)",
+          "enunciado": "¿Qué instrumento usó Galileo para mirar el cielo?",
           "opciones": [
             "El telescopio",
             "La bicicleta",
             "El teléfono"
           ],
           "correcta": 0,
-          "explicacion": "Galileo usó el telescopio para estudiar los astros."
+          "explicacion": "¡Muy bien! Galileo no lo inventó, pero lo mejoró y lo usó para estudiar los astros."
         },
         {
           "id": "sociales-t06-p11",

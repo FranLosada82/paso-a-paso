@@ -30,7 +30,8 @@
           "enunciado": "Lucía tiene 3 cajas con 10 lápices y 6 lápices sueltos. ¿Cuántos lápices tiene?",
           "respuestas": [
             "36",
-            "treinta y seis"
+            "treinta y seis",
+            "36 lapices"
           ],
           "exigeAcentos": false,
           "explicacion": "3 decenas y 6 unidades forman el 36."
@@ -108,7 +109,9 @@
           "enunciado": "En la excursión, Pablo recoge 24 piñas y Marta 13. ¿Cuántas piñas recogen entre los dos?",
           "respuestas": [
             "37",
-            "treinta y siete"
+            "treinta y siete",
+            "37 piñas",
+            "37 pinas"
           ],
           "exigeAcentos": false,
           "explicacion": "24 + 13: 4 + 3 = 7 unidades y 2 + 1 = 3 decenas. Total: 37."
@@ -120,7 +123,8 @@
           "respuestas": [
             "23",
             "veintitrés",
-            "veintitres"
+            "veintitres",
+            "23 asientos"
           ],
           "exigeAcentos": false,
           "explicacion": "48 − 25: 8 − 5 = 3 y 4 − 2 = 2. Quedan 23."
@@ -242,7 +246,8 @@
           "enunciado": "En la carrera hay 38 ciclistas con casco azul y 24 con casco rojo. ¿Cuántos ciclistas hay?",
           "respuestas": [
             "62",
-            "sesenta y dos"
+            "sesenta y dos",
+            "62 ciclistas"
           ],
           "exigeAcentos": false,
           "explicacion": "38 + 24: 8 + 4 = 12, me llevo 1. 3 + 2 + 1 = 6. Son 62."
@@ -353,7 +358,7 @@
         {
           "id": "mates-t02-p11",
           "tipo": "escribir",
-          "enunciado": "¿Cuántas centenas, decenas y unidades tiene 143? Escribe solo las decenas.",
+          "enunciado": "¿Cuántas decenas tiene el número 143? Mira la cifra de las decenas.",
           "respuestas": [
             "4",
             "cuatro"
@@ -423,7 +428,9 @@
           "enunciado": "Un ciclista recorrió 100 km el lunes y 60 km el martes. ¿Cuántos km recorrió?",
           "respuestas": [
             "160",
-            "ciento sesenta"
+            "ciento sesenta",
+            "160 km",
+            "160 kilometros"
           ],
           "exigeAcentos": false,
           "explicacion": "1 centena y 6 decenas: 160."
@@ -455,7 +462,8 @@
           "enunciado": "En el acuario hay 63 peces y se llevan 28 a otro tanque. ¿Cuántos quedan?",
           "respuestas": [
             "35",
-            "treinta y cinco"
+            "treinta y cinco",
+            "35 peces"
           ],
           "exigeAcentos": false,
           "explicacion": "63 − 28: 13 − 8 = 5 y 5 − 2 = 3. Quedan 35."
@@ -518,7 +526,8 @@
           "respuestas": [
             "200",
             "doscientas",
-            "doscientos"
+            "doscientos",
+            "200 unidades"
           ],
           "exigeAcentos": false,
           "explicacion": "Cada centena son 100 unidades: 200."
@@ -596,7 +605,9 @@
           "enunciado": "Una pecera tiene 9 litros y se le añaden 6 litros más. ¿Cuántos litros tiene?",
           "respuestas": [
             "15",
-            "quince"
+            "quince",
+            "15 litros",
+            "15 l"
           ],
           "exigeAcentos": false,
           "explicacion": "9 + 6 = 15 litros."
@@ -619,7 +630,8 @@
           "enunciado": "Hay 70 entradas y se venden 45. ¿Cuántas quedan?",
           "respuestas": [
             "25",
-            "veinticinco"
+            "veinticinco",
+            "25 entradas"
           ],
           "exigeAcentos": false,
           "explicacion": "70 − 45: 10 − 5 = 5 y 6 − 4 = 2. Quedan 25."
@@ -740,7 +752,8 @@
           "respuestas": [
             "125",
             "125 cm",
-            "ciento veinticinco"
+            "ciento veinticinco",
+            "125 centimetros"
           ],
           "exigeAcentos": false,
           "explicacion": "118 + 7 = 125 cm."
@@ -819,7 +832,8 @@
           "respuestas": [
             "100",
             "cien",
-            "100 cm"
+            "100 cm",
+            "100 centimetros"
           ],
           "exigeAcentos": false,
           "explicacion": "1 m = 100 cm."
@@ -901,7 +915,8 @@
           "tipo": "escribir",
           "enunciado": "La frutera tenía 586 manzanas y vendió 251. ¿Cuántas le quedan?",
           "respuestas": [
-            "335"
+            "335",
+            "335 manzanas"
           ],
           "exigeAcentos": false,
           "explicacion": "586 − 251: 5, 3, 3. Quedan 335."
@@ -1069,7 +1084,8 @@
           "tipo": "escribir",
           "enunciado": "En el juego de bolos, Iván hizo 268 puntos y Nora 345. ¿Cuántos puntos suman?",
           "respuestas": [
-            "613"
+            "613",
+            "613 puntos"
           ],
           "exigeAcentos": false,
           "explicacion": "8 + 5 = 13, me llevo 1; 6 + 4 + 1 = 11, me llevo 1; 2 + 3 + 1 = 6: 613."
@@ -1315,7 +1331,8 @@
           "tipo": "escribir",
           "enunciado": "En la tienda había 340 camisetas y se vendieron 125. ¿Cuántas quedan?",
           "respuestas": [
-            "215"
+            "215",
+            "215 camisetas"
           ],
           "exigeAcentos": false,
           "explicacion": "10 − 5 = 5; 3 − 2 = 1; 3 − 1 = 2: 215."
@@ -1498,7 +1515,12 @@
             "las 11 y media",
             "11:30",
             "once y media",
-            "las once y media"
+            "las once y media",
+            "11 y 30",
+            "las 11 y 30",
+            "las 11:30",
+            "once y treinta",
+            "11.30"
           ],
           "exigeAcentos": false,
           "explicacion": "11 en punto + 30 minutos = las 11 y media."
@@ -1603,12 +1625,12 @@
           "tipo": "eleccion",
           "enunciado": "¿Qué multiplicación es igual a 5 + 5 + 5?",
           "opciones": [
-            "3 × 5",
+            "5 × 3",
             "5 × 5",
-            "3 + 5"
+            "5 + 3"
           ],
           "correcta": 0,
-          "explicacion": "Se suma el 5 tres veces: 3 × 5 = 15."
+          "explicacion": "Se suma el 5 tres veces: 5 × 3 = 15."
         },
         {
           "id": "mates-t09-p02",
@@ -1616,15 +1638,17 @@
           "enunciado": "En la playa hay 4 sombrillas y bajo cada una hay 2 niños. ¿Cuántos niños hay?",
           "respuestas": [
             "8",
-            "ocho"
+            "ocho",
+            "8 niños",
+            "8 ninos"
           ],
           "exigeAcentos": false,
-          "explicacion": "4 × 2 = 2 + 2 + 2 + 2 = 8."
+          "explicacion": "2 + 2 + 2 + 2 = 2 × 4 = 8."
         },
         {
           "id": "mates-t09-p03",
           "tipo": "escribir",
-          "enunciado": "¿Cuánto es 3 × 10?",
+          "enunciado": "¿Cuánto es 10 × 3?",
           "respuestas": [
             "30",
             "treinta"
@@ -1654,7 +1678,7 @@
               "18"
             ]
           ],
-          "explicacion": "Puedes sumar el número las veces que indica."
+          "explicacion": "Suma el primer número las veces que dice el segundo: 2 × 5 = 2 + 2 + 2 + 2 + 2."
         },
         {
           "id": "mates-t09-p05",
@@ -1674,7 +1698,7 @@
           "tipo": "vf",
           "enunciado": "4 × 5 = 20",
           "correcta": true,
-          "explicacion": "5 + 5 + 5 + 5 = 20."
+          "explicacion": "4 × 5 es sumar el 4 cinco veces: 4 + 4 + 4 + 4 + 4 = 20."
         },
         {
           "id": "mates-t09-p07",
@@ -1694,7 +1718,8 @@
           "enunciado": "Repartimos 10 galletas entre 2 niños por igual. ¿Cuántas le tocan a cada uno?",
           "respuestas": [
             "5",
-            "cinco"
+            "cinco",
+            "5 galletas"
           ],
           "exigeAcentos": false,
           "explicacion": "10 entre 2 son 5 para cada uno."
@@ -1783,7 +1808,8 @@
           "enunciado": "Marta tiene 6 cubos de arena y su hermano el doble. ¿Cuántos cubos tiene su hermano?",
           "respuestas": [
             "12",
-            "doce"
+            "doce",
+            "12 cubos"
           ],
           "exigeAcentos": false,
           "explicacion": "El doble de 6 es 6 + 6 = 12."

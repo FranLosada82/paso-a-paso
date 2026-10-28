@@ -75,10 +75,10 @@
         {
           "id": "lengua-t01-p05",
           "tipo": "eleccion",
-          "enunciado": "¿Qué palabra debe ir con mayúscula?",
+          "enunciado": "¿Qué palabra debe ir con mayúscula porque es el nombre de un perro concreto?",
           "opciones": [
             "perro",
-            "Toby (nombre de un perro)",
+            "toby",
             "mesa"
           ],
           "correcta": 1,
@@ -140,7 +140,9 @@
           "enunciado": "¿Cómo se llama la persona que enseña en clase? (empieza por 'm')",
           "respuestas": [
             "maestro",
-            "maestra"
+            "maestra",
+            "el maestro",
+            "la maestra"
           ],
           "exigeAcentos": false,
           "explicacion": "El maestro o la maestra nos enseña en el colegio."
@@ -215,7 +217,7 @@
           "respuestas": [
             "niño"
           ],
-          "exigeAcentos": true,
+          "exigeAcentos": false,
           "explicacion": "Chico y niño son sinónimos."
         }
       ]
@@ -274,9 +276,9 @@
         {
           "id": "lengua-t02-p04",
           "tipo": "eleccion",
-          "enunciado": "¿Cómo se escribe correctamente?",
+          "enunciado": "¿Cómo se escribe el nombre del animal que ladra?",
           "opciones": [
-            "pero (el animal que ladra)",
+            "pero",
             "perro",
             "perrro"
           ],
@@ -297,10 +299,16 @@
         {
           "id": "lengua-t02-p06",
           "tipo": "escribir",
-          "enunciado": "Escribe el nombre del animal que hace 'oink' y vive en la granja (empieza por 'c').",
+          "enunciado": "Escribe el nombre del animal de la granja que hace 'oinc' (empieza por 'c').",
           "respuestas": [
             "cerdo",
-            "cerda"
+            "cerda",
+            "cerdito",
+            "cerdita",
+            "cochino",
+            "cochina",
+            "el cerdo",
+            "la cerda"
           ],
           "exigeAcentos": false,
           "explicacion": "El cerdo vive en la granja."
@@ -410,6 +418,7 @@
           "respuestas": [
             "alegre",
             "contento",
+            "contenta",
             "feliz"
           ],
           "exigeAcentos": false,
@@ -634,8 +643,8 @@
           "enunciado": "¿Qué palabra tiene varios significados (es polisémica)?",
           "opciones": [
             "banco",
-            "mesa roja",
-            "lápiz azul"
+            "tenedor",
+            "zapato"
           ],
           "correcta": 0,
           "explicacion": "Banco: para sentarse y para guardar dinero."
@@ -798,7 +807,7 @@
         {
           "id": "lengua-t04-p14",
           "tipo": "eleccion",
-          "enunciado": "¿Cuál es la oración acortada de 'El tren rojo y largo sale ya de la estación'?",
+          "enunciado": "Quita los detalles de 'El tren rojo y largo sale ya de la estación'. ¿Cuál es la oración más corta que queda?",
           "opciones": [
             "El tren sale.",
             "El tren rojo y largo sale ya.",
@@ -834,7 +843,7 @@
           "opciones": [
             "panadero",
             "pantalón",
-            "pana-pelota"
+            "papel"
           ],
           "correcta": 0,
           "explicacion": "Panadero viene de pan."
@@ -1176,11 +1185,10 @@
           "enunciado": "Ordena lo que pasó en la fiesta.",
           "elementos": [
             "Primero llegamos a la feria",
-            "Luego subimos a la noria",
-            "Después comimos algodón de azúcar",
+            "Después subimos a la noria",
             "Por último volvimos a casa"
           ],
-          "explicacion": "Primero, luego, después y por último ordenan en el tiempo."
+          "explicacion": "Primero, después y por último ordenan lo que pasa en el tiempo."
         },
         {
           "id": "lengua-t06-p12",
@@ -1308,7 +1316,7 @@
         {
           "id": "lengua-t07-p07",
           "tipo": "eleccion",
-          "enunciado": "¿Quién inventó la bombilla eléctrica más famosa?",
+          "enunciado": "¿Qué inventor es famoso por la bombilla eléctrica?",
           "opciones": [
             "Thomas Edison",
             "Cristóbal Colón",
@@ -1425,9 +1433,10 @@
           "tipo": "escribir",
           "enunciado": "Escribe el verbo 'cantar' en futuro con 'yo': yo...",
           "respuestas": [
-            "cantaré"
+            "cantaré",
+            "yo cantaré"
           ],
-          "exigeAcentos": true,
+          "exigeAcentos": false,
           "explicacion": "Yo cantaré: futuro, ¡con tilde!"
         }
       ]
@@ -1607,9 +1616,9 @@
         {
           "id": "lengua-t08-p14",
           "tipo": "vf",
-          "enunciado": "Toda oración tiene sujeto y predicado.",
+          "enunciado": "En 'El perro ladra', 'El perro' es el sujeto y 'ladra' es el predicado.",
           "correcta": true,
-          "explicacion": "El sujeto dice quién y el predicado qué hace o cómo es."
+          "explicacion": "Muy bien: el sujeto dice quién hace algo (el perro) y el predicado dice qué hace (ladra)."
         },
         {
           "id": "lengua-t08-p15",

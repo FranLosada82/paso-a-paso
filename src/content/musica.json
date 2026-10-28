@@ -115,7 +115,7 @@
         {
           "id": "musica-t01-p11",
           "tipo": "relacionar",
-          "enunciado": "Une cada nota con su lugar en el pentagrama:",
+          "enunciado": "Une cada cosa con su lugar en el pentagrama:",
           "pares": [
             [
               "mi",
@@ -400,7 +400,7 @@
         {
           "id": "musica-t03-p11",
           "tipo": "relacionar",
-          "enunciado": "Une cada figura o silencio con lo que dura:",
+          "enunciado": "Une cada figura con lo que dura:",
           "pares": [
             [
               "negra",
@@ -821,7 +821,7 @@
         {
           "id": "musica-t06-p09",
           "tipo": "eleccion",
-          "enunciado": "¿Qué fiesta aparece en la canción de esta sesión?",
+          "enunciado": "¿En qué fiesta se baila la canción con trompeta de tu libro?",
           "opciones": [
             "Halloween",
             "Carnaval",
@@ -898,7 +898,7 @@
         {
           "id": "musica-t07-p02",
           "tipo": "eleccion",
-          "enunciado": "¿Qué nota está justo debajo de la en el pentagrama?",
+          "enunciado": "¿Qué nota está justo debajo de la nota la en el pentagrama?",
           "opciones": [
             "Sol",
             "Mi",
@@ -2017,7 +2017,7 @@
         {
           "id": "musica-t14-p12",
           "tipo": "relacionar",
-          "enunciado": "Une cada palabra con su animal:",
+          "enunciado": "Une cada palabra con lo que se mueve a esa velocidad:",
           "pares": [
             [
               "adagio",
@@ -2264,7 +2264,7 @@
         {
           "id": "musica-t16-p08",
           "tipo": "vf",
-          "enunciado": "El autor del Minueto de esta sesión es Johann Sebastian Bach.",
+          "enunciado": "El autor del Minueto de tu libro es Johann Sebastian Bach.",
           "correcta": true,
           "explicacion": "¡Sí! Bach fue un gran compositor."
         },
@@ -2872,7 +2872,8 @@
           "respuestas": [
             "viento",
             "la de viento",
-            "de viento"
+            "de viento",
+            "familia de viento"
           ],
           "exigeAcentos": false,
           "explicacion": "El fagot es de viento."
