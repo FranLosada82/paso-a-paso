@@ -28,3 +28,17 @@ Las preguntas se generaron a partir del OCR de los libros. Se han validado autom
 
 ## Música
 - Cada «Sesión» del libro es un tema (24). Hay datos que conviene comprobar: el carillón como el más agudo, el xilófono de madera, contrabajo, trombón.
+
+---
+
+# Revisión del 28-10-2026 (7 revisores, ~106 preguntas corregidas, ningún id cambiado)
+
+Dudas que conviene comprobar con el libro:
+
+- **Matemáticas:** que el libro escriba siempre 5 + 5 + 5 = 5 × 3 (número repetido primero); ordinales «undécimo/duodécimo» (t02-p08, t04-p11); letra A simétrica (t08-p11).
+- **Lengua:** cómo plantea el libro «acortar» oraciones (t04-p14); si enseña que la oración tiene sujeto y predicado (t08-p14).
+- **Naturales:** color de los ojos al crecer (t01-p03); goma elástica (t05-p11); «papel de cebolla» (t05-p13); murciélago «único mamífero con alas» (t03-p06).
+- **Sociales:** nacimiento/curso/desembocadura (t01-p08); orden de las fases de la Luna (t05-p13); cueva → castillo → edificio (t06-p04); «tienda especializada» (t03-p10).
+- **Natural Science:** pareja football / shin pads, no está en el libro (t02-p15); soft/flexible pueden confundirse (t05-p10); término «sensitivity» (t01-p03).
+- **Inglés:** «I'm behind the van» no sale del libro (t06-p12); en t01-p07 y t03-p11 el orden lo guían la mayúscula y el punto; las ayudas de t05-p07 a t05-p10 dan bastante pista.
+- **Música:** metalófono frente a carillón (t09-p11); el libro atribuye el Minueto a Bach, aunque hoy se atribuye a Petzold (t16-p08); emociones de la música, algo subjetivo (t21-p11).
