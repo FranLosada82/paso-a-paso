@@ -42,3 +42,18 @@ Dudas que conviene comprobar con el libro:
 - **Natural Science:** pareja football / shin pads, no está en el libro (t02-p15); soft/flexible pueden confundirse (t05-p10); término «sensitivity» (t01-p03).
 - **Inglés:** «I'm behind the van» no sale del libro (t06-p12); en t01-p07 y t03-p11 el orden lo guían la mayúscula y el punto; las ayudas de t05-p07 a t05-p10 dan bastante pista.
 - **Música:** metalófono frente a carillón (t09-p11); el libro atribuye el Minueto a Bach, aunque hoy se atribuye a Petzold (t16-p08); emociones de la música, algo subjetivo (t21-p11).
+
+---
+
+# Páginas de cada pregunta (28-10-2026)
+
+Cada pregunta tiene `pagina`, la página del libro donde se trabaja su contenido. Así, si un tema está a medias, solo salen las preguntas de las páginas ya vistas. Unas 1000 páginas se han localizado en el texto del libro. Unas 35 son aproximadas, porque el OCR no recogía el contenido; en esos casos se ha usado la página del apartado más cercano. Por ejemplo:
+
+- Matemáticas: t03-p09 (instrumentos de medida), t08-p14 (caras del cubo), t01-p07.
+- Lengua: t05-p09 (rayuela), t07-p07 (Edison), t01-p15, t02-p10.
+- Naturales: t06-p06/p07 (información en internet), t05-p11.
+- Sociales: t02-p08, t02-p10, t04-p13, t04-p15, t06-p04, t03-p06.
+- Inglés: t07-p04, t09-p08, t05-p06.
+- Música: 14 preguntas con datos generales (familias, Villa-Lobos…).
+
+Si una pregunta sale antes de tiempo, basta con subir su `pagina` en el JSON.

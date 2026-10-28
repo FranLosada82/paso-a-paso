@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react';
+import { estadoTema, paginasLibro, rangoTema, temaDePagina, finDeTemaEn } from '../logic/paginas';
 import { ASIGNATURAS, meta } from '../content/asignaturas';
 import { estadoInicial, exportarCopia, importarCopia, type Estado } from '../storage/estado';
 import type { Asignatura } from '../types';
 import { Cabecera } from './Practica';
 import { ir } from './ruta';
-import { dominio, temasDadosDe } from './App';
+import { dominio, paginaClase, temasDisponibles } from './App';
 
 type Act = (f: (e: Estado) => Estado) => void;
 
@@ -24,29 +25,55 @@ export function PuertaAdulto({ onOk }: { onOk: () => void }) {
   );
 }
 
-export function TemasDados({ asig, estado, actualizar }: { asig: Asignatura; estado: Estado; actualizar: Act }) {
-  const dados = temasDadosDe(estado, asig);
-  const fijar = (ids: string[]) => actualizar((e) => ({ ...e, temasDados: { ...e.temasDados, [asig.id]: ids } }));
-  const alternar = (id: string) => fijar(dados.includes(id) ? dados.filter((x) => x !== id) : [...dados, id]);
-  const hasta = (i: number) => fijar(asig.temas.slice(0, i + 1).map((t) => t.id));
+export function PaginaClase({ asig, estado, actualizar }: { asig: Asignatura; estado: Estado; actualizar: Act }) {
+  const { min, max } = paginasLibro(asig);
+  const actual = estado.paginaActual[asig.id];
+  const [texto, setTexto] = useState(actual !== undefined ? String(actual) : '');
+  const fijar = (n: number | undefined) => {
+    setTexto(n === undefined ? '' : String(n));
+    actualizar((e) => {
+      const paginaActual = { ...e.paginaActual };
+      if (n === undefined) delete paginaActual[asig.id]; else paginaActual[asig.id] = n;
+      return { ...e, paginaActual };
+    });
+  };
+  const cambiar = (v: string) => {
+    setTexto(v);
+    const n = parseInt(v, 10);
+    if (Number.isInteger(n) && n >= 0 && n <= 2000) fijar(n);
+  };
+  const pag = actual;
+  const total = pag === undefined ? 0 : asig.temas.reduce((k, t) => k + estadoTema(t, pag).disponibles, 0);
+  const tema = pag === undefined ? undefined : temaDePagina(asig, pag);
   return (
     <main className="pantalla" style={{ ['--acento' as string]: meta(asig.id).color }}>
-      <Cabecera titulo={`Temas dados · ${asig.nombre}`} volver={{ pantalla: 'asignatura', asig: asig.id }} />
-      <p className="nota">Marca los temas que ya se han trabajado en clase. Las preguntas solo saldrán de ellos.</p>
-      <p className="nota">Libro: {asig.libro}</p>
+      <Cabecera titulo={`Página · ${asig.nombre}`} volver={{ pantalla: 'asignatura', asig: asig.id }} />
+      <section className="tarjeta centro">
+        <label htmlFor="pagina" className="grande">¿Por qué página del libro vais en clase?</label>
+        <div className="selector-pagina">
+          <button className="boton secundario" aria-label="Página anterior" onClick={() => fijar(Math.max(min, (pag ?? min) - 1))}>−</button>
+          <input id="pagina" className="escribir" inputMode="numeric" value={texto} placeholder={`${min}-${max}`} onChange={(e) => cambiar(e.target.value)} />
+          <button className="boton secundario" aria-label="Página siguiente" onClick={() => fijar(Math.min(max, (pag ?? min - 1) + 1))}>+</button>
+        </div>
+        <p className="nota">Libro: {asig.libro} · páginas {min}-{max}</p>
+        {pag !== undefined && (
+          <p role="status"><b>{total}</b> preguntas disponibles{tema && <> · vais por el tema {tema.numero}: «{tema.titulo}»</>}</p>
+        )}
+      </section>
       <ul className="lista-temas">
-        {asig.temas.map((t, i) => (
-          <li key={t.id}>
-            <label className="interruptor">
-              <input type="checkbox" checked={dados.includes(t.id)} onChange={() => alternar(t.id)} />
-              <span><b>{t.numero}. {t.titulo}</b>{t.paginas && <small> · págs. {t.paginas}</small>}<br /><small>{t.resumen} · {t.preguntas.length} preguntas</small></span>
-            </label>
-            <button className="boton peq secundario" onClick={() => hasta(i)}>Hasta aquí</button>
-          </li>
-        ))}
+        {asig.temas.map((t) => {
+          const r = rangoTema(t); const { estado: et, disponibles } = estadoTema(t, pag);
+          return (
+            <li key={t.id}>
+              <span><b>{t.numero}. {t.titulo}</b> <small>· págs. {r.ini}-{r.fin}</small><br />
+                <small>{et === 'completo' ? '✔ Completo' : et === 'medias' ? `◐ A medias: ${disponibles} de ${t.preguntas.length} preguntas` : 'Aún no'}</small></span>
+              <button className="boton peq secundario" onClick={() => fijar(r.fin)}>Terminado</button>
+            </li>
+          );
+        })}
       </ul>
       <div className="fila">
-        <button className="boton secundario" onClick={() => fijar([])}>Ninguno</button>
+        <button className="boton secundario" onClick={() => fijar(undefined)}>Quitar página</button>
         <button className="boton" onClick={() => ir({ pantalla: 'asignatura', asig: asig.id })}>Listo</button>
       </div>
     </main>
@@ -67,8 +94,8 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
   };
   const importar = async (f: File) => {
     try {
-      const nuevo = importarCopia(await f.text());
-      if (confirm('Esto SUSTITUIRÁ todo el progreso y los temas marcados en este dispositivo por los de la copia. ¿Continuar?')) {
+      const nuevo = importarCopia(await f.text(), finDeTemaEn(ASIGNATURAS));
+      if (confirm('Esto SUSTITUIRÁ todo el progreso y las páginas marcadas en este dispositivo por los de la copia. ¿Continuar?')) {
         reemplazar(nuevo); setMensaje('Copia restaurada correctamente.');
       }
     } catch (e) { setMensaje(`No se ha importado: ${(e as Error).message}`); }
@@ -79,14 +106,14 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
     <main className="pantalla">
       <Cabecera titulo="Zona de adultos" />
       <section className="tarjeta">
-        <h2>Temas dados en clase</h2>
+        <h2>Página por la que vais en clase</h2>
         <ul className="lista-asig">
           {ASIGNATURAS.map((a) => {
-            const d = temasDadosDe(estado, a); const s = estado.sesiones.filter((x) => x.asignatura === a.id);
+            const d = temasDisponibles(estado, a); const pag = paginaClase(estado, a); const s = estado.sesiones.filter((x) => x.asignatura === a.id);
             return (
               <li key={a.id}>
-                <span>{meta(a.id).emoji} <b>{a.nombre}</b><br /><small>{d.length}/{a.temas.length} temas · dominio {dominio(estado, a, d)}% · {s.length} sesiones</small></span>
-                <button className="boton peq" onClick={() => ir({ pantalla: 'temas', asig: a.id })}>Marcar</button>
+                <span>{meta(a.id).emoji} <b>{a.nombre}</b><br /><small>{pag !== undefined ? `pág. ${pag}` : 'sin página'} · dominio {dominio(estado, a, d)}% · {s.length} sesiones</small></span>
+                <button className="boton peq" onClick={() => ir({ pantalla: 'temas', asig: a.id })}>Página</button>
               </li>
             );
           })}
@@ -110,8 +137,8 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
       <section className="tarjeta">
         <h2>Reiniciar</h2>
         <div className="fila">
-          <button className="boton peligro" onClick={() => confirm('¿Borrar las respuestas y sesiones? Los temas marcados se mantienen.') && actualizar((e) => ({ ...e, preguntas: {}, sesiones: [] }))}>Borrar progreso</button>
-          <button className="boton peligro" onClick={() => confirm('¿Borrar TODO (progreso, temas marcados y ajustes)?') && reemplazar(estadoInicial())}>Borrar todo</button>
+          <button className="boton peligro" onClick={() => confirm('¿Borrar las respuestas y sesiones? Las páginas marcadas se mantienen.') && actualizar((e) => ({ ...e, preguntas: {}, sesiones: [] }))}>Borrar progreso</button>
+          <button className="boton peligro" onClick={() => confirm('¿Borrar TODO (progreso, páginas marcadas y ajustes)?') && reemplazar(estadoInicial())}>Borrar todo</button>
         </div>
       </section>
       <section className="tarjeta nota">

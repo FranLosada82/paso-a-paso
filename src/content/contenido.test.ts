@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import type { Asignatura, Pregunta, Respuesta } from '../types';
 import { esCorrecta } from '../logic/correccion';
 import { META } from './asignaturas';
+import { rangoTema } from '../logic/paginas';
 
 const dir = join(__dirname);
 const asignaturas: Asignatura[] = readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')));
@@ -50,6 +51,9 @@ describe('contenidos', () => {
           expect(p.id.startsWith(`${t.id}-p`), p.id).toBe(true);
           expect(p.enunciado.trim(), p.id).not.toBe('');
           expect(p.explicacion.trim(), p.id).not.toBe('');
+          const r = rangoTema(t);
+          expect(Number.isInteger(p.pagina), `${p.id} sin página`).toBe(true);
+          expect(p.pagina! >= r.ini && p.pagina! <= r.fin, `${p.id} página ${p.pagina} fuera de ${t.paginas}`).toBe(true);
           if (p.tipo === 'eleccion') {
             expect(p.opciones.length, p.id).toBeGreaterThanOrEqual(2);
             expect(new Set(p.opciones).size, `${p.id} opciones repetidas`).toBe(p.opciones.length);

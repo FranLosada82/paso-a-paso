@@ -1,25 +1,27 @@
 import type { Asignatura, Pregunta } from '../types';
 import type { EstadoPregunta } from '../storage/estado';
 import { barajar } from './aleatorio';
+import { paginaDe } from './paginas';
 
 export const PREGUNTAS_POR_SESION = 10;
 
 export interface ItemSesion { pregunta: Pregunta; temaId: string }
 
 /**
- * Elige preguntas de los temas indicados. Prioridad: falladas la última vez,
+ * Elige preguntas de los temas indicados hasta la página por la que va la clase. Prioridad: falladas la última vez,
  * después nunca vistas, después el resto (las más antiguas primero).
  */
 export function crearSesion(
   asig: Asignatura,
   temaIds: string[],
+  paginaHasta: number,
   historial: Record<string, EstadoPregunta>,
   n = PREGUNTAS_POR_SESION,
   rnd: () => number = Math.random,
 ): ItemSesion[] {
   const items: ItemSesion[] = asig.temas
     .filter((t) => temaIds.includes(t.id))
-    .flatMap((t) => t.preguntas.map((pregunta) => ({ pregunta, temaId: t.id })));
+    .flatMap((t) => t.preguntas.filter((p) => paginaDe(p, t) <= paginaHasta).map((pregunta) => ({ pregunta, temaId: t.id })));
   const peso = (it: ItemSesion) => {
     const h = historial[it.pregunta.id];
     if (!h) return 1;

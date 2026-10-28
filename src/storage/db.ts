@@ -1,4 +1,4 @@
-import { estadoInicial, migrarYValidar, type Estado } from './estado';
+import { estadoInicial, migrarYValidar, type Estado, type FinDeTema } from './estado';
 
 const NOMBRE_DB = 'paso-a-paso';
 const ALMACEN = 'kv';
@@ -15,7 +15,7 @@ function abrir(): Promise<IDBDatabase> {
   });
 }
 
-export async function cargarEstado(): Promise<Estado> {
+export async function cargarEstado(finDeTema?: FinDeTema): Promise<Estado> {
   try {
     const db = await abrir();
     const valor = await new Promise<unknown>((res, rej) => {
@@ -24,7 +24,7 @@ export async function cargarEstado(): Promise<Estado> {
       r.onerror = () => rej(r.error);
     });
     db.close();
-    return valor ? migrarYValidar(valor) : estadoInicial();
+    return valor ? migrarYValidar(valor, finDeTema) : estadoInicial();
   } catch (err) {
     console.warn('No se pudo leer el progreso guardado', err);
     return estadoInicial();

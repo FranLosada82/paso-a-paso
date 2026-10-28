@@ -4,9 +4,10 @@ import { ASIGNATURAS, meta } from '../content/asignaturas';
 import { useEstado } from './useEstado';
 import { ir, useRuta } from './ruta';
 import { Practica, Cabecera } from './Practica';
-import { Adulto, TemasDados, PuertaAdulto } from './Adulto';
+import { Adulto, PaginaClase, PuertaAdulto } from './Adulto';
 import type { Asignatura } from '../types';
 import type { Estado } from '../storage/estado';
+import { estadoTema, paginaDe } from '../logic/paginas';
 
 export function App() {
   const ruta = useRuta();
@@ -23,10 +24,10 @@ export function App() {
   const asig = 'asig' in ruta ? ASIGNATURAS.find((a) => a.id === ruta.asig) : undefined;
   let pantalla;
   if (ruta.pantalla === 'asignatura' && asig) pantalla = <PantallaAsignatura asig={asig} estado={estado} />;
-  else if (ruta.pantalla === 'practica' && asig) pantalla = <Practica key={location.hash} asig={asig} temas={ruta.temas} estado={estado} actualizar={actualizar} />;
+  else if (ruta.pantalla === 'practica' && asig) pantalla = <Practica key={location.hash} asig={asig} temas={ruta.temas} pagina={estado.paginaActual[asig.id] ?? 0} estado={estado} actualizar={actualizar} />;
   else if (ruta.pantalla === 'adulto' || ruta.pantalla === 'temas') {
     pantalla = !adultoOk ? <PuertaAdulto onOk={() => setAdultoOk(true)} />
-      : ruta.pantalla === 'temas' && asig ? <TemasDados asig={asig} estado={estado} actualizar={actualizar} />
+      : ruta.pantalla === 'temas' && asig ? <PaginaClase asig={asig} estado={estado} actualizar={actualizar} />
       : <Adulto estado={estado} actualizar={actualizar} reemplazar={reemplazar} />;
   } else pantalla = <Inicio estado={estado} />;
 
@@ -44,21 +45,26 @@ export function App() {
   );
 }
 
-export function temasDadosDe(estado: Estado, asig: Asignatura): string[] {
-  const dados = estado.temasDados[asig.id] ?? [];
-  return asig.temas.filter((t) => dados.includes(t.id)).map((t) => t.id);
+export const paginaClase = (estado: Estado, asig: Asignatura): number | undefined => estado.paginaActual[asig.id];
+
+/** Temas con alguna pregunta ya trabajada en clase (completos o a medias). */
+export function temasDisponibles(estado: Estado, asig: Asignatura): string[] {
+  const pag = paginaClase(estado, asig);
+  return asig.temas.filter((t) => estadoTema(t, pag).estado !== 'pendiente').map((t) => t.id);
 }
 
-/** % de preguntas de los temas dados que se han acertado la última vez. */
+/** % de las preguntas disponibles (hasta la página de clase) acertadas la última vez. */
 export function dominio(estado: Estado, asig: Asignatura, temaIds: string[]): number {
-  const ps = asig.temas.filter((t) => temaIds.includes(t.id)).flatMap((t) => t.preguntas);
+  const pag = paginaClase(estado, asig);
+  if (pag === undefined) return 0;
+  const ps = asig.temas.filter((t) => temaIds.includes(t.id)).flatMap((t) => t.preguntas.filter((p) => paginaDe(p, t) <= pag));
   if (ps.length === 0) return 0;
   return Math.round((ps.filter((p) => estado.preguntas[p.id]?.ultimaCorrecta).length / ps.length) * 100);
 }
 
 function Inicio({ estado }: { estado: Estado }) {
   const ultima = ASIGNATURAS.find((a) => a.id === estado.ultimaAsignatura);
-  const temasUltima = ultima ? temasDadosDe(estado, ultima) : [];
+  const temasUltima = ultima ? temasDisponibles(estado, ultima) : [];
   return (
     <main className="pantalla inicio">
       <header className="saludo">
@@ -73,13 +79,13 @@ function Inicio({ estado }: { estado: Estado }) {
       )}
       <nav className="rejilla" aria-label="Asignaturas">
         {ASIGNATURAS.map((a) => {
-          const m = meta(a.id); const dados = temasDadosDe(estado, a); const pct = dominio(estado, a, dados);
+          const m = meta(a.id); const pag = paginaClase(estado, a); const disp = temasDisponibles(estado, a); const pct = dominio(estado, a, disp);
           return (
             <button key={a.id} className="asig" style={{ ['--acento' as string]: m.color, ['--claro' as string]: m.claro }} onClick={() => ir({ pantalla: 'asignatura', asig: a.id })}>
               <span className="emoji" aria-hidden>{m.emoji}</span>
               <span className="nombre">{a.nombre}</span>
-              <span className="sub">{dados.length ? `${dados.length} de ${a.temas.length} temas dados` : 'Sin temas marcados'}</span>
-              {dados.length > 0 && <span className="mini-barra" aria-label={`Dominio ${pct}%`}><span style={{ width: `${pct}%` }} /></span>}
+              <span className="sub">{pag !== undefined ? `Vais por la pág. ${pag}` : 'Sin página marcada'}</span>
+              {disp.length > 0 && <span className="mini-barra" aria-label={`Dominio ${pct}%`}><span style={{ width: `${pct}%` }} /></span>}
             </button>
           );
         })}
@@ -91,37 +97,42 @@ function Inicio({ estado }: { estado: Estado }) {
 
 function PantallaAsignatura({ asig, estado }: { asig: Asignatura; estado: Estado }) {
   const m = meta(asig.id);
-  const dados = temasDadosDe(estado, asig);
+  const pag = paginaClase(estado, asig);
+  const disp = temasDisponibles(estado, asig);
   return (
     <main className="pantalla" style={{ ['--acento' as string]: m.color, ['--claro' as string]: m.claro }}>
       <Cabecera titulo={`${m.emoji} ${asig.nombre}`} />
-      {dados.length === 0 ? (
+      {disp.length === 0 ? (
         <div className="tarjeta centro">
-          <p className="grande">Todavía no hay temas marcados.</p>
-          <p>Pide a un adulto que marque los temas que ya habéis dado en clase.</p>
-          <button className="boton" onClick={() => ir({ pantalla: 'temas', asig: asig.id })}>Marcar temas (adulto)</button>
+          <p className="grande">{pag === undefined ? 'Todavía no sabemos por qué página vais.' : `En la pág. ${pag} aún no hay preguntas.`}</p>
+          <p>Pide a un adulto que marque la página del libro por la que vais en clase.</p>
+          <button className="boton" onClick={() => ir({ pantalla: 'temas', asig: asig.id })}>Marcar página (adulto)</button>
         </div>
       ) : (
-        <button className="boton ancho grande-boton" onClick={() => ir({ pantalla: 'practica', asig: asig.id, temas: dados })}>
-          Repasar todo lo dado ({dados.length} {dados.length === 1 ? 'tema' : 'temas'})
-        </button>
+        <>
+          <p className="pagina-chip">📖 Vais por la <b>página {pag}</b></p>
+          <button className="boton ancho grande-boton" onClick={() => ir({ pantalla: 'practica', asig: asig.id, temas: disp })}>
+            Repasar todo lo dado
+          </button>
+        </>
       )}
       <ol className="camino">
         {asig.temas.map((t, i) => {
-          const dado = dados.includes(t.id); const pct = dominio(estado, asig, [t.id]);
+          const { estado: et, disponibles } = estadoTema(t, pag); const dado = et !== 'pendiente'; const pct = dominio(estado, asig, [t.id]);
           return (
             <li key={t.id} className={`paso ${dado ? 'dado' : 'no-dado'} ${i % 2 ? 'der' : 'izq'}`}>
               <button disabled={!dado} onClick={() => ir({ pantalla: 'practica', asig: asig.id, temas: [t.id] })}
-                aria-label={`Tema ${t.numero}: ${t.titulo}. ${dado ? `Dominio ${pct}%` : 'Aún no dado'}`}>
-                <span className="circulo" style={{ ['--pct' as string]: `${pct * 3.6}deg` }}><span>{dado ? (pct >= 80 ? '★' : t.numero) : '🔒'}</span></span>
+                aria-label={`Tema ${t.numero}: ${t.titulo}. ${et === 'pendiente' ? 'Aún no dado' : et === 'medias' ? `A medias, ${disponibles} preguntas. Dominio ${pct}%` : `Dominio ${pct}%`}`}>
+                <span className="circulo" style={{ ['--pct' as string]: `${pct * 3.6}deg` }}><span>{dado ? (pct >= 80 && et === 'completo' ? '★' : t.numero) : '🔒'}</span></span>
                 <span className="titulo-tema">{t.titulo}</span>
-                {!dado && <span className="sub">Aún no dado</span>}
+                {et === 'pendiente' && <span className="sub">Aún no dado</span>}
+                {et === 'medias' && <span className="sub medias">A medias</span>}
               </button>
             </li>
           );
         })}
       </ol>
-      {dados.length > 0 && <button className="enlace" onClick={() => ir({ pantalla: 'temas', asig: asig.id })}>🔒 Cambiar temas dados</button>}
+      {disp.length > 0 && <button className="enlace" onClick={() => ir({ pantalla: 'temas', asig: asig.id })}>🔒 Cambiar página</button>}
     </main>
   );
 }

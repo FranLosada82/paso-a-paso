@@ -40,11 +40,13 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
 
   // 2. Adulto marca temas de Matemáticas hasta el tema 2.
   await page.getByRole('button', { name: /Matemáticas/ }).click();
-  await page.getByRole('button', { name: 'Marcar temas (adulto)' }).click();
+  await page.getByRole('button', { name: 'Marcar página (adulto)' }).click();
   await entrarAdulto(page);
-  await page.getByRole('button', { name: 'Hasta aquí' }).nth(1).click();
+  await page.getByLabel('¿Por qué página del libro vais en clase?').fill('40');
+  await expect(page.getByText(/vais por el tema 2/)).toBeVisible();
   await page.getByRole('button', { name: 'Listo' }).click();
-  await expect(page.getByRole('button', { name: /Repasar todo lo dado \(2 temas\)/ })).toBeVisible();
+  await expect(page.getByText('Vais por la página 40')).toBeVisible();
+  await expect(page.getByRole('button', { name: /Tema 2:.*A medias/ })).toBeEnabled();
   await expect(page.getByRole('button', { name: /Tema 3:.*Aún no dado/ })).toBeDisabled();
 
   // 3. Sesión completa (incluye repetición de las falladas).
@@ -59,7 +61,7 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   if (sinRed) await context.setOffline(true);
   await page.goto('/');
   await expect(page.getByRole('heading', { name: 'CHENCHO REPASO' })).toBeVisible();
-  await expect(page.getByText('2 de 9 temas dados')).toBeVisible();
+  await expect(page.getByText('Vais por la pág. 40')).toBeVisible();
   const nombres = ['Matemáticas', 'Lengua', 'Naturaleza', 'Sociales', 'Natural Science', 'Inglés', 'Música'];
   for (const n of nombres) {
     await page.locator('.asig', { hasText: n }).click();
@@ -68,9 +70,9 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   }
   // Practicar offline otra asignatura.
   await page.getByRole('button', { name: /Natural Science/ }).click();
-  await page.getByRole('button', { name: 'Marcar temas (adulto)' }).click();
+  await page.getByRole('button', { name: 'Marcar página (adulto)' }).click();
   await entrarAdulto(page);
-  await page.getByRole('checkbox').first().check();
+  await page.getByRole('button', { name: 'Terminado' }).first().click();
   await page.getByRole('button', { name: 'Listo' }).click();
   await page.getByRole('button', { name: /Repasar todo lo dado/ }).click();
   await responderUna(page);
@@ -81,7 +83,7 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   await page.close();
   const otra = await context.newPage();
   await otra.goto('/');
-  await expect(otra.getByText('2 de 9 temas dados')).toBeVisible();
+  await expect(otra.getByText('Vais por la pág. 40')).toBeVisible();
   await expect(otra.getByRole('button', { name: /Continuar/ })).toBeVisible();
   await otra.getByRole('button', { name: /Zona de adultos/ }).click();
   await entrarAdulto(otra);

@@ -116,3 +116,8 @@ body::before {
 }
 body { background: var(--fondo); isolation: isolate; }
 .pie:not(.ok):not(.ko) { background: rgba(255, 248, 236, .92); backdrop-filter: blur(6px); }
+.selector-pagina { display: flex; gap: 12px; align-items: center; justify-content: center; margin: 12px 0; }
+.selector-pagina .boton { width: 64px; font-size: 1.6rem; padding: 0; }
+.selector-pagina .escribir { width: 140px; text-align: center; margin: 0; font-size: 1.6rem; font-weight: 800; }
+.pagina-chip { margin: 4px 0 0; color: var(--suave); }
+.sub.medias { color: var(--acento); font-weight: 700; }

@@ -5,6 +5,8 @@ interface PreguntaBase {
   enunciado: string;
   explicacion: string;
   ayuda?: string;
+  /** Página del libro donde se trabaja este contenido. */
+  pagina?: number;
 }
 export interface PreguntaEleccion extends PreguntaBase { tipo: 'eleccion'; opciones: string[]; correcta: number }
 export interface PreguntaVF extends PreguntaBase { tipo: 'vf'; correcta: boolean }

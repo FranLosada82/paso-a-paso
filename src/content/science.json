@@ -15,6 +15,7 @@
         {
           "id": "science-t01-p01",
           "tipo": "ordenar",
+          "pagina": 8,
           "enunciado": "Put the stages of life in order.",
           "ayuda": "Ordena las etapas de la vida.",
           "elementos": [
@@ -28,6 +29,7 @@
         {
           "id": "science-t01-p02",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "What stage of life is a teenager in?",
           "ayuda": "¿En qué etapa de la vida está un adolescente?",
           "opciones": [
@@ -41,6 +43,7 @@
         {
           "id": "science-t01-p03",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "How many life processes do people carry out?",
           "ayuda": "¿Cuántas funciones vitales realizamos las personas?",
           "opciones": [
@@ -54,6 +57,7 @@
         {
           "id": "science-t01-p04",
           "tipo": "relacionar",
+          "pagina": 11,
           "enunciado": "Match the sense to the sense organ.",
           "ayuda": "Une cada sentido con su órgano.",
           "pares": [
@@ -79,6 +83,7 @@
         {
           "id": "science-t01-p05",
           "tipo": "escribir",
+          "pagina": 11,
           "enunciado": "We touch with our ___.",
           "ayuda": "Tocamos con nuestra... (es el órgano del tacto)",
           "respuestas": [
@@ -92,6 +97,7 @@
         {
           "id": "science-t01-p06",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "\"I feel cold.\" Which life process is it?",
           "ayuda": "«Tengo frío». ¿Qué función vital es?",
           "opciones": [
@@ -105,6 +111,7 @@
         {
           "id": "science-t01-p07",
           "tipo": "vf",
+          "pagina": 13,
           "enunciado": "Bones are soft and elastic.",
           "ayuda": "Los huesos son blandos y elásticos.",
           "correcta": false,
@@ -113,6 +120,7 @@
         {
           "id": "science-t01-p08",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Joints help our body to bend.",
           "ayuda": "Las articulaciones ayudan al cuerpo a doblarse.",
           "correcta": true,
@@ -121,6 +129,7 @@
         {
           "id": "science-t01-p09",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "Which one is a joint?",
           "ayuda": "¿Cuál es una articulación?",
           "opciones": [
@@ -134,6 +143,7 @@
         {
           "id": "science-t01-p10",
           "tipo": "relacionar",
+          "pagina": 13,
           "enunciado": "Match each word to its group.",
           "ayuda": "Une cada palabra con su grupo.",
           "pares": [
@@ -155,6 +165,7 @@
         {
           "id": "science-t01-p11",
           "tipo": "escribir",
+          "pagina": 12,
           "enunciado": "All our bones together make our ___.",
           "ayuda": "Todos los huesos juntos forman nuestro...",
           "respuestas": [
@@ -168,6 +179,7 @@
         {
           "id": "science-t01-p12",
           "tipo": "ordenar",
+          "pagina": 14,
           "enunciado": "Put the path of air in order when we inhale.",
           "ayuda": "Ordena el camino del aire al inspirar.",
           "elementos": [
@@ -180,6 +192,7 @@
         {
           "id": "science-t01-p13",
           "tipo": "eleccion",
+          "pagina": 14,
           "enunciado": "Which gas do we need from the air?",
           "ayuda": "¿Qué gas del aire necesitamos?",
           "opciones": [
@@ -193,6 +206,7 @@
         {
           "id": "science-t01-p14",
           "tipo": "vf",
+          "pagina": 14,
           "enunciado": "When we exhale, we breathe out air.",
           "ayuda": "Al espirar, expulsamos aire.",
           "correcta": true,
@@ -201,6 +215,7 @@
         {
           "id": "science-t01-p15",
           "tipo": "ordenar",
+          "pagina": 17,
           "enunciado": "Put the path of food in order.",
           "ayuda": "Ordena el camino de la comida.",
           "elementos": [
@@ -215,6 +230,7 @@
         {
           "id": "science-t01-p16",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "Where do we absorb the nutrients from food?",
           "ayuda": "¿Dónde absorbemos los nutrientes?",
           "opciones": [
@@ -228,6 +244,7 @@
         {
           "id": "science-t01-p17",
           "tipo": "escribir",
+          "pagina": 17,
           "enunciado": "We chew food with our ___.",
           "ayuda": "Masticamos con los... (dientes)",
           "respuestas": [
@@ -252,6 +269,7 @@
         {
           "id": "science-t02-p01",
           "tipo": "eleccion",
+          "pagina": 23,
           "enunciado": "Where do we go when we are ill?",
           "ayuda": "¿Adónde vamos cuando estamos enfermos?",
           "opciones": [
@@ -265,6 +283,7 @@
         {
           "id": "science-t02-p02",
           "tipo": "relacionar",
+          "pagina": 24,
           "enunciado": "Match the health worker to their job.",
           "ayuda": "Une cada profesional con su trabajo.",
           "pares": [
@@ -286,6 +305,7 @@
         {
           "id": "science-t02-p03",
           "tipo": "vf",
+          "pagina": 24,
           "enunciado": "Vaccinations stop us from getting some illnesses.",
           "ayuda": "Las vacunas nos protegen de algunas enfermedades.",
           "correcta": true,
@@ -294,6 +314,7 @@
         {
           "id": "science-t02-p04",
           "tipo": "eleccion",
+          "pagina": 24,
           "enunciado": "Which one is an illness?",
           "ayuda": "¿Cuál es una enfermedad?",
           "opciones": [
@@ -307,6 +328,7 @@
         {
           "id": "science-t02-p05",
           "tipo": "escribir",
+          "pagina": 26,
           "enunciado": "How many hours do children need to sleep every night? (number)",
           "ayuda": "¿Cuántas horas tienen que dormir los niños cada noche? (número)",
           "respuestas": [
@@ -319,6 +341,7 @@
         {
           "id": "science-t02-p06",
           "tipo": "vf",
+          "pagina": 26,
           "enunciado": "We should brush our teeth after every meal.",
           "ayuda": "Debemos lavarnos los dientes después de cada comida.",
           "correcta": true,
@@ -327,6 +350,7 @@
         {
           "id": "science-t02-p07",
           "tipo": "eleccion",
+          "pagina": 27,
           "enunciado": "Which object do we use to brush our teeth?",
           "ayuda": "¿Qué objeto usamos para lavarnos los dientes?",
           "opciones": [
@@ -340,6 +364,7 @@
         {
           "id": "science-t02-p08",
           "tipo": "eleccion",
+          "pagina": 26,
           "enunciado": "Why do we need good posture?",
           "ayuda": "¿Para qué necesitamos una buena postura?",
           "opciones": [
@@ -353,6 +378,7 @@
         {
           "id": "science-t02-p09",
           "tipo": "escribir",
+          "pagina": 28,
           "enunciado": "How many meals a day should we eat? (number)",
           "ayuda": "¿Cuántas comidas al día debemos hacer? (número)",
           "respuestas": [
@@ -365,6 +391,7 @@
         {
           "id": "science-t02-p10",
           "tipo": "relacionar",
+          "pagina": 28,
           "enunciado": "Match the food to what it gives us.",
           "ayuda": "Une cada alimento con lo que nos da.",
           "pares": [
@@ -386,6 +413,7 @@
         {
           "id": "science-t02-p11",
           "tipo": "eleccion",
+          "pagina": 28,
           "enunciado": "Which food provides energy?",
           "ayuda": "¿Qué alimento da energía?",
           "opciones": [
@@ -399,6 +427,7 @@
         {
           "id": "science-t02-p12",
           "tipo": "eleccion",
+          "pagina": 28,
           "enunciado": "Which food helps us to grow?",
           "ayuda": "¿Qué alimento nos ayuda a crecer?",
           "opciones": [
@@ -412,6 +441,7 @@
         {
           "id": "science-t02-p13",
           "tipo": "vf",
+          "pagina": 32,
           "enunciado": "Fizzy drinks are the best drink for a healthy meal.",
           "ayuda": "Los refrescos son la mejor bebida para una comida sana.",
           "correcta": false,
@@ -420,6 +450,7 @@
         {
           "id": "science-t02-p14",
           "tipo": "vf",
+          "pagina": 30,
           "enunciado": "It is safe to play with electric cables.",
           "ayuda": "Es seguro jugar con cables eléctricos.",
           "correcta": false,
@@ -428,6 +459,7 @@
         {
           "id": "science-t02-p15",
           "tipo": "relacionar",
+          "pagina": 31,
           "enunciado": "Match the activity to the protection.",
           "ayuda": "Une la actividad con la protección.",
           "pares": [
@@ -449,6 +481,7 @@
         {
           "id": "science-t02-p16",
           "tipo": "escribir",
+          "pagina": 31,
           "enunciado": "We wear a ___ on our head when we ride a bike.",
           "ayuda": "Llevamos esto en la cabeza al ir en bici.",
           "respuestas": [
@@ -461,6 +494,7 @@
         {
           "id": "science-t02-p17",
           "tipo": "eleccion",
+          "pagina": 30,
           "enunciado": "How can we prevent accidents at home?",
           "ayuda": "¿Cómo evitamos accidentes en casa?",
           "opciones": [
@@ -484,6 +518,7 @@
         {
           "id": "science-t03-p01",
           "tipo": "vf",
+          "pagina": 44,
           "enunciado": "Vertebrates have an internal skeleton made of bones.",
           "ayuda": "Los vertebrados tienen un esqueleto interno de huesos.",
           "correcta": true,
@@ -492,6 +527,7 @@
         {
           "id": "science-t03-p02",
           "tipo": "eleccion",
+          "pagina": 44,
           "enunciado": "Which animal is an invertebrate?",
           "ayuda": "¿Qué animal es invertebrado?",
           "opciones": [
@@ -505,6 +541,7 @@
         {
           "id": "science-t03-p03",
           "tipo": "escribir",
+          "pagina": 44,
           "enunciado": "How many groups of vertebrates are there? (number)",
           "ayuda": "¿Cuántos grupos de vertebrados hay? (número)",
           "respuestas": [
@@ -517,6 +554,7 @@
         {
           "id": "science-t03-p04",
           "tipo": "relacionar",
+          "pagina": 48,
           "enunciado": "Match the animal to its group.",
           "ayuda": "Une cada animal con su grupo.",
           "pares": [
@@ -542,6 +580,7 @@
         {
           "id": "science-t03-p05",
           "tipo": "eleccion",
+          "pagina": 46,
           "enunciado": "What are most mammals covered with?",
           "ayuda": "¿De qué están cubiertos la mayoría de los mamíferos?",
           "opciones": [
@@ -555,6 +594,7 @@
         {
           "id": "science-t03-p06",
           "tipo": "vf",
+          "pagina": 46,
           "enunciado": "Birds are viviparous.",
           "ayuda": "Las aves son vivíparas.",
           "correcta": false,
@@ -563,6 +603,7 @@
         {
           "id": "science-t03-p07",
           "tipo": "eleccion",
+          "pagina": 46,
           "enunciado": "Which is the only mammal with wings?",
           "ayuda": "¿Cuál es el único mamífero con alas?",
           "opciones": [
@@ -576,6 +617,7 @@
         {
           "id": "science-t03-p08",
           "tipo": "escribir",
+          "pagina": 46,
           "enunciado": "Animals that are born from eggs are ___.",
           "ayuda": "Los animales que nacen de huevos son...",
           "respuestas": [
@@ -587,6 +629,7 @@
         {
           "id": "science-t03-p09",
           "tipo": "eleccion",
+          "pagina": 48,
           "enunciado": "How do fish breathe?",
           "ayuda": "¿Cómo respiran los peces?",
           "opciones": [
@@ -600,6 +643,7 @@
         {
           "id": "science-t03-p10",
           "tipo": "relacionar",
+          "pagina": 48,
           "enunciado": "Match the animal to its body covering.",
           "ayuda": "Une el animal con lo que cubre su cuerpo.",
           "pares": [
@@ -621,6 +665,7 @@
         {
           "id": "science-t03-p11",
           "tipo": "ordenar",
+          "pagina": 48,
           "enunciado": "Put the life cycle of a frog in order.",
           "ayuda": "Ordena el ciclo de vida de la rana.",
           "elementos": [
@@ -634,6 +679,7 @@
         {
           "id": "science-t03-p12",
           "tipo": "vf",
+          "pagina": 48,
           "enunciado": "A tortoise is a reptile with a hard shell.",
           "ayuda": "La tortuga es un reptil con caparazón duro.",
           "correcta": true,
@@ -642,6 +688,7 @@
         {
           "id": "science-t03-p13",
           "tipo": "escribir",
+          "pagina": 50,
           "enunciado": "How many legs do insects have? (number)",
           "ayuda": "¿Cuántas patas tienen los insectos? (número)",
           "respuestas": [
@@ -654,6 +701,7 @@
         {
           "id": "science-t03-p14",
           "tipo": "ordenar",
+          "pagina": 50,
           "enunciado": "Put the life of a butterfly in order.",
           "ayuda": "Ordena la vida de la mariposa.",
           "elementos": [
@@ -667,6 +715,7 @@
         {
           "id": "science-t03-p15",
           "tipo": "eleccion",
+          "pagina": 52,
           "enunciado": "Which habitat is aquatic?",
           "ayuda": "¿Qué hábitat es acuático?",
           "opciones": [
@@ -680,6 +729,7 @@
         {
           "id": "science-t03-p16",
           "tipo": "eleccion",
+          "pagina": 56,
           "enunciado": "Where do polar bears live?",
           "ayuda": "¿Dónde viven los osos polares?",
           "opciones": [
@@ -693,6 +743,7 @@
         {
           "id": "science-t03-p17",
           "tipo": "vf",
+          "pagina": 56,
           "enunciado": "Taking our litter home helps protect animal habitats.",
           "ayuda": "Llevarnos la basura a casa ayuda a proteger los hábitats.",
           "correcta": true,
@@ -711,6 +762,7 @@
         {
           "id": "science-t04-p01",
           "tipo": "relacionar",
+          "pagina": 60,
           "enunciado": "Match the part of the plant to its job.",
           "ayuda": "Une cada parte de la planta con su función.",
           "pares": [
@@ -736,6 +788,7 @@
         {
           "id": "science-t04-p02",
           "tipo": "vf",
+          "pagina": 60,
           "enunciado": "Plants make their own food.",
           "ayuda": "Las plantas fabrican su propio alimento.",
           "correcta": true,
@@ -744,6 +797,7 @@
         {
           "id": "science-t04-p03",
           "tipo": "vf",
+          "pagina": 61,
           "enunciado": "Plants can move about.",
           "ayuda": "Las plantas pueden desplazarse.",
           "correcta": false,
@@ -752,6 +806,7 @@
         {
           "id": "science-t04-p04",
           "tipo": "escribir",
+          "pagina": 60,
           "enunciado": "The process plants use to make food is called ___.",
           "ayuda": "El proceso con el que las plantas fabrican su alimento con la luz del Sol se llama...",
           "respuestas": [
@@ -763,6 +818,7 @@
         {
           "id": "science-t04-p05",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "Which plant part absorbs water from the soil?",
           "ayuda": "¿Qué parte absorbe agua del suelo?",
           "opciones": [
@@ -776,6 +832,7 @@
         {
           "id": "science-t04-p06",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "What is the hard, thick stem of a tree called?",
           "ayuda": "¿Cómo se llama el tallo duro y grueso del árbol?",
           "opciones": [
@@ -789,6 +846,7 @@
         {
           "id": "science-t04-p07",
           "tipo": "relacionar",
+          "pagina": 62,
           "enunciado": "Match the plant to its stem.",
           "ayuda": "Une cada planta con su tallo.",
           "pares": [
@@ -810,6 +868,7 @@
         {
           "id": "science-t04-p08",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "What do we call trees that lose their leaves in autumn?",
           "ayuda": "¿Cómo se llaman los árboles que pierden las hojas en otoño?",
           "opciones": [
@@ -823,6 +882,7 @@
         {
           "id": "science-t04-p09",
           "tipo": "escribir",
+          "pagina": 62,
           "enunciado": "Trees that have leaves all year round are ___.",
           "ayuda": "Los árboles que tienen hojas todo el año son...",
           "respuestas": [
@@ -835,6 +895,7 @@
         {
           "id": "science-t04-p10",
           "tipo": "ordenar",
+          "pagina": 64,
           "enunciado": "Put the life cycle of a flowering plant in order.",
           "ayuda": "Ordena el ciclo de vida de una planta con flor.",
           "elementos": [
@@ -848,6 +909,7 @@
         {
           "id": "science-t04-p11",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "What do mosses and ferns produce?",
           "ayuda": "¿Qué producen los musgos y los helechos?",
           "opciones": [
@@ -861,6 +923,7 @@
         {
           "id": "science-t04-p12",
           "tipo": "eleccion",
+          "pagina": 64,
           "enunciado": "Which one is a seed plant?",
           "ayuda": "¿Cuál es una planta con semillas?",
           "opciones": [
@@ -874,6 +937,7 @@
         {
           "id": "science-t04-p13",
           "tipo": "vf",
+          "pagina": 66,
           "enunciado": "Wild plants give food and shelter to animals.",
           "ayuda": "Las plantas silvestres dan alimento y refugio a los animales.",
           "correcta": true,
@@ -882,6 +946,7 @@
         {
           "id": "science-t04-p14",
           "tipo": "ordenar",
+          "pagina": 66,
           "enunciado": "Put the steps to grow cultivated plants in order.",
           "ayuda": "Ordena los pasos para cultivar plantas.",
           "elementos": [
@@ -894,6 +959,7 @@
         {
           "id": "science-t04-p15",
           "tipo": "eleccion",
+          "pagina": 66,
           "enunciado": "Which gas do plants produce?",
           "ayuda": "¿Qué gas producen las plantas?",
           "opciones": [
@@ -907,6 +973,7 @@
         {
           "id": "science-t04-p16",
           "tipo": "relacionar",
+          "pagina": 69,
           "enunciado": "Match the food to the part of the plant.",
           "ayuda": "Une el alimento con la parte de la planta.",
           "pares": [
@@ -932,6 +999,7 @@
         {
           "id": "science-t04-p17",
           "tipo": "vf",
+          "pagina": 76,
           "enunciado": "Leaving the tap running saves water.",
           "ayuda": "Dejar el grifo abierto ahorra agua.",
           "correcta": false,
@@ -950,6 +1018,7 @@
         {
           "id": "science-t05-p01",
           "tipo": "ordenar",
+          "pagina": 80,
           "enunciado": "Put the steps of the scientific method in order.",
           "ayuda": "Ordena los pasos del método científico.",
           "elementos": [
@@ -963,6 +1032,7 @@
         {
           "id": "science-t05-p02",
           "tipo": "vf",
+          "pagina": 82,
           "enunciado": "Everything around us is matter.",
           "ayuda": "Todo lo que nos rodea es materia.",
           "correcta": true,
@@ -971,6 +1041,7 @@
         {
           "id": "science-t05-p03",
           "tipo": "relacionar",
+          "pagina": 82,
           "enunciado": "Match the matter to its state.",
           "ayuda": "Une cada cosa con su estado.",
           "pares": [
@@ -992,6 +1063,7 @@
         {
           "id": "science-t05-p04",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "What happens to ice when we heat it?",
           "ayuda": "¿Qué le pasa al hielo si lo calentamos?",
           "opciones": [
@@ -1005,6 +1077,7 @@
         {
           "id": "science-t05-p05",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "What does water need to change to a solid?",
           "ayuda": "¿Qué necesita el agua para volverse sólida?",
           "opciones": [
@@ -1018,6 +1091,7 @@
         {
           "id": "science-t05-p06",
           "tipo": "escribir",
+          "pagina": 82,
           "enunciado": "Liquid water changes to water ___ when we heat it.",
           "ayuda": "El agua líquida se convierte en ___ de agua al calentarla.",
           "respuestas": [
@@ -1030,6 +1104,7 @@
         {
           "id": "science-t05-p07",
           "tipo": "eleccion",
+          "pagina": 85,
           "enunciado": "Which one is a pure substance?",
           "ayuda": "¿Cuál es una sustancia pura?",
           "opciones": [
@@ -1043,6 +1118,7 @@
         {
           "id": "science-t05-p08",
           "tipo": "vf",
+          "pagina": 85,
           "enunciado": "Salt water is a solution.",
           "ayuda": "El agua con sal es una disolución.",
           "correcta": true,
@@ -1051,6 +1127,7 @@
         {
           "id": "science-t05-p09",
           "tipo": "eleccion",
+          "pagina": 85,
           "enunciado": "What do we use to separate pasta from water?",
           "ayuda": "¿Qué usamos para separar la pasta del agua?",
           "opciones": [
@@ -1064,6 +1141,7 @@
         {
           "id": "science-t05-p10",
           "tipo": "relacionar",
+          "pagina": 86,
           "enunciado": "Match the property to its meaning.",
           "ayuda": "Une la propiedad con su significado.",
           "pares": [
@@ -1089,6 +1167,7 @@
         {
           "id": "science-t05-p11",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "Where does cork come from?",
           "ayuda": "¿De dónde viene el corcho?",
           "opciones": [
@@ -1102,6 +1181,7 @@
         {
           "id": "science-t05-p12",
           "tipo": "vf",
+          "pagina": 86,
           "enunciado": "Plastic is a natural material.",
           "ayuda": "El plástico es un material natural.",
           "correcta": false,
@@ -1110,6 +1190,7 @@
         {
           "id": "science-t05-p13",
           "tipo": "relacionar",
+          "pagina": 88,
           "enunciado": "Match the material to how light passes.",
           "ayuda": "Une el material con cómo pasa la luz.",
           "pares": [
@@ -1131,6 +1212,7 @@
         {
           "id": "science-t05-p14",
           "tipo": "eleccion",
+          "pagina": 88,
           "enunciado": "Which is a natural light source?",
           "ayuda": "¿Qué es una fuente de luz natural?",
           "opciones": [
@@ -1144,6 +1226,7 @@
         {
           "id": "science-t05-p15",
           "tipo": "eleccion",
+          "pagina": 89,
           "enunciado": "Which animal makes a low sound?",
           "ayuda": "¿Qué animal hace un sonido grave?",
           "opciones": [
@@ -1157,6 +1240,7 @@
         {
           "id": "science-t05-p16",
           "tipo": "escribir",
+          "pagina": 89,
           "enunciado": "Sound travels in ___.",
           "ayuda": "El sonido viaja en...",
           "respuestas": [
@@ -1169,6 +1253,7 @@
         {
           "id": "science-t05-p17",
           "tipo": "relacionar",
+          "pagina": 92,
           "enunciado": "Match the R to its meaning.",
           "ayuda": "Une cada R con su significado.",
           "pares": [
@@ -1190,6 +1275,7 @@
         {
           "id": "science-t05-p18",
           "tipo": "vf",
+          "pagina": 91,
           "enunciado": "Wind energy and solar energy are clean energy.",
           "ayuda": "La energía eólica y solar son energía limpia.",
           "correcta": true,
@@ -1208,6 +1294,7 @@
         {
           "id": "science-t06-p01",
           "tipo": "eleccion",
+          "pagina": 96,
           "enunciado": "Which one is a digital device?",
           "ayuda": "¿Cuál es un dispositivo digital?",
           "opciones": [
@@ -1221,6 +1308,7 @@
         {
           "id": "science-t06-p02",
           "tipo": "vf",
+          "pagina": 96,
           "enunciado": "A tablet has a touchscreen.",
           "ayuda": "Una tableta tiene pantalla táctil.",
           "correcta": true,
@@ -1229,6 +1317,7 @@
         {
           "id": "science-t06-p03",
           "tipo": "relacionar",
+          "pagina": 97,
           "enunciado": "Match the device to its use.",
           "ayuda": "Une el aparato con su uso.",
           "pares": [
@@ -1250,6 +1339,7 @@
         {
           "id": "science-t06-p04",
           "tipo": "ordenar",
+          "pagina": 98,
           "enunciado": "Put the steps to search for information in order.",
           "ayuda": "Ordena los pasos para buscar información.",
           "elementos": [
@@ -1263,6 +1353,7 @@
         {
           "id": "science-t06-p05",
           "tipo": "escribir",
+          "pagina": 98,
           "enunciado": "We type our search words in the search ___.",
           "ayuda": "Escribimos las palabras en el «search ___» (el buscador).",
           "respuestas": [
@@ -1275,6 +1366,7 @@
         {
           "id": "science-t06-p06",
           "tipo": "vf",
+          "pagina": 99,
           "enunciado": "Everything on the internet is true.",
           "ayuda": "Todo lo de internet es verdad.",
           "correcta": false,
@@ -1283,6 +1375,7 @@
         {
           "id": "science-t06-p07",
           "tipo": "eleccion",
+          "pagina": 99,
           "enunciado": "Which headline is fake?",
           "ayuda": "¿Qué titular es falso?",
           "opciones": [
@@ -1296,6 +1389,7 @@
         {
           "id": "science-t06-p08",
           "tipo": "eleccion",
+          "pagina": 100,
           "enunciado": "Which program do we use to write texts?",
           "ayuda": "¿Qué programa usamos para escribir textos?",
           "opciones": [
@@ -1309,6 +1403,7 @@
         {
           "id": "science-t06-p09",
           "tipo": "eleccion",
+          "pagina": 100,
           "enunciado": "Which program do we use to make slides?",
           "ayuda": "¿Qué programa usamos para hacer diapositivas?",
           "opciones": [
@@ -1322,6 +1417,7 @@
         {
           "id": "science-t06-p10",
           "tipo": "escribir",
+          "pagina": 101,
           "enunciado": "A way to show information with images and short texts is an ___.",
           "ayuda": "Forma de mostrar información con imágenes y textos cortos.",
           "respuestas": [
@@ -1334,6 +1430,7 @@
         {
           "id": "science-t06-p11",
           "tipo": "eleccion",
+          "pagina": 101,
           "enunciado": "What do we use to organise a lot of data?",
           "ayuda": "¿Qué usamos para organizar muchos datos?",
           "opciones": [
@@ -1347,6 +1444,7 @@
         {
           "id": "science-t06-p12",
           "tipo": "escribir",
+          "pagina": 102,
           "enunciado": "A program that can destroy data is a computer ___.",
           "ayuda": "Un programa que puede destruir datos es un ___ informático.",
           "respuestas": [
@@ -1359,6 +1457,7 @@
         {
           "id": "science-t06-p13",
           "tipo": "vf",
+          "pagina": 102,
           "enunciado": "We should click on advertisements.",
           "ayuda": "Debemos hacer clic en los anuncios.",
           "correcta": false,
@@ -1367,6 +1466,7 @@
         {
           "id": "science-t06-p14",
           "tipo": "vf",
+          "pagina": 102,
           "enunciado": "We should limit our screen time.",
           "ayuda": "Debemos limitar el tiempo de pantalla.",
           "correcta": true,
@@ -1375,6 +1475,7 @@
         {
           "id": "science-t06-p15",
           "tipo": "eleccion",
+          "pagina": 102,
           "enunciado": "Who is a good user of technology?",
           "ayuda": "¿Quién usa bien la tecnología?",
           "opciones": [
@@ -1388,6 +1489,7 @@
         {
           "id": "science-t06-p16",
           "tipo": "relacionar",
+          "pagina": 106,
           "enunciado": "Match the rule to the reason.",
           "ayuda": "Une la norma con su motivo.",
           "pares": [
@@ -1409,6 +1511,7 @@
         {
           "id": "science-t06-p17",
           "tipo": "ordenar",
+          "pagina": 105,
           "enunciado": "Put these inventions in order, from oldest to newest.",
           "ayuda": "Ordena los inventos del más antiguo al más nuevo.",
           "elementos": [

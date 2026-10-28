@@ -22,7 +22,7 @@ Fichero: `src/content/<asignaturaId>.json`, UTF-8, JSON válido (sin comentarios
 }
 ```
 
-## Tipos de pregunta (todas llevan `id` estable `<temaId>-pNN`, `tipo`, `enunciado`, `explicacion`; opcional `ayuda` = traducción/pista en español para las de inglés)
+## Tipos de pregunta (todas llevan `id` estable `<temaId>-pNN`, `tipo`, `pagina` (página del libro donde se trabaja, dentro del rango del tema; la pregunta solo sale cuando la clase ha llegado a esa página), `enunciado`, `explicacion`; opcional `ayuda` = traducción/pista en español para las de inglés)
 
 - `eleccion`: `"opciones": ["a","b","c"]` (2-4), `"correcta": 0` (índice).
 - `vf`: `"correcta": true|false`.

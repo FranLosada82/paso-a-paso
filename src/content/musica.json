@@ -15,6 +15,7 @@
         {
           "id": "musica-t01-p01",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "¿Cuántas líneas tiene el pentagrama?",
           "opciones": [
             "4",
@@ -27,6 +28,7 @@
         {
           "id": "musica-t01-p02",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "¿En qué línea del pentagrama se escribe la nota mi?",
           "opciones": [
             "En la primera línea",
@@ -39,6 +41,7 @@
         {
           "id": "musica-t01-p03",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "¿En qué línea del pentagrama se escribe la nota sol?",
           "opciones": [
             "En la primera línea",
@@ -51,6 +54,7 @@
         {
           "id": "musica-t01-p04",
           "tipo": "eleccion",
+          "pagina": 6,
           "enunciado": "¿Qué signo se escribe al principio del pentagrama en tus canciones?",
           "opciones": [
             "La clave de sol",
@@ -63,6 +67,7 @@
         {
           "id": "musica-t01-p05",
           "tipo": "vf",
+          "pagina": 7,
           "enunciado": "Las líneas del pentagrama se cuentan de abajo arriba.",
           "correcta": true,
           "explicacion": "¡Correcto! La primera línea es la de abajo del todo."
@@ -70,6 +75,7 @@
         {
           "id": "musica-t01-p06",
           "tipo": "vf",
+          "pagina": 7,
           "enunciado": "La nota sol se escribe más abajo que la nota mi.",
           "correcta": false,
           "explicacion": "Al revés: sol está en la segunda línea y mi en la primera, así que sol está más arriba."
@@ -77,6 +83,7 @@
         {
           "id": "musica-t01-p07",
           "tipo": "vf",
+          "pagina": 7,
           "enunciado": "Mi y sol son nombres de notas musicales.",
           "correcta": true,
           "explicacion": "Sí, mi y sol son dos de las siete notas musicales."
@@ -84,6 +91,7 @@
         {
           "id": "musica-t01-p08",
           "tipo": "escribir",
+          "pagina": 7,
           "enunciado": "¿Cómo se llama la nota que se escribe en la primera línea del pentagrama?",
           "respuestas": [
             "mi"
@@ -94,6 +102,7 @@
         {
           "id": "musica-t01-p09",
           "tipo": "escribir",
+          "pagina": 7,
           "enunciado": "¿Cómo se llama la nota que se escribe en la segunda línea del pentagrama?",
           "respuestas": [
             "sol"
@@ -104,6 +113,7 @@
         {
           "id": "musica-t01-p10",
           "tipo": "ordenar",
+          "pagina": 7,
           "enunciado": "Ordena de abajo arriba lo que hay en el pentagrama:",
           "elementos": [
             "Primera línea (mi)",
@@ -115,6 +125,7 @@
         {
           "id": "musica-t01-p11",
           "tipo": "relacionar",
+          "pagina": 7,
           "enunciado": "Une cada cosa con su lugar en el pentagrama:",
           "pares": [
             [
@@ -135,6 +146,7 @@
         {
           "id": "musica-t01-p12",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "Si una nota está más arriba en el pentagrama, su sonido es...",
           "opciones": [
             "más agudo",
@@ -157,6 +169,7 @@
         {
           "id": "musica-t02-p01",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "¿Qué cualidad del sonido nos dice si un sonido es largo o corto?",
           "opciones": [
             "La duración",
@@ -169,6 +182,7 @@
         {
           "id": "musica-t02-p02",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "¿Qué cualidad del sonido nos dice si un sonido es fuerte o suave?",
           "opciones": [
             "La altura",
@@ -181,6 +195,7 @@
         {
           "id": "musica-t02-p03",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "¿Qué cualidad del sonido nos dice si un sonido es agudo o grave?",
           "opciones": [
             "La altura",
@@ -193,6 +208,7 @@
         {
           "id": "musica-t02-p04",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "El rugido de un león es un sonido...",
           "opciones": [
             "grave",
@@ -204,6 +220,7 @@
         {
           "id": "musica-t02-p05",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "El pitido de un pajarito es un sonido...",
           "opciones": [
             "agudo",
@@ -215,6 +232,7 @@
         {
           "id": "musica-t02-p06",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "Un susurro al oído es un sonido...",
           "opciones": [
             "fuerte",
@@ -226,6 +244,7 @@
         {
           "id": "musica-t02-p07",
           "tipo": "vf",
+          "pagina": 8,
           "enunciado": "Un sonido largo dura mucho tiempo.",
           "correcta": true,
           "explicacion": "¡Eso es! Largo quiere decir que dura mucho."
@@ -233,6 +252,7 @@
         {
           "id": "musica-t02-p08",
           "tipo": "vf",
+          "pagina": 8,
           "enunciado": "La intensidad nos dice si un sonido es agudo o grave.",
           "correcta": false,
           "explicacion": "No: agudo o grave es la altura. La intensidad es fuerte o suave."
@@ -240,6 +260,7 @@
         {
           "id": "musica-t02-p09",
           "tipo": "vf",
+          "pagina": 8,
           "enunciado": "Un portazo es un sonido fuerte.",
           "correcta": true,
           "explicacion": "Sí, un portazo suena mucho: es fuerte."
@@ -247,6 +268,7 @@
         {
           "id": "musica-t02-p10",
           "tipo": "escribir",
+          "pagina": 8,
           "enunciado": "Escribe lo contrario de un sonido «agudo»:",
           "respuestas": [
             "grave"
@@ -257,6 +279,7 @@
         {
           "id": "musica-t02-p11",
           "tipo": "relacionar",
+          "pagina": 8,
           "enunciado": "Une cada cualidad con sus dos tipos de sonido:",
           "pares": [
             [
@@ -277,6 +300,7 @@
         {
           "id": "musica-t02-p12",
           "tipo": "ordenar",
+          "pagina": 8,
           "enunciado": "Ordena estos sonidos del más suave al más fuerte:",
           "elementos": [
             "Un susurro",
@@ -298,6 +322,7 @@
         {
           "id": "musica-t03-p01",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "¿Cuántas negras duran lo mismo que una blanca?",
           "opciones": [
             "Una",
@@ -310,6 +335,7 @@
         {
           "id": "musica-t03-p02",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "¿Cuántos tiempos dura una blanca?",
           "opciones": [
             "1 tiempo",
@@ -322,6 +348,7 @@
         {
           "id": "musica-t03-p03",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "¿Dónde se escribe el silencio de blanca?",
           "opciones": [
             "Sobre la tercera línea del pentagrama",
@@ -334,6 +361,7 @@
         {
           "id": "musica-t03-p04",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "¿Qué dura más?",
           "opciones": [
             "Una blanca",
@@ -345,6 +373,7 @@
         {
           "id": "musica-t03-p05",
           "tipo": "eleccion",
+          "pagina": 11,
           "enunciado": "Un silencio de blanca dura lo mismo que...",
           "opciones": [
             "dos silencios de negra",
@@ -357,6 +386,7 @@
         {
           "id": "musica-t03-p06",
           "tipo": "vf",
+          "pagina": 11,
           "enunciado": "Durante un silencio no se toca ni se canta.",
           "correcta": true,
           "explicacion": "Sí, el silencio es un momento callado, ¡pero sigue contando!"
@@ -364,6 +394,7 @@
         {
           "id": "musica-t03-p07",
           "tipo": "vf",
+          "pagina": 11,
           "enunciado": "La blanca dura menos que la negra.",
           "correcta": false,
           "explicacion": "Al revés: la blanca dura el doble que la negra."
@@ -371,6 +402,7 @@
         {
           "id": "musica-t03-p08",
           "tipo": "vf",
+          "pagina": 11,
           "enunciado": "El silencio de blanca dura dos tiempos.",
           "correcta": true,
           "explicacion": "¡Correcto! Dura lo mismo que una blanca."
@@ -378,6 +410,7 @@
         {
           "id": "musica-t03-p09",
           "tipo": "escribir",
+          "pagina": 11,
           "enunciado": "¿Cuántos tiempos dura un silencio de blanca? Escribe el número.",
           "respuestas": [
             "2",
@@ -389,6 +422,7 @@
         {
           "id": "musica-t03-p10",
           "tipo": "escribir",
+          "pagina": 11,
           "enunciado": "¿Cómo se llama la figura que dura lo mismo que dos negras?",
           "respuestas": [
             "blanca",
@@ -400,6 +434,7 @@
         {
           "id": "musica-t03-p11",
           "tipo": "relacionar",
+          "pagina": 11,
           "enunciado": "Une cada figura con lo que dura:",
           "pares": [
             [
@@ -420,6 +455,7 @@
         {
           "id": "musica-t03-p12",
           "tipo": "ordenar",
+          "pagina": 11,
           "enunciado": "Ordena de menos a más duración:",
           "elementos": [
             "Una negra",
@@ -441,6 +477,7 @@
         {
           "id": "musica-t04-p01",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "La negra ♩ dura...",
           "opciones": [
             "1 tiempo",
@@ -453,6 +490,7 @@
         {
           "id": "musica-t04-p02",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "La corchea ♪ dura...",
           "opciones": [
             "medio tiempo",
@@ -465,6 +503,7 @@
         {
           "id": "musica-t04-p03",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "¿Cuántas corcheas ♪ duran lo mismo que una negra ♩?",
           "opciones": [
             "Una",
@@ -477,6 +516,7 @@
         {
           "id": "musica-t04-p04",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "¿Qué dura menos?",
           "opciones": [
             "Una negra ♩",
@@ -488,6 +528,7 @@
         {
           "id": "musica-t04-p05",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "En el compás de dos tiempos, ¿cuántos tiempos suma cada compás?",
           "opciones": [
             "1",
@@ -500,6 +541,7 @@
         {
           "id": "musica-t04-p06",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "¿Qué grupo completa un compás de dos tiempos?",
           "opciones": [
             "♩ ♩",
@@ -512,6 +554,7 @@
         {
           "id": "musica-t04-p07",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "¿Qué grupo completa también un compás de dos tiempos?",
           "opciones": [
             "♫ ♩",
@@ -524,6 +567,7 @@
         {
           "id": "musica-t04-p08",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Una blanca dura lo mismo que dos negras.",
           "correcta": true,
           "explicacion": "Sí: 1 + 1 = 2 tiempos, como la blanca."
@@ -531,6 +575,7 @@
         {
           "id": "musica-t04-p09",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Una blanca sola llena un compás de dos tiempos.",
           "correcta": true,
           "explicacion": "¡Exacto! La blanca dura 2 tiempos."
@@ -538,6 +583,7 @@
         {
           "id": "musica-t04-p10",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Una corchea dura más que una blanca.",
           "correcta": false,
           "explicacion": "No: la corchea dura medio tiempo y la blanca dos."
@@ -545,6 +591,7 @@
         {
           "id": "musica-t04-p11",
           "tipo": "escribir",
+          "pagina": 12,
           "enunciado": "¿Cuántos tiempos suman ♩ ♩? Escribe el número.",
           "respuestas": [
             "2",
@@ -556,6 +603,7 @@
         {
           "id": "musica-t04-p12",
           "tipo": "ordenar",
+          "pagina": 12,
           "enunciado": "Ordena de la figura más corta a la más larga:",
           "elementos": [
             "Corchea ♪",
@@ -567,6 +615,7 @@
         {
           "id": "musica-t04-p13",
           "tipo": "relacionar",
+          "pagina": 12,
           "enunciado": "Une cada figura con lo que dura:",
           "pares": [
             [
@@ -597,6 +646,7 @@
         {
           "id": "musica-t05-p01",
           "tipo": "eleccion",
+          "pagina": 15,
           "enunciado": "¿Dónde se escribe el indicador de compás?",
           "opciones": [
             "Al principio del pentagrama",
@@ -609,6 +659,7 @@
         {
           "id": "musica-t05-p02",
           "tipo": "eleccion",
+          "pagina": 15,
           "enunciado": "¿Qué separa un compás de otro?",
           "opciones": [
             "La línea divisoria",
@@ -621,6 +672,7 @@
         {
           "id": "musica-t05-p03",
           "tipo": "eleccion",
+          "pagina": 15,
           "enunciado": "¿Qué se escribe para terminar una obra musical?",
           "opciones": [
             "Una doble barra final",
@@ -633,6 +685,7 @@
         {
           "id": "musica-t05-p04",
           "tipo": "eleccion",
+          "pagina": 15,
           "enunciado": "Si el indicador de compás tiene un 2 arriba, cada compás tiene...",
           "opciones": [
             "2 tiempos",
@@ -645,6 +698,7 @@
         {
           "id": "musica-t05-p05",
           "tipo": "vf",
+          "pagina": 15,
           "enunciado": "Las líneas divisorias se escriben de forma vertical, de arriba abajo del pentagrama.",
           "correcta": true,
           "explicacion": "Sí, cruzan el pentagrama de arriba abajo."
@@ -652,6 +706,7 @@
         {
           "id": "musica-t05-p06",
           "tipo": "vf",
+          "pagina": 15,
           "enunciado": "La doble barra final se escribe al principio de la partitura.",
           "correcta": false,
           "explicacion": "No, la doble barra final va al final, ¡como su nombre dice!"
@@ -659,6 +714,7 @@
         {
           "id": "musica-t05-p07",
           "tipo": "vf",
+          "pagina": 15,
           "enunciado": "Un compás es el espacio entre dos líneas divisorias.",
           "correcta": true,
           "explicacion": "¡Correcto! Las líneas divisorias marcan dónde empieza y acaba cada compás."
@@ -666,6 +722,7 @@
         {
           "id": "musica-t05-p08",
           "tipo": "escribir",
+          "pagina": 15,
           "enunciado": "¿Cómo se llama la línea que separa los compases? (línea ...)",
           "respuestas": [
             "divisoria",
@@ -677,6 +734,7 @@
         {
           "id": "musica-t05-p09",
           "tipo": "eleccion",
+          "pagina": 14,
           "enunciado": "El reloj sincopado es una obra que imita el sonido de...",
           "opciones": [
             "un reloj",
@@ -689,6 +747,7 @@
         {
           "id": "musica-t05-p10",
           "tipo": "ordenar",
+          "pagina": 15,
           "enunciado": "Ordena cómo aparecen en una partitura, de izquierda a derecha:",
           "elementos": [
             "Indicador de compás",
@@ -700,6 +759,7 @@
         {
           "id": "musica-t05-p11",
           "tipo": "relacionar",
+          "pagina": 15,
           "enunciado": "Une cada signo con lo que hace:",
           "pares": [
             [
@@ -720,6 +780,7 @@
         {
           "id": "musica-t05-p12",
           "tipo": "escribir",
+          "pagina": 15,
           "enunciado": "Una partitura tiene 3 líneas divisorias y una doble barra final. ¿Cuántos compases tiene? Escribe el número.",
           "respuestas": [
             "4",
@@ -741,6 +802,7 @@
         {
           "id": "musica-t06-p01",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "¿Cómo se toca la trompeta?",
           "opciones": [
             "Soplando y haciendo vibrar los labios en la boquilla",
@@ -753,6 +815,7 @@
         {
           "id": "musica-t06-p02",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "¿Por dónde se sopla la trompeta?",
           "opciones": [
             "Por la boquilla",
@@ -765,6 +828,7 @@
         {
           "id": "musica-t06-p03",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "¿A qué familia de instrumentos pertenece la trompeta?",
           "opciones": [
             "Viento",
@@ -777,6 +841,7 @@
         {
           "id": "musica-t06-p04",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "¿De qué material está hecha la trompeta?",
           "opciones": [
             "Metal",
@@ -789,6 +854,7 @@
         {
           "id": "musica-t06-p05",
           "tipo": "vf",
+          "pagina": 17,
           "enunciado": "La trompeta se toca con baquetas.",
           "correcta": false,
           "explicacion": "No, la trompeta se toca soplando."
@@ -796,6 +862,7 @@
         {
           "id": "musica-t06-p06",
           "tipo": "vf",
+          "pagina": 17,
           "enunciado": "Para tocar la trompeta hay que hacer vibrar los labios.",
           "correcta": true,
           "explicacion": "¡Sí! La vibración de los labios produce el sonido."
@@ -803,6 +870,7 @@
         {
           "id": "musica-t06-p07",
           "tipo": "vf",
+          "pagina": 17,
           "enunciado": "La trompeta puede sonar muy fuerte.",
           "correcta": true,
           "explicacion": "Sí, tiene un sonido potente y brillante."
@@ -810,6 +878,7 @@
         {
           "id": "musica-t06-p08",
           "tipo": "escribir",
+          "pagina": 17,
           "enunciado": "¿Cómo se llama la pieza de la trompeta donde se ponen los labios?",
           "respuestas": [
             "boquilla",
@@ -821,6 +890,7 @@
         {
           "id": "musica-t06-p09",
           "tipo": "eleccion",
+          "pagina": 16,
           "enunciado": "¿En qué fiesta se baila la canción con trompeta de tu libro?",
           "opciones": [
             "Halloween",
@@ -833,6 +903,7 @@
         {
           "id": "musica-t06-p10",
           "tipo": "ordenar",
+          "pagina": 17,
           "enunciado": "Ordena los pasos para que suene la trompeta:",
           "elementos": [
             "Apoyar los labios en la boquilla",
@@ -844,6 +915,7 @@
         {
           "id": "musica-t06-p11",
           "tipo": "relacionar",
+          "pagina": 17,
           "enunciado": "Une cada instrumento con cómo se toca:",
           "pares": [
             [
@@ -864,6 +936,7 @@
         {
           "id": "musica-t06-p12",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "¿Cuál de estos instrumentos se parece más a la trompeta en cómo se toca?",
           "opciones": [
             "El trombón",
@@ -886,6 +959,7 @@
         {
           "id": "musica-t07-p01",
           "tipo": "eleccion",
+          "pagina": 18,
           "enunciado": "¿Dónde se escribe la nota la?",
           "opciones": [
             "En el segundo espacio",
@@ -898,6 +972,7 @@
         {
           "id": "musica-t07-p02",
           "tipo": "eleccion",
+          "pagina": 18,
           "enunciado": "¿Qué nota está justo debajo de la nota la en el pentagrama?",
           "opciones": [
             "Sol",
@@ -910,6 +985,7 @@
         {
           "id": "musica-t07-p03",
           "tipo": "eleccion",
+          "pagina": 18,
           "enunciado": "¿Qué lugar ocupa la nota la en la serie do, re, mi, fa, sol, la?",
           "opciones": [
             "Sexta",
@@ -922,6 +998,7 @@
         {
           "id": "musica-t07-p04",
           "tipo": "eleccion",
+          "pagina": 18,
           "enunciado": "¿Qué nota de estas es la más aguda?",
           "opciones": [
             "La",
@@ -934,6 +1011,7 @@
         {
           "id": "musica-t07-p05",
           "tipo": "vf",
+          "pagina": 18,
           "enunciado": "La nota la se escribe en una línea del pentagrama.",
           "correcta": false,
           "explicacion": "No, la nota la está en un espacio: el segundo espacio."
@@ -941,6 +1019,7 @@
         {
           "id": "musica-t07-p06",
           "tipo": "vf",
+          "pagina": 18,
           "enunciado": "Los espacios del pentagrama también se cuentan de abajo arriba.",
           "correcta": true,
           "explicacion": "Sí, igual que las líneas."
@@ -948,6 +1027,7 @@
         {
           "id": "musica-t07-p07",
           "tipo": "vf",
+          "pagina": 18,
           "enunciado": "La nota la suena más aguda que la nota mi.",
           "correcta": true,
           "explicacion": "¡Correcto! Está más arriba en el pentagrama."
@@ -955,6 +1035,7 @@
         {
           "id": "musica-t07-p08",
           "tipo": "escribir",
+          "pagina": 18,
           "enunciado": "¿Cuántos espacios tiene el pentagrama? Escribe el número.",
           "respuestas": [
             "4",
@@ -966,6 +1047,7 @@
         {
           "id": "musica-t07-p09",
           "tipo": "escribir",
+          "pagina": 18,
           "enunciado": "Escribe la nota que va después de sol en la serie do, re, mi, fa, sol...",
           "respuestas": [
             "la"
@@ -976,6 +1058,7 @@
         {
           "id": "musica-t07-p10",
           "tipo": "ordenar",
+          "pagina": 18,
           "enunciado": "Ordena estas notas de la más grave a la más aguda:",
           "elementos": [
             "mi",
@@ -987,6 +1070,7 @@
         {
           "id": "musica-t07-p11",
           "tipo": "relacionar",
+          "pagina": 18,
           "enunciado": "Une cada nota con su lugar en el pentagrama:",
           "pares": [
             [
@@ -1007,6 +1091,7 @@
         {
           "id": "musica-t07-p12",
           "tipo": "ordenar",
+          "pagina": 18,
           "enunciado": "Ordena la serie de notas:",
           "elementos": [
             "do",
@@ -1030,6 +1115,7 @@
         {
           "id": "musica-t08-p01",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Cómo se llama la parte de una canción que se repite siempre igual?",
           "opciones": [
             "Estribillo",
@@ -1042,6 +1128,7 @@
         {
           "id": "musica-t08-p02",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Qué parte de la canción cambia de letra cada vez?",
           "opciones": [
             "La estrofa",
@@ -1053,6 +1140,7 @@
         {
           "id": "musica-t08-p03",
           "tipo": "eleccion",
+          "pagina": 20,
           "enunciado": "«Din don, din don» es un villancico. ¿En qué fiesta se cantan los villancicos?",
           "opciones": [
             "Navidad",
@@ -1065,6 +1153,7 @@
         {
           "id": "musica-t08-p04",
           "tipo": "eleccion",
+          "pagina": 20,
           "enunciado": "«Din don» imita el sonido de...",
           "opciones": [
             "unas campanas",
@@ -1077,6 +1166,7 @@
         {
           "id": "musica-t08-p05",
           "tipo": "vf",
+          "pagina": 21,
           "enunciado": "El estribillo tiene la misma letra cada vez que suena.",
           "correcta": true,
           "explicacion": "¡Sí! Por eso es fácil de recordar."
@@ -1084,6 +1174,7 @@
         {
           "id": "musica-t08-p06",
           "tipo": "vf",
+          "pagina": 21,
           "enunciado": "Todas las estrofas de una canción tienen la misma letra.",
           "correcta": false,
           "explicacion": "No, cada estrofa tiene distinta letra."
@@ -1091,6 +1182,7 @@
         {
           "id": "musica-t08-p07",
           "tipo": "vf",
+          "pagina": 21,
           "enunciado": "Una canción puede alternar estrofas y estribillo.",
           "correcta": true,
           "explicacion": "Sí, es muy habitual: estrofa, estribillo, estrofa, estribillo..."
@@ -1098,6 +1190,7 @@
         {
           "id": "musica-t08-p08",
           "tipo": "escribir",
+          "pagina": 21,
           "enunciado": "¿Cómo se llama la parte que se repite en una canción?",
           "respuestas": [
             "estribillo",
@@ -1109,6 +1202,7 @@
         {
           "id": "musica-t08-p09",
           "tipo": "ordenar",
+          "pagina": 21,
           "enunciado": "Ordena una canción típica que empieza por estrofa:",
           "elementos": [
             "Estrofa 1",
@@ -1121,6 +1215,7 @@
         {
           "id": "musica-t08-p10",
           "tipo": "relacionar",
+          "pagina": 21,
           "enunciado": "Une cada parte con su descripción:",
           "pares": [
             [
@@ -1141,6 +1236,7 @@
         {
           "id": "musica-t08-p11",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "Si una canción tiene 3 estrofas y después de cada una suena el estribillo, ¿cuántas veces suena el estribillo?",
           "opciones": [
             "3",
@@ -1153,6 +1249,7 @@
         {
           "id": "musica-t08-p12",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Qué parte de una canción suele cantar todo el público a la vez porque se la sabe?",
           "opciones": [
             "El estribillo",
@@ -1174,6 +1271,7 @@
         {
           "id": "musica-t09-p01",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "¿Con qué se tocan los instrumentos de láminas?",
           "opciones": [
             "Con baquetas",
@@ -1186,6 +1284,7 @@
         {
           "id": "musica-t09-p02",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "Cuanto más larga es una lámina, su sonido es...",
           "opciones": [
             "más grave",
@@ -1198,6 +1297,7 @@
         {
           "id": "musica-t09-p03",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "¿Cuál de estos es un instrumento de láminas?",
           "opciones": [
             "El xilófono",
@@ -1210,6 +1310,7 @@
         {
           "id": "musica-t09-p04",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "¿Cuál de estos instrumentos de láminas es el más pequeño y agudo?",
           "opciones": [
             "El carillón",
@@ -1222,6 +1323,7 @@
         {
           "id": "musica-t09-p05",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "¿Dónde conviene golpear la lámina para que suene bien?",
           "opciones": [
             "En el centro",
@@ -1234,6 +1336,7 @@
         {
           "id": "musica-t09-p06",
           "tipo": "vf",
+          "pagina": 29,
           "enunciado": "Cada lámina corresponde a una nota musical.",
           "correcta": true,
           "explicacion": "Sí, cada lámina da una nota distinta."
@@ -1241,6 +1344,7 @@
         {
           "id": "musica-t09-p07",
           "tipo": "vf",
+          "pagina": 29,
           "enunciado": "Una lámina corta suena más grave que una larga.",
           "correcta": false,
           "explicacion": "Al revés: las cortas suenan más agudas."
@@ -1248,6 +1352,7 @@
         {
           "id": "musica-t09-p08",
           "tipo": "vf",
+          "pagina": 29,
           "enunciado": "Las láminas del metalófono son de metal.",
           "correcta": true,
           "explicacion": "¡Su nombre lo dice! Metal-ófono."
@@ -1255,6 +1360,7 @@
         {
           "id": "musica-t09-p09",
           "tipo": "escribir",
+          "pagina": 29,
           "enunciado": "¿Cómo se llaman los palitos con los que se toca el xilófono?",
           "respuestas": [
             "baquetas",
@@ -1267,6 +1373,7 @@
         {
           "id": "musica-t09-p10",
           "tipo": "ordenar",
+          "pagina": 29,
           "enunciado": "Ordena estas láminas de la que suena más grave a la que suena más aguda:",
           "elementos": [
             "Lámina muy larga",
@@ -1278,6 +1385,7 @@
         {
           "id": "musica-t09-p11",
           "tipo": "relacionar",
+          "pagina": 29,
           "enunciado": "Une cada instrumento con su descripción:",
           "pares": [
             [
@@ -1298,6 +1406,7 @@
         {
           "id": "musica-t09-p12",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "¿A qué familia de instrumentos pertenece el xilófono?",
           "opciones": [
             "Percusión",
@@ -1320,6 +1429,7 @@
         {
           "id": "musica-t10-p01",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Qué significa «forte» en música?",
           "opciones": [
             "Fuerte",
@@ -1332,6 +1442,7 @@
         {
           "id": "musica-t10-p02",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Qué significa «piano» como indicación de intensidad?",
           "opciones": [
             "Suave",
@@ -1344,6 +1455,7 @@
         {
           "id": "musica-t10-p03",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Qué letra se escribe en la partitura para indicar forte?",
           "opciones": [
             "f",
@@ -1356,6 +1468,7 @@
         {
           "id": "musica-t10-p04",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Qué letra se escribe en la partitura para indicar piano?",
           "opciones": [
             "p",
@@ -1368,6 +1481,7 @@
         {
           "id": "musica-t10-p05",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Dónde se escriben la f y la p en la partitura?",
           "opciones": [
             "Debajo del pentagrama",
@@ -1380,6 +1494,7 @@
         {
           "id": "musica-t10-p06",
           "tipo": "eleccion",
+          "pagina": 31,
           "enunciado": "¿Qué cualidad del sonido indican forte y piano?",
           "opciones": [
             "La intensidad",
@@ -1392,6 +1507,7 @@
         {
           "id": "musica-t10-p07",
           "tipo": "vf",
+          "pagina": 31,
           "enunciado": "Si ves una p debajo del pentagrama, debes tocar fuerte.",
           "correcta": false,
           "explicacion": "No, la p significa piano: suave."
@@ -1399,6 +1515,7 @@
         {
           "id": "musica-t10-p08",
           "tipo": "vf",
+          "pagina": 31,
           "enunciado": "Si ves una f debajo del pentagrama, debes tocar fuerte.",
           "correcta": true,
           "explicacion": "¡Eso es! f de forte."
@@ -1406,6 +1523,7 @@
         {
           "id": "musica-t10-p09",
           "tipo": "vf",
+          "pagina": 31,
           "enunciado": "Para que un bebé no se despierte, cantaríamos piano.",
           "correcta": true,
           "explicacion": "Sí, cantaríamos suave."
@@ -1413,6 +1531,7 @@
         {
           "id": "musica-t10-p10",
           "tipo": "escribir",
+          "pagina": 31,
           "enunciado": "Escribe la letra que indica que hay que tocar suave.",
           "respuestas": [
             "p"
@@ -1423,6 +1542,7 @@
         {
           "id": "musica-t10-p11",
           "tipo": "relacionar",
+          "pagina": 31,
           "enunciado": "Une cada palabra o letra con su significado:",
           "pares": [
             [
@@ -1447,6 +1567,7 @@
         {
           "id": "musica-t10-p12",
           "tipo": "ordenar",
+          "pagina": 31,
           "enunciado": "Ordena estos momentos en una canción que dice: primero p, luego f, luego p",
           "elementos": [
             "Suave",
@@ -1468,6 +1589,7 @@
         {
           "id": "musica-t11-p01",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "¿Dónde se escribe la nota do?",
           "opciones": [
             "Debajo del pentagrama, en una línea adicional",
@@ -1480,6 +1602,7 @@
         {
           "id": "musica-t11-p02",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "¿Dónde se escribe la nota re?",
           "opciones": [
             "Justo debajo de la primera línea",
@@ -1492,6 +1615,7 @@
         {
           "id": "musica-t11-p03",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "¿Para qué sirve una línea adicional?",
           "opciones": [
             "Para escribir notas fuera del pentagrama",
@@ -1504,6 +1628,7 @@
         {
           "id": "musica-t11-p04",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "¿Qué nota es la más grave?",
           "opciones": [
             "Do",
@@ -1516,6 +1641,7 @@
         {
           "id": "musica-t11-p05",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "¿Qué nota está entre do y mi?",
           "opciones": [
             "Re",
@@ -1528,6 +1654,7 @@
         {
           "id": "musica-t11-p06",
           "tipo": "vf",
+          "pagina": 33,
           "enunciado": "La nota do se escribe dentro de las cinco líneas del pentagrama.",
           "correcta": false,
           "explicacion": "No, do está debajo, en una línea adicional."
@@ -1535,6 +1662,7 @@
         {
           "id": "musica-t11-p07",
           "tipo": "vf",
+          "pagina": 33,
           "enunciado": "La nota re suena más grave que la nota mi.",
           "correcta": true,
           "explicacion": "Sí, re está más abajo que mi."
@@ -1542,6 +1670,7 @@
         {
           "id": "musica-t11-p08",
           "tipo": "vf",
+          "pagina": 33,
           "enunciado": "La línea adicional es más corta que las líneas del pentagrama.",
           "correcta": true,
           "explicacion": "Sí, es una rayita corta solo para esa nota."
@@ -1549,6 +1678,7 @@
         {
           "id": "musica-t11-p09",
           "tipo": "escribir",
+          "pagina": 33,
           "enunciado": "¿Cómo se llama la nota que se escribe sobre la línea adicional de abajo?",
           "respuestas": [
             "do"
@@ -1559,6 +1689,7 @@
         {
           "id": "musica-t11-p10",
           "tipo": "ordenar",
+          "pagina": 33,
           "enunciado": "Ordena de la más grave a la más aguda:",
           "elementos": [
             "do",
@@ -1572,6 +1703,7 @@
         {
           "id": "musica-t11-p11",
           "tipo": "relacionar",
+          "pagina": 33,
           "enunciado": "Une cada nota con su lugar:",
           "pares": [
             [
@@ -1596,6 +1728,7 @@
         {
           "id": "musica-t11-p12",
           "tipo": "escribir",
+          "pagina": 33,
           "enunciado": "¿Cómo se llama la línea pequeña que se añade fuera del pentagrama? (línea ...)",
           "respuestas": [
             "adicional",
@@ -1617,6 +1750,7 @@
         {
           "id": "musica-t12-p01",
           "tipo": "eleccion",
+          "pagina": 35,
           "enunciado": "¿Qué canción cantamos en un cumpleaños?",
           "opciones": [
             "Cumpleaños feliz",
@@ -1629,6 +1763,7 @@
         {
           "id": "musica-t12-p02",
           "tipo": "eleccion",
+          "pagina": 35,
           "enunciado": "¿En qué fiesta cantamos villancicos?",
           "opciones": [
             "Navidad",
@@ -1641,6 +1776,7 @@
         {
           "id": "musica-t12-p03",
           "tipo": "eleccion",
+          "pagina": 34,
           "enunciado": "La samba es un baile típico de...",
           "opciones": [
             "Brasil",
@@ -1653,6 +1789,7 @@
         {
           "id": "musica-t12-p04",
           "tipo": "eleccion",
+          "pagina": 35,
           "enunciado": "¿En qué fiesta la gente se disfraza y baila por la calle con mucha música?",
           "opciones": [
             "Carnaval",
@@ -1665,6 +1802,7 @@
         {
           "id": "musica-t12-p05",
           "tipo": "vf",
+          "pagina": 35,
           "enunciado": "La música acompaña muchas celebraciones.",
           "correcta": true,
           "explicacion": "Sí: cumpleaños, bodas, Navidad, Carnaval..."
@@ -1672,6 +1810,7 @@
         {
           "id": "musica-t12-p06",
           "tipo": "vf",
+          "pagina": 35,
           "enunciado": "En todas las fiestas del mundo se toca la misma canción.",
           "correcta": false,
           "explicacion": "No, cada fiesta y cada lugar tiene sus propias músicas."
@@ -1679,6 +1818,7 @@
         {
           "id": "musica-t12-p07",
           "tipo": "vf",
+          "pagina": 34,
           "enunciado": "Samba Lelé es una canción popular de Brasil.",
           "correcta": true,
           "explicacion": "¡Así es!"
@@ -1686,6 +1826,7 @@
         {
           "id": "musica-t12-p08",
           "tipo": "escribir",
+          "pagina": 34,
           "enunciado": "¿Cómo se llama el baile típico del Carnaval de Brasil?",
           "respuestas": [
             "samba",
@@ -1697,6 +1838,7 @@
         {
           "id": "musica-t12-p09",
           "tipo": "relacionar",
+          "pagina": 35,
           "enunciado": "Une cada celebración con su música:",
           "pares": [
             [
@@ -1717,6 +1859,7 @@
         {
           "id": "musica-t12-p10",
           "tipo": "ordenar",
+          "pagina": 35,
           "enunciado": "Ordena estas fiestas como aparecen en el año escolar (de septiembre a junio):",
           "elementos": [
             "Halloween",
@@ -1728,6 +1871,7 @@
         {
           "id": "musica-t12-p11",
           "tipo": "eleccion",
+          "pagina": 34,
           "enunciado": "¿Qué instrumento se usa mucho en la samba?",
           "opciones": [
             "El tambor",
@@ -1740,6 +1884,7 @@
         {
           "id": "musica-t12-p12",
           "tipo": "eleccion",
+          "pagina": 35,
           "enunciado": "¿Para qué sirve la música en una fiesta?",
           "opciones": [
             "Para alegrarla y bailar juntos",
@@ -1762,6 +1907,7 @@
         {
           "id": "musica-t13-p01",
           "tipo": "eleccion",
+          "pagina": 37,
           "enunciado": "¿Cómo se tocan el clarinete y el fagot?",
           "opciones": [
             "Soplando por una boquilla",
@@ -1774,6 +1920,7 @@
         {
           "id": "musica-t13-p02",
           "tipo": "eleccion",
+          "pagina": 37,
           "enunciado": "¿Cuál es más grande?",
           "opciones": [
             "El fagot",
@@ -1785,6 +1932,7 @@
         {
           "id": "musica-t13-p03",
           "tipo": "eleccion",
+          "pagina": 37,
           "enunciado": "¿Cuál suena más grave?",
           "opciones": [
             "El fagot",
@@ -1796,6 +1944,7 @@
         {
           "id": "musica-t13-p04",
           "tipo": "eleccion",
+          "pagina": 37,
           "enunciado": "¿A qué familia pertenecen el clarinete y el fagot?",
           "opciones": [
             "Viento",
@@ -1808,6 +1957,7 @@
         {
           "id": "musica-t13-p05",
           "tipo": "eleccion",
+          "pagina": 36,
           "enunciado": "«Nimbus 2000» es música de una película de...",
           "opciones": [
             "Harry Potter",
@@ -1820,6 +1970,7 @@
         {
           "id": "musica-t13-p06",
           "tipo": "vf",
+          "pagina": 37,
           "enunciado": "El clarinete suena más agudo que el fagot.",
           "correcta": true,
           "explicacion": "Sí, el clarinete es más pequeño y suena más agudo."
@@ -1827,6 +1978,7 @@
         {
           "id": "musica-t13-p07",
           "tipo": "vf",
+          "pagina": 37,
           "enunciado": "El fagot se toca con un arco.",
           "correcta": false,
           "explicacion": "No, el fagot se toca soplando."
@@ -1834,6 +1986,7 @@
         {
           "id": "musica-t13-p08",
           "tipo": "vf",
+          "pagina": 37,
           "enunciado": "Por lo general, cuanto más grande es un instrumento, más grave suena.",
           "correcta": true,
           "explicacion": "¡Exacto! Pasa con el fagot, el violonchelo o las láminas largas."
@@ -1841,6 +1994,7 @@
         {
           "id": "musica-t13-p09",
           "tipo": "escribir",
+          "pagina": 37,
           "enunciado": "Escribe el nombre del instrumento de viento más grave de estos dos: clarinete o fagot.",
           "respuestas": [
             "fagot",
@@ -1852,6 +2006,7 @@
         {
           "id": "musica-t13-p10",
           "tipo": "ordenar",
+          "pagina": 37,
           "enunciado": "Ordena de más pequeño a más grande:",
           "elementos": [
             "Flauta dulce",
@@ -1863,6 +2018,7 @@
         {
           "id": "musica-t13-p11",
           "tipo": "relacionar",
+          "pagina": 37,
           "enunciado": "Une cada instrumento con su familia:",
           "pares": [
             [
@@ -1883,6 +2039,7 @@
         {
           "id": "musica-t13-p12",
           "tipo": "eleccion",
+          "pagina": 37,
           "enunciado": "¿Qué tienen en común la trompeta, el clarinete y el fagot?",
           "opciones": [
             "Se tocan soplando",
@@ -1905,6 +2062,7 @@
         {
           "id": "musica-t14-p01",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "¿Qué significa «adagio»?",
           "opciones": [
             "Despacio",
@@ -1917,6 +2075,7 @@
         {
           "id": "musica-t14-p02",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "¿Qué significa «allegro»?",
           "opciones": [
             "Rápido",
@@ -1929,6 +2088,7 @@
         {
           "id": "musica-t14-p03",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "¿Qué significa «andante»?",
           "opciones": [
             "A velocidad normal",
@@ -1941,6 +2101,7 @@
         {
           "id": "musica-t14-p04",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "¿Dónde se escribe la velocidad en una partitura?",
           "opciones": [
             "Encima del pentagrama",
@@ -1953,6 +2114,7 @@
         {
           "id": "musica-t14-p05",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "Una nana para dormir a un bebé se toca...",
           "opciones": [
             "adagio",
@@ -1964,6 +2126,7 @@
         {
           "id": "musica-t14-p06",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "Una música para una carrera se tocaría...",
           "opciones": [
             "allegro",
@@ -1975,6 +2138,7 @@
         {
           "id": "musica-t14-p07",
           "tipo": "vf",
+          "pagina": 38,
           "enunciado": "Allegro es más lento que adagio.",
           "correcta": false,
           "explicacion": "Al revés: allegro es rápido y adagio despacio."
@@ -1982,6 +2146,7 @@
         {
           "id": "musica-t14-p08",
           "tipo": "vf",
+          "pagina": 38,
           "enunciado": "Andante es una velocidad intermedia entre adagio y allegro.",
           "correcta": true,
           "explicacion": "Sí, ni lento ni rápido."
@@ -1989,6 +2154,7 @@
         {
           "id": "musica-t14-p09",
           "tipo": "vf",
+          "pagina": 38,
           "enunciado": "La palabra «piano» indica velocidad.",
           "correcta": false,
           "explicacion": "No, piano indica intensidad (suave). La velocidad es adagio, andante o allegro."
@@ -1996,6 +2162,7 @@
         {
           "id": "musica-t14-p10",
           "tipo": "escribir",
+          "pagina": 38,
           "enunciado": "Escribe la palabra que indica que la música va rápido.",
           "respuestas": [
             "allegro"
@@ -2006,6 +2173,7 @@
         {
           "id": "musica-t14-p11",
           "tipo": "ordenar",
+          "pagina": 38,
           "enunciado": "Ordena de la más lenta a la más rápida:",
           "elementos": [
             "adagio",
@@ -2017,6 +2185,7 @@
         {
           "id": "musica-t14-p12",
           "tipo": "relacionar",
+          "pagina": 38,
           "enunciado": "Une cada palabra con lo que se mueve a esa velocidad:",
           "pares": [
             [
@@ -2047,6 +2216,7 @@
         {
           "id": "musica-t15-p01",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "¿Qué es un eco musical?",
           "opciones": [
             "Repetir algo exactamente igual",
@@ -2059,6 +2229,7 @@
         {
           "id": "musica-t15-p02",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "Si alguien canta «la-la-sol» y tú cantas «la-la-sol», has hecho...",
           "opciones": [
             "un eco",
@@ -2070,6 +2241,7 @@
         {
           "id": "musica-t15-p03",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "Si alguien canta «sol-sol-mi» y tú contestas «mi-sol-la», has hecho...",
           "opciones": [
             "una respuesta",
@@ -2081,6 +2253,7 @@
         {
           "id": "musica-t15-p04",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "En una pregunta-respuesta musical, la respuesta es...",
           "opciones": [
             "una frase diferente que contesta a la pregunta",
@@ -2093,6 +2266,7 @@
         {
           "id": "musica-t15-p05",
           "tipo": "vf",
+          "pagina": 41,
           "enunciado": "En un eco, se cambian las notas.",
           "correcta": false,
           "explicacion": "No, en el eco todo se repite igual."
@@ -2100,6 +2274,7 @@
         {
           "id": "musica-t15-p06",
           "tipo": "vf",
+          "pagina": 41,
           "enunciado": "La pregunta y la respuesta musical pueden hacerlas dos personas.",
           "correcta": true,
           "explicacion": "¡Sí! Es como una conversación con música."
@@ -2107,6 +2282,7 @@
         {
           "id": "musica-t15-p07",
           "tipo": "vf",
+          "pagina": 41,
           "enunciado": "El eco también ocurre en la naturaleza, por ejemplo al gritar en una montaña.",
           "correcta": true,
           "explicacion": "Sí, la montaña nos devuelve el sonido repetido."
@@ -2114,6 +2290,7 @@
         {
           "id": "musica-t15-p08",
           "tipo": "escribir",
+          "pagina": 41,
           "enunciado": "¿Cómo se llama cuando la música se repite exactamente igual?",
           "respuestas": [
             "eco",
@@ -2126,6 +2303,7 @@
         {
           "id": "musica-t15-p09",
           "tipo": "ordenar",
+          "pagina": 41,
           "enunciado": "Ordena un juego de eco:",
           "elementos": [
             "La profesora toca un ritmo",
@@ -2137,6 +2315,7 @@
         {
           "id": "musica-t15-p10",
           "tipo": "relacionar",
+          "pagina": 41,
           "enunciado": "Une cada situación con su nombre:",
           "pares": [
             [
@@ -2157,6 +2336,7 @@
         {
           "id": "musica-t15-p11",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "Si un ritmo es ♩ ♫ ♩, ¿cuál sería su eco?",
           "opciones": [
             "♩ ♫ ♩",
@@ -2169,6 +2349,7 @@
         {
           "id": "musica-t15-p12",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "Una conversación entre dos personas se parece más a...",
           "opciones": [
             "una pregunta-respuesta",
@@ -2190,6 +2371,7 @@
         {
           "id": "musica-t16-p01",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "En el compás de tres tiempos, ¿cuántos tiempos suma cada compás?",
           "opciones": [
             "2",
@@ -2202,6 +2384,7 @@
         {
           "id": "musica-t16-p02",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "¿Qué grupo completa un compás de tres tiempos?",
           "opciones": [
             "♩ ♩ ♩",
@@ -2214,6 +2397,7 @@
         {
           "id": "musica-t16-p03",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "¿Qué grupo también completa un compás de tres tiempos?",
           "opciones": [
             "Una blanca y una negra ♩",
@@ -2226,6 +2410,7 @@
         {
           "id": "musica-t16-p04",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "¿Qué grupo completa un compás de tres tiempos?",
           "opciones": [
             "♫ ♩ ♩",
@@ -2238,6 +2423,7 @@
         {
           "id": "musica-t16-p05",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "¿Qué vale cada tiempo en el compás de tres tiempos?",
           "opciones": [
             "Una negra",
@@ -2250,6 +2436,7 @@
         {
           "id": "musica-t16-p06",
           "tipo": "vf",
+          "pagina": 43,
           "enunciado": "El minueto es un baile en compás de tres tiempos.",
           "correcta": true,
           "explicacion": "Sí, el minueto se cuenta 1-2-3, 1-2-3."
@@ -2257,6 +2444,7 @@
         {
           "id": "musica-t16-p07",
           "tipo": "vf",
+          "pagina": 43,
           "enunciado": "Dos negras ♩ ♩ completan un compás de tres tiempos.",
           "correcta": false,
           "explicacion": "No, solo suman 2. Falta una negra más."
@@ -2264,6 +2452,7 @@
         {
           "id": "musica-t16-p08",
           "tipo": "vf",
+          "pagina": 42,
           "enunciado": "El autor del Minueto de tu libro es Johann Sebastian Bach.",
           "correcta": true,
           "explicacion": "¡Sí! Bach fue un gran compositor."
@@ -2271,6 +2460,7 @@
         {
           "id": "musica-t16-p09",
           "tipo": "escribir",
+          "pagina": 43,
           "enunciado": "¿Cuántos tiempos suman una blanca y una negra? Escribe el número.",
           "respuestas": [
             "3",
@@ -2282,6 +2472,7 @@
         {
           "id": "musica-t16-p10",
           "tipo": "ordenar",
+          "pagina": 43,
           "enunciado": "Ordena cómo se cuentan los tiempos en un compás de tres:",
           "elementos": [
             "1",
@@ -2293,6 +2484,7 @@
         {
           "id": "musica-t16-p11",
           "tipo": "relacionar",
+          "pagina": 43,
           "enunciado": "Une cada grupo con los tiempos que suma:",
           "pares": [
             [
@@ -2313,6 +2505,7 @@
         {
           "id": "musica-t16-p12",
           "tipo": "eleccion",
+          "pagina": 43,
           "enunciado": "Si el indicador de compás tiene un 3 arriba, es un compás de...",
           "opciones": [
             "tres tiempos",
@@ -2335,6 +2528,7 @@
         {
           "id": "musica-t17-p01",
           "tipo": "eleccion",
+          "pagina": 51,
           "enunciado": "¿Qué es un paisaje sonoro?",
           "opciones": [
             "Todos los sonidos de un lugar en un momento",
@@ -2347,6 +2541,7 @@
         {
           "id": "musica-t17-p02",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "¿Qué sonido esperas en el paisaje sonoro de una playa?",
           "opciones": [
             "Olas",
@@ -2359,6 +2554,7 @@
         {
           "id": "musica-t17-p03",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "¿Qué sonido esperas en el paisaje sonoro de una ciudad?",
           "opciones": [
             "Coches y bocinas",
@@ -2371,6 +2567,7 @@
         {
           "id": "musica-t17-p04",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "¿Qué sonido esperas en un bosque?",
           "opciones": [
             "Pájaros cantando",
@@ -2383,6 +2580,7 @@
         {
           "id": "musica-t17-p05",
           "tipo": "vf",
+          "pagina": 51,
           "enunciado": "Un mismo lugar puede sonar distinto por la mañana y por la noche.",
           "correcta": true,
           "explicacion": "Sí, por eso el paisaje sonoro depende también del momento."
@@ -2390,6 +2588,7 @@
         {
           "id": "musica-t17-p06",
           "tipo": "vf",
+          "pagina": 50,
           "enunciado": "El paisaje sonoro de un patio en el recreo es silencioso.",
           "correcta": false,
           "explicacion": "¡No! En el recreo hay risas, gritos y juegos."
@@ -2397,6 +2596,7 @@
         {
           "id": "musica-t17-p07",
           "tipo": "vf",
+          "pagina": 50,
           "enunciado": "En el paisaje sonoro pueden estar sonidos de la naturaleza y sonidos de las personas.",
           "correcta": true,
           "explicacion": "Sí, todos los sonidos del lugar cuentan."
@@ -2404,6 +2604,7 @@
         {
           "id": "musica-t17-p08",
           "tipo": "escribir",
+          "pagina": 50,
           "enunciado": "Escribe el nombre de un animal que se oye en una granja y que dice «mu».",
           "respuestas": [
             "vaca",
@@ -2416,6 +2617,7 @@
         {
           "id": "musica-t17-p09",
           "tipo": "relacionar",
+          "pagina": 50,
           "enunciado": "Une cada lugar con un sonido de su paisaje sonoro:",
           "pares": [
             [
@@ -2440,6 +2642,7 @@
         {
           "id": "musica-t17-p10",
           "tipo": "ordenar",
+          "pagina": 50,
           "enunciado": "Ordena estos lugares del más silencioso al más ruidoso:",
           "elementos": [
             "Una biblioteca",
@@ -2451,6 +2654,7 @@
         {
           "id": "musica-t17-p11",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "¿Qué sonido NO esperas en el paisaje sonoro de una biblioteca?",
           "opciones": [
             "Gritos y tambores",
@@ -2463,6 +2667,7 @@
         {
           "id": "musica-t17-p12",
           "tipo": "eleccion",
+          "pagina": 51,
           "enunciado": "Demasiado ruido durante mucho tiempo...",
           "opciones": [
             "puede ser malo para los oídos",
@@ -2485,6 +2690,7 @@
         {
           "id": "musica-t18-p01",
           "tipo": "eleccion",
+          "pagina": 53,
           "enunciado": "¿Cuántas cuerdas tienen el violín y el violonchelo?",
           "opciones": [
             "Cuatro",
@@ -2497,6 +2703,7 @@
         {
           "id": "musica-t18-p02",
           "tipo": "eleccion",
+          "pagina": 53,
           "enunciado": "¿Con qué se frotan las cuerdas del violín?",
           "opciones": [
             "Con un arco",
@@ -2509,6 +2716,7 @@
         {
           "id": "musica-t18-p03",
           "tipo": "eleccion",
+          "pagina": 53,
           "enunciado": "¿Cuál suena más grave?",
           "opciones": [
             "El violonchelo",
@@ -2520,6 +2728,7 @@
         {
           "id": "musica-t18-p04",
           "tipo": "eleccion",
+          "pagina": 53,
           "enunciado": "¿Cuál es más pequeño?",
           "opciones": [
             "El violín",
@@ -2531,6 +2740,7 @@
         {
           "id": "musica-t18-p05",
           "tipo": "eleccion",
+          "pagina": 53,
           "enunciado": "¿A qué familia pertenecen el violín y el violonchelo?",
           "opciones": [
             "Cuerda",
@@ -2543,6 +2753,7 @@
         {
           "id": "musica-t18-p06",
           "tipo": "eleccion",
+          "pagina": 52,
           "enunciado": "«La primavera» es una obra del compositor...",
           "opciones": [
             "Antonio Vivaldi",
@@ -2555,6 +2766,7 @@
         {
           "id": "musica-t18-p07",
           "tipo": "vf",
+          "pagina": 53,
           "enunciado": "El violonchelo se toca sentado, apoyado en el suelo.",
           "correcta": true,
           "explicacion": "Sí, es tan grande que se apoya en el suelo entre las piernas."
@@ -2562,6 +2774,7 @@
         {
           "id": "musica-t18-p08",
           "tipo": "vf",
+          "pagina": 53,
           "enunciado": "El violín suena más grave que el violonchelo.",
           "correcta": false,
           "explicacion": "Al revés: el violín es más agudo."
@@ -2569,6 +2782,7 @@
         {
           "id": "musica-t18-p09",
           "tipo": "vf",
+          "pagina": 53,
           "enunciado": "El violín y el violonchelo se tocan soplando.",
           "correcta": false,
           "explicacion": "No, se tocan frotando las cuerdas con un arco."
@@ -2576,6 +2790,7 @@
         {
           "id": "musica-t18-p10",
           "tipo": "escribir",
+          "pagina": 53,
           "enunciado": "¿Cómo se llama la vara con la que se frotan las cuerdas del violín?",
           "respuestas": [
             "arco",
@@ -2587,6 +2802,7 @@
         {
           "id": "musica-t18-p11",
           "tipo": "ordenar",
+          "pagina": 53,
           "enunciado": "Ordena de más agudo a más grave:",
           "elementos": [
             "Violín",
@@ -2598,6 +2814,7 @@
         {
           "id": "musica-t18-p12",
           "tipo": "relacionar",
+          "pagina": 53,
           "enunciado": "Une cada instrumento con cómo se toca:",
           "pares": [
             [
@@ -2628,6 +2845,7 @@
         {
           "id": "musica-t19-p01",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "¿Dónde se escribe la nota fa?",
           "opciones": [
             "En el primer espacio",
@@ -2640,6 +2858,7 @@
         {
           "id": "musica-t19-p02",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "¿Entre qué dos notas está fa en el pentagrama?",
           "opciones": [
             "Entre mi y sol",
@@ -2652,6 +2871,7 @@
         {
           "id": "musica-t19-p03",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "¿Qué nota va después de fa en la escala?",
           "opciones": [
             "Sol",
@@ -2664,6 +2884,7 @@
         {
           "id": "musica-t19-p04",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "¿Qué nota va antes de fa en la escala?",
           "opciones": [
             "Mi",
@@ -2676,6 +2897,7 @@
         {
           "id": "musica-t19-p05",
           "tipo": "vf",
+          "pagina": 55,
           "enunciado": "La nota fa se escribe en una línea.",
           "correcta": false,
           "explicacion": "No, fa está en un espacio: el primer espacio."
@@ -2683,6 +2905,7 @@
         {
           "id": "musica-t19-p06",
           "tipo": "vf",
+          "pagina": 55,
           "enunciado": "Fa suena más agudo que mi.",
           "correcta": true,
           "explicacion": "Sí, porque está más arriba en el pentagrama."
@@ -2690,6 +2913,7 @@
         {
           "id": "musica-t19-p07",
           "tipo": "vf",
+          "pagina": 54,
           "enunciado": "«A la zapatilla por detrás» es un juego cantado.",
           "correcta": true,
           "explicacion": "¡Sí! Es una canción popular para jugar en corro."
@@ -2697,6 +2921,7 @@
         {
           "id": "musica-t19-p08",
           "tipo": "escribir",
+          "pagina": 55,
           "enunciado": "¿Qué nota se escribe en el primer espacio del pentagrama?",
           "respuestas": [
             "fa"
@@ -2707,6 +2932,7 @@
         {
           "id": "musica-t19-p09",
           "tipo": "ordenar",
+          "pagina": 55,
           "enunciado": "Ordena estas notas de la más grave a la más aguda:",
           "elementos": [
             "re",
@@ -2720,6 +2946,7 @@
         {
           "id": "musica-t19-p10",
           "tipo": "relacionar",
+          "pagina": 55,
           "enunciado": "Une cada nota con su lugar:",
           "pares": [
             [
@@ -2744,6 +2971,7 @@
         {
           "id": "musica-t19-p11",
           "tipo": "escribir",
+          "pagina": 55,
           "enunciado": "Completa la serie: do, re, mi, __, sol",
           "respuestas": [
             "fa"
@@ -2754,6 +2982,7 @@
         {
           "id": "musica-t19-p12",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "¿Cuántos espacios hay entre las cinco líneas del pentagrama?",
           "opciones": [
             "4",
@@ -2776,6 +3005,7 @@
         {
           "id": "musica-t20-p01",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿Cuántas familias de instrumentos has aprendido?",
           "opciones": [
             "Tres",
@@ -2788,6 +3018,7 @@
         {
           "id": "musica-t20-p02",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿A qué familia pertenece la guitarra?",
           "opciones": [
             "Cuerda",
@@ -2800,6 +3031,7 @@
         {
           "id": "musica-t20-p03",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿A qué familia pertenecen las maracas?",
           "opciones": [
             "Percusión",
@@ -2812,6 +3044,7 @@
         {
           "id": "musica-t20-p04",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿A qué familia pertenece el clarinete?",
           "opciones": [
             "Viento",
@@ -2824,6 +3057,7 @@
         {
           "id": "musica-t20-p05",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿A qué familia pertenece el piano, según tu libro?",
           "opciones": [
             "Cuerda",
@@ -2835,6 +3069,7 @@
         {
           "id": "musica-t20-p06",
           "tipo": "eleccion",
+          "pagina": 57,
           "enunciado": "¿Cuál de estos NO es de percusión?",
           "opciones": [
             "El violín",
@@ -2847,6 +3082,7 @@
         {
           "id": "musica-t20-p07",
           "tipo": "vf",
+          "pagina": 57,
           "enunciado": "La trompeta es un instrumento de cuerda.",
           "correcta": false,
           "explicacion": "No, la trompeta es de viento."
@@ -2854,6 +3090,7 @@
         {
           "id": "musica-t20-p08",
           "tipo": "vf",
+          "pagina": 57,
           "enunciado": "El pandero es un instrumento de percusión.",
           "correcta": true,
           "explicacion": "Sí, se golpea o se sacude."
@@ -2861,6 +3098,7 @@
         {
           "id": "musica-t20-p09",
           "tipo": "vf",
+          "pagina": 57,
           "enunciado": "El violonchelo y el violín son de la misma familia.",
           "correcta": true,
           "explicacion": "Sí, los dos son de cuerda."
@@ -2868,6 +3106,7 @@
         {
           "id": "musica-t20-p10",
           "tipo": "escribir",
+          "pagina": 57,
           "enunciado": "¿A qué familia pertenece el fagot?",
           "respuestas": [
             "viento",
@@ -2881,6 +3120,7 @@
         {
           "id": "musica-t20-p11",
           "tipo": "relacionar",
+          "pagina": 57,
           "enunciado": "Une cada instrumento con su familia:",
           "pares": [
             [
@@ -2901,6 +3141,7 @@
         {
           "id": "musica-t20-p12",
           "tipo": "ordenar",
+          "pagina": 57,
           "enunciado": "Ordena las familias de instrumentos según el orden del libro: primero la que tiene cuerdas, luego la que se sopla y al final la que se golpea.",
           "elementos": [
             "Cuerda",
@@ -2912,6 +3153,7 @@
         {
           "id": "musica-t20-p13",
           "tipo": "eleccion",
+          "pagina": 56,
           "enunciado": "«El trenecito del caipira» es una obra de un compositor de...",
           "opciones": [
             "Brasil",
@@ -2934,6 +3176,7 @@
         {
           "id": "musica-t21-p01",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "¿Cómo se llama la persona que crea obras musicales?",
           "opciones": [
             "Compositor o compositora",
@@ -2946,6 +3189,7 @@
         {
           "id": "musica-t21-p02",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "¿Cómo se llama quien toca o canta una obra musical?",
           "opciones": [
             "Intérprete",
@@ -2958,6 +3202,7 @@
         {
           "id": "musica-t21-p03",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "Una cantante que canta en un concierto es...",
           "opciones": [
             "intérprete",
@@ -2969,6 +3214,7 @@
         {
           "id": "musica-t21-p04",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "Vivaldi escribió La primavera. Vivaldi fue...",
           "opciones": [
             "compositor",
@@ -2980,6 +3226,7 @@
         {
           "id": "musica-t21-p05",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "Una música lenta y suave suele expresar...",
           "opciones": [
             "calma o tristeza",
@@ -2992,6 +3239,7 @@
         {
           "id": "musica-t21-p06",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "Una música rápida y fuerte suele expresar...",
           "opciones": [
             "alegría o emoción",
@@ -3004,6 +3252,7 @@
         {
           "id": "musica-t21-p07",
           "tipo": "vf",
+          "pagina": 58,
           "enunciado": "Una misma persona puede ser compositora e intérprete.",
           "correcta": true,
           "explicacion": "Sí, muchos músicos crean y tocan su propia música."
@@ -3011,6 +3260,7 @@
         {
           "id": "musica-t21-p08",
           "tipo": "vf",
+          "pagina": 58,
           "enunciado": "La música no puede expresar emociones.",
           "correcta": false,
           "explicacion": "¡Claro que puede! Nos hace sentir alegría, tristeza, miedo..."
@@ -3018,6 +3268,7 @@
         {
           "id": "musica-t21-p09",
           "tipo": "vf",
+          "pagina": 58,
           "enunciado": "Un pianista que toca en un concierto es intérprete.",
           "correcta": true,
           "explicacion": "Sí, interpreta la música con el piano."
@@ -3025,6 +3276,7 @@
         {
           "id": "musica-t21-p10",
           "tipo": "escribir",
+          "pagina": 58,
           "enunciado": "¿Cómo se llama la persona que interpreta música con su voz o un instrumento?",
           "respuestas": [
             "intérprete",
@@ -3038,6 +3290,7 @@
         {
           "id": "musica-t21-p11",
           "tipo": "relacionar",
+          "pagina": 58,
           "enunciado": "Une cada música con la emoción que suele expresar:",
           "pares": [
             [
@@ -3058,6 +3311,7 @@
         {
           "id": "musica-t21-p12",
           "tipo": "ordenar",
+          "pagina": 58,
           "enunciado": "Ordena cómo llega una canción nueva hasta nosotros:",
           "elementos": [
             "La compositora la crea",
@@ -3079,6 +3333,7 @@
         {
           "id": "musica-t22-p01",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "En el compás de cuatro tiempos, ¿cuántos tiempos suma cada compás?",
           "opciones": [
             "4",
@@ -3091,6 +3346,7 @@
         {
           "id": "musica-t22-p02",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Qué grupo completa un compás de cuatro tiempos?",
           "opciones": [
             "♩ ♩ ♩ ♩",
@@ -3103,6 +3359,7 @@
         {
           "id": "musica-t22-p03",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Qué grupo completa un compás de cuatro tiempos?",
           "opciones": [
             "Dos blancas",
@@ -3115,6 +3372,7 @@
         {
           "id": "musica-t22-p04",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Qué grupo completa un compás de cuatro tiempos?",
           "opciones": [
             "♫ ♫ ♩ ♩",
@@ -3127,6 +3385,7 @@
         {
           "id": "musica-t22-p05",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Cuántas negras caben en un compás de cuatro tiempos?",
           "opciones": [
             "4",
@@ -3139,6 +3398,7 @@
         {
           "id": "musica-t22-p06",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Cuántas corcheas caben en un compás de cuatro tiempos?",
           "opciones": [
             "8",
@@ -3151,6 +3411,7 @@
         {
           "id": "musica-t22-p07",
           "tipo": "vf",
+          "pagina": 61,
           "enunciado": "Una blanca y dos negras completan un compás de cuatro tiempos.",
           "correcta": true,
           "explicacion": "2 + 1 + 1 = 4. ¡Correcto!"
@@ -3158,6 +3419,7 @@
         {
           "id": "musica-t22-p08",
           "tipo": "vf",
+          "pagina": 61,
           "enunciado": "Tres negras completan un compás de cuatro tiempos.",
           "correcta": false,
           "explicacion": "Solo suman 3. Falta una negra."
@@ -3165,6 +3427,7 @@
         {
           "id": "musica-t22-p09",
           "tipo": "vf",
+          "pagina": 61,
           "enunciado": "En el compás de cuatro tiempos cada tiempo vale una negra.",
           "correcta": true,
           "explicacion": "Sí, como en los compases de dos y tres tiempos."
@@ -3172,6 +3435,7 @@
         {
           "id": "musica-t22-p10",
           "tipo": "escribir",
+          "pagina": 61,
           "enunciado": "¿Cuántos tiempos suman dos blancas? Escribe el número.",
           "respuestas": [
             "4",
@@ -3183,6 +3447,7 @@
         {
           "id": "musica-t22-p11",
           "tipo": "ordenar",
+          "pagina": 61,
           "enunciado": "Ordena estos compases de menos a más tiempos:",
           "elementos": [
             "Compás de dos tiempos",
@@ -3194,6 +3459,7 @@
         {
           "id": "musica-t22-p12",
           "tipo": "relacionar",
+          "pagina": 61,
           "enunciado": "Une cada grupo con el compás que completa:",
           "pares": [
             [
@@ -3224,6 +3490,7 @@
         {
           "id": "musica-t23-p01",
           "tipo": "eleccion",
+          "pagina": 63,
           "enunciado": "¿Dónde se escribe la nota si?",
           "opciones": [
             "En la tercera línea",
@@ -3236,6 +3503,7 @@
         {
           "id": "musica-t23-p02",
           "tipo": "eleccion",
+          "pagina": 63,
           "enunciado": "¿Qué nota está justo debajo de si?",
           "opciones": [
             "La",
@@ -3248,6 +3516,7 @@
         {
           "id": "musica-t23-p03",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "¿Cuántas notas musicales hay en la serie do, re, mi, fa, sol, la, si?",
           "opciones": [
             "7",
@@ -3260,6 +3529,7 @@
         {
           "id": "musica-t23-p04",
           "tipo": "eleccion",
+          "pagina": 63,
           "enunciado": "¿Cuál es la más aguda de estas notas?",
           "opciones": [
             "Si",
@@ -3272,6 +3542,7 @@
         {
           "id": "musica-t23-p05",
           "tipo": "eleccion",
+          "pagina": 63,
           "enunciado": "La tercera línea es la línea...",
           "opciones": [
             "del medio del pentagrama",
@@ -3284,6 +3555,7 @@
         {
           "id": "musica-t23-p06",
           "tipo": "vf",
+          "pagina": 63,
           "enunciado": "La nota si se escribe en un espacio.",
           "correcta": false,
           "explicacion": "No, si está en una línea: la tercera."
@@ -3291,6 +3563,7 @@
         {
           "id": "musica-t23-p07",
           "tipo": "vf",
+          "pagina": 63,
           "enunciado": "Si es la última nota de la serie do, re, mi, fa, sol, la, si.",
           "correcta": true,
           "explicacion": "¡Sí! Es la séptima nota."
@@ -3298,6 +3571,7 @@
         {
           "id": "musica-t23-p08",
           "tipo": "vf",
+          "pagina": 63,
           "enunciado": "El silencio de blanca y la nota si están los dos relacionados con la tercera línea.",
           "correcta": true,
           "explicacion": "Sí: el silencio de blanca se apoya sobre la tercera línea y la nota si se escribe en ella."
@@ -3305,6 +3579,7 @@
         {
           "id": "musica-t23-p09",
           "tipo": "escribir",
+          "pagina": 63,
           "enunciado": "Completa la serie: do, re, mi, fa, sol, la, __",
           "respuestas": [
             "si"
@@ -3315,6 +3590,7 @@
         {
           "id": "musica-t23-p10",
           "tipo": "escribir",
+          "pagina": 63,
           "enunciado": "¿Qué nota se escribe en la tercera línea del pentagrama?",
           "respuestas": [
             "si"
@@ -3325,6 +3601,7 @@
         {
           "id": "musica-t23-p11",
           "tipo": "ordenar",
+          "pagina": 63,
           "enunciado": "Ordena de la más grave a la más aguda:",
           "elementos": [
             "do",
@@ -3338,6 +3615,7 @@
         {
           "id": "musica-t23-p12",
           "tipo": "relacionar",
+          "pagina": 63,
           "enunciado": "Une cada nota con su lugar:",
           "pares": [
             [
@@ -3372,6 +3650,7 @@
         {
           "id": "musica-t24-p01",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "¿Qué significa «accelerando»?",
           "opciones": [
             "Cada vez más rápido",
@@ -3384,6 +3663,7 @@
         {
           "id": "musica-t24-p02",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "¿Qué significa «ritardando»?",
           "opciones": [
             "Cada vez más despacio",
@@ -3396,6 +3676,7 @@
         {
           "id": "musica-t24-p03",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "Un tren que sale de la estación y va cogiendo velocidad sería...",
           "opciones": [
             "accelerando",
@@ -3407,6 +3688,7 @@
         {
           "id": "musica-t24-p04",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "Una bicicleta que va frenando hasta pararse sería...",
           "opciones": [
             "ritardando",
@@ -3418,6 +3700,7 @@
         {
           "id": "musica-t24-p05",
           "tipo": "eleccion",
+          "pagina": 65,
           "enunciado": "¿Qué diferencia hay entre allegro y accelerando?",
           "opciones": [
             "Allegro es siempre rápido; accelerando va acelerando poco a poco",
@@ -3430,6 +3713,7 @@
         {
           "id": "musica-t24-p06",
           "tipo": "vf",
+          "pagina": 65,
           "enunciado": "Ritardando indica que la música va cada vez más deprisa.",
           "correcta": false,
           "explicacion": "No, ritardando es ir cada vez más despacio."
@@ -3437,6 +3721,7 @@
         {
           "id": "musica-t24-p07",
           "tipo": "vf",
+          "pagina": 65,
           "enunciado": "Los cambios graduales de velocidad ocurren poco a poco.",
           "correcta": true,
           "explicacion": "Sí, gradual quiere decir poco a poco."
@@ -3444,6 +3729,7 @@
         {
           "id": "musica-t24-p08",
           "tipo": "vf",
+          "pagina": 65,
           "enunciado": "Muchas canciones terminan con un ritardando.",
           "correcta": true,
           "explicacion": "Sí, frenar poco a poco es una forma bonita de acabar."
@@ -3451,6 +3737,7 @@
         {
           "id": "musica-t24-p09",
           "tipo": "escribir",
+          "pagina": 65,
           "enunciado": "Escribe la palabra que indica que la música va cada vez más despacio.",
           "respuestas": [
             "ritardando"
@@ -3461,6 +3748,7 @@
         {
           "id": "musica-t24-p10",
           "tipo": "ordenar",
+          "pagina": 65,
           "enunciado": "Ordena lo que pasa en un accelerando:",
           "elementos": [
             "Empieza despacio",
@@ -3472,6 +3760,7 @@
         {
           "id": "musica-t24-p11",
           "tipo": "ordenar",
+          "pagina": 65,
           "enunciado": "Ordena lo que pasa en un ritardando:",
           "elementos": [
             "Empieza rápido",
@@ -3483,6 +3772,7 @@
         {
           "id": "musica-t24-p12",
           "tipo": "relacionar",
+          "pagina": 65,
           "enunciado": "Une cada palabra con su significado:",
           "pares": [
             [

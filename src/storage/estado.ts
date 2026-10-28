@@ -1,4 +1,4 @@
-export const VERSION_ESQUEMA = 1;
+export const VERSION_ESQUEMA = 2;
 export const TAMANO_MAX_COPIA = 5 * 1024 * 1024;
 
 export interface EstadoPregunta { aciertos: number; fallos: number; ultimaCorrecta: boolean; ultima: number }
@@ -7,8 +7,8 @@ export interface Ajustes { textoGrande: boolean; sonido: boolean }
 
 export interface Estado {
   version: number;
-  /** Temas que el adulto ha marcado como ya dados en clase, por asignatura. */
-  temasDados: Record<string, string[]>;
+  /** Página del libro por la que va la clase, por asignatura. */
+  paginaActual: Record<string, number>;
   preguntas: Record<string, EstadoPregunta>;
   sesiones: RegistroSesion[];
   ajustes: Ajustes;
@@ -16,23 +16,36 @@ export interface Estado {
 }
 
 export function estadoInicial(): Estado {
-  return { version: VERSION_ESQUEMA, temasDados: {}, preguntas: {}, sesiones: [], ajustes: { textoGrande: false, sonido: false } };
+  return { version: VERSION_ESQUEMA, paginaActual: {}, preguntas: {}, sesiones: [], ajustes: { textoGrande: false, sonido: false } };
 }
 
 const esObj = (x: unknown): x is Record<string, unknown> => typeof x === 'object' && x !== null && !Array.isArray(x);
 
+/** Para migrar la versión 1 (temas marcados): última página de cada tema. */
+export type FinDeTema = (temaId: string) => number | undefined;
+
 /** Convierte datos antiguos o importados al esquema actual. Lanza Error si no son válidos. */
-export function migrarYValidar(datos: unknown): Estado {
+export function migrarYValidar(datos: unknown, finDeTema: FinDeTema = () => undefined): Estado {
   if (!esObj(datos)) throw new Error('El archivo no contiene datos de la app.');
   const v = datos.version;
   if (typeof v !== 'number' || v < 1) throw new Error('Falta la versión del esquema.');
   if (v > VERSION_ESQUEMA) throw new Error('La copia es de una versión más nueva de la app. Actualiza la app primero.');
-  // (Las migraciones futuras irán aquí: if (v === 1) {...}.)
   const e = estadoInicial();
-  if (!esObj(datos.temasDados) || !esObj(datos.preguntas) || !Array.isArray(datos.sesiones)) throw new Error('Faltan secciones obligatorias.');
-  for (const [k, lista] of Object.entries(datos.temasDados)) {
-    if (!Array.isArray(lista) || !lista.every((x) => typeof x === 'string')) throw new Error(`Temas no válidos en «${k}».`);
-    e.temasDados[k] = [...new Set(lista as string[])];
+  if (!esObj(datos.preguntas) || !Array.isArray(datos.sesiones)) throw new Error('Faltan secciones obligatorias.');
+  if (v === 1) {
+    // v1 guardaba temas marcados: se pasa a la última página del último tema marcado.
+    if (!esObj(datos.temasDados)) throw new Error('Faltan secciones obligatorias.');
+    for (const [k, lista] of Object.entries(datos.temasDados)) {
+      if (!Array.isArray(lista)) throw new Error(`Temas no válidos en «${k}».`);
+      const fines = lista.map((t) => finDeTema(String(t))).filter((n): n is number => typeof n === 'number');
+      if (fines.length) e.paginaActual[k] = Math.max(...fines);
+    }
+  } else {
+    if (!esObj(datos.paginaActual)) throw new Error('Faltan secciones obligatorias.');
+    for (const [k, n] of Object.entries(datos.paginaActual)) {
+      if (typeof n !== 'number' || !Number.isInteger(n) || n < 0 || n > 2000) throw new Error(`Página no válida en «${k}».`);
+      e.paginaActual[k] = n;
+    }
   }
   for (const [k, p] of Object.entries(datos.preguntas)) {
     if (!esObj(p) || typeof p.aciertos !== 'number' || typeof p.fallos !== 'number' || typeof p.ultimaCorrecta !== 'boolean' || typeof p.ultima !== 'number')
@@ -64,10 +77,10 @@ export function exportarCopia(e: Estado): string {
   return JSON.stringify({ app: 'paso-a-paso', exportado: new Date().toISOString(), ...e }, null, 2);
 }
 
-export function importarCopia(texto: string): Estado {
+export function importarCopia(texto: string, finDeTema?: FinDeTema): Estado {
   if (texto.length > TAMANO_MAX_COPIA) throw new Error('El archivo es demasiado grande (máx. 5 MB).');
   let datos: unknown;
   try { datos = JSON.parse(texto); } catch { throw new Error('El archivo no es un JSON válido.'); }
   if (!esObj(datos) || datos.app !== 'paso-a-paso') throw new Error('Este archivo no es una copia de CHENCHO REPASO.');
-  return migrarYValidar(datos);
+  return migrarYValidar(datos, finDeTema);
 }

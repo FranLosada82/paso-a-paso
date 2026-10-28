@@ -15,6 +15,7 @@
         {
           "id": "mates-t01-p01",
           "tipo": "eleccion",
+          "pagina": 14,
           "enunciado": "¿Cuántas unidades hay en 1 decena?",
           "opciones": [
             "5",
@@ -27,6 +28,7 @@
         {
           "id": "mates-t01-p02",
           "tipo": "escribir",
+          "pagina": 14,
           "enunciado": "Lucía tiene 3 cajas con 10 lápices y 6 lápices sueltos. ¿Cuántos lápices tiene?",
           "respuestas": [
             "36",
@@ -39,6 +41,7 @@
         {
           "id": "mates-t01-p03",
           "tipo": "eleccion",
+          "pagina": 14,
           "enunciado": "¿Qué número tiene 5 decenas y 2 unidades?",
           "opciones": [
             "25",
@@ -51,6 +54,7 @@
         {
           "id": "mates-t01-p04",
           "tipo": "vf",
+          "pagina": 16,
           "enunciado": "¿Es cierto que 38 > 83?",
           "correcta": false,
           "explicacion": "38 tiene 3 decenas y 83 tiene 8. Por eso 38 < 83."
@@ -58,6 +62,7 @@
         {
           "id": "mates-t01-p05",
           "tipo": "eleccion",
+          "pagina": 16,
           "enunciado": "¿Qué signo va en 64 __ 46?",
           "opciones": [
             ">",
@@ -69,6 +74,7 @@
         {
           "id": "mates-t01-p06",
           "tipo": "ordenar",
+          "pagina": 16,
           "enunciado": "Ordena los números de menor a mayor.",
           "elementos": [
             "19",
@@ -82,6 +88,7 @@
         {
           "id": "mates-t01-p07",
           "tipo": "relacionar",
+          "pagina": 19,
           "enunciado": "Une cada número con cómo se lee.",
           "pares": [
             [
@@ -106,6 +113,7 @@
         {
           "id": "mates-t01-p08",
           "tipo": "escribir",
+          "pagina": 20,
           "enunciado": "En la excursión, Pablo recoge 24 piñas y Marta 13. ¿Cuántas piñas recogen entre los dos?",
           "respuestas": [
             "37",
@@ -119,6 +127,7 @@
         {
           "id": "mates-t01-p09",
           "tipo": "escribir",
+          "pagina": 20,
           "enunciado": "En el autobús hay 48 asientos y se sientan 25 niños. ¿Cuántos asientos quedan libres?",
           "respuestas": [
             "23",
@@ -132,6 +141,7 @@
         {
           "id": "mates-t01-p10",
           "tipo": "eleccion",
+          "pagina": 22,
           "enunciado": "¿Cuál es la decena más cercana a 68?",
           "opciones": [
             "60",
@@ -144,6 +154,7 @@
         {
           "id": "mates-t01-p11",
           "tipo": "eleccion",
+          "pagina": 22,
           "enunciado": "¿Cuál es la decena más cercana a 31?",
           "opciones": [
             "30",
@@ -156,6 +167,7 @@
         {
           "id": "mates-t01-p12",
           "tipo": "vf",
+          "pagina": 18,
           "enunciado": "El número que va justo después de 59 es 60.",
           "correcta": true,
           "explicacion": "¡Eso es! Después de 59 se completa una decena nueva: 60."
@@ -163,6 +175,7 @@
         {
           "id": "mates-t01-p13",
           "tipo": "escribir",
+          "pagina": 18,
           "enunciado": "¿Qué número va justo antes de 80?",
           "respuestas": [
             "79",
@@ -174,6 +187,7 @@
         {
           "id": "mates-t01-p14",
           "tipo": "relacionar",
+          "pagina": 20,
           "enunciado": "Une cada suma con su resultado.",
           "pares": [
             [
@@ -198,6 +212,7 @@
         {
           "id": "mates-t01-p15",
           "tipo": "ordenar",
+          "pagina": 16,
           "enunciado": "Ordena de mayor a menor.",
           "elementos": [
             "96",
@@ -210,6 +225,7 @@
         {
           "id": "mates-t01-p16",
           "tipo": "eleccion",
+          "pagina": 14,
           "enunciado": "¿Cuántas decenas tiene el número 70?",
           "opciones": [
             "7",
@@ -232,6 +248,7 @@
         {
           "id": "mates-t02-p01",
           "tipo": "escribir",
+          "pagina": 34,
           "enunciado": "¿Cuánto es 27 + 15?",
           "respuestas": [
             "42",
@@ -243,6 +260,7 @@
         {
           "id": "mates-t02-p02",
           "tipo": "escribir",
+          "pagina": 34,
           "enunciado": "En la carrera hay 38 ciclistas con casco azul y 24 con casco rojo. ¿Cuántos ciclistas hay?",
           "respuestas": [
             "62",
@@ -255,6 +273,7 @@
         {
           "id": "mates-t02-p03",
           "tipo": "eleccion",
+          "pagina": 34,
           "enunciado": "¿Cuánto es 46 + 36?",
           "opciones": [
             "72",
@@ -267,6 +286,7 @@
         {
           "id": "mates-t02-p04",
           "tipo": "vf",
+          "pagina": 36,
           "enunciado": "Si 30 + 25 = 55, entonces 55 − 25 = 30.",
           "correcta": true,
           "explicacion": "¡Sí! La resta deshace la suma."
@@ -274,6 +294,7 @@
         {
           "id": "mates-t02-p05",
           "tipo": "eleccion",
+          "pagina": 36,
           "enunciado": "Si 40 + 18 = 58, ¿cuánto es 58 − 40?",
           "opciones": [
             "18",
@@ -286,6 +307,7 @@
         {
           "id": "mates-t02-p06",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "¿Cuántas decenas forman 1 centena?",
           "opciones": [
             "10",
@@ -298,6 +320,7 @@
         {
           "id": "mates-t02-p07",
           "tipo": "escribir",
+          "pagina": 40,
           "enunciado": "¿Qué número va justo después de 99?",
           "respuestas": [
             "100",
@@ -309,6 +332,7 @@
         {
           "id": "mates-t02-p08",
           "tipo": "ordenar",
+          "pagina": 38,
           "enunciado": "Ordena las posiciones de la carrera, del primero al quinto.",
           "elementos": [
             "primero",
@@ -322,6 +346,7 @@
         {
           "id": "mates-t02-p09",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "Ana llegó en la posición 7. ¿Cómo se dice?",
           "opciones": [
             "séptima",
@@ -334,6 +359,7 @@
         {
           "id": "mates-t02-p10",
           "tipo": "relacionar",
+          "pagina": 38,
           "enunciado": "Une cada número con su ordinal.",
           "pares": [
             [
@@ -358,6 +384,7 @@
         {
           "id": "mates-t02-p11",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "¿Cuántas decenas tiene el número 143? Mira la cifra de las decenas.",
           "respuestas": [
             "4",
@@ -369,6 +396,7 @@
         {
           "id": "mates-t02-p12",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "¿Cómo se escribe ciento veintiséis?",
           "opciones": [
             "1026",
@@ -381,6 +409,7 @@
         {
           "id": "mates-t02-p13",
           "tipo": "ordenar",
+          "pagina": 42,
           "enunciado": "Ordena de menor a mayor.",
           "elementos": [
             "109",
@@ -394,6 +423,7 @@
         {
           "id": "mates-t02-p14",
           "tipo": "vf",
+          "pagina": 42,
           "enunciado": "175 es mayor que 157.",
           "correcta": true,
           "explicacion": "Ambos tienen 1 centena; 175 tiene 7 decenas y 157 solo 5."
@@ -401,6 +431,7 @@
         {
           "id": "mates-t02-p15",
           "tipo": "relacionar",
+          "pagina": 34,
           "enunciado": "Une cada suma con su resultado.",
           "pares": [
             [
@@ -425,6 +456,7 @@
         {
           "id": "mates-t02-p16",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "Un ciclista recorrió 100 km el lunes y 60 km el martes. ¿Cuántos km recorrió?",
           "respuestas": [
             "160",
@@ -448,6 +480,7 @@
         {
           "id": "mates-t03-p01",
           "tipo": "escribir",
+          "pagina": 54,
           "enunciado": "¿Cuánto es 52 − 17?",
           "respuestas": [
             "35",
@@ -459,6 +492,7 @@
         {
           "id": "mates-t03-p02",
           "tipo": "escribir",
+          "pagina": 54,
           "enunciado": "En el acuario hay 63 peces y se llevan 28 a otro tanque. ¿Cuántos quedan?",
           "respuestas": [
             "35",
@@ -471,6 +505,7 @@
         {
           "id": "mates-t03-p03",
           "tipo": "eleccion",
+          "pagina": 54,
           "enunciado": "¿Cuánto es 80 − 34?",
           "opciones": [
             "46",
@@ -483,6 +518,7 @@
         {
           "id": "mates-t03-p04",
           "tipo": "vf",
+          "pagina": 54,
           "enunciado": "Para hacer 41 − 9 hay que romper una decena.",
           "correcta": true,
           "explicacion": "1 − 9 no se puede, así que cambio 1 decena por 10 unidades."
@@ -490,6 +526,7 @@
         {
           "id": "mates-t03-p05",
           "tipo": "eleccion",
+          "pagina": 56,
           "enunciado": "¿Qué número tiene 3 centenas, 0 decenas y 8 unidades?",
           "opciones": [
             "38",
@@ -502,6 +539,7 @@
         {
           "id": "mates-t03-p06",
           "tipo": "relacionar",
+          "pagina": 56,
           "enunciado": "Une cada número con su descomposición.",
           "pares": [
             [
@@ -522,6 +560,7 @@
         {
           "id": "mates-t03-p07",
           "tipo": "escribir",
+          "pagina": 56,
           "enunciado": "¿Cuántas unidades son 2 centenas?",
           "respuestas": [
             "200",
@@ -535,6 +574,7 @@
         {
           "id": "mates-t03-p08",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "¿Qué usarías para medir cuánto mide tu mesa?",
           "opciones": [
             "Una regla o cinta métrica",
@@ -547,6 +587,7 @@
         {
           "id": "mates-t03-p09",
           "tipo": "relacionar",
+          "pagina": 58,
           "enunciado": "Une cada instrumento con lo que mide.",
           "pares": [
             [
@@ -571,6 +612,7 @@
         {
           "id": "mates-t03-p10",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "¿En qué unidad medimos el agua de una botella?",
           "opciones": [
             "litros",
@@ -583,6 +625,7 @@
         {
           "id": "mates-t03-p11",
           "tipo": "vf",
+          "pagina": 60,
           "enunciado": "En un cubo cabe menos agua que en una taza.",
           "correcta": false,
           "explicacion": "En un cubo cabe mucha más agua que en una taza."
@@ -590,6 +633,7 @@
         {
           "id": "mates-t03-p12",
           "tipo": "ordenar",
+          "pagina": 60,
           "enunciado": "Ordena de menor a mayor capacidad.",
           "elementos": [
             "cuchara",
@@ -602,6 +646,7 @@
         {
           "id": "mates-t03-p13",
           "tipo": "escribir",
+          "pagina": 60,
           "enunciado": "Una pecera tiene 9 litros y se le añaden 6 litros más. ¿Cuántos litros tiene?",
           "respuestas": [
             "15",
@@ -615,6 +660,7 @@
         {
           "id": "mates-t03-p14",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "Con 2 botellas de medio litro, ¿cuánta agua tengo?",
           "opciones": [
             "1 litro",
@@ -627,6 +673,7 @@
         {
           "id": "mates-t03-p15",
           "tipo": "escribir",
+          "pagina": 54,
           "enunciado": "Hay 70 entradas y se venden 45. ¿Cuántas quedan?",
           "respuestas": [
             "25",
@@ -649,6 +696,7 @@
         {
           "id": "mates-t04-p01",
           "tipo": "eleccion",
+          "pagina": 84,
           "enunciado": "¿Cómo se escribe trescientos cuarenta?",
           "opciones": [
             "340",
@@ -661,6 +709,7 @@
         {
           "id": "mates-t04-p02",
           "tipo": "escribir",
+          "pagina": 80,
           "enunciado": "Escribe con cifras: doscientos noventa y nueve.",
           "respuestas": [
             "299"
@@ -671,6 +720,7 @@
         {
           "id": "mates-t04-p03",
           "tipo": "escribir",
+          "pagina": 84,
           "enunciado": "¿Qué número va justo después de 299?",
           "respuestas": [
             "300",
@@ -682,6 +732,7 @@
         {
           "id": "mates-t04-p04",
           "tipo": "ordenar",
+          "pagina": 84,
           "enunciado": "Ordena de menor a mayor.",
           "elementos": [
             "203",
@@ -695,6 +746,7 @@
         {
           "id": "mates-t04-p05",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "¿Qué signo va en 20 + 5 __ 25?",
           "opciones": [
             "=",
@@ -706,6 +758,7 @@
         {
           "id": "mates-t04-p06",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "¿Qué signo va en 10 + 4 __ 41?",
           "opciones": [
             "=",
@@ -717,6 +770,7 @@
         {
           "id": "mates-t04-p07",
           "tipo": "vf",
+          "pagina": 86,
           "enunciado": "1 metro son 100 centímetros.",
           "correcta": true,
           "explicacion": "¡Exacto! 1 m = 100 cm."
@@ -724,6 +778,7 @@
         {
           "id": "mates-t04-p08",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "¿Qué unidad usarías para medir un lápiz?",
           "opciones": [
             "centímetros",
@@ -736,6 +791,7 @@
         {
           "id": "mates-t04-p09",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "¿Qué unidad usarías para medir el largo del patio?",
           "opciones": [
             "metros",
@@ -748,6 +804,7 @@
         {
           "id": "mates-t04-p10",
           "tipo": "escribir",
+          "pagina": 86,
           "enunciado": "Leo medía 118 cm y ha crecido 7 cm. ¿Cuánto mide ahora (en cm)?",
           "respuestas": [
             "125",
@@ -761,6 +818,7 @@
         {
           "id": "mates-t04-p11",
           "tipo": "relacionar",
+          "pagina": 88,
           "enunciado": "Une cada ordinal con su nombre.",
           "pares": [
             [
@@ -785,6 +843,7 @@
         {
           "id": "mates-t04-p12",
           "tipo": "eleccion",
+          "pagina": 88,
           "enunciado": "En la fila de la revisión, Sara es la 13.ª. ¿Cómo se dice?",
           "opciones": [
             "decimotercera",
@@ -797,6 +856,7 @@
         {
           "id": "mates-t04-p13",
           "tipo": "vf",
+          "pagina": 84,
           "enunciado": "356 tiene 5 centenas.",
           "correcta": false,
           "explicacion": "356 tiene 3 centenas, 5 decenas y 6 unidades."
@@ -804,6 +864,7 @@
         {
           "id": "mates-t04-p14",
           "tipo": "relacionar",
+          "pagina": 84,
           "enunciado": "Une cada número con su lectura.",
           "pares": [
             [
@@ -828,6 +889,7 @@
         {
           "id": "mates-t04-p15",
           "tipo": "escribir",
+          "pagina": 86,
           "enunciado": "Una cinta mide 1 metro. ¿Cuántos centímetros mide?",
           "respuestas": [
             "100",
@@ -851,6 +913,7 @@
         {
           "id": "mates-t05-p01",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "¿Cómo se escribe seiscientos cinco?",
           "opciones": [
             "65",
@@ -863,6 +926,7 @@
         {
           "id": "mates-t05-p02",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "Escribe con cifras: setecientos treinta.",
           "respuestas": [
             "730"
@@ -873,6 +937,7 @@
         {
           "id": "mates-t05-p03",
           "tipo": "ordenar",
+          "pagina": 108,
           "enunciado": "Ordena de menor a mayor.",
           "elementos": [
             "450",
@@ -886,6 +951,7 @@
         {
           "id": "mates-t05-p04",
           "tipo": "vf",
+          "pagina": 100,
           "enunciado": "587 > 578",
           "correcta": true,
           "explicacion": "Las dos tienen 5 centenas; 587 tiene 8 decenas y 578 solo 7."
@@ -893,6 +959,7 @@
         {
           "id": "mates-t05-p05",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "¿Cuánto es 432 + 215?",
           "respuestas": [
             "647"
@@ -903,6 +970,7 @@
         {
           "id": "mates-t05-p06",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "¿Cuánto es 768 − 345?",
           "respuestas": [
             "423"
@@ -913,6 +981,7 @@
         {
           "id": "mates-t05-p07",
           "tipo": "escribir",
+          "pagina": 104,
           "enunciado": "La frutera tenía 586 manzanas y vendió 251. ¿Cuántas le quedan?",
           "respuestas": [
             "335",
@@ -924,6 +993,7 @@
         {
           "id": "mates-t05-p08",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "En el mercado venden 320 kg de patatas por la mañana y 450 kg por la tarde. ¿Cuántos kg en total?",
           "opciones": [
             "770 kg",
@@ -936,6 +1006,7 @@
         {
           "id": "mates-t05-p09",
           "tipo": "eleccion",
+          "pagina": 106,
           "enunciado": "¿Con qué unidad medimos el peso de una sandía?",
           "opciones": [
             "kilogramos",
@@ -948,6 +1019,7 @@
         {
           "id": "mates-t05-p10",
           "tipo": "vf",
+          "pagina": 106,
           "enunciado": "Una pluma pesa más que un kilo de arroz.",
           "correcta": false,
           "explicacion": "La pluma pesa poquísimo; el kilo de arroz pesa mucho más."
@@ -955,6 +1027,7 @@
         {
           "id": "mates-t05-p11",
           "tipo": "ordenar",
+          "pagina": 106,
           "enunciado": "Ordena de menos a más pesado.",
           "elementos": [
             "una fresa",
@@ -967,6 +1040,7 @@
         {
           "id": "mates-t05-p12",
           "tipo": "relacionar",
+          "pagina": 108,
           "enunciado": "Une cada operación con su resultado.",
           "pares": [
             [
@@ -991,6 +1065,7 @@
         {
           "id": "mates-t05-p13",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "¿Cuántas centenas tiene 718?",
           "opciones": [
             "7",
@@ -1003,6 +1078,7 @@
         {
           "id": "mates-t05-p14",
           "tipo": "escribir",
+          "pagina": 106,
           "enunciado": "Una bolsa pesa 2 kg y otra 3 kg. ¿Cuántos kg pesan juntas?",
           "respuestas": [
             "5",
@@ -1015,6 +1091,7 @@
         {
           "id": "mates-t05-p15",
           "tipo": "eleccion",
+          "pagina": 100,
           "enunciado": "¿Qué número va justo antes de 500?",
           "opciones": [
             "499",
@@ -1037,6 +1114,7 @@
         {
           "id": "mates-t06-p01",
           "tipo": "escribir",
+          "pagina": 120,
           "enunciado": "Escribe con cifras: novecientos ocho.",
           "respuestas": [
             "908"
@@ -1047,6 +1125,7 @@
         {
           "id": "mates-t06-p02",
           "tipo": "eleccion",
+          "pagina": 120,
           "enunciado": "¿Qué número va después de 899?",
           "opciones": [
             "900",
@@ -1059,6 +1138,7 @@
         {
           "id": "mates-t06-p03",
           "tipo": "ordenar",
+          "pagina": 120,
           "enunciado": "Ordena de menor a mayor.",
           "elementos": [
             "809",
@@ -1072,6 +1152,7 @@
         {
           "id": "mates-t06-p04",
           "tipo": "escribir",
+          "pagina": 122,
           "enunciado": "¿Cuánto es 356 + 427?",
           "respuestas": [
             "783"
@@ -1082,6 +1163,7 @@
         {
           "id": "mates-t06-p05",
           "tipo": "escribir",
+          "pagina": 122,
           "enunciado": "En el juego de bolos, Iván hizo 268 puntos y Nora 345. ¿Cuántos puntos suman?",
           "respuestas": [
             "613",
@@ -1093,6 +1175,7 @@
         {
           "id": "mates-t06-p06",
           "tipo": "eleccion",
+          "pagina": 122,
           "enunciado": "¿Cuánto es 475 + 190?",
           "opciones": [
             "565",
@@ -1105,6 +1188,7 @@
         {
           "id": "mates-t06-p07",
           "tipo": "eleccion",
+          "pagina": 126,
           "enunciado": "¿Cuántos lados tiene un triángulo?",
           "opciones": [
             "3",
@@ -1117,6 +1201,7 @@
         {
           "id": "mates-t06-p08",
           "tipo": "relacionar",
+          "pagina": 126,
           "enunciado": "Une cada polígono con su número de lados.",
           "pares": [
             [
@@ -1141,6 +1226,7 @@
         {
           "id": "mates-t06-p09",
           "tipo": "vf",
+          "pagina": 126,
           "enunciado": "Un cuadrado tiene 4 vértices.",
           "correcta": true,
           "explicacion": "Tiene 4 esquinas, es decir, 4 vértices."
@@ -1148,6 +1234,7 @@
         {
           "id": "mates-t06-p10",
           "tipo": "vf",
+          "pagina": 128,
           "enunciado": "Un círculo es un polígono.",
           "correcta": false,
           "explicacion": "El círculo no tiene lados rectos, así que no es un polígono."
@@ -1155,6 +1242,7 @@
         {
           "id": "mates-t06-p11",
           "tipo": "eleccion",
+          "pagina": 124,
           "enunciado": "¿Qué línea tiene principio y final?",
           "opciones": [
             "el segmento",
@@ -1166,6 +1254,7 @@
         {
           "id": "mates-t06-p12",
           "tipo": "eleccion",
+          "pagina": 128,
           "enunciado": "El borde de una moneda, ¿es círculo o circunferencia?",
           "opciones": [
             "circunferencia",
@@ -1177,6 +1266,7 @@
         {
           "id": "mates-t06-p13",
           "tipo": "escribir",
+          "pagina": 126,
           "enunciado": "¿Cuántos vértices tiene un pentágono?",
           "respuestas": [
             "5",
@@ -1188,6 +1278,7 @@
         {
           "id": "mates-t06-p14",
           "tipo": "relacionar",
+          "pagina": 120,
           "enunciado": "Une cada número con su lectura.",
           "pares": [
             [
@@ -1212,6 +1303,7 @@
         {
           "id": "mates-t06-p15",
           "tipo": "vf",
+          "pagina": 120,
           "enunciado": "999 es el número más grande de tres cifras.",
           "correcta": true,
           "explicacion": "Después de 999 viene 1000, que ya tiene cuatro cifras."
@@ -1229,6 +1321,7 @@
         {
           "id": "mates-t07-p01",
           "tipo": "eleccion",
+          "pagina": 146,
           "enunciado": "¿Cuántos céntimos hay en 1 euro?",
           "opciones": [
             "10",
@@ -1241,6 +1334,7 @@
         {
           "id": "mates-t07-p02",
           "tipo": "escribir",
+          "pagina": 146,
           "enunciado": "Tengo 2 monedas de 2 euros y 1 de 1 euro. ¿Cuántos euros tengo?",
           "respuestas": [
             "5",
@@ -1253,6 +1347,7 @@
         {
           "id": "mates-t07-p03",
           "tipo": "vf",
+          "pagina": 146,
           "enunciado": "Un billete de 5 euros vale lo mismo que 5 monedas de 1 euro.",
           "correcta": true,
           "explicacion": "Los dos son 5 euros."
@@ -1260,6 +1355,7 @@
         {
           "id": "mates-t07-p04",
           "tipo": "eleccion",
+          "pagina": 146,
           "enunciado": "¿Cuál de estos es un billete?",
           "opciones": [
             "50 euros",
@@ -1272,6 +1368,7 @@
         {
           "id": "mates-t07-p05",
           "tipo": "relacionar",
+          "pagina": 146,
           "enunciado": "Une cada cantidad con lo que vale lo mismo.",
           "pares": [
             [
@@ -1296,6 +1393,7 @@
         {
           "id": "mates-t07-p06",
           "tipo": "escribir",
+          "pagina": 150,
           "enunciado": "Un cuaderno cuesta 3 euros y un lápiz 2 euros. Pago con un billete de 10 euros. ¿Cuántos euros me devuelven?",
           "respuestas": [
             "5",
@@ -1308,6 +1406,7 @@
         {
           "id": "mates-t07-p07",
           "tipo": "eleccion",
+          "pagina": 150,
           "enunciado": "Una pelota cuesta 8 euros y tengo 6. ¿Puedo comprarla?",
           "opciones": [
             "No, me faltan 2 euros",
@@ -1319,6 +1418,7 @@
         {
           "id": "mates-t07-p08",
           "tipo": "escribir",
+          "pagina": 152,
           "enunciado": "¿Cuánto es 523 − 148?",
           "respuestas": [
             "375"
@@ -1329,6 +1429,7 @@
         {
           "id": "mates-t07-p09",
           "tipo": "escribir",
+          "pagina": 148,
           "enunciado": "En la tienda había 340 camisetas y se vendieron 125. ¿Cuántas quedan?",
           "respuestas": [
             "215",
@@ -1340,6 +1441,7 @@
         {
           "id": "mates-t07-p10",
           "tipo": "eleccion",
+          "pagina": 148,
           "enunciado": "¿Cuánto es 700 − 260?",
           "opciones": [
             "440",
@@ -1352,6 +1454,7 @@
         {
           "id": "mates-t07-p11",
           "tipo": "vf",
+          "pagina": 152,
           "enunciado": "En 812 − 395 hay que romper decenas y centenas.",
           "correcta": true,
           "explicacion": "2 − 5 y luego 0 − 9 no se pueden hacer sin romper."
@@ -1359,6 +1462,7 @@
         {
           "id": "mates-t07-p12",
           "tipo": "ordenar",
+          "pagina": 154,
           "enunciado": "Ordena los pasos para sumar 25 + 13 con la calculadora.",
           "elementos": [
             "pulsar 25",
@@ -1371,6 +1475,7 @@
         {
           "id": "mates-t07-p13",
           "tipo": "eleccion",
+          "pagina": 154,
           "enunciado": "¿Qué tecla de la calculadora muestra el resultado?",
           "opciones": [
             "=",
@@ -1383,6 +1488,7 @@
         {
           "id": "mates-t07-p14",
           "tipo": "ordenar",
+          "pagina": 146,
           "enunciado": "Ordena de menor a mayor valor.",
           "elementos": [
             "10 céntimos",
@@ -1396,6 +1502,7 @@
         {
           "id": "mates-t07-p15",
           "tipo": "escribir",
+          "pagina": 150,
           "enunciado": "Compro un libro de 12 euros y un cuento de 7 euros. ¿Cuánto pago en total?",
           "respuestas": [
             "19",
@@ -1418,6 +1525,7 @@
         {
           "id": "mates-t08-p01",
           "tipo": "eleccion",
+          "pagina": 168,
           "enunciado": "¿Cuántos minutos tiene una hora?",
           "opciones": [
             "30",
@@ -1430,6 +1538,7 @@
         {
           "id": "mates-t08-p02",
           "tipo": "escribir",
+          "pagina": 166,
           "enunciado": "¿Cuántos días tiene una semana?",
           "respuestas": [
             "7",
@@ -1441,6 +1550,7 @@
         {
           "id": "mates-t08-p03",
           "tipo": "ordenar",
+          "pagina": 166,
           "enunciado": "Ordena los días de la semana empezando por el lunes.",
           "elementos": [
             "lunes",
@@ -1454,6 +1564,7 @@
         {
           "id": "mates-t08-p04",
           "tipo": "eleccion",
+          "pagina": 168,
           "enunciado": "La aguja larga señala el 12 y la corta el 3. ¿Qué hora es?",
           "opciones": [
             "las 3 en punto",
@@ -1466,6 +1577,7 @@
         {
           "id": "mates-t08-p05",
           "tipo": "eleccion",
+          "pagina": 168,
           "enunciado": "La aguja larga señala el 6 y la corta está entre el 4 y el 5. ¿Qué hora es?",
           "opciones": [
             "las 4 y media",
@@ -1478,6 +1590,7 @@
         {
           "id": "mates-t08-p06",
           "tipo": "relacionar",
+          "pagina": 170,
           "enunciado": "Une cada posición de la aguja larga con lo que indica.",
           "pares": [
             [
@@ -1502,6 +1615,7 @@
         {
           "id": "mates-t08-p07",
           "tipo": "vf",
+          "pagina": 170,
           "enunciado": "Media hora son 30 minutos.",
           "correcta": true,
           "explicacion": "La mitad de 60 es 30."
@@ -1509,6 +1623,7 @@
         {
           "id": "mates-t08-p08",
           "tipo": "escribir",
+          "pagina": 170,
           "enunciado": "El recreo empieza a las 11 en punto y dura 30 minutos. ¿A qué hora termina?",
           "respuestas": [
             "11 y media",
@@ -1528,6 +1643,7 @@
         {
           "id": "mates-t08-p09",
           "tipo": "ordenar",
+          "pagina": 168,
           "enunciado": "Ordena de más corto a más largo.",
           "elementos": [
             "un minuto",
@@ -1540,6 +1656,7 @@
         {
           "id": "mates-t08-p10",
           "tipo": "vf",
+          "pagina": 172,
           "enunciado": "Una mariposa con las dos alas iguales es simétrica.",
           "correcta": true,
           "explicacion": "Si la doblas por el centro, las dos mitades coinciden."
@@ -1547,6 +1664,7 @@
         {
           "id": "mates-t08-p11",
           "tipo": "eleccion",
+          "pagina": 172,
           "enunciado": "¿Cuál de estas letras es simétrica?",
           "opciones": [
             "A",
@@ -1559,6 +1677,7 @@
         {
           "id": "mates-t08-p12",
           "tipo": "relacionar",
+          "pagina": 174,
           "enunciado": "Une cada objeto con el cuerpo geométrico que parece.",
           "pares": [
             [
@@ -1583,6 +1702,7 @@
         {
           "id": "mates-t08-p13",
           "tipo": "eleccion",
+          "pagina": 174,
           "enunciado": "¿Qué cuerpo geométrico rueda porque es redondo por todas partes?",
           "opciones": [
             "la esfera",
@@ -1595,6 +1715,7 @@
         {
           "id": "mates-t08-p14",
           "tipo": "escribir",
+          "pagina": 174,
           "enunciado": "¿Cuántas caras tiene un cubo?",
           "respuestas": [
             "6",
@@ -1606,6 +1727,7 @@
         {
           "id": "mates-t08-p15",
           "tipo": "vf",
+          "pagina": 166,
           "enunciado": "Un año tiene 12 meses.",
           "correcta": true,
           "explicacion": "De enero a diciembre hay 12 meses."
@@ -1623,6 +1745,7 @@
         {
           "id": "mates-t09-p01",
           "tipo": "eleccion",
+          "pagina": 186,
           "enunciado": "¿Qué multiplicación es igual a 5 + 5 + 5?",
           "opciones": [
             "5 × 3",
@@ -1635,6 +1758,7 @@
         {
           "id": "mates-t09-p02",
           "tipo": "escribir",
+          "pagina": 186,
           "enunciado": "En la playa hay 4 sombrillas y bajo cada una hay 2 niños. ¿Cuántos niños hay?",
           "respuestas": [
             "8",
@@ -1648,6 +1772,7 @@
         {
           "id": "mates-t09-p03",
           "tipo": "escribir",
+          "pagina": 188,
           "enunciado": "¿Cuánto es 10 × 3?",
           "respuestas": [
             "30",
@@ -1659,6 +1784,7 @@
         {
           "id": "mates-t09-p04",
           "tipo": "relacionar",
+          "pagina": 188,
           "enunciado": "Une cada multiplicación con su resultado.",
           "pares": [
             [
@@ -1683,6 +1809,7 @@
         {
           "id": "mates-t09-p05",
           "tipo": "ordenar",
+          "pagina": 188,
           "enunciado": "Ordena la tabla del 2.",
           "elementos": [
             "2",
@@ -1696,6 +1823,7 @@
         {
           "id": "mates-t09-p06",
           "tipo": "vf",
+          "pagina": 188,
           "enunciado": "4 × 5 = 20",
           "correcta": true,
           "explicacion": "4 × 5 es sumar el 4 cinco veces: 4 + 4 + 4 + 4 + 4 = 20."
@@ -1703,6 +1831,7 @@
         {
           "id": "mates-t09-p07",
           "tipo": "eleccion",
+          "pagina": 190,
           "enunciado": "Reparto 12 conchas entre 3 amigos a partes iguales. ¿Cuántas recibe cada uno?",
           "opciones": [
             "3",
@@ -1715,6 +1844,7 @@
         {
           "id": "mates-t09-p08",
           "tipo": "escribir",
+          "pagina": 190,
           "enunciado": "Repartimos 10 galletas entre 2 niños por igual. ¿Cuántas le tocan a cada uno?",
           "respuestas": [
             "5",
@@ -1727,6 +1857,7 @@
         {
           "id": "mates-t09-p09",
           "tipo": "eleccion",
+          "pagina": 192,
           "enunciado": "¿Cuál es el doble de 7?",
           "opciones": [
             "14",
@@ -1739,6 +1870,7 @@
         {
           "id": "mates-t09-p10",
           "tipo": "escribir",
+          "pagina": 192,
           "enunciado": "¿Cuál es la mitad de 20?",
           "respuestas": [
             "10",
@@ -1750,6 +1882,7 @@
         {
           "id": "mates-t09-p11",
           "tipo": "relacionar",
+          "pagina": 192,
           "enunciado": "Une cada número con su doble.",
           "pares": [
             [
@@ -1774,6 +1907,7 @@
         {
           "id": "mates-t09-p12",
           "tipo": "eleccion",
+          "pagina": 194,
           "enunciado": "En una bolsa solo hay pelotas azules. Si saco una, ¿qué es sacar una azul?",
           "opciones": [
             "seguro",
@@ -1786,6 +1920,7 @@
         {
           "id": "mates-t09-p13",
           "tipo": "eleccion",
+          "pagina": 194,
           "enunciado": "Lanzo un dado normal. Sacar un 8 es...",
           "opciones": [
             "imposible",
@@ -1798,6 +1933,7 @@
         {
           "id": "mates-t09-p14",
           "tipo": "vf",
+          "pagina": 194,
           "enunciado": "Si en una caja hay bolas rojas y verdes, es posible sacar una roja.",
           "correcta": true,
           "explicacion": "Puede salir roja o verde, así que es posible."
@@ -1805,6 +1941,7 @@
         {
           "id": "mates-t09-p15",
           "tipo": "escribir",
+          "pagina": 192,
           "enunciado": "Marta tiene 6 cubos de arena y su hermano el doble. ¿Cuántos cubos tiene su hermano?",
           "respuestas": [
             "12",

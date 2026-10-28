@@ -15,6 +15,7 @@
         {
           "id": "ingles-t01-p01",
           "tipo": "eleccion",
+          "pagina": 4,
           "enunciado": "Hello! How are you?",
           "opciones": [
             "I'm fine, thanks.",
@@ -28,6 +29,7 @@
         {
           "id": "ingles-t01-p02",
           "tipo": "escribir",
+          "pagina": 4,
           "enunciado": "¿Cómo se dice «lunes» en inglés?",
           "respuestas": [
             "Monday"
@@ -38,6 +40,7 @@
         {
           "id": "ingles-t01-p03",
           "tipo": "escribir",
+          "pagina": 4,
           "enunciado": "¿Cómo se dice «viernes» en inglés?",
           "respuestas": [
             "Friday"
@@ -48,6 +51,7 @@
         {
           "id": "ingles-t01-p04",
           "tipo": "eleccion",
+          "pagina": 4,
           "enunciado": "Which day comes after Tuesday?",
           "opciones": [
             "Wednesday",
@@ -61,6 +65,7 @@
         {
           "id": "ingles-t01-p05",
           "tipo": "relacionar",
+          "pagina": 4,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -86,6 +91,7 @@
         {
           "id": "ingles-t01-p06",
           "tipo": "ordenar",
+          "pagina": 4,
           "enunciado": "Put the words in order.",
           "elementos": [
             "What",
@@ -99,6 +105,7 @@
         {
           "id": "ingles-t01-p07",
           "tipo": "ordenar",
+          "pagina": 4,
           "enunciado": "Put the words in order.",
           "elementos": [
             "It's",
@@ -111,6 +118,7 @@
         {
           "id": "ingles-t01-p08",
           "tipo": "eleccion",
+          "pagina": 5,
           "enunciado": "What number is «twenty-five»?",
           "opciones": [
             "25",
@@ -124,6 +132,7 @@
         {
           "id": "ingles-t01-p09",
           "tipo": "eleccion",
+          "pagina": 5,
           "enunciado": "¿Cómo se dice 13 en inglés?",
           "opciones": [
             "thirteen",
@@ -136,6 +145,7 @@
         {
           "id": "ingles-t01-p10",
           "tipo": "eleccion",
+          "pagina": 5,
           "enunciado": "¿Cómo se dice 80 en inglés?",
           "opciones": [
             "eighty",
@@ -148,6 +158,7 @@
         {
           "id": "ingles-t01-p11",
           "tipo": "escribir",
+          "pagina": 5,
           "enunciado": "¿Cómo se dice «cien» en inglés?",
           "respuestas": [
             "one hundred",
@@ -160,6 +171,7 @@
         {
           "id": "ingles-t01-p12",
           "tipo": "relacionar",
+          "pagina": 5,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -185,6 +197,7 @@
         {
           "id": "ingles-t01-p13",
           "tipo": "escribir",
+          "pagina": 5,
           "enunciado": "Write the number 12 in English.",
           "respuestas": [
             "twelve"
@@ -196,6 +209,7 @@
         {
           "id": "ingles-t01-p14",
           "tipo": "eleccion",
+          "pagina": 5,
           "enunciado": "How do you spell 'May'?",
           "opciones": [
             "M-A-Y",
@@ -209,6 +223,7 @@
         {
           "id": "ingles-t01-p15",
           "tipo": "ordenar",
+          "pagina": 5,
           "enunciado": "Put the words in order.",
           "elementos": [
             "How",
@@ -223,6 +238,7 @@
         {
           "id": "ingles-t01-p16",
           "tipo": "eleccion",
+          "pagina": 5,
           "enunciado": "What number is «ninety»?",
           "opciones": [
             "90",
@@ -246,6 +262,7 @@
         {
           "id": "ingles-t02-p01",
           "tipo": "escribir",
+          "pagina": 6,
           "enunciado": "¿Cómo se dice «tijeras» en inglés?",
           "respuestas": [
             "scissors",
@@ -258,6 +275,7 @@
         {
           "id": "ingles-t02-p02",
           "tipo": "escribir",
+          "pagina": 6,
           "enunciado": "¿Cómo se dice «estuche» en inglés?",
           "respuestas": [
             "pencil case",
@@ -271,6 +289,7 @@
         {
           "id": "ingles-t02-p03",
           "tipo": "eleccion",
+          "pagina": 6,
           "enunciado": "¿Qué es «glue stick»?",
           "opciones": [
             "pegamento de barra",
@@ -283,6 +302,7 @@
         {
           "id": "ingles-t02-p04",
           "tipo": "eleccion",
+          "pagina": 6,
           "enunciado": "¿Cómo se dice «sacapuntas»?",
           "opciones": [
             "sharpener",
@@ -295,6 +315,7 @@
         {
           "id": "ingles-t02-p05",
           "tipo": "relacionar",
+          "pagina": 6,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -320,6 +341,7 @@
         {
           "id": "ingles-t02-p06",
           "tipo": "eleccion",
+          "pagina": 7,
           "enunciado": "Can I use your scissors?",
           "opciones": [
             "Sure! Here you are.",
@@ -333,6 +355,7 @@
         {
           "id": "ingles-t02-p07",
           "tipo": "ordenar",
+          "pagina": 8,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Have",
@@ -347,6 +370,7 @@
         {
           "id": "ingles-t02-p08",
           "tipo": "eleccion",
+          "pagina": 8,
           "enunciado": "Have you got a dictionary? – No, I ...",
           "opciones": [
             "haven't",
@@ -360,6 +384,7 @@
         {
           "id": "ingles-t02-p09",
           "tipo": "eleccion",
+          "pagina": 9,
           "enunciado": "... she got a lunch box?",
           "opciones": [
             "Has",
@@ -373,6 +398,7 @@
         {
           "id": "ingles-t02-p10",
           "tipo": "eleccion",
+          "pagina": 9,
           "enunciado": "Has he got a pencil? – Yes, he ...",
           "opciones": [
             "has",
@@ -386,6 +412,7 @@
         {
           "id": "ingles-t02-p11",
           "tipo": "ordenar",
+          "pagina": 7,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Can",
@@ -400,6 +427,7 @@
         {
           "id": "ingles-t02-p12",
           "tipo": "escribir",
+          "pagina": 10,
           "enunciado": "¿Cómo se dice «zapatillas de deporte» en inglés?",
           "respuestas": [
             "trainers",
@@ -412,6 +440,7 @@
         {
           "id": "ingles-t02-p13",
           "tipo": "relacionar",
+          "pagina": 10,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -437,6 +466,7 @@
         {
           "id": "ingles-t02-p14",
           "tipo": "eleccion",
+          "pagina": 10,
           "enunciado": "We've got ... football shirts.",
           "opciones": [
             "our",
@@ -450,6 +480,7 @@
         {
           "id": "ingles-t02-p15",
           "tipo": "eleccion",
+          "pagina": 10,
           "enunciado": "They've got ... trainers.",
           "opciones": [
             "their",
@@ -463,6 +494,7 @@
         {
           "id": "ingles-t02-p16",
           "tipo": "ordenar",
+          "pagina": 10,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I've",
@@ -487,6 +519,7 @@
         {
           "id": "ingles-t03-p01",
           "tipo": "escribir",
+          "pagina": 16,
           "enunciado": "¿Cómo se dice «arroz» en inglés?",
           "respuestas": [
             "rice",
@@ -498,6 +531,7 @@
         {
           "id": "ingles-t03-p02",
           "tipo": "escribir",
+          "pagina": 16,
           "enunciado": "¿Cómo se dice «pollo» en inglés?",
           "respuestas": [
             "chicken",
@@ -509,6 +543,7 @@
         {
           "id": "ingles-t03-p03",
           "tipo": "eleccion",
+          "pagina": 16,
           "enunciado": "¿Qué son «biscuits»?",
           "opciones": [
             "galletas",
@@ -521,6 +556,7 @@
         {
           "id": "ingles-t03-p04",
           "tipo": "eleccion",
+          "pagina": 16,
           "enunciado": "¿Cómo se dice «albóndigas»?",
           "opciones": [
             "meatballs",
@@ -533,6 +569,7 @@
         {
           "id": "ingles-t03-p05",
           "tipo": "relacionar",
+          "pagina": 17,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -554,6 +591,7 @@
         {
           "id": "ingles-t03-p06",
           "tipo": "relacionar",
+          "pagina": 20,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -579,6 +617,7 @@
         {
           "id": "ingles-t03-p07",
           "tipo": "escribir",
+          "pagina": 20,
           "enunciado": "¿Cómo se dice «patatas» en inglés?",
           "respuestas": [
             "potatoes",
@@ -591,6 +630,7 @@
         {
           "id": "ingles-t03-p08",
           "tipo": "eleccion",
+          "pagina": 16,
           "enunciado": "Do you like beans? – Yes, I ...",
           "opciones": [
             "do",
@@ -604,6 +644,7 @@
         {
           "id": "ingles-t03-p09",
           "tipo": "eleccion",
+          "pagina": 19,
           "enunciado": "... she have rice for lunch?",
           "opciones": [
             "Does",
@@ -617,6 +658,7 @@
         {
           "id": "ingles-t03-p10",
           "tipo": "eleccion",
+          "pagina": 17,
           "enunciado": "He ... cereal for breakfast.",
           "opciones": [
             "has",
@@ -630,6 +672,7 @@
         {
           "id": "ingles-t03-p11",
           "tipo": "ordenar",
+          "pagina": 17,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I",
@@ -644,6 +687,7 @@
         {
           "id": "ingles-t03-p12",
           "tipo": "ordenar",
+          "pagina": 20,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Do",
@@ -657,6 +701,7 @@
         {
           "id": "ingles-t03-p13",
           "tipo": "eleccion",
+          "pagina": 19,
           "enunciado": "Does he like peas? – No, he ...",
           "opciones": [
             "doesn't",
@@ -670,6 +715,7 @@
         {
           "id": "ingles-t03-p14",
           "tipo": "ordenar",
+          "pagina": 17,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I'd",
@@ -683,6 +729,7 @@
         {
           "id": "ingles-t03-p15",
           "tipo": "escribir",
+          "pagina": 17,
           "enunciado": "Escribe en inglés: «cena».",
           "respuestas": [
             "dinner"
@@ -693,6 +740,7 @@
         {
           "id": "ingles-t03-p16",
           "tipo": "eleccion",
+          "pagina": 20,
           "enunciado": "Which one is a vegetable?",
           "opciones": [
             "peppers",
@@ -716,6 +764,7 @@
         {
           "id": "ingles-t04-p01",
           "tipo": "escribir",
+          "pagina": 28,
           "enunciado": "¿Cómo se dice «mono» en inglés?",
           "respuestas": [
             "monkey",
@@ -728,6 +777,7 @@
         {
           "id": "ingles-t04-p02",
           "tipo": "escribir",
+          "pagina": 28,
           "enunciado": "¿Cómo se dice «jirafa» en inglés?",
           "respuestas": [
             "giraffe",
@@ -740,6 +790,7 @@
         {
           "id": "ingles-t04-p03",
           "tipo": "eleccion",
+          "pagina": 28,
           "enunciado": "¿Qué animal es «dolphin»?",
           "opciones": [
             "delfín",
@@ -752,6 +803,7 @@
         {
           "id": "ingles-t04-p04",
           "tipo": "relacionar",
+          "pagina": 28,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -777,6 +829,7 @@
         {
           "id": "ingles-t04-p05",
           "tipo": "relacionar",
+          "pagina": 32,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -802,6 +855,7 @@
         {
           "id": "ingles-t04-p06",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "Can a dolphin swim?",
           "opciones": [
             "Yes, it can.",
@@ -815,6 +869,7 @@
         {
           "id": "ingles-t04-p07",
           "tipo": "eleccion",
+          "pagina": 29,
           "enunciado": "Can an elephant fly?",
           "opciones": [
             "No, it can't.",
@@ -828,6 +883,7 @@
         {
           "id": "ingles-t04-p08",
           "tipo": "eleccion",
+          "pagina": 30,
           "enunciado": "Penguins live on land and ... water.",
           "opciones": [
             "in",
@@ -841,6 +897,7 @@
         {
           "id": "ingles-t04-p09",
           "tipo": "ordenar",
+          "pagina": 30,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Do",
@@ -855,6 +912,7 @@
         {
           "id": "ingles-t04-p10",
           "tipo": "eleccion",
+          "pagina": 30,
           "enunciado": "Do dolphins live on land? – No, they ...",
           "opciones": [
             "don't",
@@ -868,6 +926,7 @@
         {
           "id": "ingles-t04-p11",
           "tipo": "eleccion",
+          "pagina": 33,
           "enunciado": "What do tigers eat?",
           "opciones": [
             "They eat meat.",
@@ -881,6 +940,7 @@
         {
           "id": "ingles-t04-p12",
           "tipo": "ordenar",
+          "pagina": 32,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Giraffes",
@@ -893,6 +953,7 @@
         {
           "id": "ingles-t04-p13",
           "tipo": "ordenar",
+          "pagina": 33,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Monkeys",
@@ -906,6 +967,7 @@
         {
           "id": "ingles-t04-p14",
           "tipo": "escribir",
+          "pagina": 32,
           "enunciado": "¿Cómo se dice «insectos» en inglés?",
           "respuestas": [
             "insects",
@@ -918,6 +980,7 @@
         {
           "id": "ingles-t04-p15",
           "tipo": "eleccion",
+          "pagina": 32,
           "enunciado": "¿Cómo se dice «frutos secos»?",
           "opciones": [
             "nuts",
@@ -930,6 +993,7 @@
         {
           "id": "ingles-t04-p16",
           "tipo": "ordenar",
+          "pagina": 29,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Can",
@@ -953,6 +1017,7 @@
         {
           "id": "ingles-t05-p01",
           "tipo": "escribir",
+          "pagina": 38,
           "enunciado": "¿Cómo se dice «reloj» en inglés?",
           "respuestas": [
             "watch",
@@ -965,6 +1030,7 @@
         {
           "id": "ingles-t05-p02",
           "tipo": "escribir",
+          "pagina": 38,
           "enunciado": "¿Cómo se dice «pulsera» en inglés?",
           "respuestas": [
             "bracelet",
@@ -977,6 +1043,7 @@
         {
           "id": "ingles-t05-p03",
           "tipo": "eleccion",
+          "pagina": 38,
           "enunciado": "¿Qué es «puppet»?",
           "opciones": [
             "marioneta",
@@ -989,6 +1056,7 @@
         {
           "id": "ingles-t05-p04",
           "tipo": "relacionar",
+          "pagina": 38,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1014,6 +1082,7 @@
         {
           "id": "ingles-t05-p05",
           "tipo": "relacionar",
+          "pagina": 42,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1039,6 +1108,7 @@
         {
           "id": "ingles-t05-p06",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "Is this Sam's watch? – No, it isn't. It's ... watch.",
           "opciones": [
             "Eva's",
@@ -1052,6 +1122,7 @@
         {
           "id": "ingles-t05-p07",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "Whose guitar is it? (Es mía) It's ...",
           "opciones": [
             "mine",
@@ -1065,6 +1136,7 @@
         {
           "id": "ingles-t05-p08",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "It's Tom's poster. It's ...",
           "opciones": [
             "his",
@@ -1078,6 +1150,7 @@
         {
           "id": "ingles-t05-p09",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "It's Anna's bracelet. It's ...",
           "opciones": [
             "hers",
@@ -1091,6 +1164,7 @@
         {
           "id": "ingles-t05-p10",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "It's our trophy. It's ...",
           "opciones": [
             "ours",
@@ -1104,6 +1178,7 @@
         {
           "id": "ingles-t05-p11",
           "tipo": "ordenar",
+          "pagina": 40,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Whose",
@@ -1117,6 +1192,7 @@
         {
           "id": "ingles-t05-p12",
           "tipo": "ordenar",
+          "pagina": 43,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I'm",
@@ -1130,6 +1206,7 @@
         {
           "id": "ingles-t05-p13",
           "tipo": "ordenar",
+          "pagina": 43,
           "enunciado": "Put the words in order.",
           "elementos": [
             "What",
@@ -1143,6 +1220,7 @@
         {
           "id": "ingles-t05-p14",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "¿Cómo se dice «pijama» en inglés?",
           "respuestas": [
             "pyjamas",
@@ -1156,6 +1234,7 @@
         {
           "id": "ingles-t05-p15",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "Which one can you wear?",
           "opciones": [
             "jeans",
@@ -1169,6 +1248,7 @@
         {
           "id": "ingles-t05-p16",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "Escribe en inglés: «vaqueros».",
           "respuestas": [
             "jeans"
@@ -1189,6 +1269,7 @@
         {
           "id": "ingles-t06-p01",
           "tipo": "escribir",
+          "pagina": 50,
           "enunciado": "¿Cómo se dice «comisaría» en inglés?",
           "respuestas": [
             "police station",
@@ -1201,6 +1282,7 @@
         {
           "id": "ingles-t06-p02",
           "tipo": "escribir",
+          "pagina": 50,
           "enunciado": "¿Cómo se dice «parada de autobús» en inglés?",
           "respuestas": [
             "bus stop",
@@ -1213,6 +1295,7 @@
         {
           "id": "ingles-t06-p03",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "¿Qué es «toy shop»?",
           "opciones": [
             "juguetería",
@@ -1225,6 +1308,7 @@
         {
           "id": "ingles-t06-p04",
           "tipo": "relacionar",
+          "pagina": 54,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1250,6 +1334,7 @@
         {
           "id": "ingles-t06-p05",
           "tipo": "relacionar",
+          "pagina": 55,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1275,6 +1360,7 @@
         {
           "id": "ingles-t06-p06",
           "tipo": "escribir",
+          "pagina": 54,
           "enunciado": "¿Cómo se dice «tren» en inglés?",
           "respuestas": [
             "train",
@@ -1287,6 +1373,7 @@
         {
           "id": "ingles-t06-p07",
           "tipo": "eleccion",
+          "pagina": 52,
           "enunciado": "Is there a hospital in your street? – Yes, there ...",
           "opciones": [
             "is",
@@ -1300,6 +1387,7 @@
         {
           "id": "ingles-t06-p08",
           "tipo": "eleccion",
+          "pagina": 52,
           "enunciado": "Are there any lorries? – No, there ...",
           "opciones": [
             "aren't",
@@ -1313,6 +1401,7 @@
         {
           "id": "ingles-t06-p09",
           "tipo": "eleccion",
+          "pagina": 52,
           "enunciado": "... there a park in your town?",
           "opciones": [
             "Is",
@@ -1326,6 +1415,7 @@
         {
           "id": "ingles-t06-p10",
           "tipo": "ordenar",
+          "pagina": 51,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Shall we",
@@ -1339,6 +1429,7 @@
         {
           "id": "ingles-t06-p11",
           "tipo": "ordenar",
+          "pagina": 55,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Where's",
@@ -1352,6 +1443,7 @@
         {
           "id": "ingles-t06-p12",
           "tipo": "ordenar",
+          "pagina": 55,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I'm",
@@ -1365,6 +1457,7 @@
         {
           "id": "ingles-t06-p13",
           "tipo": "eleccion",
+          "pagina": 55,
           "enunciado": "The cat is ... the car and the bike.",
           "opciones": [
             "between",
@@ -1378,6 +1471,7 @@
         {
           "id": "ingles-t06-p14",
           "tipo": "eleccion",
+          "pagina": 50,
           "enunciado": "Where do you buy food?",
           "opciones": [
             "supermarket",
@@ -1391,6 +1485,7 @@
         {
           "id": "ingles-t06-p15",
           "tipo": "escribir",
+          "pagina": 51,
           "enunciado": "Escribe en inglés: «coche».",
           "respuestas": [
             "car",
@@ -1413,6 +1508,7 @@
         {
           "id": "ingles-t07-p01",
           "tipo": "escribir",
+          "pagina": 60,
           "enunciado": "¿Cómo se dice «ajedrez» en inglés?",
           "respuestas": [
             "chess"
@@ -1423,6 +1519,7 @@
         {
           "id": "ingles-t07-p02",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Qué es «hide and seek»?",
           "opciones": [
             "el escondite",
@@ -1435,6 +1532,7 @@
         {
           "id": "ingles-t07-p03",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "¿Qué es «tag»?",
           "opciones": [
             "el pilla-pilla",
@@ -1447,6 +1545,7 @@
         {
           "id": "ingles-t07-p04",
           "tipo": "relacionar",
+          "pagina": 64,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1472,6 +1571,7 @@
         {
           "id": "ingles-t07-p05",
           "tipo": "escribir",
+          "pagina": 60,
           "enunciado": "¿Cómo se dice «tenis de mesa» (ping-pong) en inglés?",
           "respuestas": [
             "table tennis",
@@ -1484,6 +1584,7 @@
         {
           "id": "ingles-t07-p06",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "What's she doing? – She's ... badminton.",
           "opciones": [
             "playing",
@@ -1497,6 +1598,7 @@
         {
           "id": "ingles-t07-p07",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "What are they doing? – ... playing dominoes.",
           "opciones": [
             "They're",
@@ -1510,6 +1612,7 @@
         {
           "id": "ingles-t07-p08",
           "tipo": "ordenar",
+          "pagina": 60,
           "enunciado": "Put the words in order.",
           "elementos": [
             "He's",
@@ -1523,6 +1626,7 @@
         {
           "id": "ingles-t07-p09",
           "tipo": "ordenar",
+          "pagina": 61,
           "enunciado": "Put the words in order.",
           "elementos": [
             "What",
@@ -1537,6 +1641,7 @@
         {
           "id": "ingles-t07-p10",
           "tipo": "ordenar",
+          "pagina": 64,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Is",
@@ -1550,6 +1655,7 @@
         {
           "id": "ingles-t07-p11",
           "tipo": "eleccion",
+          "pagina": 64,
           "enunciado": "Is he doing judo? – Yes, he ...",
           "opciones": [
             "is",
@@ -1563,6 +1669,7 @@
         {
           "id": "ingles-t07-p12",
           "tipo": "eleccion",
+          "pagina": 64,
           "enunciado": "Is she flying a kite? – No, she ...",
           "opciones": [
             "isn't",
@@ -1576,6 +1683,7 @@
         {
           "id": "ingles-t07-p13",
           "tipo": "eleccion",
+          "pagina": 64,
           "enunciado": "They're ... with friends.",
           "opciones": [
             "playing",
@@ -1589,6 +1697,7 @@
         {
           "id": "ingles-t07-p14",
           "tipo": "escribir",
+          "pagina": 60,
           "enunciado": "Escribe en inglés: «dominó» (el juego).",
           "respuestas": [
             "dominoes"
@@ -1599,6 +1708,7 @@
         {
           "id": "ingles-t07-p15",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "I like chess ... frisbee.",
           "opciones": [
             "and",
@@ -1622,6 +1732,7 @@
         {
           "id": "ingles-t08-p01",
           "tipo": "escribir",
+          "pagina": 72,
           "enunciado": "¿Cómo se dice «levantarse» en inglés?",
           "respuestas": [
             "get up",
@@ -1633,6 +1744,7 @@
         {
           "id": "ingles-t08-p02",
           "tipo": "relacionar",
+          "pagina": 72,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1658,6 +1770,7 @@
         {
           "id": "ingles-t08-p03",
           "tipo": "eleccion",
+          "pagina": 72,
           "enunciado": "¿Qué es «brush my teeth»?",
           "opciones": [
             "lavarme los dientes",
@@ -1670,6 +1783,7 @@
         {
           "id": "ingles-t08-p04",
           "tipo": "eleccion",
+          "pagina": 72,
           "enunciado": "¿Qué es «brush my hair»?",
           "opciones": [
             "peinarme",
@@ -1682,6 +1796,7 @@
         {
           "id": "ingles-t08-p05",
           "tipo": "eleccion",
+          "pagina": 76,
           "enunciado": "It's 1:30. It's one ...",
           "opciones": [
             "thirty",
@@ -1695,6 +1810,7 @@
         {
           "id": "ingles-t08-p06",
           "tipo": "eleccion",
+          "pagina": 76,
           "enunciado": "It's 3:00. It's three ...",
           "opciones": [
             "o'clock",
@@ -1708,6 +1824,7 @@
         {
           "id": "ingles-t08-p07",
           "tipo": "relacionar",
+          "pagina": 76,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1733,6 +1850,7 @@
         {
           "id": "ingles-t08-p08",
           "tipo": "eleccion",
+          "pagina": 77,
           "enunciado": "She ... up at seven o'clock.",
           "opciones": [
             "gets",
@@ -1746,6 +1864,7 @@
         {
           "id": "ingles-t08-p09",
           "tipo": "eleccion",
+          "pagina": 77,
           "enunciado": "When ... he go to bed?",
           "opciones": [
             "does",
@@ -1759,6 +1878,7 @@
         {
           "id": "ingles-t08-p10",
           "tipo": "eleccion",
+          "pagina": 77,
           "enunciado": "He ... get up at six o'clock.",
           "opciones": [
             "doesn't",
@@ -1772,6 +1892,7 @@
         {
           "id": "ingles-t08-p11",
           "tipo": "ordenar",
+          "pagina": 76,
           "enunciado": "Put the words in order.",
           "elementos": [
             "What",
@@ -1785,6 +1906,7 @@
         {
           "id": "ingles-t08-p12",
           "tipo": "ordenar",
+          "pagina": 72,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I",
@@ -1798,6 +1920,7 @@
         {
           "id": "ingles-t08-p13",
           "tipo": "ordenar",
+          "pagina": 72,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I",
@@ -1811,6 +1934,7 @@
         {
           "id": "ingles-t08-p14",
           "tipo": "ordenar",
+          "pagina": 81,
           "enunciado": "Put the words in order.",
           "elementos": [
             "He",
@@ -1825,6 +1949,7 @@
         {
           "id": "ingles-t08-p15",
           "tipo": "escribir",
+          "pagina": 72,
           "enunciado": "Escribe en inglés: «ir a la cama».",
           "respuestas": [
             "go to bed",
@@ -1846,6 +1971,7 @@
         {
           "id": "ingles-t09-p01",
           "tipo": "escribir",
+          "pagina": 82,
           "enunciado": "¿Cómo se dice «lanzar» en inglés?",
           "respuestas": [
             "throw",
@@ -1857,6 +1983,7 @@
         {
           "id": "ingles-t09-p02",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "¿Qué es «kick»?",
           "opciones": [
             "dar una patada",
@@ -1869,6 +1996,7 @@
         {
           "id": "ingles-t09-p03",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "¿Qué es «juggle»?",
           "opciones": [
             "hacer malabares",
@@ -1881,6 +2009,7 @@
         {
           "id": "ingles-t09-p04",
           "tipo": "relacionar",
+          "pagina": 82,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1906,6 +2035,7 @@
         {
           "id": "ingles-t09-p05",
           "tipo": "relacionar",
+          "pagina": 86,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -1931,6 +2061,7 @@
         {
           "id": "ingles-t09-p06",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "What can you do? – I ... skateboard.",
           "opciones": [
             "can",
@@ -1944,6 +2075,7 @@
         {
           "id": "ingles-t09-p07",
           "tipo": "eleccion",
+          "pagina": 84,
           "enunciado": "She ... painting pictures.",
           "opciones": [
             "likes",
@@ -1957,6 +2089,7 @@
         {
           "id": "ingles-t09-p08",
           "tipo": "eleccion",
+          "pagina": 87,
           "enunciado": "Does he like acting? – Yes, he ...",
           "opciones": [
             "does",
@@ -1970,6 +2103,7 @@
         {
           "id": "ingles-t09-p09",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "I'm good at ...",
           "opciones": [
             "juggling",
@@ -1983,6 +2117,7 @@
         {
           "id": "ingles-t09-p10",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "Are you good at acting? – No, I'm ...",
           "opciones": [
             "not",
@@ -1996,6 +2131,7 @@
         {
           "id": "ingles-t09-p11",
           "tipo": "ordenar",
+          "pagina": 86,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I'm",
@@ -2010,6 +2146,7 @@
         {
           "id": "ingles-t09-p12",
           "tipo": "ordenar",
+          "pagina": 85,
           "enunciado": "Put the words in order.",
           "elementos": [
             "He",
@@ -2024,6 +2161,7 @@
         {
           "id": "ingles-t09-p13",
           "tipo": "ordenar",
+          "pagina": 82,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Can",
@@ -2038,6 +2176,7 @@
         {
           "id": "ingles-t09-p14",
           "tipo": "escribir",
+          "pagina": 82,
           "enunciado": "¿Cómo se dice «patinar en línea» en inglés?",
           "respuestas": [
             "rollerblade",
@@ -2051,6 +2190,7 @@
         {
           "id": "ingles-t09-p15",
           "tipo": "escribir",
+          "pagina": 84,
           "enunciado": "Escribe en inglés: «actuar».",
           "respuestas": [
             "act",
@@ -2072,6 +2212,7 @@
         {
           "id": "ingles-t10-p01",
           "tipo": "escribir",
+          "pagina": 94,
           "enunciado": "¿Cómo se dice «sillón» en inglés?",
           "respuestas": [
             "armchair",
@@ -2084,6 +2225,7 @@
         {
           "id": "ingles-t10-p02",
           "tipo": "escribir",
+          "pagina": 94,
           "enunciado": "¿Cómo se dice «cortinas» en inglés?",
           "respuestas": [
             "curtains",
@@ -2095,6 +2237,7 @@
         {
           "id": "ingles-t10-p03",
           "tipo": "eleccion",
+          "pagina": 94,
           "enunciado": "¿Qué es «fireplace»?",
           "opciones": [
             "chimenea",
@@ -2107,6 +2250,7 @@
         {
           "id": "ingles-t10-p04",
           "tipo": "relacionar",
+          "pagina": 94,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -2132,6 +2276,7 @@
         {
           "id": "ingles-t10-p05",
           "tipo": "relacionar",
+          "pagina": 98,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -2157,6 +2302,7 @@
         {
           "id": "ingles-t10-p06",
           "tipo": "escribir",
+          "pagina": 98,
           "enunciado": "¿Cómo se dice «vaso» en inglés?",
           "respuestas": [
             "glass",
@@ -2169,6 +2315,7 @@
         {
           "id": "ingles-t10-p07",
           "tipo": "escribir",
+          "pagina": 98,
           "enunciado": "¿Cómo se dice «jarra» en inglés?",
           "respuestas": [
             "jug",
@@ -2181,6 +2328,7 @@
         {
           "id": "ingles-t10-p08",
           "tipo": "eleccion",
+          "pagina": 95,
           "enunciado": "Where shall I put the vase? – ... the shelf.",
           "opciones": [
             "On",
@@ -2194,6 +2342,7 @@
         {
           "id": "ingles-t10-p09",
           "tipo": "eleccion",
+          "pagina": 96,
           "enunciado": "There ... three plates on the table.",
           "opciones": [
             "are",
@@ -2207,6 +2356,7 @@
         {
           "id": "ingles-t10-p10",
           "tipo": "eleccion",
+          "pagina": 96,
           "enunciado": "There ... a rug on the floor.",
           "opciones": [
             "is",
@@ -2220,6 +2370,7 @@
         {
           "id": "ingles-t10-p11",
           "tipo": "eleccion",
+          "pagina": 99,
           "enunciado": "The knife is ... than the spoon.",
           "opciones": [
             "longer",
@@ -2233,6 +2384,7 @@
         {
           "id": "ingles-t10-p12",
           "tipo": "ordenar",
+          "pagina": 96,
           "enunciado": "Put the words in order.",
           "elementos": [
             "There",
@@ -2246,6 +2398,7 @@
         {
           "id": "ingles-t10-p13",
           "tipo": "ordenar",
+          "pagina": 99,
           "enunciado": "Put the words in order.",
           "elementos": [
             "The",
@@ -2262,6 +2415,7 @@
         {
           "id": "ingles-t10-p14",
           "tipo": "ordenar",
+          "pagina": 98,
           "enunciado": "Put the words in order.",
           "elementos": [
             "Is",
@@ -2275,6 +2429,7 @@
         {
           "id": "ingles-t10-p15",
           "tipo": "eleccion",
+          "pagina": 97,
           "enunciado": "There aren't ... cups on the table.",
           "opciones": [
             "any",
@@ -2298,6 +2453,7 @@
         {
           "id": "ingles-t11-p01",
           "tipo": "escribir",
+          "pagina": 104,
           "enunciado": "¿Cómo se dice «castillo» en inglés?",
           "respuestas": [
             "castle",
@@ -2310,6 +2466,7 @@
         {
           "id": "ingles-t11-p02",
           "tipo": "escribir",
+          "pagina": 104,
           "enunciado": "¿Cómo se dice «piscina» en inglés?",
           "respuestas": [
             "swimming pool",
@@ -2323,6 +2480,7 @@
         {
           "id": "ingles-t11-p03",
           "tipo": "eleccion",
+          "pagina": 104,
           "enunciado": "¿Qué es «bowling alley»?",
           "opciones": [
             "la bolera",
@@ -2335,6 +2493,7 @@
         {
           "id": "ingles-t11-p04",
           "tipo": "relacionar",
+          "pagina": 104,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -2360,6 +2519,7 @@
         {
           "id": "ingles-t11-p05",
           "tipo": "relacionar",
+          "pagina": 108,
           "enunciado": "Match the English words with Spanish.",
           "pares": [
             [
@@ -2385,6 +2545,7 @@
         {
           "id": "ingles-t11-p06",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "¿Cómo se dice «ventoso» (hace viento) en inglés?",
           "respuestas": [
             "windy"
@@ -2395,6 +2556,7 @@
         {
           "id": "ingles-t11-p07",
           "tipo": "eleccion",
+          "pagina": 106,
           "enunciado": "Where were you yesterday? – I ... at the funfair.",
           "opciones": [
             "was",
@@ -2408,6 +2570,7 @@
         {
           "id": "ingles-t11-p08",
           "tipo": "eleccion",
+          "pagina": 107,
           "enunciado": "Where ... you yesterday?",
           "opciones": [
             "were",
@@ -2421,6 +2584,7 @@
         {
           "id": "ingles-t11-p09",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "What was the weather like? – It ... snowy.",
           "opciones": [
             "was",
@@ -2434,6 +2598,7 @@
         {
           "id": "ingles-t11-p10",
           "tipo": "ordenar",
+          "pagina": 109,
           "enunciado": "Put the words in order.",
           "elementos": [
             "What",
@@ -2448,6 +2613,7 @@
         {
           "id": "ingles-t11-p11",
           "tipo": "ordenar",
+          "pagina": 106,
           "enunciado": "Put the words in order.",
           "elementos": [
             "I",
@@ -2462,6 +2628,7 @@
         {
           "id": "ingles-t11-p12",
           "tipo": "ordenar",
+          "pagina": 108,
           "enunciado": "Put the words in order.",
           "elementos": [
             "It",
@@ -2475,6 +2642,7 @@
         {
           "id": "ingles-t11-p13",
           "tipo": "eleccion",
+          "pagina": 105,
           "enunciado": "I like the funfair. – So ... I.",
           "opciones": [
             "do",
@@ -2488,6 +2656,7 @@
         {
           "id": "ingles-t11-p14",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "¿Cómo se dice «nevado / con nieve»?",
           "opciones": [
             "snowy",
@@ -2500,6 +2669,7 @@
         {
           "id": "ingles-t11-p15",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "Escribe en inglés: «soleado».",
           "respuestas": [
             "sunny"

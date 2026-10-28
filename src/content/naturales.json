@@ -15,6 +15,7 @@
         {
           "id": "naturales-t01-p01",
           "tipo": "ordenar",
+          "pagina": 8,
           "enunciado": "Ordena las etapas de la vida, de la primera a la última.",
           "elementos": [
             "Infancia",
@@ -27,6 +28,7 @@
         {
           "id": "naturales-t01-p02",
           "tipo": "eleccion",
+          "pagina": 9,
           "enunciado": "¿Cómo se llaman los primeros dientes que tenemos?",
           "opciones": [
             "Dientes de leche",
@@ -39,6 +41,7 @@
         {
           "id": "naturales-t01-p03",
           "tipo": "vf",
+          "pagina": 9,
           "enunciado": "El color de los ojos cambia a medida que crecemos.",
           "correcta": false,
           "explicacion": "El color de los ojos no cambia al crecer. Lo que sí cambia es la altura, el peso, el número de pie o los dientes."
@@ -46,6 +49,7 @@
         {
           "id": "naturales-t01-p04",
           "tipo": "eleccion",
+          "pagina": 10,
           "enunciado": "¿Cuál de estas NO es una función vital?",
           "opciones": [
             "Nutrición",
@@ -59,6 +63,7 @@
         {
           "id": "naturales-t01-p05",
           "tipo": "relacionar",
+          "pagina": 10,
           "enunciado": "Une cada sentido con su órgano.",
           "pares": [
             [
@@ -83,6 +88,7 @@
         {
           "id": "naturales-t01-p06",
           "tipo": "escribir",
+          "pagina": 10,
           "enunciado": "¿Con qué sentido notas que un tomate es suave al tocarlo?",
           "respuestas": [
             "tacto",
@@ -94,6 +100,7 @@
         {
           "id": "naturales-t01-p07",
           "tipo": "eleccion",
+          "pagina": 10,
           "enunciado": "Cuando desayunas, ¿qué función vital estás realizando?",
           "opciones": [
             "Nutrición",
@@ -106,6 +113,7 @@
         {
           "id": "naturales-t01-p08",
           "tipo": "eleccion",
+          "pagina": 12,
           "enunciado": "¿Cómo son los huesos?",
           "opciones": [
             "Duros y rígidos",
@@ -118,6 +126,7 @@
         {
           "id": "naturales-t01-p09",
           "tipo": "escribir",
+          "pagina": 12,
           "enunciado": "¿Cómo se llama el conjunto de todos los huesos del cuerpo?",
           "respuestas": [
             "esqueleto",
@@ -129,6 +138,7 @@
         {
           "id": "naturales-t01-p10",
           "tipo": "relacionar",
+          "pagina": 12,
           "enunciado": "Une cada parte del cuerpo con lo que es.",
           "pares": [
             [
@@ -149,6 +159,7 @@
         {
           "id": "naturales-t01-p11",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Las articulaciones nos permiten doblar partes del cuerpo, como el codo.",
           "correcta": true,
           "explicacion": "¡Correcto! Las articulaciones unen los huesos y nos dejan doblarnos."
@@ -156,6 +167,7 @@
         {
           "id": "naturales-t01-p12",
           "tipo": "vf",
+          "pagina": 12,
           "enunciado": "Cuanto más usamos los músculos, más débiles se vuelven.",
           "correcta": false,
           "explicacion": "Al revés: cuanto más los usamos, más fuertes se hacen. ¡Por eso es bueno hacer ejercicio!"
@@ -163,6 +175,7 @@
         {
           "id": "naturales-t01-p13",
           "tipo": "ordenar",
+          "pagina": 14,
           "enunciado": "Ordena el camino del aire al respirar.",
           "elementos": [
             "Nariz",
@@ -174,6 +187,7 @@
         {
           "id": "naturales-t01-p14",
           "tipo": "escribir",
+          "pagina": 14,
           "enunciado": "¿Qué gas del aire necesitamos para vivir?",
           "respuestas": [
             "oxigeno",
@@ -185,6 +199,7 @@
         {
           "id": "naturales-t01-p15",
           "tipo": "eleccion",
+          "pagina": 15,
           "enunciado": "Cuando corres o bailas, tu respiración es...",
           "opciones": [
             "Acelerada",
@@ -197,6 +212,7 @@
         {
           "id": "naturales-t01-p16",
           "tipo": "ordenar",
+          "pagina": 16,
           "enunciado": "Ordena el camino de los alimentos en la digestión.",
           "elementos": [
             "Boca",
@@ -210,6 +226,7 @@
         {
           "id": "naturales-t01-p17",
           "tipo": "escribir",
+          "pagina": 16,
           "enunciado": "¿Cómo se llaman las sustancias sencillas en que la digestión transforma los alimentos?",
           "respuestas": [
             "nutrientes",
@@ -232,6 +249,7 @@
         {
           "id": "naturales-t02-p01",
           "tipo": "eleccion",
+          "pagina": 24,
           "enunciado": "¿Cómo se llama el médico de los niños y niñas?",
           "opciones": [
             "Pediatra",
@@ -244,6 +262,7 @@
         {
           "id": "naturales-t02-p02",
           "tipo": "eleccion",
+          "pagina": 24,
           "enunciado": "¿Para qué sirven las vacunas?",
           "opciones": [
             "Para prevenir enfermedades",
@@ -256,6 +275,7 @@
         {
           "id": "naturales-t02-p03",
           "tipo": "vf",
+          "pagina": 24,
           "enunciado": "El resfriado y la gripe son enfermedades muy comunes.",
           "correcta": true,
           "explicacion": "Sí, son enfermedades frecuentes. Cuando nos encontramos mal vamos al centro de salud."
@@ -263,6 +283,7 @@
         {
           "id": "naturales-t02-p04",
           "tipo": "relacionar",
+          "pagina": 24,
           "enunciado": "Une cada profesional con lo que hace.",
           "pares": [
             [
@@ -283,6 +304,7 @@
         {
           "id": "naturales-t02-p05",
           "tipo": "eleccion",
+          "pagina": 26,
           "enunciado": "¿Cuándo debemos cepillarnos los dientes?",
           "opciones": [
             "Después de cada comida",
@@ -295,6 +317,7 @@
         {
           "id": "naturales-t02-p06",
           "tipo": "escribir",
+          "pagina": 26,
           "enunciado": "¿Cuántas horas al día, más o menos, deben dormir los niños y niñas? Escribe el número.",
           "respuestas": [
             "10",
@@ -308,6 +331,7 @@
         {
           "id": "naturales-t02-p07",
           "tipo": "vf",
+          "pagina": 26,
           "enunciado": "Sentarse con la espalda recta es un hábito saludable.",
           "correcta": true,
           "explicacion": "Una buena postura cuida nuestra espalda y evita molestias."
@@ -315,6 +339,7 @@
         {
           "id": "naturales-t02-p08",
           "tipo": "eleccion",
+          "pagina": 26,
           "enunciado": "¿Cuál de estos es un hábito saludable?",
           "opciones": [
             "Comer fruta todos los días",
@@ -327,6 +352,7 @@
         {
           "id": "naturales-t02-p09",
           "tipo": "escribir",
+          "pagina": 28,
           "enunciado": "¿Cuántas comidas al día es conveniente hacer? Escribe el número.",
           "respuestas": [
             "5",
@@ -340,6 +366,7 @@
         {
           "id": "naturales-t02-p10",
           "tipo": "ordenar",
+          "pagina": 28,
           "enunciado": "Ordena las comidas del día, de la primera a la última.",
           "elementos": [
             "Desayuno",
@@ -353,6 +380,7 @@
         {
           "id": "naturales-t02-p11",
           "tipo": "eleccion",
+          "pagina": 28,
           "enunciado": "¿Qué menú es más variado y sano?",
           "opciones": [
             "Lentejas, salmón con espinacas y macedonia",
@@ -365,6 +393,7 @@
         {
           "id": "naturales-t02-p12",
           "tipo": "vf",
+          "pagina": 28,
           "enunciado": "Para estar sanos hay que beber suficiente agua.",
           "correcta": true,
           "explicacion": "El agua es necesaria para que nuestro cuerpo funcione bien."
@@ -372,6 +401,7 @@
         {
           "id": "naturales-t02-p13",
           "tipo": "relacionar",
+          "pagina": 30,
           "enunciado": "Une cada objeto con su peligro.",
           "pares": [
             [
@@ -392,6 +422,7 @@
         {
           "id": "naturales-t02-p14",
           "tipo": "eleccion",
+          "pagina": 30,
           "enunciado": "¿Qué debes hacer al ir en coche?",
           "opciones": [
             "Ponerte el cinturón de seguridad",
@@ -404,6 +435,7 @@
         {
           "id": "naturales-t02-p15",
           "tipo": "eleccion",
+          "pagina": 30,
           "enunciado": "¿Por dónde debemos cruzar la calle?",
           "opciones": [
             "Por el paso de peatones",
@@ -416,6 +448,7 @@
         {
           "id": "naturales-t02-p16",
           "tipo": "escribir",
+          "pagina": 30,
           "enunciado": "¿Qué te pones en la cabeza para ir en bicicleta?",
           "respuestas": [
             "casco",
@@ -429,6 +462,7 @@
         {
           "id": "naturales-t02-p17",
           "tipo": "vf",
+          "pagina": 32,
           "enunciado": "Antes y después de hacer deporte es bueno estirar.",
           "correcta": true,
           "explicacion": "Estirar relaja los músculos y ayuda a evitar lesiones."
@@ -446,6 +480,7 @@
         {
           "id": "naturales-t03-p01",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "¿Qué tienen los animales vertebrados que no tienen los invertebrados?",
           "opciones": [
             "Esqueleto de huesos",
@@ -458,6 +493,7 @@
         {
           "id": "naturales-t03-p02",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "¿Cuántos grupos de vertebrados hay? Escribe el número.",
           "respuestas": [
             "5",
@@ -469,6 +505,7 @@
         {
           "id": "naturales-t03-p03",
           "tipo": "eleccion",
+          "pagina": 44,
           "enunciado": "¿Qué significa que un animal es vivíparo?",
           "opciones": [
             "Que nace del vientre de su madre",
@@ -481,6 +518,7 @@
         {
           "id": "naturales-t03-p04",
           "tipo": "relacionar",
+          "pagina": 44,
           "enunciado": "Une cada grupo con lo que cubre su cuerpo.",
           "pares": [
             [
@@ -505,6 +543,7 @@
         {
           "id": "naturales-t03-p05",
           "tipo": "vf",
+          "pagina": 44,
           "enunciado": "Las aves tienen pico y nacen de huevos.",
           "correcta": true,
           "explicacion": "Las aves son ovíparas, tienen pico, plumas y dos patas."
@@ -512,6 +551,7 @@
         {
           "id": "naturales-t03-p06",
           "tipo": "eleccion",
+          "pagina": 44,
           "enunciado": "¿Cuál es el único mamífero con alas?",
           "opciones": [
             "El murciélago",
@@ -524,6 +564,7 @@
         {
           "id": "naturales-t03-p07",
           "tipo": "vf",
+          "pagina": 44,
           "enunciado": "La ballena y el delfín son peces.",
           "correcta": false,
           "explicacion": "Son mamíferos acuáticos: nacen del vientre de su madre y maman."
@@ -531,6 +572,7 @@
         {
           "id": "naturales-t03-p08",
           "tipo": "escribir",
+          "pagina": 44,
           "enunciado": "¿A qué grupo de vertebrados pertenecemos las personas?",
           "respuestas": [
             "mamiferos",
@@ -543,6 +585,7 @@
         {
           "id": "naturales-t03-p09",
           "tipo": "eleccion",
+          "pagina": 46,
           "enunciado": "¿Con qué respiran los peces dentro del agua?",
           "opciones": [
             "Con branquias",
@@ -555,6 +598,7 @@
         {
           "id": "naturales-t03-p10",
           "tipo": "relacionar",
+          "pagina": 46,
           "enunciado": "Une cada animal con su grupo.",
           "pares": [
             [
@@ -579,6 +623,7 @@
         {
           "id": "naturales-t03-p11",
           "tipo": "ordenar",
+          "pagina": 46,
           "enunciado": "Ordena cómo crece una rana.",
           "elementos": [
             "La rana pone huevos en el agua",
@@ -591,6 +636,7 @@
         {
           "id": "naturales-t03-p12",
           "tipo": "escribir",
+          "pagina": 46,
           "enunciado": "¿Cómo se llaman las crías de la rana?",
           "respuestas": [
             "renacuajos",
@@ -603,6 +649,7 @@
         {
           "id": "naturales-t03-p13",
           "tipo": "eleccion",
+          "pagina": 48,
           "enunciado": "¿Cuántas patas tiene un insecto?",
           "opciones": [
             "Seis",
@@ -615,6 +662,7 @@
         {
           "id": "naturales-t03-p14",
           "tipo": "vf",
+          "pagina": 48,
           "enunciado": "La araña es un insecto.",
           "correcta": false,
           "explicacion": "La araña tiene ocho patas, así que no es un insecto (los insectos tienen seis)."
@@ -622,6 +670,7 @@
         {
           "id": "naturales-t03-p15",
           "tipo": "eleccion",
+          "pagina": 48,
           "enunciado": "¿Cuál de estos animales es invertebrado?",
           "opciones": [
             "Caracol",
@@ -634,6 +683,7 @@
         {
           "id": "naturales-t03-p16",
           "tipo": "escribir",
+          "pagina": 50,
           "enunciado": "¿Cómo se llama el lugar donde vive un animal, se alimenta y encuentra refugio?",
           "respuestas": [
             "habitat",
@@ -646,6 +696,7 @@
         {
           "id": "naturales-t03-p17",
           "tipo": "relacionar",
+          "pagina": 51,
           "enunciado": "Une cada animal con lo que come.",
           "pares": [
             [
@@ -676,6 +727,7 @@
         {
           "id": "naturales-t04-p01",
           "tipo": "eleccion",
+          "pagina": 58,
           "enunciado": "¿Qué NO necesita una planta para vivir?",
           "opciones": [
             "Moverse de sitio",
@@ -688,6 +740,7 @@
         {
           "id": "naturales-t04-p02",
           "tipo": "escribir",
+          "pagina": 58,
           "enunciado": "¿Cómo se llama la forma en que las plantas fabrican su alimento?",
           "respuestas": [
             "fotosintesis",
@@ -699,6 +752,7 @@
         {
           "id": "naturales-t04-p03",
           "tipo": "relacionar",
+          "pagina": 58,
           "enunciado": "Une cada parte de la planta con su función.",
           "pares": [
             [
@@ -723,6 +777,7 @@
         {
           "id": "naturales-t04-p04",
           "tipo": "vf",
+          "pagina": 64,
           "enunciado": "Las plantas producen parte del oxígeno que respiramos.",
           "correcta": true,
           "explicacion": "Durante la fotosíntesis las plantas producen oxígeno y limpian el aire."
@@ -730,6 +785,7 @@
         {
           "id": "naturales-t04-p05",
           "tipo": "relacionar",
+          "pagina": 60,
           "enunciado": "Une cada tipo de planta con su tallo.",
           "pares": [
             [
@@ -750,6 +806,7 @@
         {
           "id": "naturales-t04-p06",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "¿Cómo se llama el tallo grueso y duro de los árboles?",
           "opciones": [
             "Tronco",
@@ -762,6 +819,7 @@
         {
           "id": "naturales-t04-p07",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "Un árbol que pierde sus hojas en otoño es de hoja...",
           "opciones": [
             "Caduca",
@@ -774,6 +832,7 @@
         {
           "id": "naturales-t04-p08",
           "tipo": "vf",
+          "pagina": 60,
           "enunciado": "Los árboles de hoja perenne tienen hojas durante todo el año.",
           "correcta": true,
           "explicacion": "Las van cambiando poco a poco, así que nunca se quedan sin hojas."
@@ -781,6 +840,7 @@
         {
           "id": "naturales-t04-p09",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "¿Cuál de estas plantas NO tiene flores?",
           "opciones": [
             "Helecho",
@@ -793,6 +853,7 @@
         {
           "id": "naturales-t04-p10",
           "tipo": "escribir",
+          "pagina": 62,
           "enunciado": "¿Qué producen muchas plantas sin flor para reproducirse?",
           "respuestas": [
             "esporas",
@@ -805,6 +866,7 @@
         {
           "id": "naturales-t04-p11",
           "tipo": "ordenar",
+          "pagina": 62,
           "enunciado": "Ordena cómo nace una planta nueva.",
           "elementos": [
             "La semilla cae a la tierra",
@@ -817,6 +879,7 @@
         {
           "id": "naturales-t04-p12",
           "tipo": "eleccion",
+          "pagina": 64,
           "enunciado": "Las plantas que siembran y cuidan las personas se llaman...",
           "opciones": [
             "Cultivadas",
@@ -829,6 +892,7 @@
         {
           "id": "naturales-t04-p13",
           "tipo": "vf",
+          "pagina": 64,
           "enunciado": "Las plantas silvestres sirven de alimento y refugio a muchos animales.",
           "correcta": true,
           "explicacion": "En bosques y praderas, muchos animales viven y comen gracias a las plantas."
@@ -836,6 +900,7 @@
         {
           "id": "naturales-t04-p14",
           "tipo": "relacionar",
+          "pagina": 64,
           "enunciado": "Une cada producto con la parte de la planta de la que sale.",
           "pares": [
             [
@@ -860,6 +925,7 @@
         {
           "id": "naturales-t04-p15",
           "tipo": "eleccion",
+          "pagina": 72,
           "enunciado": "¿Qué es una buena idea para ahorrar agua?",
           "opciones": [
             "Recoger agua de lluvia para regar",
@@ -872,6 +938,7 @@
         {
           "id": "naturales-t04-p16",
           "tipo": "escribir",
+          "pagina": 62,
           "enunciado": "¿Qué parte de la planta contiene las semillas?",
           "respuestas": [
             "fruto",
@@ -894,6 +961,7 @@
         {
           "id": "naturales-t05-p01",
           "tipo": "ordenar",
+          "pagina": 76,
           "enunciado": "Ordena los pasos del método científico.",
           "elementos": [
             "Observamos el entorno",
@@ -906,6 +974,7 @@
         {
           "id": "naturales-t05-p02",
           "tipo": "eleccion",
+          "pagina": 76,
           "enunciado": "¿Qué descubrió Jane Goodall sobre los chimpancés?",
           "opciones": [
             "Que son omnívoros",
@@ -918,6 +987,7 @@
         {
           "id": "naturales-t05-p03",
           "tipo": "relacionar",
+          "pagina": 78,
           "enunciado": "Une cada cosa con su estado.",
           "pares": [
             [
@@ -938,6 +1008,7 @@
         {
           "id": "naturales-t05-p04",
           "tipo": "eleccion",
+          "pagina": 78,
           "enunciado": "¿Qué le pasa al agua si la metes en el congelador?",
           "opciones": [
             "Se vuelve sólida (hielo)",
@@ -950,6 +1021,7 @@
         {
           "id": "naturales-t05-p05",
           "tipo": "vf",
+          "pagina": 78,
           "enunciado": "Si calentamos mantequilla, se vuelve líquida.",
           "correcta": true,
           "explicacion": "El calor hace que muchas cosas sólidas pasen a líquido."
@@ -957,6 +1029,7 @@
         {
           "id": "naturales-t05-p06",
           "tipo": "vf",
+          "pagina": 78,
           "enunciado": "El agua del mar, al calentarse, se transforma en vapor y deja la sal.",
           "correcta": true,
           "explicacion": "El agua se evapora y la sal que estaba disuelta se queda."
@@ -964,6 +1037,7 @@
         {
           "id": "naturales-t05-p07",
           "tipo": "escribir",
+          "pagina": 80,
           "enunciado": "¿Cómo se llama lo que obtenemos al juntar dos o más sustancias?",
           "respuestas": [
             "mezcla",
@@ -976,6 +1050,7 @@
         {
           "id": "naturales-t05-p08",
           "tipo": "eleccion",
+          "pagina": 80,
           "enunciado": "Si mezclas sal con agua, la sal deja de verse. Es una...",
           "opciones": [
             "Disolución",
@@ -988,6 +1063,7 @@
         {
           "id": "naturales-t05-p09",
           "tipo": "vf",
+          "pagina": 80,
           "enunciado": "Si mezclas aceite y agua, el aceite se queda arriba.",
           "correcta": true,
           "explicacion": "El aceite y el agua no se mezclan del todo: se ven por separado."
@@ -995,6 +1071,7 @@
         {
           "id": "naturales-t05-p10",
           "tipo": "eleccion",
+          "pagina": 80,
           "enunciado": "¿Cómo separarías la pasta del agua de cocerla?",
           "opciones": [
             "Con un colador",
@@ -1007,6 +1084,7 @@
         {
           "id": "naturales-t05-p11",
           "tipo": "relacionar",
+          "pagina": 82,
           "enunciado": "Une cada material con lo que lo describe.",
           "pares": [
             [
@@ -1027,6 +1105,7 @@
         {
           "id": "naturales-t05-p12",
           "tipo": "eleccion",
+          "pagina": 82,
           "enunciado": "Un vaso de cristal se rompe con facilidad. Es un material...",
           "opciones": [
             "Frágil",
@@ -1039,6 +1118,7 @@
         {
           "id": "naturales-t05-p13",
           "tipo": "relacionar",
+          "pagina": 84,
           "enunciado": "Une cada material según deje pasar la luz.",
           "pares": [
             [
@@ -1059,6 +1139,7 @@
         {
           "id": "naturales-t05-p14",
           "tipo": "eleccion",
+          "pagina": 84,
           "enunciado": "¿Cuál es una fuente de luz natural?",
           "opciones": [
             "El Sol",
@@ -1071,6 +1152,7 @@
         {
           "id": "naturales-t05-p15",
           "tipo": "escribir",
+          "pagina": 85,
           "enunciado": "¿Cómo se llaman las ondas invisibles que se producen al hablar y viajan por el aire?",
           "respuestas": [
             "sonido",
@@ -1083,6 +1165,7 @@
         {
           "id": "naturales-t05-p16",
           "tipo": "eleccion",
+          "pagina": 85,
           "enunciado": "El mugido de una vaca es un sonido...",
           "opciones": [
             "Grave",
@@ -1095,6 +1178,7 @@
         {
           "id": "naturales-t05-p17",
           "tipo": "vf",
+          "pagina": 87,
           "enunciado": "La energía del viento y la del Sol contaminan mucho.",
           "correcta": false,
           "explicacion": "Son energías limpias: no contaminan el entorno."
@@ -1112,6 +1196,7 @@
         {
           "id": "naturales-t06-p01",
           "tipo": "eleccion",
+          "pagina": 92,
           "enunciado": "¿Cuál de estos es un dispositivo digital?",
           "opciones": [
             "Una tableta",
@@ -1124,6 +1209,7 @@
         {
           "id": "naturales-t06-p02",
           "tipo": "relacionar",
+          "pagina": 92,
           "enunciado": "Une cada dispositivo con su descripción.",
           "pares": [
             [
@@ -1144,6 +1230,7 @@
         {
           "id": "naturales-t06-p03",
           "tipo": "vf",
+          "pagina": 92,
           "enunciado": "La pantalla de una tableta es táctil.",
           "correcta": true,
           "explicacion": "Podemos manejarla tocándola con los dedos."
@@ -1151,6 +1238,7 @@
         {
           "id": "naturales-t06-p04",
           "tipo": "escribir",
+          "pagina": 94,
           "enunciado": "¿Cómo se llama el programa que abrimos para visitar páginas web?",
           "respuestas": [
             "navegador",
@@ -1164,6 +1252,7 @@
         {
           "id": "naturales-t06-p05",
           "tipo": "ordenar",
+          "pagina": 94,
           "enunciado": "Ordena los pasos para buscar información en internet.",
           "elementos": [
             "Abrir el navegador",
@@ -1176,6 +1265,7 @@
         {
           "id": "naturales-t06-p06",
           "tipo": "vf",
+          "pagina": 94,
           "enunciado": "Todo lo que leemos en internet es verdad.",
           "correcta": false,
           "explicacion": "Cualquiera puede publicar en internet. Hay que consultar varias páginas y preguntar a un adulto."
@@ -1183,6 +1273,7 @@
         {
           "id": "naturales-t06-p07",
           "tipo": "eleccion",
+          "pagina": 94,
           "enunciado": "¿Qué es buena idea para saber si una información de internet es cierta?",
           "opciones": [
             "Consultar varias páginas y preguntar a un adulto",
@@ -1195,6 +1286,7 @@
         {
           "id": "naturales-t06-p08",
           "tipo": "eleccion",
+          "pagina": 96,
           "enunciado": "¿Qué programa usarías para escribir un cuento?",
           "opciones": [
             "Procesador de textos",
@@ -1207,6 +1299,7 @@
         {
           "id": "naturales-t06-p09",
           "tipo": "escribir",
+          "pagina": 102,
           "enunciado": "¿Cómo se llama la combinación de imágenes y textos breves para explicar algo de forma fácil?",
           "respuestas": [
             "infografia",
@@ -1220,6 +1313,7 @@
         {
           "id": "naturales-t06-p10",
           "tipo": "eleccion",
+          "pagina": 96,
           "enunciado": "¿Qué programa es mejor para presentar un trabajo con fotos y animaciones?",
           "opciones": [
             "Creador de presentaciones",
@@ -1232,6 +1326,7 @@
         {
           "id": "naturales-t06-p11",
           "tipo": "escribir",
+          "pagina": 98,
           "enunciado": "¿Cómo se llama un programa dañino que puede infectar el ordenador?",
           "respuestas": [
             "virus",
@@ -1246,6 +1341,7 @@
         {
           "id": "naturales-t06-p12",
           "tipo": "vf",
+          "pagina": 98,
           "enunciado": "Si te llega un mensaje de alguien desconocido, lo mejor es contárselo a un adulto.",
           "correcta": true,
           "explicacion": "Siempre que algo te dé dudas o miedo en internet, avisa a un adulto."
@@ -1253,6 +1349,7 @@
         {
           "id": "naturales-t06-p13",
           "tipo": "eleccion",
+          "pagina": 98,
           "enunciado": "¿Cómo debes sentarte delante de una pantalla?",
           "opciones": [
             "Con la espalda recta y la pantalla a buena distancia",
@@ -1265,6 +1362,7 @@
         {
           "id": "naturales-t06-p14",
           "tipo": "vf",
+          "pagina": 98,
           "enunciado": "Podemos usar los dispositivos todo el tiempo que queramos sin parar.",
           "correcta": false,
           "explicacion": "Es importante controlar el tiempo de uso y llegar a un acuerdo con los adultos."
@@ -1272,6 +1370,7 @@
         {
           "id": "naturales-t06-p15",
           "tipo": "ordenar",
+          "pagina": 101,
           "enunciado": "Ordena estos inventos del más antiguo al más moderno.",
           "elementos": [
             "Piedra afilada",
@@ -1284,6 +1383,7 @@
         {
           "id": "naturales-t06-p16",
           "tipo": "eleccion",
+          "pagina": 98,
           "enunciado": "¿Con quién debemos navegar siempre por internet?",
           "opciones": [
             "Con la supervisión de un adulto",

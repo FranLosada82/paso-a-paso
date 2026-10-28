@@ -15,6 +15,7 @@
         {
           "id": "lengua-t01-p01",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Qué palabra es sinónimo de 'contento'?",
           "opciones": [
             "alegre",
@@ -27,6 +28,7 @@
         {
           "id": "lengua-t01-p02",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Qué palabra es sinónimo de 'empezar'?",
           "opciones": [
             "terminar",
@@ -39,6 +41,7 @@
         {
           "id": "lengua-t01-p03",
           "tipo": "relacionar",
+          "pagina": 21,
           "enunciado": "Une cada palabra con su sinónimo.",
           "pares": [
             [
@@ -63,6 +66,7 @@
         {
           "id": "lengua-t01-p04",
           "tipo": "eleccion",
+          "pagina": 22,
           "enunciado": "¿Cuál está bien escrita?",
           "opciones": [
             "marta vive en sevilla.",
@@ -75,6 +79,7 @@
         {
           "id": "lengua-t01-p05",
           "tipo": "eleccion",
+          "pagina": 22,
           "enunciado": "¿Qué palabra debe ir con mayúscula porque es el nombre de un perro concreto?",
           "opciones": [
             "perro",
@@ -87,6 +92,7 @@
         {
           "id": "lengua-t01-p06",
           "tipo": "vf",
+          "pagina": 22,
           "enunciado": "Después de un punto, la siguiente palabra empieza con mayúscula.",
           "correcta": true,
           "explicacion": "¡Muy bien! Tras el punto empezamos con mayúscula."
@@ -94,6 +100,7 @@
         {
           "id": "lengua-t01-p07",
           "tipo": "vf",
+          "pagina": 22,
           "enunciado": "La palabra 'lápiz' es un nombre propio y va con mayúscula.",
           "correcta": false,
           "explicacion": "'Lápiz' es un nombre común: va en minúscula."
@@ -101,6 +108,7 @@
         {
           "id": "lengua-t01-p08",
           "tipo": "eleccion",
+          "pagina": 21,
           "enunciado": "¿Cuál de estas cosas encuentras en el colegio?",
           "opciones": [
             "la pizarra",
@@ -113,6 +121,7 @@
         {
           "id": "lengua-t01-p09",
           "tipo": "relacionar",
+          "pagina": 21,
           "enunciado": "Une cada objeto del colegio con lo que hacemos con él.",
           "pares": [
             [
@@ -137,6 +146,7 @@
         {
           "id": "lengua-t01-p10",
           "tipo": "escribir",
+          "pagina": 21,
           "enunciado": "¿Cómo se llama la persona que enseña en clase? (empieza por 'm')",
           "respuestas": [
             "maestro",
@@ -150,6 +160,7 @@
         {
           "id": "lengua-t01-p11",
           "tipo": "eleccion",
+          "pagina": 20,
           "enunciado": "¿Cuál es la oración más larga y con más detalles?",
           "opciones": [
             "El niño juega.",
@@ -162,6 +173,7 @@
         {
           "id": "lengua-t01-p12",
           "tipo": "ordenar",
+          "pagina": 20,
           "enunciado": "Ordena las palabras para formar una oración.",
           "elementos": [
             "Lucía",
@@ -174,6 +186,7 @@
         {
           "id": "lengua-t01-p13",
           "tipo": "eleccion",
+          "pagina": 26,
           "enunciado": "¿Qué lengua se habla también en Cataluña, además del castellano?",
           "opciones": [
             "catalán",
@@ -186,6 +199,7 @@
         {
           "id": "lengua-t01-p14",
           "tipo": "vf",
+          "pagina": 26,
           "enunciado": "En España solo se habla una lengua.",
           "correcta": false,
           "explicacion": "Se hablan varias: castellano, catalán, gallego, euskera, valenciano..."
@@ -193,6 +207,7 @@
         {
           "id": "lengua-t01-p15",
           "tipo": "relacionar",
+          "pagina": 26,
           "enunciado": "Une cada lengua con un lugar donde se habla.",
           "pares": [
             [
@@ -213,6 +228,7 @@
         {
           "id": "lengua-t01-p16",
           "tipo": "escribir",
+          "pagina": 21,
           "enunciado": "Escribe un sinónimo de 'chico' que empiece por 'n'.",
           "respuestas": [
             "niño"
@@ -233,6 +249,7 @@
         {
           "id": "lengua-t02-p01",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "¿Cuál es el antónimo de 'grande'?",
           "opciones": [
             "enorme",
@@ -245,6 +262,7 @@
         {
           "id": "lengua-t02-p02",
           "tipo": "relacionar",
+          "pagina": 41,
           "enunciado": "Une cada palabra con su antónimo.",
           "pares": [
             [
@@ -269,6 +287,7 @@
         {
           "id": "lengua-t02-p03",
           "tipo": "vf",
+          "pagina": 41,
           "enunciado": "'Rápido' y 'lento' son antónimos.",
           "correcta": true,
           "explicacion": "Significan lo contrario. ¡Bien!"
@@ -276,6 +295,7 @@
         {
           "id": "lengua-t02-p04",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "¿Cómo se escribe el nombre del animal que ladra?",
           "opciones": [
             "pero",
@@ -288,6 +308,7 @@
         {
           "id": "lengua-t02-p05",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "Completa: la ___atón come queso.",
           "opciones": [
             "r",
@@ -299,6 +320,7 @@
         {
           "id": "lengua-t02-p06",
           "tipo": "escribir",
+          "pagina": 41,
           "enunciado": "Escribe el nombre del animal de la granja que hace 'oinc' (empieza por 'c').",
           "respuestas": [
             "cerdo",
@@ -316,6 +338,7 @@
         {
           "id": "lengua-t02-p07",
           "tipo": "escribir",
+          "pagina": 42,
           "enunciado": "Completa con r o rr: ca_o (vehículo con ruedas). Escribe la palabra entera.",
           "respuestas": [
             "carro"
@@ -326,6 +349,7 @@
         {
           "id": "lengua-t02-p08",
           "tipo": "eleccion",
+          "pagina": 42,
           "enunciado": "¿Qué palabra está bien escrita?",
           "opciones": [
             "torre",
@@ -338,6 +362,7 @@
         {
           "id": "lengua-t02-p09",
           "tipo": "eleccion",
+          "pagina": 41,
           "enunciado": "¿Qué animal de la granja nos da leche?",
           "opciones": [
             "la vaca",
@@ -350,6 +375,7 @@
         {
           "id": "lengua-t02-p10",
           "tipo": "relacionar",
+          "pagina": 41,
           "enunciado": "Une cada animal con lo que nos da.",
           "pares": [
             [
@@ -370,6 +396,7 @@
         {
           "id": "lengua-t02-p11",
           "tipo": "eleccion",
+          "pagina": 40,
           "enunciado": "¿Cuál une bien las dos oraciones 'El gato duerme' y 'El perro juega'?",
           "opciones": [
             "El gato duerme y el perro juega.",
@@ -382,6 +409,7 @@
         {
           "id": "lengua-t02-p12",
           "tipo": "vf",
+          "pagina": 48,
           "enunciado": "Cuando hablamos por teléfono usamos la lengua oral.",
           "correcta": true,
           "explicacion": "Hablar es lengua oral; escribir es lengua escrita."
@@ -389,6 +417,7 @@
         {
           "id": "lengua-t02-p13",
           "tipo": "eleccion",
+          "pagina": 48,
           "enunciado": "¿Cuál es un ejemplo de lengua escrita?",
           "opciones": [
             "una carta",
@@ -401,6 +430,7 @@
         {
           "id": "lengua-t02-p14",
           "tipo": "ordenar",
+          "pagina": 40,
           "enunciado": "Ordena para formar una oración.",
           "elementos": [
             "El",
@@ -414,6 +444,7 @@
         {
           "id": "lengua-t02-p15",
           "tipo": "escribir",
+          "pagina": 41,
           "enunciado": "Escribe el antónimo de 'triste'.",
           "respuestas": [
             "alegre",
@@ -437,6 +468,7 @@
         {
           "id": "lengua-t03-p01",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Cuál es el diminutivo de 'perro'?",
           "opciones": [
             "perrazo",
@@ -449,6 +481,7 @@
         {
           "id": "lengua-t03-p02",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Cuál es un aumentativo?",
           "opciones": [
             "cochazo",
@@ -461,6 +494,7 @@
         {
           "id": "lengua-t03-p03",
           "tipo": "relacionar",
+          "pagina": 61,
           "enunciado": "Une cada palabra con su diminutivo.",
           "pares": [
             [
@@ -485,6 +519,7 @@
         {
           "id": "lengua-t03-p04",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "Completa: ___eso (alimento de los ratones).",
           "opciones": [
             "qu",
@@ -497,6 +532,7 @@
         {
           "id": "lengua-t03-p05",
           "tipo": "eleccion",
+          "pagina": 62,
           "enunciado": "Completa: ___asa.",
           "opciones": [
             "c",
@@ -508,6 +544,7 @@
         {
           "id": "lengua-t03-p06",
           "tipo": "escribir",
+          "pagina": 62,
           "enunciado": "Escribe con c o qu: pa_ete (algo envuelto). Escribe la palabra entera.",
           "respuestas": [
             "paquete"
@@ -518,6 +555,7 @@
         {
           "id": "lengua-t03-p07",
           "tipo": "vf",
+          "pagina": 62,
           "enunciado": "La palabra 'quchara' está bien escrita.",
           "correcta": false,
           "explicacion": "Delante de a se usa c: cuchara."
@@ -525,6 +563,7 @@
         {
           "id": "lengua-t03-p08",
           "tipo": "eleccion",
+          "pagina": 61,
           "enunciado": "¿Con qué pinta el pintor sobre el lienzo?",
           "opciones": [
             "el pincel",
@@ -537,6 +576,7 @@
         {
           "id": "lengua-t03-p09",
           "tipo": "relacionar",
+          "pagina": 61,
           "enunciado": "Une cada objeto de pintura con su uso.",
           "pares": [
             [
@@ -557,6 +597,7 @@
         {
           "id": "lengua-t03-p10",
           "tipo": "eleccion",
+          "pagina": 66,
           "enunciado": "¿Qué sustantivo es propio?",
           "opciones": [
             "ciudad",
@@ -569,6 +610,7 @@
         {
           "id": "lengua-t03-p11",
           "tipo": "eleccion",
+          "pagina": 66,
           "enunciado": "¿Qué sustantivo es común?",
           "opciones": [
             "Pedro",
@@ -581,6 +623,7 @@
         {
           "id": "lengua-t03-p12",
           "tipo": "vf",
+          "pagina": 66,
           "enunciado": "Los sustantivos propios se escriben con mayúscula.",
           "correcta": true,
           "explicacion": "¡Correcto! Ana, Luna, Toledo..."
@@ -588,6 +631,7 @@
         {
           "id": "lengua-t03-p13",
           "tipo": "relacionar",
+          "pagina": 66,
           "enunciado": "Une cada sustantivo propio con lo que nombra.",
           "pares": [
             [
@@ -608,6 +652,7 @@
         {
           "id": "lengua-t03-p14",
           "tipo": "eleccion",
+          "pagina": 60,
           "enunciado": "Completa la oración: 'Mi hermano pinta un ___ precioso.'",
           "opciones": [
             "cuadro",
@@ -620,6 +665,7 @@
         {
           "id": "lengua-t03-p15",
           "tipo": "escribir",
+          "pagina": 61,
           "enunciado": "Escribe el diminutivo de 'flor' (termina en -ecita).",
           "respuestas": [
             "florecita"
@@ -640,6 +686,7 @@
         {
           "id": "lengua-t04-p01",
           "tipo": "eleccion",
+          "pagina": 87,
           "enunciado": "¿Qué palabra tiene varios significados (es polisémica)?",
           "opciones": [
             "banco",
@@ -652,6 +699,7 @@
         {
           "id": "lengua-t04-p02",
           "tipo": "vf",
+          "pagina": 87,
           "enunciado": "'Hoja' puede ser la de un árbol y la de un cuaderno.",
           "correcta": true,
           "explicacion": "Es una palabra polisémica."
@@ -659,6 +707,7 @@
         {
           "id": "lengua-t04-p03",
           "tipo": "relacionar",
+          "pagina": 87,
           "enunciado": "Une cada significado de 'pico' con su ejemplo.",
           "pares": [
             [
@@ -679,6 +728,7 @@
         {
           "id": "lengua-t04-p04",
           "tipo": "eleccion",
+          "pagina": 88,
           "enunciado": "Completa: ___itarra.",
           "opciones": [
             "gu",
@@ -691,6 +741,7 @@
         {
           "id": "lengua-t04-p05",
           "tipo": "eleccion",
+          "pagina": 88,
           "enunciado": "Completa: ___to (animal que maúlla).",
           "opciones": [
             "ga",
@@ -703,6 +754,7 @@
         {
           "id": "lengua-t04-p06",
           "tipo": "escribir",
+          "pagina": 88,
           "enunciado": "Escribe con g o gu: _erra (lo contrario de paz).",
           "respuestas": [
             "guerra"
@@ -713,6 +765,7 @@
         {
           "id": "lengua-t04-p07",
           "tipo": "vf",
+          "pagina": 88,
           "enunciado": "Se escribe 'gerrero'.",
           "correcta": false,
           "explicacion": "Se escribe guerrero, con gue."
@@ -720,6 +773,7 @@
         {
           "id": "lengua-t04-p08",
           "tipo": "eleccion",
+          "pagina": 87,
           "enunciado": "¿Dónde esperamos el tren?",
           "opciones": [
             "en el andén",
@@ -732,6 +786,7 @@
         {
           "id": "lengua-t04-p09",
           "tipo": "relacionar",
+          "pagina": 87,
           "enunciado": "Une cada palabra de la estación con su significado.",
           "pares": [
             [
@@ -756,6 +811,7 @@
         {
           "id": "lengua-t04-p10",
           "tipo": "eleccion",
+          "pagina": 94,
           "enunciado": "¿Cuál es el femenino de 'niño'?",
           "opciones": [
             "niños",
@@ -768,6 +824,7 @@
         {
           "id": "lengua-t04-p11",
           "tipo": "eleccion",
+          "pagina": 94,
           "enunciado": "¿Cuál es el plural de 'tren'?",
           "opciones": [
             "trenes",
@@ -780,6 +837,7 @@
         {
           "id": "lengua-t04-p12",
           "tipo": "relacionar",
+          "pagina": 94,
           "enunciado": "Une cada sustantivo con su plural.",
           "pares": [
             [
@@ -800,6 +858,7 @@
         {
           "id": "lengua-t04-p13",
           "tipo": "vf",
+          "pagina": 94,
           "enunciado": "'Mesas' está en singular.",
           "correcta": false,
           "explicacion": "Mesas está en plural: son varias."
@@ -807,6 +866,7 @@
         {
           "id": "lengua-t04-p14",
           "tipo": "eleccion",
+          "pagina": 86,
           "enunciado": "Quita los detalles de 'El tren rojo y largo sale ya de la estación'. ¿Cuál es la oración más corta que queda?",
           "opciones": [
             "El tren sale.",
@@ -819,6 +879,7 @@
         {
           "id": "lengua-t04-p15",
           "tipo": "escribir",
+          "pagina": 94,
           "enunciado": "Escribe el femenino de 'el maquinista'. Solo el artículo y el nombre.",
           "respuestas": [
             "la maquinista"
@@ -839,6 +900,7 @@
         {
           "id": "lengua-t05-p01",
           "tipo": "eleccion",
+          "pagina": 107,
           "enunciado": "¿Qué palabra es de la familia de 'pan'?",
           "opciones": [
             "panadero",
@@ -851,6 +913,7 @@
         {
           "id": "lengua-t05-p02",
           "tipo": "relacionar",
+          "pagina": 107,
           "enunciado": "Une cada palabra con otra de su familia.",
           "pares": [
             [
@@ -875,6 +938,7 @@
         {
           "id": "lengua-t05-p03",
           "tipo": "vf",
+          "pagina": 107,
           "enunciado": "'Juguete' y 'jugar' son de la misma familia.",
           "correcta": true,
           "explicacion": "Las dos vienen de 'juego'."
@@ -882,6 +946,7 @@
         {
           "id": "lengua-t05-p04",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "Completa: ___pato (lo llevas en el pie).",
           "opciones": [
             "za",
@@ -894,6 +959,7 @@
         {
           "id": "lengua-t05-p05",
           "tipo": "eleccion",
+          "pagina": 108,
           "enunciado": "Completa: ___ruela (fruta).",
           "opciones": [
             "ci",
@@ -905,6 +971,7 @@
         {
           "id": "lengua-t05-p06",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "Escribe con z o c: ta_a (para beber). Escribe la palabra entera.",
           "respuestas": [
             "taza"
@@ -915,6 +982,7 @@
         {
           "id": "lengua-t05-p07",
           "tipo": "escribir",
+          "pagina": 108,
           "enunciado": "Escribe el plural de 'lápiz'.",
           "respuestas": [
             "lápices",
@@ -926,6 +994,7 @@
         {
           "id": "lengua-t05-p08",
           "tipo": "vf",
+          "pagina": 108,
           "enunciado": "Se escribe 'zielo'.",
           "correcta": false,
           "explicacion": "Delante de i escribimos c: cielo."
@@ -933,6 +1002,7 @@
         {
           "id": "lengua-t05-p09",
           "tipo": "eleccion",
+          "pagina": 107,
           "enunciado": "¿Qué juego se juega saltando sobre casillas dibujadas en el suelo?",
           "opciones": [
             "la rayuela",
@@ -945,6 +1015,7 @@
         {
           "id": "lengua-t05-p10",
           "tipo": "eleccion",
+          "pagina": 106,
           "enunciado": "¿Qué palabra indica dónde está algo?",
           "opciones": [
             "debajo",
@@ -957,6 +1028,7 @@
         {
           "id": "lengua-t05-p11",
           "tipo": "relacionar",
+          "pagina": 106,
           "enunciado": "Une cada marcador espacial con su contrario.",
           "pares": [
             [
@@ -981,6 +1053,7 @@
         {
           "id": "lengua-t05-p12",
           "tipo": "eleccion",
+          "pagina": 112,
           "enunciado": "¿Qué artículo va con 'pelotas'?",
           "opciones": [
             "las",
@@ -993,6 +1066,7 @@
         {
           "id": "lengua-t05-p13",
           "tipo": "eleccion",
+          "pagina": 112,
           "enunciado": "¿Qué artículo va con 'cometa'?",
           "opciones": [
             "la",
@@ -1005,6 +1079,7 @@
         {
           "id": "lengua-t05-p14",
           "tipo": "relacionar",
+          "pagina": 112,
           "enunciado": "Une cada artículo con un nombre.",
           "pares": [
             [
@@ -1029,6 +1104,7 @@
         {
           "id": "lengua-t05-p15",
           "tipo": "ordenar",
+          "pagina": 106,
           "enunciado": "Ordena para formar una oración.",
           "elementos": [
             "Los",
@@ -1052,6 +1128,7 @@
         {
           "id": "lengua-t06-p01",
           "tipo": "eleccion",
+          "pagina": 127,
           "enunciado": "¿Qué palabra es compuesta?",
           "opciones": [
             "paraguas",
@@ -1064,6 +1141,7 @@
         {
           "id": "lengua-t06-p02",
           "tipo": "relacionar",
+          "pagina": 127,
           "enunciado": "Une las dos partes para formar palabras compuestas.",
           "pares": [
             [
@@ -1088,6 +1166,7 @@
         {
           "id": "lengua-t06-p03",
           "tipo": "escribir",
+          "pagina": 127,
           "enunciado": "Une 'medio' y 'día' en una sola palabra.",
           "respuestas": [
             "mediodía",
@@ -1099,6 +1178,7 @@
         {
           "id": "lengua-t06-p04",
           "tipo": "eleccion",
+          "pagina": 128,
           "enunciado": "Completa: ___anco (color de la nieve).",
           "opciones": [
             "bl",
@@ -1110,6 +1190,7 @@
         {
           "id": "lengua-t06-p05",
           "tipo": "eleccion",
+          "pagina": 128,
           "enunciado": "Completa: ___ujas.",
           "opciones": [
             "br",
@@ -1121,6 +1202,7 @@
         {
           "id": "lengua-t06-p06",
           "tipo": "vf",
+          "pagina": 128,
           "enunciado": "'Libro' se escribe con br.",
           "correcta": true,
           "explicacion": "Li-bro: br."
@@ -1128,6 +1210,7 @@
         {
           "id": "lengua-t06-p07",
           "tipo": "escribir",
+          "pagina": 128,
           "enunciado": "Completa con br o bl: ha_ar (decir palabras). Escribe la palabra entera.",
           "respuestas": [
             "hablar"
@@ -1138,6 +1221,7 @@
         {
           "id": "lengua-t06-p08",
           "tipo": "eleccion",
+          "pagina": 127,
           "enunciado": "¿Qué atracción da vueltas con caballitos?",
           "opciones": [
             "el tiovivo",
@@ -1150,6 +1234,7 @@
         {
           "id": "lengua-t06-p09",
           "tipo": "relacionar",
+          "pagina": 127,
           "enunciado": "Une cada atracción con lo que hace.",
           "pares": [
             [
@@ -1170,6 +1255,7 @@
         {
           "id": "lengua-t06-p10",
           "tipo": "eleccion",
+          "pagina": 126,
           "enunciado": "¿Qué palabra indica cuándo pasa algo?",
           "opciones": [
             "después",
@@ -1182,6 +1268,7 @@
         {
           "id": "lengua-t06-p11",
           "tipo": "ordenar",
+          "pagina": 126,
           "enunciado": "Ordena lo que pasó en la fiesta.",
           "elementos": [
             "Primero llegamos a la feria",
@@ -1193,6 +1280,7 @@
         {
           "id": "lengua-t06-p12",
           "tipo": "eleccion",
+          "pagina": 134,
           "enunciado": "¿Qué palabra es un adjetivo?",
           "opciones": [
             "divertida",
@@ -1205,6 +1293,7 @@
         {
           "id": "lengua-t06-p13",
           "tipo": "eleccion",
+          "pagina": 134,
           "enunciado": "Elige el adjetivo correcto: 'unas luces ___'.",
           "opciones": [
             "brillantes",
@@ -1216,6 +1305,7 @@
         {
           "id": "lengua-t06-p14",
           "tipo": "eleccion",
+          "pagina": 134,
           "enunciado": "Elige el adjetivo correcto: 'una noche ___'.",
           "opciones": [
             "mágica",
@@ -1228,6 +1318,7 @@
         {
           "id": "lengua-t06-p15",
           "tipo": "vf",
+          "pagina": 134,
           "enunciado": "En 'globo rojo', la palabra 'rojo' es un adjetivo.",
           "correcta": true,
           "explicacion": "Rojo dice cómo es el globo."
@@ -1245,6 +1336,7 @@
         {
           "id": "lengua-t07-p01",
           "tipo": "eleccion",
+          "pagina": 153,
           "enunciado": "¿Qué palabra deriva de 'fruta'?",
           "opciones": [
             "frutería",
@@ -1257,6 +1349,7 @@
         {
           "id": "lengua-t07-p02",
           "tipo": "relacionar",
+          "pagina": 153,
           "enunciado": "Une cada palabra con su derivada.",
           "pares": [
             [
@@ -1277,6 +1370,7 @@
         {
           "id": "lengua-t07-p03",
           "tipo": "eleccion",
+          "pagina": 154,
           "enunciado": "Completa: ca___o.",
           "opciones": [
             "mp",
@@ -1288,6 +1382,7 @@
         {
           "id": "lengua-t07-p04",
           "tipo": "eleccion",
+          "pagina": 154,
           "enunciado": "Completa: ta___or.",
           "opciones": [
             "mb",
@@ -1299,6 +1394,7 @@
         {
           "id": "lengua-t07-p05",
           "tipo": "escribir",
+          "pagina": 154,
           "enunciado": "Completa con m o n: bo_billa (da luz). Escribe la palabra entera.",
           "respuestas": [
             "bombilla"
@@ -1309,6 +1405,7 @@
         {
           "id": "lengua-t07-p06",
           "tipo": "vf",
+          "pagina": 154,
           "enunciado": "Se escribe 'sienpre'.",
           "correcta": false,
           "explicacion": "Antes de p va m: siempre."
@@ -1316,6 +1413,7 @@
         {
           "id": "lengua-t07-p07",
           "tipo": "eleccion",
+          "pagina": 153,
           "enunciado": "¿Qué inventor es famoso por la bombilla eléctrica?",
           "opciones": [
             "Thomas Edison",
@@ -1328,6 +1426,7 @@
         {
           "id": "lengua-t07-p08",
           "tipo": "relacionar",
+          "pagina": 153,
           "enunciado": "Une cada invento con para qué sirve.",
           "pares": [
             [
@@ -1352,6 +1451,7 @@
         {
           "id": "lengua-t07-p09",
           "tipo": "eleccion",
+          "pagina": 152,
           "enunciado": "¿Cuál es una comparación?",
           "opciones": [
             "Es rápido como un cohete.",
@@ -1364,6 +1464,7 @@
         {
           "id": "lengua-t07-p10",
           "tipo": "eleccion",
+          "pagina": 158,
           "enunciado": "¿Qué palabra es un verbo?",
           "opciones": [
             "investigar",
@@ -1376,6 +1477,7 @@
         {
           "id": "lengua-t07-p11",
           "tipo": "eleccion",
+          "pagina": 158,
           "enunciado": "'Mañana visitaré el museo de la ciencia.' ¿En qué tiempo está el verbo?",
           "opciones": [
             "futuro",
@@ -1388,6 +1490,7 @@
         {
           "id": "lengua-t07-p12",
           "tipo": "eleccion",
+          "pagina": 158,
           "enunciado": "'Ayer miré por el microscopio.' ¿En qué tiempo está?",
           "opciones": [
             "pasado",
@@ -1400,6 +1503,7 @@
         {
           "id": "lengua-t07-p13",
           "tipo": "relacionar",
+          "pagina": 158,
           "enunciado": "Une cada forma del verbo 'jugar' con su tiempo.",
           "pares": [
             [
@@ -1420,6 +1524,7 @@
         {
           "id": "lengua-t07-p14",
           "tipo": "ordenar",
+          "pagina": 158,
           "enunciado": "Ordena del pasado al futuro.",
           "elementos": [
             "ayer",
@@ -1431,6 +1536,7 @@
         {
           "id": "lengua-t07-p15",
           "tipo": "escribir",
+          "pagina": 158,
           "enunciado": "Escribe el verbo 'cantar' en futuro con 'yo': yo...",
           "respuestas": [
             "cantaré",
@@ -1452,6 +1558,7 @@
         {
           "id": "lengua-t08-p01",
           "tipo": "eleccion",
+          "pagina": 173,
           "enunciado": "¿Qué palabra NO es del campo semántico de los colores?",
           "opciones": [
             "silla",
@@ -1464,6 +1571,7 @@
         {
           "id": "lengua-t08-p02",
           "tipo": "relacionar",
+          "pagina": 173,
           "enunciado": "Une cada palabra con su campo semántico.",
           "pares": [
             [
@@ -1488,6 +1596,7 @@
         {
           "id": "lengua-t08-p03",
           "tipo": "vf",
+          "pagina": 173,
           "enunciado": "'León, tigre y elefante' pertenecen al campo semántico de los animales.",
           "correcta": true,
           "explicacion": "Son animales."
@@ -1495,6 +1604,7 @@
         {
           "id": "lengua-t08-p04",
           "tipo": "eleccion",
+          "pagina": 174,
           "enunciado": "¿Qué oración tiene bien puestas las comas?",
           "opciones": [
             "Compré pan, leche, huevos y queso.",
@@ -1507,6 +1617,7 @@
         {
           "id": "lengua-t08-p05",
           "tipo": "vf",
+          "pagina": 174,
           "enunciado": "Antes de la 'y' de una enumeración ponemos coma.",
           "correcta": false,
           "explicacion": "Antes de 'y' no se pone coma en las enumeraciones."
@@ -1514,6 +1625,7 @@
         {
           "id": "lengua-t08-p06",
           "tipo": "eleccion",
+          "pagina": 174,
           "enunciado": "¿Cuántas comas necesita: 'Tengo lápices gomas reglas y ceras'?",
           "opciones": [
             "dos",
@@ -1526,6 +1638,7 @@
         {
           "id": "lengua-t08-p07",
           "tipo": "eleccion",
+          "pagina": 173,
           "enunciado": "¿Quién da un discurso?",
           "opciones": [
             "el orador",
@@ -1538,6 +1651,7 @@
         {
           "id": "lengua-t08-p08",
           "tipo": "relacionar",
+          "pagina": 173,
           "enunciado": "Une cada palabra con su significado.",
           "pares": [
             [
@@ -1558,6 +1672,7 @@
         {
           "id": "lengua-t08-p09",
           "tipo": "eleccion",
+          "pagina": 172,
           "enunciado": "¿Cuál es un marcador explicativo?",
           "opciones": [
             "es decir",
@@ -1570,6 +1685,7 @@
         {
           "id": "lengua-t08-p10",
           "tipo": "eleccion",
+          "pagina": 180,
           "enunciado": "En 'Mi abuela cocina paella', ¿cuál es el sujeto?",
           "opciones": [
             "Mi abuela",
@@ -1582,6 +1698,7 @@
         {
           "id": "lengua-t08-p11",
           "tipo": "eleccion",
+          "pagina": 180,
           "enunciado": "En 'Los pájaros cantan', ¿cuál es el predicado?",
           "opciones": [
             "cantan",
@@ -1594,6 +1711,7 @@
         {
           "id": "lengua-t08-p12",
           "tipo": "escribir",
+          "pagina": 180,
           "enunciado": "¿Cuál es el sujeto de 'Pablo pinta un mural'?",
           "respuestas": [
             "Pablo"
@@ -1604,6 +1722,7 @@
         {
           "id": "lengua-t08-p13",
           "tipo": "ordenar",
+          "pagina": 180,
           "enunciado": "Ordena para formar una oración con sujeto y predicado.",
           "elementos": [
             "La",
@@ -1616,6 +1735,7 @@
         {
           "id": "lengua-t08-p14",
           "tipo": "vf",
+          "pagina": 180,
           "enunciado": "En 'El perro ladra', 'El perro' es el sujeto y 'ladra' es el predicado.",
           "correcta": true,
           "explicacion": "Muy bien: el sujeto dice quién hace algo (el perro) y el predicado dice qué hace (ladra)."
@@ -1623,6 +1743,7 @@
         {
           "id": "lengua-t08-p15",
           "tipo": "relacionar",
+          "pagina": 180,
           "enunciado": "Une cada sujeto con un predicado que tenga sentido.",
           "pares": [
             [
@@ -1653,6 +1774,7 @@
         {
           "id": "lengua-t09-p01",
           "tipo": "eleccion",
+          "pagina": 193,
           "enunciado": "¿Qué significa 'estar en las nubes'?",
           "opciones": [
             "estar distraído",
@@ -1665,6 +1787,7 @@
         {
           "id": "lengua-t09-p02",
           "tipo": "relacionar",
+          "pagina": 193,
           "enunciado": "Une cada expresión con su significado.",
           "pares": [
             [
@@ -1689,6 +1812,7 @@
         {
           "id": "lengua-t09-p03",
           "tipo": "vf",
+          "pagina": 193,
           "enunciado": "'Dormir como un tronco' significa dormir muy profundamente.",
           "correcta": true,
           "explicacion": "¡Exacto!"
@@ -1696,6 +1820,7 @@
         {
           "id": "lengua-t09-p04",
           "tipo": "eleccion",
+          "pagina": 194,
           "enunciado": "¿Qué oración está bien escrita?",
           "opciones": [
             "¿Cómo te llamas?",
@@ -1708,6 +1833,7 @@
         {
           "id": "lengua-t09-p05",
           "tipo": "eleccion",
+          "pagina": 194,
           "enunciado": "¿Qué oración está bien escrita?",
           "opciones": [
             "¡Qué bien!",
@@ -1720,6 +1846,7 @@
         {
           "id": "lengua-t09-p06",
           "tipo": "eleccion",
+          "pagina": 194,
           "enunciado": "¿Qué signos necesita 'Hemos ganado el concurso' si lo gritamos de alegría?",
           "opciones": [
             "¡ !",
@@ -1732,6 +1859,7 @@
         {
           "id": "lengua-t09-p07",
           "tipo": "eleccion",
+          "pagina": 193,
           "enunciado": "¿Quién hace las preguntas en un concurso?",
           "opciones": [
             "el presentador",
@@ -1744,6 +1872,7 @@
         {
           "id": "lengua-t09-p08",
           "tipo": "relacionar",
+          "pagina": 193,
           "enunciado": "Une cada palabra con su significado.",
           "pares": [
             [
@@ -1764,6 +1893,7 @@
         {
           "id": "lengua-t09-p09",
           "tipo": "eleccion",
+          "pagina": 198,
           "enunciado": "¿Qué clase de oración es '¿Vienes al parque?'",
           "opciones": [
             "interrogativa",
@@ -1776,6 +1906,7 @@
         {
           "id": "lengua-t09-p10",
           "tipo": "eleccion",
+          "pagina": 198,
           "enunciado": "¿Qué clase de oración es 'Hoy no llueve'?",
           "opciones": [
             "negativa",
@@ -1788,6 +1919,7 @@
         {
           "id": "lengua-t09-p11",
           "tipo": "relacionar",
+          "pagina": 198,
           "enunciado": "Une cada oración con su clase.",
           "pares": [
             [
@@ -1812,6 +1944,7 @@
         {
           "id": "lengua-t09-p12",
           "tipo": "vf",
+          "pagina": 198,
           "enunciado": "'¡Qué bonito día!' es una oración interrogativa.",
           "correcta": false,
           "explicacion": "Es exclamativa: expresa emoción."
@@ -1819,6 +1952,7 @@
         {
           "id": "lengua-t09-p13",
           "tipo": "escribir",
+          "pagina": 198,
           "enunciado": "Escribe la oración negativa de 'Juan come pescado' añadiendo 'no'.",
           "respuestas": [
             "juan no come pescado",
@@ -1830,6 +1964,7 @@
         {
           "id": "lengua-t09-p14",
           "tipo": "ordenar",
+          "pagina": 194,
           "enunciado": "Ordena las palabras de la pregunta.",
           "elementos": [
             "¿Quién",
@@ -1842,6 +1977,7 @@
         {
           "id": "lengua-t09-p15",
           "tipo": "eleccion",
+          "pagina": 193,
           "enunciado": "¿Qué expresión significa 'estar muy contento'?",
           "opciones": [
             "estar como unas castañuelas",

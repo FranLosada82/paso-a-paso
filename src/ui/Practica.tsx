@@ -13,18 +13,18 @@ const ANIMO_OK = ['¡Muy bien!', '¡Genial!', '¡Correcto!', '¡Lo has clavado!'
 const ANIMO_KO = ['¡Casi! Mira esto:', 'Buen intento. Fíjate:', 'No pasa nada, así se aprende:'];
 const al = (l: string[]) => l[Math.floor(Math.random() * l.length)];
 
-interface Props { asig: Asignatura; temas: string[]; estado: Estado; actualizar: (f: (e: Estado) => Estado) => void }
+interface Props { asig: Asignatura; temas: string[]; pagina: number; estado: Estado; actualizar: (f: (e: Estado) => Estado) => void }
 
 export function Practica(props: Props) {
   const [ronda, setRonda] = useState(0);
   return <Sesion key={ronda} {...props} otraRonda={() => setRonda((r) => r + 1)} />;
 }
 
-function Sesion({ asig, temas, estado, actualizar, otraRonda }: Props & { otraRonda: () => void }) {
+function Sesion({ asig, temas, pagina, estado, actualizar, otraRonda }: Props & { otraRonda: () => void }) {
   const m = meta(asig.id);
   // La sesión se fija al empezar (no cambia mientras se responde).
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const inicial = useMemo(() => crearSesion(asig, temas, estado.preguntas), []);
+  const inicial = useMemo(() => crearSesion(asig, temas, pagina, estado.preguntas), []);
   const [cola, setCola] = useState<ItemSesion[]>(inicial);
   const [pos, setPos] = useState(0);
   const [resp, setResp] = useState<Respuesta | null>(null);

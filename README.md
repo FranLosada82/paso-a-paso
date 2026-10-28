@@ -1,6 +1,6 @@
 # CHENCHO REPASO — app de repaso de 2.º de Primaria
 
-App web instalable (PWA) estilo Duolingo para niños de 7-8 años. El niño elige asignatura; un adulto marca **qué temas se han dado ya en clase** y las preguntas salen **solo de esos temas**. Funciona sin conexión después de la primera carga, sin cuentas, sin anuncios ni analítica.
+App web instalable (PWA) estilo Duolingo para niños de 7-8 años. El niño elige asignatura; un adulto indica **por qué página del libro va la clase** y las preguntas salen **solo de lo que ya se ha visto hasta esa página**, aunque el tema esté a medias. Funciona sin conexión después de la primera carga, sin cuentas, sin anuncios ni analítica.
 
 ## Contenido
 
@@ -23,8 +23,8 @@ App web instalable (PWA) estilo Duolingo para niños de 7-8 años. El niño elig
 ## Uso
 
 1. **Zona de adultos** (abajo en la pantalla de inicio; pregunta la raíz cúbica de 27 para evitar toques accidentales).
-2. En cada asignatura, **Marcar** → activa los temas dados o pulsa «Hasta aquí» en el último tema dado.
-3. El niño entra en la asignatura y pulsa «Repasar todo lo dado» o un tema concreto.
+2. En cada asignatura, **Página** → escribe la página por la que vais (o usa − / +, o «Terminado» en un tema). Se ve qué temas quedan completos, cuál está a medias y cuántas preguntas hay disponibles.
+3. El niño entra en la asignatura y pulsa «Repasar todo lo dado» o un tema concreto (completo o a medias).
 4. En la Zona de adultos: dominio por asignatura, texto grande, sonido (apagado por defecto), copia de seguridad y reinicio.
 
 ## Arranque local (Mac)
