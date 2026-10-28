@@ -107,3 +107,12 @@ h1, h2 { margin: .2em 0 .4em; line-height: 1.2; }
 
 @media (orientation: landscape) and (min-width: 900px) { .opciones { grid-template-columns: 1fr 1fr; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } .boton:active, .asig:active { transform: none; } }
+
+/* Fondo: logo de las rosas difuminado */
+body::before {
+  content: ""; position: fixed; inset: -40px; z-index: -1; pointer-events: none;
+  background: url("/logo.png") center / min(140vw, 140vh) no-repeat, var(--fondo);
+  filter: blur(14px) saturate(1.1); opacity: .28;
+}
+body { background: var(--fondo); isolation: isolate; }
+.pie:not(.ok):not(.ko) { background: rgba(255, 248, 236, .92); backdrop-filter: blur(6px); }
