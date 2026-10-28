@@ -1,0 +1,1293 @@
+{
+  "id": "naturales",
+  "nombre": "Ciencias de la Naturaleza",
+  "libro": "Ciencias de la Naturaleza 2.º Primaria (Santillana, Construyendo mundos)",
+  "idioma": "es",
+  "temas": [
+    {
+      "id": "naturales-t01",
+      "numero": 1,
+      "titulo": "Crecemos y cambiamos",
+      "paginas": "6-21",
+      "resumen": "Etapas de la vida, funciones vitales, sentidos, huesos y músculos, respiración y digestión.",
+      "explicacion": "Desde que nacemos, nuestro cuerpo crece y cambia. Como todos los seres vivos, hacemos tres funciones vitales: relación, nutrición y reproducción. Los huesos y los músculos nos permiten movernos, los pulmones nos dan oxígeno y la digestión saca de los alimentos lo que necesitamos.",
+      "preguntas": [
+        {
+          "id": "naturales-t01-p01",
+          "tipo": "ordenar",
+          "enunciado": "Ordena las etapas de la vida, de la primera a la última.",
+          "elementos": [
+            "Infancia",
+            "Adolescencia",
+            "Edad adulta",
+            "Ancianidad"
+          ],
+          "explicacion": "¡Bien! Primero somos niños, luego adolescentes, después adultos y por último ancianos."
+        },
+        {
+          "id": "naturales-t01-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se llaman los primeros dientes que tenemos?",
+          "opciones": [
+            "Dientes de leche",
+            "Dientes definitivos",
+            "Dientes de adulto"
+          ],
+          "correcta": 0,
+          "explicacion": "Los dientes de leche se caen y en su lugar salen los definitivos."
+        },
+        {
+          "id": "naturales-t01-p03",
+          "tipo": "vf",
+          "enunciado": "El color de los ojos cambia a medida que crecemos.",
+          "correcta": false,
+          "explicacion": "El color de los ojos no cambia al crecer. Lo que sí cambia es la altura, el peso, el número de pie o los dientes."
+        },
+        {
+          "id": "naturales-t01-p04",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estas NO es una función vital?",
+          "opciones": [
+            "Nutrición",
+            "Relación",
+            "Reproducción",
+            "Diversión"
+          ],
+          "correcta": 3,
+          "explicacion": "Las tres funciones vitales son nutrición, relación y reproducción. ¡Divertirse es genial, pero no es una de ellas!"
+        },
+        {
+          "id": "naturales-t01-p05",
+          "tipo": "relacionar",
+          "enunciado": "Une cada sentido con su órgano.",
+          "pares": [
+            [
+              "Vista",
+              "Ojos"
+            ],
+            [
+              "Olfato",
+              "Nariz"
+            ],
+            [
+              "Gusto",
+              "Lengua"
+            ],
+            [
+              "Oído",
+              "Orejas"
+            ]
+          ],
+          "explicacion": "Cada sentido tiene su órgano: vemos con los ojos, olemos con la nariz, saboreamos con la lengua y oímos con los oídos."
+        },
+        {
+          "id": "naturales-t01-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Con qué sentido notas que un tomate es suave al tocarlo?",
+          "respuestas": [
+            "tacto",
+            "el tacto"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El tacto está en la piel, sobre todo en las manos. ¡Por eso notas lo suave o lo áspero!"
+        },
+        {
+          "id": "naturales-t01-p07",
+          "tipo": "eleccion",
+          "enunciado": "Cuando desayunas, ¿qué función vital estás realizando?",
+          "opciones": [
+            "Nutrición",
+            "Relación",
+            "Reproducción"
+          ],
+          "correcta": 0,
+          "explicacion": "Comer y respirar forman parte de la función de nutrición."
+        },
+        {
+          "id": "naturales-t01-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo son los huesos?",
+          "opciones": [
+            "Duros y rígidos",
+            "Blandos y elásticos",
+            "Blandos y rígidos"
+          ],
+          "correcta": 0,
+          "explicacion": "Los huesos son duros y no se pueden doblar. ¡Los blandos y elásticos son los músculos!"
+        },
+        {
+          "id": "naturales-t01-p09",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el conjunto de todos los huesos del cuerpo?",
+          "respuestas": [
+            "esqueleto",
+            "el esqueleto"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El esqueleto sostiene y protege nuestro cuerpo."
+        },
+        {
+          "id": "naturales-t01-p10",
+          "tipo": "relacionar",
+          "enunciado": "Une cada parte del cuerpo con lo que es.",
+          "pares": [
+            [
+              "Rodilla",
+              "Articulación"
+            ],
+            [
+              "Fémur",
+              "Hueso"
+            ],
+            [
+              "Bíceps",
+              "Músculo"
+            ]
+          ],
+          "explicacion": "La rodilla une huesos (articulación), el fémur es un hueso de la pierna y el bíceps es un músculo del brazo."
+        },
+        {
+          "id": "naturales-t01-p11",
+          "tipo": "vf",
+          "enunciado": "Las articulaciones nos permiten doblar partes del cuerpo, como el codo.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Las articulaciones unen los huesos y nos dejan doblarnos."
+        },
+        {
+          "id": "naturales-t01-p12",
+          "tipo": "vf",
+          "enunciado": "Cuanto más usamos los músculos, más débiles se vuelven.",
+          "correcta": false,
+          "explicacion": "Al revés: cuanto más los usamos, más fuertes se hacen. ¡Por eso es bueno hacer ejercicio!"
+        },
+        {
+          "id": "naturales-t01-p13",
+          "tipo": "ordenar",
+          "enunciado": "Ordena el camino del aire al respirar.",
+          "elementos": [
+            "Nariz",
+            "Tráquea",
+            "Pulmones"
+          ],
+          "explicacion": "El aire entra por la nariz (o la boca), baja por la tráquea y llega a los pulmones."
+        },
+        {
+          "id": "naturales-t01-p14",
+          "tipo": "escribir",
+          "enunciado": "¿Qué gas del aire necesitamos para vivir?",
+          "respuestas": [
+            "oxigeno",
+            "el oxigeno"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Respiramos para tomar oxígeno, que nuestro cuerpo necesita para vivir."
+        },
+        {
+          "id": "naturales-t01-p15",
+          "tipo": "eleccion",
+          "enunciado": "Cuando corres o bailas, tu respiración es...",
+          "opciones": [
+            "Acelerada",
+            "Tranquila",
+            "Igual que dormido"
+          ],
+          "correcta": 0,
+          "explicacion": "Al hacer ejercicio respiramos más rápido porque el cuerpo necesita más oxígeno."
+        },
+        {
+          "id": "naturales-t01-p16",
+          "tipo": "ordenar",
+          "enunciado": "Ordena el camino de los alimentos en la digestión.",
+          "elementos": [
+            "Boca",
+            "Esófago",
+            "Estómago",
+            "Intestinos",
+            "Ano"
+          ],
+          "explicacion": "¡Muy bien! Masticamos en la boca, bajan por el esófago al estómago, en los intestinos se absorben los nutrientes y los restos salen por el ano."
+        },
+        {
+          "id": "naturales-t01-p17",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llaman las sustancias sencillas en que la digestión transforma los alimentos?",
+          "respuestas": [
+            "nutrientes",
+            "nutriente",
+            "los nutrientes"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Los nutrientes nos dan materia para crecer y energía para nuestras actividades."
+        }
+      ]
+    },
+    {
+      "id": "naturales-t02",
+      "numero": 2,
+      "titulo": "La salud es importante",
+      "paginas": "22-39",
+      "resumen": "Salud y enfermedad, profesionales sanitarios, vacunas, hábitos saludables, alimentación y prevención de accidentes.",
+      "explicacion": "Estamos sanos cuando nuestro cuerpo funciona bien y nos sentimos bien. Para cuidar la salud nos lavamos, dormimos bastante, hacemos ejercicio y comemos de todo. También tenemos cuidado para evitar accidentes en casa y en la calle.",
+      "preguntas": [
+        {
+          "id": "naturales-t02-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se llama el médico de los niños y niñas?",
+          "opciones": [
+            "Pediatra",
+            "Dentista",
+            "Veterinario"
+          ],
+          "correcta": 0,
+          "explicacion": "El pediatra es el médico que cuida a los niños y niñas."
+        },
+        {
+          "id": "naturales-t02-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Para qué sirven las vacunas?",
+          "opciones": [
+            "Para prevenir enfermedades",
+            "Para curar un hueso roto",
+            "Para crecer más rápido"
+          ],
+          "correcta": 0,
+          "explicacion": "Las vacunas ayudan a que no tengamos algunas enfermedades antes de que aparezcan."
+        },
+        {
+          "id": "naturales-t02-p03",
+          "tipo": "vf",
+          "enunciado": "El resfriado y la gripe son enfermedades muy comunes.",
+          "correcta": true,
+          "explicacion": "Sí, son enfermedades frecuentes. Cuando nos encontramos mal vamos al centro de salud."
+        },
+        {
+          "id": "naturales-t02-p04",
+          "tipo": "relacionar",
+          "enunciado": "Une cada profesional con lo que hace.",
+          "pares": [
+            [
+              "Enfermera",
+              "Hace curas y pone vacunas"
+            ],
+            [
+              "Médica",
+              "Averigua qué enfermedad tenemos"
+            ],
+            [
+              "Dentista",
+              "Cuida nuestros dientes"
+            ]
+          ],
+          "explicacion": "Cada profesional de la salud nos ayuda de una forma distinta."
+        },
+        {
+          "id": "naturales-t02-p05",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuándo debemos cepillarnos los dientes?",
+          "opciones": [
+            "Después de cada comida",
+            "Una vez a la semana",
+            "Solo antes de dormir los domingos"
+          ],
+          "correcta": 0,
+          "explicacion": "Cepillarnos después de cada comida mantiene los dientes limpios y sanos."
+        },
+        {
+          "id": "naturales-t02-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Cuántas horas al día, más o menos, deben dormir los niños y niñas? Escribe el número.",
+          "respuestas": [
+            "10",
+            "diez"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Los niños necesitan dormir unas diez horas para descansar y crecer bien."
+        },
+        {
+          "id": "naturales-t02-p07",
+          "tipo": "vf",
+          "enunciado": "Sentarse con la espalda recta es un hábito saludable.",
+          "correcta": true,
+          "explicacion": "Una buena postura cuida nuestra espalda y evita molestias."
+        },
+        {
+          "id": "naturales-t02-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estos es un hábito saludable?",
+          "opciones": [
+            "Comer fruta todos los días",
+            "Lavarse los dientes una vez al día",
+            "No dormir la siesta nunca y trasnochar"
+          ],
+          "correcta": 0,
+          "explicacion": "La fruta nos aporta vitaminas y fibra. ¡Hay que tomarla a diario!"
+        },
+        {
+          "id": "naturales-t02-p09",
+          "tipo": "escribir",
+          "enunciado": "¿Cuántas comidas al día es conveniente hacer? Escribe el número.",
+          "respuestas": [
+            "5",
+            "cinco"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Desayuno, media mañana, comida, merienda y cena: ¡cinco comidas!"
+        },
+        {
+          "id": "naturales-t02-p10",
+          "tipo": "ordenar",
+          "enunciado": "Ordena las comidas del día, de la primera a la última.",
+          "elementos": [
+            "Desayuno",
+            "Media mañana",
+            "Comida",
+            "Merienda",
+            "Cena"
+          ],
+          "explicacion": "¡Genial! Así repartimos los alimentos a lo largo del día."
+        },
+        {
+          "id": "naturales-t02-p11",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué menú es más variado y sano?",
+          "opciones": [
+            "Lentejas, salmón con espinacas y macedonia",
+            "Espaguetis con nata y bollos",
+            "Hamburguesa, patatas fritas y refresco"
+          ],
+          "correcta": 0,
+          "explicacion": "Ese menú tiene alimentos de varios grupos: legumbres, pescado, verdura y fruta."
+        },
+        {
+          "id": "naturales-t02-p12",
+          "tipo": "vf",
+          "enunciado": "Para estar sanos hay que beber suficiente agua.",
+          "correcta": true,
+          "explicacion": "El agua es necesaria para que nuestro cuerpo funcione bien."
+        },
+        {
+          "id": "naturales-t02-p13",
+          "tipo": "relacionar",
+          "enunciado": "Une cada objeto con su peligro.",
+          "pares": [
+            [
+              "Cuchillo",
+              "Te puedes cortar"
+            ],
+            [
+              "Fuego de la cocina",
+              "Te puedes quemar"
+            ],
+            [
+              "Enchufe",
+              "Te puede dar calambre"
+            ]
+          ],
+          "explicacion": "Conocer los peligros nos ayuda a evitar accidentes."
+        },
+        {
+          "id": "naturales-t02-p14",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué debes hacer al ir en coche?",
+          "opciones": [
+            "Ponerte el cinturón de seguridad",
+            "Ir de pie",
+            "Sacar la cabeza por la ventanilla"
+          ],
+          "correcta": 0,
+          "explicacion": "El cinturón nos protege si el coche frena de golpe."
+        },
+        {
+          "id": "naturales-t02-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Por dónde debemos cruzar la calle?",
+          "opciones": [
+            "Por el paso de peatones",
+            "Entre dos coches aparcados",
+            "Por cualquier sitio, corriendo"
+          ],
+          "correcta": 0,
+          "explicacion": "El paso de peatones es el lugar seguro para cruzar."
+        },
+        {
+          "id": "naturales-t02-p16",
+          "tipo": "escribir",
+          "enunciado": "¿Qué te pones en la cabeza para ir en bicicleta?",
+          "respuestas": [
+            "casco",
+            "el casco",
+            "un casco"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El casco protege tu cabeza si te caes."
+        },
+        {
+          "id": "naturales-t02-p17",
+          "tipo": "vf",
+          "enunciado": "Antes y después de hacer deporte es bueno estirar.",
+          "correcta": true,
+          "explicacion": "Estirar relaja los músculos y ayuda a evitar lesiones."
+        }
+      ]
+    },
+    {
+      "id": "naturales-t03",
+      "numero": 3,
+      "titulo": "Clasificamos animales",
+      "paginas": "40-55",
+      "resumen": "Vertebrados e invertebrados, los cinco grupos de vertebrados, insectos y hábitats.",
+      "explicacion": "Hay muchísimos animales, así que los agrupamos. Los vertebrados tienen huesos por dentro: mamíferos, aves, peces, reptiles y anfibios. Los invertebrados no tienen huesos, como los insectos o los caracoles. Cada animal vive en su hábitat, donde encuentra comida y refugio.",
+      "preguntas": [
+        {
+          "id": "naturales-t03-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué tienen los animales vertebrados que no tienen los invertebrados?",
+          "opciones": [
+            "Esqueleto de huesos",
+            "Patas",
+            "Ojos"
+          ],
+          "correcta": 0,
+          "explicacion": "Los vertebrados tienen un esqueleto de huesos en su interior."
+        },
+        {
+          "id": "naturales-t03-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cuántos grupos de vertebrados hay? Escribe el número.",
+          "respuestas": [
+            "5",
+            "cinco"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Mamíferos, aves, peces, reptiles y anfibios: ¡cinco grupos!"
+        },
+        {
+          "id": "naturales-t03-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué significa que un animal es vivíparo?",
+          "opciones": [
+            "Que nace del vientre de su madre",
+            "Que nace de un huevo",
+            "Que vive en el agua"
+          ],
+          "correcta": 0,
+          "explicacion": "Los vivíparos, como los mamíferos, nacen del vientre de su madre."
+        },
+        {
+          "id": "naturales-t03-p04",
+          "tipo": "relacionar",
+          "enunciado": "Une cada grupo con lo que cubre su cuerpo.",
+          "pares": [
+            [
+              "Mamíferos",
+              "Pelo"
+            ],
+            [
+              "Aves",
+              "Plumas"
+            ],
+            [
+              "Peces",
+              "Escamas"
+            ],
+            [
+              "Anfibios",
+              "Piel desnuda"
+            ]
+          ],
+          "explicacion": "Fijarnos en la piel nos ayuda a saber a qué grupo pertenece un animal."
+        },
+        {
+          "id": "naturales-t03-p05",
+          "tipo": "vf",
+          "enunciado": "Las aves tienen pico y nacen de huevos.",
+          "correcta": true,
+          "explicacion": "Las aves son ovíparas, tienen pico, plumas y dos patas."
+        },
+        {
+          "id": "naturales-t03-p06",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál es el único mamífero con alas?",
+          "opciones": [
+            "El murciélago",
+            "La paloma",
+            "El delfín"
+          ],
+          "correcta": 0,
+          "explicacion": "¡El murciélago es un mamífero que vuela! La paloma es un ave."
+        },
+        {
+          "id": "naturales-t03-p07",
+          "tipo": "vf",
+          "enunciado": "La ballena y el delfín son peces.",
+          "correcta": false,
+          "explicacion": "Son mamíferos acuáticos: nacen del vientre de su madre y maman."
+        },
+        {
+          "id": "naturales-t03-p08",
+          "tipo": "escribir",
+          "enunciado": "¿A qué grupo de vertebrados pertenecemos las personas?",
+          "respuestas": [
+            "mamiferos",
+            "mamifero",
+            "los mamiferos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Las personas somos mamíferos: nacemos del vientre de nuestra madre y de bebés mamamos."
+        },
+        {
+          "id": "naturales-t03-p09",
+          "tipo": "eleccion",
+          "enunciado": "¿Con qué respiran los peces dentro del agua?",
+          "opciones": [
+            "Con branquias",
+            "Con pulmones",
+            "Con la piel"
+          ],
+          "correcta": 0,
+          "explicacion": "Las branquias permiten a los peces tomar el oxígeno del agua."
+        },
+        {
+          "id": "naturales-t03-p10",
+          "tipo": "relacionar",
+          "enunciado": "Une cada animal con su grupo.",
+          "pares": [
+            [
+              "Lagarto",
+              "Reptil"
+            ],
+            [
+              "Rana",
+              "Anfibio"
+            ],
+            [
+              "Águila",
+              "Ave"
+            ],
+            [
+              "Sardina",
+              "Pez"
+            ]
+          ],
+          "explicacion": "¡Muy bien clasificado!"
+        },
+        {
+          "id": "naturales-t03-p11",
+          "tipo": "ordenar",
+          "enunciado": "Ordena cómo crece una rana.",
+          "elementos": [
+            "La rana pone huevos en el agua",
+            "Nacen los renacuajos con cola",
+            "Les salen las patas",
+            "Pierden la cola y viven también fuera del agua"
+          ],
+          "explicacion": "Los anfibios cambian mucho al crecer. ¡Por eso se llaman así: dos vidas!"
+        },
+        {
+          "id": "naturales-t03-p12",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llaman las crías de la rana?",
+          "respuestas": [
+            "renacuajos",
+            "renacuajo",
+            "los renacuajos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Los renacuajos viven en el agua y tienen cola para nadar."
+        },
+        {
+          "id": "naturales-t03-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuántas patas tiene un insecto?",
+          "opciones": [
+            "Seis",
+            "Ocho",
+            "Cuatro"
+          ],
+          "correcta": 0,
+          "explicacion": "Los insectos tienen seis patas y dos antenas."
+        },
+        {
+          "id": "naturales-t03-p14",
+          "tipo": "vf",
+          "enunciado": "La araña es un insecto.",
+          "correcta": false,
+          "explicacion": "La araña tiene ocho patas, así que no es un insecto (los insectos tienen seis)."
+        },
+        {
+          "id": "naturales-t03-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estos animales es invertebrado?",
+          "opciones": [
+            "Caracol",
+            "Gato",
+            "Serpiente"
+          ],
+          "correcta": 0,
+          "explicacion": "El caracol no tiene huesos en su interior: es invertebrado."
+        },
+        {
+          "id": "naturales-t03-p16",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el lugar donde vive un animal, se alimenta y encuentra refugio?",
+          "respuestas": [
+            "habitat",
+            "el habitat",
+            "habitats"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Cada animal está adaptado a su hábitat, que puede ser terrestre o acuático."
+        },
+        {
+          "id": "naturales-t03-p17",
+          "tipo": "relacionar",
+          "enunciado": "Une cada animal con lo que come.",
+          "pares": [
+            [
+              "Conejo",
+              "Herbívoro: come plantas"
+            ],
+            [
+              "Lobo",
+              "Carnívoro: come otros animales"
+            ],
+            [
+              "Oso",
+              "Omnívoro: come de todo"
+            ]
+          ],
+          "explicacion": "Según lo que comen, los animales son herbívoros, carnívoros u omnívoros."
+        }
+      ]
+    },
+    {
+      "id": "naturales-t04",
+      "numero": 4,
+      "titulo": "Identificamos plantas",
+      "paginas": "56-73",
+      "resumen": "Necesidades y partes de las plantas, fotosíntesis, clasificación, reproducción, utilidad de las plantas y ahorro de agua.",
+      "explicacion": "Las plantas son seres vivos que necesitan agua, aire, luz del sol y sustancias de la tierra. Fabrican su propio alimento con la fotosíntesis. Pueden ser árboles, arbustos o hierbas, y muchas tienen flores que dan frutos con semillas. ¡Nos dan oxígeno, alimentos y materiales!",
+      "preguntas": [
+        {
+          "id": "naturales-t04-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué NO necesita una planta para vivir?",
+          "opciones": [
+            "Moverse de sitio",
+            "Luz del sol",
+            "Agua"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas no se desplazan. Necesitan agua, aire, luz y sustancias de la tierra."
+        },
+        {
+          "id": "naturales-t04-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama la forma en que las plantas fabrican su alimento?",
+          "respuestas": [
+            "fotosintesis",
+            "la fotosintesis"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "En la fotosíntesis las hojas usan la luz del sol y el aire para fabricar alimento."
+        },
+        {
+          "id": "naturales-t04-p03",
+          "tipo": "relacionar",
+          "enunciado": "Une cada parte de la planta con su función.",
+          "pares": [
+            [
+              "Raíz",
+              "Toma agua y sustancias de la tierra"
+            ],
+            [
+              "Hojas",
+              "Fabrican el alimento"
+            ],
+            [
+              "Fruto",
+              "Contiene las semillas"
+            ],
+            [
+              "Tallo",
+              "Sostiene la planta"
+            ]
+          ],
+          "explicacion": "Cada parte de la planta tiene un trabajo importante."
+        },
+        {
+          "id": "naturales-t04-p04",
+          "tipo": "vf",
+          "enunciado": "Las plantas producen parte del oxígeno que respiramos.",
+          "correcta": true,
+          "explicacion": "Durante la fotosíntesis las plantas producen oxígeno y limpian el aire."
+        },
+        {
+          "id": "naturales-t04-p05",
+          "tipo": "relacionar",
+          "enunciado": "Une cada tipo de planta con su tallo.",
+          "pares": [
+            [
+              "Árbol",
+              "Tronco grueso, duro y alto"
+            ],
+            [
+              "Arbusto",
+              "Tallo leñoso con ramas cerca del suelo"
+            ],
+            [
+              "Hierba",
+              "Tallo fino, flexible y verde"
+            ]
+          ],
+          "explicacion": "Por su tallo, las plantas son árboles, arbustos o hierbas."
+        },
+        {
+          "id": "naturales-t04-p06",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se llama el tallo grueso y duro de los árboles?",
+          "opciones": [
+            "Tronco",
+            "Raíz",
+            "Rama"
+          ],
+          "correcta": 0,
+          "explicacion": "El tronco es el tallo de los árboles."
+        },
+        {
+          "id": "naturales-t04-p07",
+          "tipo": "eleccion",
+          "enunciado": "Un árbol que pierde sus hojas en otoño es de hoja...",
+          "opciones": [
+            "Caduca",
+            "Perenne",
+            "Verde"
+          ],
+          "correcta": 0,
+          "explicacion": "Los árboles de hoja caduca pierden las hojas con el frío y les vuelven a salir en primavera."
+        },
+        {
+          "id": "naturales-t04-p08",
+          "tipo": "vf",
+          "enunciado": "Los árboles de hoja perenne tienen hojas durante todo el año.",
+          "correcta": true,
+          "explicacion": "Las van cambiando poco a poco, así que nunca se quedan sin hojas."
+        },
+        {
+          "id": "naturales-t04-p09",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estas plantas NO tiene flores?",
+          "opciones": [
+            "Helecho",
+            "Rosal",
+            "Manzano"
+          ],
+          "correcta": 0,
+          "explicacion": "Los helechos y los musgos son plantas sin flor."
+        },
+        {
+          "id": "naturales-t04-p10",
+          "tipo": "escribir",
+          "enunciado": "¿Qué producen muchas plantas sin flor para reproducirse?",
+          "respuestas": [
+            "esporas",
+            "espora",
+            "las esporas"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Las esporas son pequeñísimas, caen al suelo y pueden dar nuevas plantas."
+        },
+        {
+          "id": "naturales-t04-p11",
+          "tipo": "ordenar",
+          "enunciado": "Ordena cómo nace una planta nueva.",
+          "elementos": [
+            "La semilla cae a la tierra",
+            "La semilla germina",
+            "Crece una plantita",
+            "La planta da flores y frutos"
+          ],
+          "explicacion": "De una semilla nace una planta que, al crecer, dará nuevas semillas."
+        },
+        {
+          "id": "naturales-t04-p12",
+          "tipo": "eleccion",
+          "enunciado": "Las plantas que siembran y cuidan las personas se llaman...",
+          "opciones": [
+            "Cultivadas",
+            "Silvestres",
+            "Salvajes"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas cultivadas nos dan alimentos y materiales. Las silvestres crecen solas."
+        },
+        {
+          "id": "naturales-t04-p13",
+          "tipo": "vf",
+          "enunciado": "Las plantas silvestres sirven de alimento y refugio a muchos animales.",
+          "correcta": true,
+          "explicacion": "En bosques y praderas, muchos animales viven y comen gracias a las plantas."
+        },
+        {
+          "id": "naturales-t04-p14",
+          "tipo": "relacionar",
+          "enunciado": "Une cada producto con la parte de la planta de la que sale.",
+          "pares": [
+            [
+              "Mesa de madera",
+              "Tronco"
+            ],
+            [
+              "Zanahoria",
+              "Raíz"
+            ],
+            [
+              "Lechuga",
+              "Hojas"
+            ],
+            [
+              "Manzana",
+              "Fruto"
+            ]
+          ],
+          "explicacion": "¡Usamos muchas partes distintas de las plantas!"
+        },
+        {
+          "id": "naturales-t04-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es una buena idea para ahorrar agua?",
+          "opciones": [
+            "Recoger agua de lluvia para regar",
+            "Dejar el grifo abierto al cepillarse",
+            "Lavar la fruta con el grifo corriendo mucho rato"
+          ],
+          "correcta": 0,
+          "explicacion": "Reutilizar el agua es una gran forma de no malgastarla."
+        },
+        {
+          "id": "naturales-t04-p16",
+          "tipo": "escribir",
+          "enunciado": "¿Qué parte de la planta contiene las semillas?",
+          "respuestas": [
+            "fruto",
+            "el fruto",
+            "frutos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Las flores se convierten en frutos, y dentro están las semillas."
+        }
+      ]
+    },
+    {
+      "id": "naturales-t05",
+      "numero": 5,
+      "titulo": "Hacemos experimentos",
+      "paginas": "74-89",
+      "resumen": "Método científico, estados de la materia, mezclas, materiales y sus propiedades, luz, sonido y energía.",
+      "explicacion": "Los científicos observan, se hacen preguntas, experimentan y sacan conclusiones. Todo lo que nos rodea es materia, que puede estar sólida, líquida o gaseosa. Los materiales pueden ser naturales o artificiales. La luz viene del Sol y de las bombillas, y el sonido son ondas que viajan por el aire.",
+      "preguntas": [
+        {
+          "id": "naturales-t05-p01",
+          "tipo": "ordenar",
+          "enunciado": "Ordena los pasos del método científico.",
+          "elementos": [
+            "Observamos el entorno",
+            "Nos hacemos una pregunta",
+            "Realizamos experimentos",
+            "Obtenemos conclusiones"
+          ],
+          "explicacion": "¡Así trabajan las científicas y los científicos!"
+        },
+        {
+          "id": "naturales-t05-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué descubrió Jane Goodall sobre los chimpancés?",
+          "opciones": [
+            "Que son omnívoros",
+            "Que son herbívoros",
+            "Que viven en el agua"
+          ],
+          "correcta": 0,
+          "explicacion": "Con sus experimentos vio que los chimpancés comen de todo: son omnívoros."
+        },
+        {
+          "id": "naturales-t05-p03",
+          "tipo": "relacionar",
+          "enunciado": "Une cada cosa con su estado.",
+          "pares": [
+            [
+              "Piedra",
+              "Sólido"
+            ],
+            [
+              "Agua del grifo",
+              "Líquido"
+            ],
+            [
+              "Vapor de agua",
+              "Gas"
+            ]
+          ],
+          "explicacion": "La materia puede estar en estado sólido, líquido o gaseoso."
+        },
+        {
+          "id": "naturales-t05-p04",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué le pasa al agua si la metes en el congelador?",
+          "opciones": [
+            "Se vuelve sólida (hielo)",
+            "Se convierte en gas",
+            "No cambia nada"
+          ],
+          "correcta": 0,
+          "explicacion": "Al enfriarse mucho, el agua se congela y pasa a estado sólido."
+        },
+        {
+          "id": "naturales-t05-p05",
+          "tipo": "vf",
+          "enunciado": "Si calentamos mantequilla, se vuelve líquida.",
+          "correcta": true,
+          "explicacion": "El calor hace que muchas cosas sólidas pasen a líquido."
+        },
+        {
+          "id": "naturales-t05-p06",
+          "tipo": "vf",
+          "enunciado": "El agua del mar, al calentarse, se transforma en vapor y deja la sal.",
+          "correcta": true,
+          "explicacion": "El agua se evapora y la sal que estaba disuelta se queda."
+        },
+        {
+          "id": "naturales-t05-p07",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama lo que obtenemos al juntar dos o más sustancias?",
+          "respuestas": [
+            "mezcla",
+            "una mezcla",
+            "mezclas"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Una ensalada o un café con leche son mezclas."
+        },
+        {
+          "id": "naturales-t05-p08",
+          "tipo": "eleccion",
+          "enunciado": "Si mezclas sal con agua, la sal deja de verse. Es una...",
+          "opciones": [
+            "Disolución",
+            "Mezcla en la que se ven las sustancias",
+            "Materia sólida"
+          ],
+          "correcta": 0,
+          "explicacion": "En las disoluciones no se distinguen los componentes."
+        },
+        {
+          "id": "naturales-t05-p09",
+          "tipo": "vf",
+          "enunciado": "Si mezclas aceite y agua, el aceite se queda arriba.",
+          "correcta": true,
+          "explicacion": "El aceite y el agua no se mezclan del todo: se ven por separado."
+        },
+        {
+          "id": "naturales-t05-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo separarías la pasta del agua de cocerla?",
+          "opciones": [
+            "Con un colador",
+            "Con un imán",
+            "Soplando"
+          ],
+          "correcta": 0,
+          "explicacion": "El colador deja pasar el agua y retiene la pasta."
+        },
+        {
+          "id": "naturales-t05-p11",
+          "tipo": "relacionar",
+          "enunciado": "Une cada material con lo que lo describe.",
+          "pares": [
+            [
+              "Corcho",
+              "Natural: sale de la corteza de un árbol"
+            ],
+            [
+              "Plástico",
+              "Artificial: se fabrica"
+            ],
+            [
+              "Cristal",
+              "Se rompe con facilidad"
+            ]
+          ],
+          "explicacion": "El corcho es natural, el plástico artificial y el cristal es frágil. Los naturales vienen de la naturaleza; los artificiales se fabrican a partir de otras sustancias."
+        },
+        {
+          "id": "naturales-t05-p12",
+          "tipo": "eleccion",
+          "enunciado": "Un vaso de cristal se rompe con facilidad. Es un material...",
+          "opciones": [
+            "Frágil",
+            "Flexible",
+            "Blando"
+          ],
+          "correcta": 0,
+          "explicacion": "Los materiales frágiles se rompen fácilmente."
+        },
+        {
+          "id": "naturales-t05-p13",
+          "tipo": "relacionar",
+          "enunciado": "Une cada material según deje pasar la luz.",
+          "pares": [
+            [
+              "Cristal de una ventana",
+              "Transparente"
+            ],
+            [
+              "Papel de cebolla",
+              "Translúcido"
+            ],
+            [
+              "Madera",
+              "Opaco"
+            ]
+          ],
+          "explicacion": "Transparente deja pasar la luz, translúcido poca, y opaco nada."
+        },
+        {
+          "id": "naturales-t05-p14",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál es una fuente de luz natural?",
+          "opciones": [
+            "El Sol",
+            "Una bombilla",
+            "Una linterna"
+          ],
+          "correcta": 0,
+          "explicacion": "La luz natural viene del Sol, las estrellas y los relámpagos."
+        },
+        {
+          "id": "naturales-t05-p15",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llaman las ondas invisibles que se producen al hablar y viajan por el aire?",
+          "respuestas": [
+            "sonido",
+            "el sonido",
+            "sonidos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El sonido viaja por el aire como las ondas en el agua."
+        },
+        {
+          "id": "naturales-t05-p16",
+          "tipo": "eleccion",
+          "enunciado": "El mugido de una vaca es un sonido...",
+          "opciones": [
+            "Grave",
+            "Agudo",
+            "Invisible al oído"
+          ],
+          "correcta": 0,
+          "explicacion": "El mugido es grave; un silbido, en cambio, es agudo."
+        },
+        {
+          "id": "naturales-t05-p17",
+          "tipo": "vf",
+          "enunciado": "La energía del viento y la del Sol contaminan mucho.",
+          "correcta": false,
+          "explicacion": "Son energías limpias: no contaminan el entorno."
+        }
+      ]
+    },
+    {
+      "id": "naturales-t06",
+      "numero": 6,
+      "titulo": "Navegamos por internet",
+      "paginas": "90-107",
+      "resumen": "Dispositivos digitales, buscar información en internet, programas para presentar información y uso seguro de dispositivos.",
+      "explicacion": "Ordenadores, tabletas y teléfonos son dispositivos digitales. En internet podemos buscar información con un navegador, pero no todo lo que hay es verdad. Para usar los dispositivos bien: siempre con un adulto, poco tiempo y con buena postura.",
+      "preguntas": [
+        {
+          "id": "naturales-t06-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estos es un dispositivo digital?",
+          "opciones": [
+            "Una tableta",
+            "Un lápiz",
+            "Una pelota"
+          ],
+          "correcta": 0,
+          "explicacion": "La tableta es un pequeño ordenador con pantalla táctil."
+        },
+        {
+          "id": "naturales-t06-p02",
+          "tipo": "relacionar",
+          "enunciado": "Une cada dispositivo con su descripción.",
+          "pares": [
+            [
+              "Teléfono móvil",
+              "Pequeño, sirve para llamar y tiene pantalla táctil"
+            ],
+            [
+              "Tableta",
+              "Más grande que el teléfono y con pantalla táctil"
+            ],
+            [
+              "Portátil",
+              "Ordenador que se puede llevar a todas partes"
+            ]
+          ],
+          "explicacion": "¡Conoces bien los dispositivos!"
+        },
+        {
+          "id": "naturales-t06-p03",
+          "tipo": "vf",
+          "enunciado": "La pantalla de una tableta es táctil.",
+          "correcta": true,
+          "explicacion": "Podemos manejarla tocándola con los dedos."
+        },
+        {
+          "id": "naturales-t06-p04",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el programa que abrimos para visitar páginas web?",
+          "respuestas": [
+            "navegador",
+            "el navegador",
+            "un navegador",
+            "navegadores"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El navegador nos permite entrar en internet y visitar páginas web."
+        },
+        {
+          "id": "naturales-t06-p05",
+          "tipo": "ordenar",
+          "enunciado": "Ordena los pasos para buscar información en internet.",
+          "elementos": [
+            "Abrir el navegador",
+            "Escribir lo que buscas en el buscador",
+            "Elegir una página web de la lista",
+            "Buscar la información en la página"
+          ],
+          "explicacion": "¡Así se busca información paso a paso!"
+        },
+        {
+          "id": "naturales-t06-p06",
+          "tipo": "vf",
+          "enunciado": "Todo lo que leemos en internet es verdad.",
+          "correcta": false,
+          "explicacion": "Cualquiera puede publicar en internet. Hay que consultar varias páginas y preguntar a un adulto."
+        },
+        {
+          "id": "naturales-t06-p07",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es buena idea para saber si una información de internet es cierta?",
+          "opciones": [
+            "Consultar varias páginas y preguntar a un adulto",
+            "Creer la primera que salga",
+            "Compartirla rápido"
+          ],
+          "correcta": 0,
+          "explicacion": "Comparar fuentes y pedir ayuda a un adulto nos protege de los bulos."
+        },
+        {
+          "id": "naturales-t06-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué programa usarías para escribir un cuento?",
+          "opciones": [
+            "Procesador de textos",
+            "Creador de presentaciones",
+            "Ninguno, no se puede"
+          ],
+          "correcta": 0,
+          "explicacion": "El procesador de textos sirve para escribir y añadir imágenes."
+        },
+        {
+          "id": "naturales-t06-p09",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama la combinación de imágenes y textos breves para explicar algo de forma fácil?",
+          "respuestas": [
+            "infografia",
+            "una infografia",
+            "la infografia",
+            "infografias"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Las infografías resumen la información de forma visual."
+        },
+        {
+          "id": "naturales-t06-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué programa es mejor para presentar un trabajo con fotos y animaciones?",
+          "opciones": [
+            "Creador de presentaciones",
+            "Procesador de textos",
+            "Calculadora"
+          ],
+          "correcta": 0,
+          "explicacion": "En las presentaciones se ponen fotos, textos breves y animaciones."
+        },
+        {
+          "id": "naturales-t06-p11",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama un programa dañino que puede infectar el ordenador?",
+          "respuestas": [
+            "virus",
+            "un virus",
+            "virus informatico",
+            "un virus informatico"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Para evitar virus no debemos clicar en anuncios ni en páginas desconocidas."
+        },
+        {
+          "id": "naturales-t06-p12",
+          "tipo": "vf",
+          "enunciado": "Si te llega un mensaje de alguien desconocido, lo mejor es contárselo a un adulto.",
+          "correcta": true,
+          "explicacion": "Siempre que algo te dé dudas o miedo en internet, avisa a un adulto."
+        },
+        {
+          "id": "naturales-t06-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo debes sentarte delante de una pantalla?",
+          "opciones": [
+            "Con la espalda recta y la pantalla a buena distancia",
+            "Tumbado con la pantalla pegada a la cara",
+            "Encorvado"
+          ],
+          "correcta": 0,
+          "explicacion": "Una buena postura evita lesiones en la espalda y los ojos."
+        },
+        {
+          "id": "naturales-t06-p14",
+          "tipo": "vf",
+          "enunciado": "Podemos usar los dispositivos todo el tiempo que queramos sin parar.",
+          "correcta": false,
+          "explicacion": "Es importante controlar el tiempo de uso y llegar a un acuerdo con los adultos."
+        },
+        {
+          "id": "naturales-t06-p15",
+          "tipo": "ordenar",
+          "enunciado": "Ordena estos inventos del más antiguo al más moderno.",
+          "elementos": [
+            "Piedra afilada",
+            "Rueda",
+            "Ordenador",
+            "Robot con inteligencia artificial"
+          ],
+          "explicacion": "La tecnología empezó con una piedra afilada y ha avanzado muchísimo."
+        },
+        {
+          "id": "naturales-t06-p16",
+          "tipo": "eleccion",
+          "enunciado": "¿Con quién debemos navegar siempre por internet?",
+          "opciones": [
+            "Con la supervisión de un adulto",
+            "Con un desconocido",
+            "Solos y a escondidas"
+          ],
+          "correcta": 0,
+          "explicacion": "Un adulto nos ayuda a evitar contenidos que no son para niños."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "id": "sociales",
+  "nombre": "Ciencias Sociales",
+  "libro": "Ciencias Sociales 2.º Primaria Comunidad de Madrid (Santillana)",
+  "idioma": "es",
+  "temas": [
+    {
+      "id": "sociales-t01",
+      "numero": 1,
+      "titulo": "Observamos el paisaje",
+      "paginas": "6-23",
+      "resumen": "Paisajes naturales y humanizados, costa, interior, ríos, rocas, puntos cardinales y cuidado del paisaje.",
+      "explicacion": "Un paisaje es todo lo que ves desde un lugar. Hay elementos naturales, como montañas y ríos, y elementos construidos por las personas, como casas y carreteras. Hay paisajes de costa, junto al mar, y de interior, lejos del mar. ¡Y todos debemos cuidarlos!",
+      "preguntas": [
+        {
+          "id": "sociales-t01-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es un paisaje?",
+          "opciones": [
+            "Todo lo que vemos desde un lugar",
+            "Solo las montañas",
+            "Un dibujo de una casa"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Eso es! Un paisaje es todo lo que podemos ver desde un sitio."
+        },
+        {
+          "id": "sociales-t01-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estos es un elemento NATURAL?",
+          "opciones": [
+            "Un puente",
+            "Un río",
+            "Una carretera"
+          ],
+          "correcta": 1,
+          "explicacion": "¡Muy bien! El río lo ha hecho la naturaleza, no las personas."
+        },
+        {
+          "id": "sociales-t01-p03",
+          "tipo": "vf",
+          "enunciado": "Un paisaje con muchas casas y carreteras es un paisaje humanizado.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Si las personas lo han cambiado mucho, decimos que está humanizado."
+        },
+        {
+          "id": "sociales-t01-p04",
+          "tipo": "vf",
+          "enunciado": "Los paisajes nunca cambian.",
+          "correcta": false,
+          "explicacion": "Los paisajes cambian con el tiempo y con las estaciones. Por ejemplo, un río lleva más agua en primavera."
+        },
+        {
+          "id": "sociales-t01-p05",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama la parte del terreno que está junto al mar?",
+          "respuestas": [
+            "costa",
+            "la costa"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! La costa es la tierra que está cerca del mar."
+        },
+        {
+          "id": "sociales-t01-p06",
+          "tipo": "relacionar",
+          "enunciado": "Une cada elemento con su tipo de paisaje.",
+          "pares": [
+            [
+              "Playa",
+              "Paisaje de costa"
+            ],
+            [
+              "Valle",
+              "Paisaje de montaña"
+            ],
+            [
+              "Terreno plano con cultivos",
+              "Paisaje de llanura"
+            ]
+          ],
+          "explicacion": "La playa está junto al mar, los valles están entre montañas y las llanuras son terrenos planos."
+        },
+        {
+          "id": "sociales-t01-p07",
+          "tipo": "eleccion",
+          "enunciado": "Los paisajes que están lejos del mar se llaman...",
+          "opciones": [
+            "de costa",
+            "de interior",
+            "de playa"
+          ],
+          "correcta": 1,
+          "explicacion": "¡Bien! Lejos del mar están los paisajes de interior, de montaña o de llanura."
+        },
+        {
+          "id": "sociales-t01-p08",
+          "tipo": "ordenar",
+          "enunciado": "Ordena el recorrido de un río.",
+          "elementos": [
+            "Nacimiento",
+            "Curso",
+            "Desembocadura"
+          ],
+          "explicacion": "El río nace, recorre su curso y al final desemboca en el mar o en otro río."
+        },
+        {
+          "id": "sociales-t01-p09",
+          "tipo": "vf",
+          "enunciado": "La Comunidad de Madrid tiene playas porque está junto al mar.",
+          "correcta": false,
+          "explicacion": "Madrid está lejos del mar, así que solo tiene paisajes de interior: montañas y llanuras."
+        },
+        {
+          "id": "sociales-t01-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué sierra de Madrid tiene las montañas más altas?",
+          "opciones": [
+            "Sierra de Guadarrama",
+            "Sierra Nevada",
+            "Los Pirineos"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! La sierra de Guadarrama tiene las montañas más altas de Madrid."
+        },
+        {
+          "id": "sociales-t01-p11",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el sitio al aire libre donde se sacan rocas de la tierra?",
+          "respuestas": [
+            "cantera",
+            "una cantera",
+            "canteras"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! Las canteras están al aire libre; las minas, bajo tierra."
+        },
+        {
+          "id": "sociales-t01-p12",
+          "tipo": "vf",
+          "enunciado": "Las rocas se usan para construir casas, puentes y muros.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Las rocas son un material muy útil para construir."
+        },
+        {
+          "id": "sociales-t01-p13",
+          "tipo": "relacionar",
+          "enunciado": "Une cada punto cardinal con su letra.",
+          "pares": [
+            [
+              "Norte",
+              "N"
+            ],
+            [
+              "Sur",
+              "S"
+            ],
+            [
+              "Este",
+              "E"
+            ],
+            [
+              "Oeste",
+              "O"
+            ]
+          ],
+          "explicacion": "Los cuatro puntos cardinales nos ayudan a orientarnos."
+        },
+        {
+          "id": "sociales-t01-p14",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué ayuda a cuidar el paisaje?",
+          "opciones": [
+            "Tirar papeles al suelo",
+            "Reciclar la basura",
+            "Arrancar plantas"
+          ],
+          "correcta": 1,
+          "explicacion": "¡Genial! Reciclar ayuda a que la basura no ensucie el paisaje."
+        },
+        {
+          "id": "sociales-t01-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué forma de moverte contamina MENOS el aire?",
+          "opciones": [
+            "Ir en bici",
+            "Ir en coche solo",
+            "Ir en moto"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Bien! Andar o ir en bici no echa humo."
+        },
+        {
+          "id": "sociales-t01-p16",
+          "tipo": "vf",
+          "enunciado": "Un campo de cultivo es un elemento construido por las personas.",
+          "correcta": true,
+          "explicacion": "Sí: los cultivos los preparan y cuidan las personas."
+        }
+      ]
+    },
+    {
+      "id": "sociales-t02",
+      "numero": 2,
+      "titulo": "Vivimos en una localidad",
+      "paginas": "24-39",
+      "resumen": "Pueblos y ciudades, localidades de Madrid, normas de convivencia, seguridad vial y el ayuntamiento.",
+      "explicacion": "Vivimos en una localidad, que puede ser un pueblo o una ciudad. Las ciudades se dividen en barrios. Para convivir bien respetamos normas, y el ayuntamiento, con el alcalde o la alcaldesa, organiza servicios como la recogida de basura.",
+      "preguntas": [
+        {
+          "id": "sociales-t02-p01",
+          "tipo": "eleccion",
+          "enunciado": "Una localidad puede ser...",
+          "opciones": [
+            "un pueblo o una ciudad",
+            "solo un río",
+            "una montaña"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Eso es! Las personas vivimos en pueblos o ciudades."
+        },
+        {
+          "id": "sociales-t02-p02",
+          "tipo": "escribir",
+          "enunciado": "En las ciudades, las calles se agrupan en...",
+          "respuestas": [
+            "barrios",
+            "barrio"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Cada barrio tiene su propio nombre."
+        },
+        {
+          "id": "sociales-t02-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál es la localidad más grande de la Comunidad de Madrid?",
+          "opciones": [
+            "Getafe",
+            "La ciudad de Madrid",
+            "Aranjuez"
+          ],
+          "correcta": 1,
+          "explicacion": "¡Correcto! Madrid es la ciudad más grande y además es la capital de España."
+        },
+        {
+          "id": "sociales-t02-p04",
+          "tipo": "vf",
+          "enunciado": "Madrid es la capital de España.",
+          "correcta": true,
+          "explicacion": "¡Sí! Madrid es la capital de España."
+        },
+        {
+          "id": "sociales-t02-p05",
+          "tipo": "vf",
+          "enunciado": "Un pueblo suele tener más habitantes que una ciudad.",
+          "correcta": false,
+          "explicacion": "Al revés: las ciudades tienen muchos más habitantes que los pueblos."
+        },
+        {
+          "id": "sociales-t02-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llaman las personas que viven en el mismo barrio?",
+          "respuestas": [
+            "vecinos",
+            "vecinas",
+            "vecinos y vecinas",
+            "vecinas y vecinos",
+            "los vecinos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! Son vecinos y vecinas."
+        },
+        {
+          "id": "sociales-t02-p07",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es convivir?",
+          "opciones": [
+            "Vivir con otras personas en armonía",
+            "Pelearse siempre",
+            "Vivir solo en una isla"
+          ],
+          "correcta": 0,
+          "explicacion": "Convivir es vivir junto a otras personas, respetándonos y ayudándonos."
+        },
+        {
+          "id": "sociales-t02-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál es una buena norma de convivencia en clase?",
+          "opciones": [
+            "Gritar para hablar",
+            "Respetar el turno de palabra",
+            "Coger cosas sin permiso"
+          ],
+          "correcta": 1,
+          "explicacion": "¡Muy bien! Esperar el turno hace que todos podamos hablar."
+        },
+        {
+          "id": "sociales-t02-p09",
+          "tipo": "vf",
+          "enunciado": "Para cruzar la calle usamos el paso de peatones.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Por el paso de peatones cruzamos con seguridad."
+        },
+        {
+          "id": "sociales-t02-p10",
+          "tipo": "relacionar",
+          "enunciado": "Une cada persona con dónde debe circular.",
+          "pares": [
+            [
+              "Peatón",
+              "Acera"
+            ],
+            [
+              "Coche",
+              "Calzada"
+            ],
+            [
+              "Ciclista",
+              "Carril bici"
+            ]
+          ],
+          "explicacion": "Cada uno tiene su sitio para que nadie sufra accidentes."
+        },
+        {
+          "id": "sociales-t02-p11",
+          "tipo": "escribir",
+          "enunciado": "¿Quién dirige el ayuntamiento? (escribe alcalde o alcaldesa)",
+          "respuestas": [
+            "alcalde",
+            "alcaldesa",
+            "el alcalde",
+            "la alcaldesa",
+            "alcalde o alcaldesa"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! El alcalde o la alcaldesa dirige el ayuntamiento con ayuda de los concejales."
+        },
+        {
+          "id": "sociales-t02-p12",
+          "tipo": "eleccion",
+          "enunciado": "¿Cada cuántos años se eligen los miembros del ayuntamiento?",
+          "opciones": [
+            "Cada año",
+            "Cada cuatro años",
+            "Cada diez años"
+          ],
+          "correcta": 1,
+          "explicacion": "Se eligen cada cuatro años en las elecciones."
+        },
+        {
+          "id": "sociales-t02-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál de estos es un servicio municipal?",
+          "opciones": [
+            "La recogida de basuras",
+            "Hacer los deberes",
+            "Ver la tele"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Genial! El ayuntamiento organiza la recogida de basuras."
+        },
+        {
+          "id": "sociales-t02-p14",
+          "tipo": "ordenar",
+          "enunciado": "Ordena de más pequeño a más grande.",
+          "elementos": [
+            "Calle",
+            "Barrio",
+            "Ciudad"
+          ],
+          "explicacion": "Muchas calles forman un barrio, y muchos barrios forman una ciudad."
+        },
+        {
+          "id": "sociales-t02-p15",
+          "tipo": "vf",
+          "enunciado": "En casa, solo los adultos deben hacer las tareas domésticas.",
+          "correcta": false,
+          "explicacion": "Todos podemos ayudar: poner la mesa u ordenar nuestra habitación."
+        },
+        {
+          "id": "sociales-t02-p16",
+          "tipo": "vf",
+          "enunciado": "Móstoles y Alcorcón son municipios de la Comunidad de Madrid.",
+          "correcta": true,
+          "explicacion": "Sí, son municipios con muchos habitantes cerca de Madrid."
+        }
+      ]
+    },
+    {
+      "id": "sociales-t03",
+      "numero": 3,
+      "titulo": "Valoramos todos los trabajos",
+      "paginas": "44-57",
+      "resumen": "Trabajos en la naturaleza, en fábricas y de servicios; materias primas y tipos de comercios.",
+      "explicacion": "Hay muchos trabajos. Unos se hacen en la naturaleza, como la agricultura o la pesca, y dan materias primas. En las fábricas se transforman en productos. Otros trabajos dan servicios, como los de médicos o maestras. ¡Todos son importantes!",
+      "preguntas": [
+        {
+          "id": "sociales-t03-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué trabajo se hace en la naturaleza?",
+          "opciones": [
+            "Agricultura",
+            "Peluquería",
+            "Cajero de banco"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! La agricultura es cultivar la tierra."
+        },
+        {
+          "id": "sociales-t03-p02",
+          "tipo": "escribir",
+          "enunciado": "Los productos que se sacan de la naturaleza se llaman materias...",
+          "respuestas": [
+            "primas",
+            "materias primas"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! Materias primas, como la madera o el algodón."
+        },
+        {
+          "id": "sociales-t03-p03",
+          "tipo": "relacionar",
+          "enunciado": "Une cada trabajo con lo que hace.",
+          "pares": [
+            [
+              "Agricultura",
+              "Cultivar la tierra"
+            ],
+            [
+              "Ganadería",
+              "Criar animales"
+            ],
+            [
+              "Pesca",
+              "Sacar peces del mar"
+            ]
+          ],
+          "explicacion": "Estos tres trabajos se hacen en la naturaleza."
+        },
+        {
+          "id": "sociales-t03-p04",
+          "tipo": "vf",
+          "enunciado": "En las fábricas se transforman materias primas en productos elaborados.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Por ejemplo, de naranjas se hace zumo."
+        },
+        {
+          "id": "sociales-t03-p05",
+          "tipo": "relacionar",
+          "enunciado": "Une cada materia prima con un producto.",
+          "pares": [
+            [
+              "Naranjas",
+              "Zumo"
+            ],
+            [
+              "Algodón",
+              "Camiseta"
+            ],
+            [
+              "Madera",
+              "Violín"
+            ],
+            [
+              "Leche",
+              "Queso"
+            ]
+          ],
+          "explicacion": "Las materias primas se transforman en muchos productos."
+        },
+        {
+          "id": "sociales-t03-p06",
+          "tipo": "ordenar",
+          "enunciado": "Ordena el camino de un zumo.",
+          "elementos": [
+            "Se recogen las naranjas",
+            "Se hace el zumo en la fábrica",
+            "Se lleva a la tienda",
+            "Lo compramos"
+          ],
+          "explicacion": "Primero la materia prima, luego la fábrica, la tienda y por fin llega a nosotros."
+        },
+        {
+          "id": "sociales-t03-p07",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué trabajo presta un servicio?",
+          "opciones": [
+            "Bombera",
+            "Pescador",
+            "Agricultora"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Genial! Los bomberos nos ayudan y nos protegen."
+        },
+        {
+          "id": "sociales-t03-p08",
+          "tipo": "vf",
+          "enunciado": "Los trabajos de servicios ayudan a que nuestra vida sea más cómoda y segura.",
+          "correcta": true,
+          "explicacion": "¡Sí! Como los médicos, policías o maestros."
+        },
+        {
+          "id": "sociales-t03-p09",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama la persona que vende en una tienda?",
+          "respuestas": [
+            "dependiente",
+            "dependienta",
+            "dependientes",
+            "el dependiente",
+            "la dependienta"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! El dependiente o la dependienta."
+        },
+        {
+          "id": "sociales-t03-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se llama una tienda pequeña que vende un solo tipo de producto?",
+          "opciones": [
+            "Supermercado",
+            "Tienda especializada",
+            "Centro comercial"
+          ],
+          "correcta": 1,
+          "explicacion": "Por ejemplo, una panadería o una floristería."
+        },
+        {
+          "id": "sociales-t03-p11",
+          "tipo": "eleccion",
+          "enunciado": "¿Dónde se venden alimentos y muchos otros productos?",
+          "opciones": [
+            "En el supermercado",
+            "En la panadería",
+            "En la floristería"
+          ],
+          "correcta": 0,
+          "explicacion": "El supermercado tiene muchas cosas distintas."
+        },
+        {
+          "id": "sociales-t03-p12",
+          "tipo": "vf",
+          "enunciado": "Comprar por internet se llama comprar en una tienda online.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Así se puede comprar a distancia."
+        },
+        {
+          "id": "sociales-t03-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Quién consume de forma responsable?",
+          "opciones": [
+            "Quien compra solo lo que necesita",
+            "Quien compra todo lo que ve",
+            "Quien pide bolsas nuevas siempre"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! No hay que gastar más de lo necesario."
+        },
+        {
+          "id": "sociales-t03-p14",
+          "tipo": "vf",
+          "enunciado": "Es mejor llevar nuestra propia bolsa cuando vamos a comprar.",
+          "correcta": true,
+          "explicacion": "Así usamos menos plástico y cuidamos el planeta."
+        },
+        {
+          "id": "sociales-t03-p15",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el trabajo de criar vacas, ovejas o cerdos?",
+          "respuestas": [
+            "ganaderia",
+            "la ganaderia"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! Es la ganadería."
+        }
+      ]
+    },
+    {
+      "id": "sociales-t04",
+      "numero": 4,
+      "titulo": "Necesitamos agua y aire",
+      "paginas": "58-73",
+      "resumen": "Estados del agua, agua dulce y salada, ciclo del agua, el aire y el tiempo atmosférico.",
+      "explicacion": "El agua no tiene color, olor ni sabor. Puede ser sólida (hielo), líquida o gas (vapor). Casi toda el agua de la Tierra es salada, del mar. El agua se mueve en el ciclo del agua. El aire nos rodea, y con él medimos el tiempo que hace.",
+      "preguntas": [
+        {
+          "id": "sociales-t04-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿En qué estado está el hielo?",
+          "opciones": [
+            "Sólido",
+            "Líquido",
+            "Gaseoso"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! El hielo es agua en estado sólido."
+        },
+        {
+          "id": "sociales-t04-p02",
+          "tipo": "relacionar",
+          "enunciado": "Une cada forma del agua con su estado.",
+          "pares": [
+            [
+              "Hielo",
+              "Sólido"
+            ],
+            [
+              "Agua del grifo",
+              "Líquido"
+            ],
+            [
+              "Vapor",
+              "Gaseoso"
+            ]
+          ],
+          "explicacion": "El agua puede estar en tres estados."
+        },
+        {
+          "id": "sociales-t04-p03",
+          "tipo": "vf",
+          "enunciado": "El agua tiene un sabor dulce como el zumo.",
+          "correcta": false,
+          "explicacion": "El agua pura es insípida: no tiene sabor. Tampoco tiene color ni olor."
+        },
+        {
+          "id": "sociales-t04-p04",
+          "tipo": "escribir",
+          "enunciado": "Cuando el hielo se calienta, se convierte en agua...",
+          "respuestas": [
+            "liquida",
+            "líquida"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! Al calentarse, el hielo se derrite."
+        },
+        {
+          "id": "sociales-t04-p05",
+          "tipo": "eleccion",
+          "enunciado": "¿Dónde está la mayor parte del agua de la Tierra?",
+          "opciones": [
+            "En los mares y océanos",
+            "En los ríos",
+            "En los vasos"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Correcto! Y esa agua es salada."
+        },
+        {
+          "id": "sociales-t04-p06",
+          "tipo": "vf",
+          "enunciado": "El agua de los ríos y los lagos es dulce.",
+          "correcta": true,
+          "explicacion": "Sí, tiene poca sal. Por eso la llamamos agua dulce."
+        },
+        {
+          "id": "sociales-t04-p07",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el agua limpia que podemos beber?",
+          "respuestas": [
+            "potable",
+            "agua potable"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! El agua potable se ha limpiado para que sea segura."
+        },
+        {
+          "id": "sociales-t04-p08",
+          "tipo": "ordenar",
+          "enunciado": "Ordena el ciclo del agua.",
+          "elementos": [
+            "El sol calienta el agua del mar",
+            "El agua se evapora",
+            "Se forman las nubes",
+            "Llueve"
+          ],
+          "explicacion": "El agua sube como vapor, forma nubes y vuelve a caer como lluvia."
+        },
+        {
+          "id": "sociales-t04-p09",
+          "tipo": "eleccion",
+          "enunciado": "Cuando se forman las nubes, el agua pasa de...",
+          "opciones": [
+            "gas a líquido",
+            "sólido a líquido",
+            "líquido a sólido"
+          ],
+          "correcta": 0,
+          "explicacion": "El vapor se enfría y forma gotitas: de gas a líquido."
+        },
+        {
+          "id": "sociales-t04-p10",
+          "tipo": "vf",
+          "enunciado": "Hay que ahorrar agua porque es un bien escaso.",
+          "correcta": true,
+          "explicacion": "¡Muy bien! El agua dulce no es infinita."
+        },
+        {
+          "id": "sociales-t04-p11",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama la capa de aire que rodea la Tierra?",
+          "respuestas": [
+            "atmosfera",
+            "la atmosfera"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! La atmósfera."
+        },
+        {
+          "id": "sociales-t04-p12",
+          "tipo": "relacionar",
+          "enunciado": "Une cada instrumento con lo que mide.",
+          "pares": [
+            [
+              "Termómetro",
+              "Temperatura"
+            ],
+            [
+              "Pluviómetro",
+              "Lluvia"
+            ],
+            [
+              "Veleta",
+              "Dirección del viento"
+            ]
+          ],
+          "explicacion": "Con estos instrumentos sabemos qué tiempo hace."
+        },
+        {
+          "id": "sociales-t04-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué mueve el viento?",
+          "opciones": [
+            "Un molino",
+            "Una piedra grande",
+            "Una casa"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Genial! El viento mueve molinos, velas y cometas."
+        },
+        {
+          "id": "sociales-t04-p14",
+          "tipo": "vf",
+          "enunciado": "Los humos de fábricas y coches contaminan el aire.",
+          "correcta": true,
+          "explicacion": "Por eso es mejor caminar, ir en bici o en transporte público."
+        },
+        {
+          "id": "sociales-t04-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué ahorra agua?",
+          "opciones": [
+            "Cerrar el grifo al lavarnos los dientes",
+            "Dejar el grifo abierto",
+            "Bañarse tres veces al día"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! Cerrar el grifo ahorra mucha agua."
+        }
+      ]
+    },
+    {
+      "id": "sociales-t05",
+      "numero": 5,
+      "titulo": "Descubrimos el universo",
+      "paginas": "78-91",
+      "resumen": "Astros y sistema solar, la Tierra y los mapas, movimientos de la Tierra, la Luna y las estrellas.",
+      "explicacion": "El universo está lleno de astros: estrellas, planetas y satélites. La Tierra gira sobre sí misma en un día (día y noche) y alrededor del Sol en un año. La Luna gira alrededor de la Tierra y no tiene luz propia.",
+      "preguntas": [
+        {
+          "id": "sociales-t05-p01",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es el Sol?",
+          "opciones": [
+            "Una estrella",
+            "Un planeta",
+            "Un satélite"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! El Sol es una estrella que da luz y calor."
+        },
+        {
+          "id": "sociales-t05-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cuántos planetas giran alrededor del Sol? (escribe el número)",
+          "respuestas": [
+            "8",
+            "ocho"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! Ocho planetas, y la Tierra es uno de ellos."
+        },
+        {
+          "id": "sociales-t05-p03",
+          "tipo": "eleccion",
+          "enunciado": "La Luna es...",
+          "opciones": [
+            "un satélite de la Tierra",
+            "una estrella",
+            "un planeta"
+          ],
+          "correcta": 0,
+          "explicacion": "La Luna gira alrededor de la Tierra: es su satélite."
+        },
+        {
+          "id": "sociales-t05-p04",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el Sol con todos los astros que giran a su alrededor?",
+          "respuestas": [
+            "sistema solar",
+            "el sistema solar"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! Es el sistema solar."
+        },
+        {
+          "id": "sociales-t05-p05",
+          "tipo": "vf",
+          "enunciado": "La Luna tiene luz propia.",
+          "correcta": false,
+          "explicacion": "La Luna no brilla sola: refleja la luz del Sol."
+        },
+        {
+          "id": "sociales-t05-p06",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se llama el mapa donde aparecen todos los continentes y océanos?",
+          "opciones": [
+            "Planisferio",
+            "Plano de mi calle",
+            "Calendario"
+          ],
+          "correcta": 0,
+          "explicacion": "El planisferio, o mapamundi, muestra toda la Tierra."
+        },
+        {
+          "id": "sociales-t05-p07",
+          "tipo": "vf",
+          "enunciado": "Europa está al norte de África.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Mira el planisferio: Europa queda arriba de África."
+        },
+        {
+          "id": "sociales-t05-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuánto tarda la Tierra en dar una vuelta sobre sí misma?",
+          "opciones": [
+            "Un día",
+            "Una semana",
+            "Un año"
+          ],
+          "correcta": 0,
+          "explicacion": "Por eso tenemos el día y la noche."
+        },
+        {
+          "id": "sociales-t05-p09",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuánto tarda la Tierra en dar una vuelta alrededor del Sol?",
+          "opciones": [
+            "Un año",
+            "Un día",
+            "Un mes"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! Tarda un año, 365 días."
+        },
+        {
+          "id": "sociales-t05-p10",
+          "tipo": "escribir",
+          "enunciado": "¿Cuántos días tiene un año? (escribe el número)",
+          "respuestas": [
+            "365",
+            "trescientos sesenta y cinco"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! Un año tiene 365 días."
+        },
+        {
+          "id": "sociales-t05-p11",
+          "tipo": "vf",
+          "enunciado": "Cuando en una parte de la Tierra es de día, en la otra es de noche.",
+          "correcta": true,
+          "explicacion": "El Sol solo ilumina una mitad a la vez."
+        },
+        {
+          "id": "sociales-t05-p12",
+          "tipo": "eleccion",
+          "enunciado": "¿Por qué punto cardinal sale el Sol?",
+          "opciones": [
+            "Por el este",
+            "Por el oeste",
+            "Por el sur"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Eso es! Sale por el este y se pone por el oeste."
+        },
+        {
+          "id": "sociales-t05-p13",
+          "tipo": "ordenar",
+          "enunciado": "Ordena las fases de la Luna empezando por la luna nueva.",
+          "elementos": [
+            "Luna nueva",
+            "Cuarto creciente",
+            "Luna llena",
+            "Cuarto menguante"
+          ],
+          "explicacion": "La Luna parece crecer hasta la llena y luego mengua."
+        },
+        {
+          "id": "sociales-t05-p14",
+          "tipo": "relacionar",
+          "enunciado": "Une cada palabra con su significado.",
+          "pares": [
+            [
+              "Estrella",
+              "Astro con luz propia"
+            ],
+            [
+              "Planeta",
+              "Gira alrededor de una estrella"
+            ],
+            [
+              "Constelación",
+              "Grupo de estrellas que forma una figura"
+            ]
+          ],
+          "explicacion": "¡Ya conoces muchos astros!"
+        },
+        {
+          "id": "sociales-t05-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué usarías para ver mejor las estrellas?",
+          "opciones": [
+            "Un telescopio",
+            "Una lupa de bolsillo",
+            "Unas gafas de sol"
+          ],
+          "correcta": 0,
+          "explicacion": "El telescopio acerca las cosas lejanas del cielo."
+        },
+        {
+          "id": "sociales-t05-p16",
+          "tipo": "vf",
+          "enunciado": "Las estrellas parecen pequeñas porque están muy lejos.",
+          "correcta": true,
+          "explicacion": "¡Muy bien! En realidad son enormes."
+        }
+      ]
+    },
+    {
+      "id": "sociales-t06",
+      "numero": 6,
+      "titulo": "Conocemos nuestra historia",
+      "paginas": "92-107",
+      "resumen": "Pasado, presente y futuro; cambios en las localidades; monumentos y museos; personajes y historia de Madrid.",
+      "explicacion": "La historia nos cuenta cómo era la vida antes. Las localidades cambian con el tiempo: antes se construía con piedra y madera, y hoy con ladrillo y hormigón. Los monumentos y los museos nos ayudan a conocer el pasado.",
+      "preguntas": [
+        {
+          "id": "sociales-t06-p01",
+          "tipo": "ordenar",
+          "enunciado": "Ordena del pasado al futuro.",
+          "elementos": [
+            "Cuando era bebé",
+            "Ahora, en 2.º de Primaria",
+            "Cuando sea mayor"
+          ],
+          "explicacion": "Primero el pasado, luego el presente y después el futuro."
+        },
+        {
+          "id": "sociales-t06-p02",
+          "tipo": "eleccion",
+          "enunciado": "Antiguamente, ¿con qué materiales se hacían casi todas las casas?",
+          "opciones": [
+            "Piedra y madera",
+            "Acero y cristal",
+            "Plástico"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Muy bien! Hoy usamos también ladrillo, hormigón y acero."
+        },
+        {
+          "id": "sociales-t06-p03",
+          "tipo": "vf",
+          "enunciado": "Las localidades cambian con el paso del tiempo.",
+          "correcta": true,
+          "explicacion": "Sí: se construyen edificios nuevos y otros desaparecen."
+        },
+        {
+          "id": "sociales-t06-p04",
+          "tipo": "ordenar",
+          "enunciado": "Ordena de la más antigua a la más moderna.",
+          "elementos": [
+            "Cueva",
+            "Castillo",
+            "Edificio de pisos"
+          ],
+          "explicacion": "Las personas fueron cambiando la forma de construir sus casas."
+        },
+        {
+          "id": "sociales-t06-p05",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llaman las construcciones con gran valor artístico, como castillos o catedrales?",
+          "respuestas": [
+            "monumentos",
+            "monumento",
+            "los monumentos"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! Los monumentos."
+        },
+        {
+          "id": "sociales-t06-p06",
+          "tipo": "vf",
+          "enunciado": "Todos los monumentos se han construido en la actualidad.",
+          "correcta": false,
+          "explicacion": "Muchos monumentos son muy antiguos, como los castillos y los acueductos."
+        },
+        {
+          "id": "sociales-t06-p07",
+          "tipo": "eleccion",
+          "enunciado": "¿Dónde se guardan objetos del pasado para que los veamos?",
+          "opciones": [
+            "En un museo",
+            "En un supermercado",
+            "En una gasolinera"
+          ],
+          "correcta": 0,
+          "explicacion": "¡Genial! Los museos conservan colecciones de objetos."
+        },
+        {
+          "id": "sociales-t06-p08",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo debemos comportarnos en un museo?",
+          "opciones": [
+            "Hablar en voz baja",
+            "Correr por las salas",
+            "Tocar todo"
+          ],
+          "correcta": 0,
+          "explicacion": "Así no molestamos y cuidamos las obras."
+        },
+        {
+          "id": "sociales-t06-p09",
+          "tipo": "relacionar",
+          "enunciado": "Une cada construcción con su tipo.",
+          "pares": [
+            [
+              "Castillo",
+              "Monumento antiguo"
+            ],
+            [
+              "Centro comercial",
+              "Edificio moderno"
+            ],
+            [
+              "Museo",
+              "Lugar que guarda objetos del pasado"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Distingues lo antiguo de lo moderno."
+        },
+        {
+          "id": "sociales-t06-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué inventó Galileo para mirar el cielo? (lo usó y mejoró)",
+          "opciones": [
+            "El telescopio",
+            "La bicicleta",
+            "El teléfono"
+          ],
+          "correcta": 0,
+          "explicacion": "Galileo usó el telescopio para estudiar los astros."
+        },
+        {
+          "id": "sociales-t06-p11",
+          "tipo": "vf",
+          "enunciado": "Ada Lovelace es considerada la primera mujer informática de la historia.",
+          "correcta": true,
+          "explicacion": "¡Correcto! Creó el primer programa informático."
+        },
+        {
+          "id": "sociales-t06-p12",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se llama el dibujo que muestra a los miembros de una familia y su relación?",
+          "respuestas": [
+            "arbol genealogico",
+            "el arbol genealogico",
+            "árbol genealógico"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Eso es! El árbol genealógico."
+        },
+        {
+          "id": "sociales-t06-p13",
+          "tipo": "eleccion",
+          "enunciado": "¿Cuál es una tradición?",
+          "opciones": [
+            "Una fiesta típica de hace muchos años",
+            "Un móvil nuevo",
+            "Un videojuego"
+          ],
+          "correcta": 0,
+          "explicacion": "Fiestas, comidas, bailes y trajes típicos son tradiciones."
+        },
+        {
+          "id": "sociales-t06-p14",
+          "tipo": "vf",
+          "enunciado": "En la Comunidad de Madrid hay palacios, castillos e iglesias antiguas.",
+          "correcta": true,
+          "explicacion": "Sí, se construyeron en distintos momentos del pasado."
+        },
+        {
+          "id": "sociales-t06-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo podemos conocer el pasado?",
+          "opciones": [
+            "Por los restos y objetos que han quedado",
+            "Adivinando",
+            "Solo soñando"
+          ],
+          "correcta": 0,
+          "explicacion": "Los restos, documentos y lo que cuentan los mayores nos enseñan el pasado."
+        }
+      ]
+    }
+  ]
+}

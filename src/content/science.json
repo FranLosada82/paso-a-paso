@@ -1,0 +1,1425 @@
+{
+  "id": "science",
+  "nombre": "Natural Science",
+  "libro": "Natural Science 2 Primary (Santillana, World Makers)",
+  "idioma": "en",
+  "temas": [
+    {
+      "id": "science-t01",
+      "numero": 1,
+      "titulo": "We love our body",
+      "paginas": "6-21",
+      "resumen": "Etapas de la vida, funciones vitales, huesos, articulaciones y músculos, respiración y digestión.",
+      "explicacion": "We grow and change in four stages of life. Our bones, joints and muscles help us move. We breathe air with our lungs and we digest food to get energy. (Crecemos y cambiamos en cuatro etapas de la vida. Los huesos, articulaciones y músculos nos ayudan a movernos. Respiramos con los pulmones y digerimos la comida para tener energía.)",
+      "preguntas": [
+        {
+          "id": "science-t01-p01",
+          "tipo": "ordenar",
+          "enunciado": "Put the stages of life in order.",
+          "ayuda": "Ordena las etapas de la vida.",
+          "elementos": [
+            "childhood",
+            "adolescence",
+            "adulthood",
+            "old age"
+          ],
+          "explicacion": "First we are children, then teenagers, then adults and then elderly people. (Primero niñez, luego adolescencia, edad adulta y vejez.)"
+        },
+        {
+          "id": "science-t01-p02",
+          "tipo": "eleccion",
+          "enunciado": "What stage of life is a teenager in?",
+          "ayuda": "¿En qué etapa de la vida está un adolescente?",
+          "opciones": [
+            "childhood",
+            "adolescence",
+            "old age"
+          ],
+          "correcta": 1,
+          "explicacion": "Teenagers are in adolescence. (Los adolescentes están en la adolescencia.)"
+        },
+        {
+          "id": "science-t01-p03",
+          "tipo": "eleccion",
+          "enunciado": "How many life processes do people carry out?",
+          "ayuda": "¿Cuántas funciones vitales realizamos las personas?",
+          "opciones": [
+            "two",
+            "three",
+            "five"
+          ],
+          "correcta": 1,
+          "explicacion": "Nutrition, sensitivity and reproduction: three! (Nutrición, relación y reproducción: ¡tres!)"
+        },
+        {
+          "id": "science-t01-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the sense to the sense organ.",
+          "ayuda": "Une cada sentido con su órgano.",
+          "pares": [
+            [
+              "sight",
+              "eyes"
+            ],
+            [
+              "hearing",
+              "ears"
+            ],
+            [
+              "smell",
+              "nose"
+            ],
+            [
+              "taste",
+              "tongue"
+            ]
+          ],
+          "explicacion": "We see with our eyes, hear with our ears, smell with our nose and taste with our tongue. (Vemos con los ojos, oímos con los oídos, olemos con la nariz y saboreamos con la lengua.)"
+        },
+        {
+          "id": "science-t01-p05",
+          "tipo": "escribir",
+          "enunciado": "We touch with our ___.",
+          "ayuda": "Tocamos con nuestra... (piel)",
+          "respuestas": [
+            "skin",
+            "the skin",
+            "our skin"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Our skin is the organ of touch. (La piel es el órgano del tacto.)"
+        },
+        {
+          "id": "science-t01-p06",
+          "tipo": "eleccion",
+          "enunciado": "\"I feel cold.\" Which life process is it?",
+          "ayuda": "«Tengo frío». ¿Qué función vital es?",
+          "opciones": [
+            "nutrition",
+            "sensitivity",
+            "reproduction"
+          ],
+          "correcta": 1,
+          "explicacion": "We sense changes around us: that is sensitivity. (Notamos los cambios: es la función de relación.)"
+        },
+        {
+          "id": "science-t01-p07",
+          "tipo": "vf",
+          "enunciado": "Bones are soft and elastic.",
+          "ayuda": "Los huesos son blandos y elásticos.",
+          "correcta": false,
+          "explicacion": "Bones are hard and rigid. Muscles are soft and elastic. (Los huesos son duros y rígidos; los músculos son blandos y elásticos.)"
+        },
+        {
+          "id": "science-t01-p08",
+          "tipo": "vf",
+          "enunciado": "Joints help our body to bend.",
+          "ayuda": "Las articulaciones ayudan al cuerpo a doblarse.",
+          "correcta": true,
+          "explicacion": "Yes! Bones join at the joints, so we can bend. (¡Sí! Los huesos se unen en las articulaciones y podemos doblarnos.)"
+        },
+        {
+          "id": "science-t01-p09",
+          "tipo": "eleccion",
+          "enunciado": "Which one is a joint?",
+          "ayuda": "¿Cuál es una articulación?",
+          "opciones": [
+            "knee",
+            "ribs",
+            "biceps"
+          ],
+          "correcta": 0,
+          "explicacion": "The knee is a joint. Ribs are bones and the biceps is a muscle. (La rodilla es una articulación.)"
+        },
+        {
+          "id": "science-t01-p10",
+          "tipo": "relacionar",
+          "enunciado": "Match each word to its group.",
+          "ayuda": "Une cada palabra con su grupo.",
+          "pares": [
+            [
+              "skull",
+              "bone"
+            ],
+            [
+              "elbow",
+              "joint"
+            ],
+            [
+              "biceps",
+              "muscle"
+            ]
+          ],
+          "explicacion": "Skull = bone, elbow = joint, biceps = muscle. (Cráneo = hueso, codo = articulación, bíceps = músculo.)"
+        },
+        {
+          "id": "science-t01-p11",
+          "tipo": "escribir",
+          "enunciado": "All our bones together make our ___.",
+          "ayuda": "Todos los huesos juntos forman nuestro... (esqueleto)",
+          "respuestas": [
+            "skeleton",
+            "the skeleton",
+            "our skeleton"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Bones make up our skeleton. (Los huesos forman el esqueleto.)"
+        },
+        {
+          "id": "science-t01-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the path of air in order when we inhale.",
+          "ayuda": "Ordena el camino del aire al inspirar.",
+          "elementos": [
+            "nose",
+            "trachea",
+            "lungs"
+          ],
+          "explicacion": "Air goes in through the nose, down the trachea and into the lungs. (Nariz, tráquea y pulmones.)"
+        },
+        {
+          "id": "science-t01-p13",
+          "tipo": "eleccion",
+          "enunciado": "Which gas do we need from the air?",
+          "ayuda": "¿Qué gas del aire necesitamos?",
+          "opciones": [
+            "oxygen",
+            "water vapour",
+            "smoke"
+          ],
+          "correcta": 0,
+          "explicacion": "We need oxygen to live. (Necesitamos oxígeno para vivir.)"
+        },
+        {
+          "id": "science-t01-p14",
+          "tipo": "vf",
+          "enunciado": "When we exhale, we breathe out air.",
+          "ayuda": "Al espirar, expulsamos aire.",
+          "correcta": true,
+          "explicacion": "Exhale means breathe out. (Espirar es expulsar el aire.)"
+        },
+        {
+          "id": "science-t01-p15",
+          "tipo": "ordenar",
+          "enunciado": "Put the path of food in order.",
+          "ayuda": "Ordena el camino de la comida.",
+          "elementos": [
+            "mouth",
+            "oesophagus",
+            "stomach",
+            "intestines",
+            "anus"
+          ],
+          "explicacion": "Food goes from the mouth to the oesophagus, stomach, intestines and out through the anus. (Boca, esófago, estómago, intestinos y ano.)"
+        },
+        {
+          "id": "science-t01-p16",
+          "tipo": "eleccion",
+          "enunciado": "Where do we absorb the nutrients from food?",
+          "ayuda": "¿Dónde absorbemos los nutrientes?",
+          "opciones": [
+            "stomach",
+            "intestines",
+            "lungs"
+          ],
+          "correcta": 1,
+          "explicacion": "Nutrients are absorbed in the intestines. (Los nutrientes se absorben en los intestinos.)"
+        },
+        {
+          "id": "science-t01-p17",
+          "tipo": "escribir",
+          "enunciado": "We chew food with our ___.",
+          "ayuda": "Masticamos con los... (dientes)",
+          "respuestas": [
+            "teeth",
+            "our teeth",
+            "the teeth",
+            "tooth"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Teeth cut and chew food. (Los dientes trituran la comida.)"
+        }
+      ]
+    },
+    {
+      "id": "science-t02",
+      "numero": 2,
+      "titulo": "We look after our body",
+      "paginas": "22-41",
+      "resumen": "Centro de salud, hábitos saludables, grupos de alimentos, dieta equilibrada y prevención de accidentes.",
+      "explicacion": "We keep healthy with good habits: we wash, do exercise, sleep and eat a balanced diet. Doctors and nurses help us when we are ill. We follow safety rules to prevent accidents. (Nos mantenemos sanos con buenos hábitos: higiene, ejercicio, dormir y dieta equilibrada. Médicos y enfermeros nos ayudan cuando estamos enfermos. Seguimos normas para evitar accidentes.)",
+      "preguntas": [
+        {
+          "id": "science-t02-p01",
+          "tipo": "eleccion",
+          "enunciado": "Where do we go when we are ill?",
+          "ayuda": "¿Adónde vamos cuando estamos enfermos?",
+          "opciones": [
+            "the health centre",
+            "the library",
+            "the park"
+          ],
+          "correcta": 0,
+          "explicacion": "Doctors and nurses help us at the health centre. (En el centro de salud nos ayudan.)"
+        },
+        {
+          "id": "science-t02-p02",
+          "tipo": "relacionar",
+          "enunciado": "Match the health worker to their job.",
+          "ayuda": "Une cada profesional con su trabajo.",
+          "pares": [
+            [
+              "doctor",
+              "gives a check-up and medicines"
+            ],
+            [
+              "nurse",
+              "gives a vaccination"
+            ],
+            [
+              "psychologist",
+              "helps with emotional problems"
+            ]
+          ],
+          "explicacion": "Each health worker helps us in a different way. (Cada profesional nos ayuda de una forma.)"
+        },
+        {
+          "id": "science-t02-p03",
+          "tipo": "vf",
+          "enunciado": "Vaccinations stop us from getting some illnesses.",
+          "ayuda": "Las vacunas nos protegen de algunas enfermedades.",
+          "correcta": true,
+          "explicacion": "Vaccinations are a type of medicine that protect us. (Las vacunas son un tipo de medicina.)"
+        },
+        {
+          "id": "science-t02-p04",
+          "tipo": "eleccion",
+          "enunciado": "Which one is an illness?",
+          "ayuda": "¿Cuál es una enfermedad?",
+          "opciones": [
+            "the flu",
+            "a towel",
+            "a helmet"
+          ],
+          "correcta": 0,
+          "explicacion": "The flu is a common illness. (La gripe es una enfermedad común.)"
+        },
+        {
+          "id": "science-t02-p05",
+          "tipo": "escribir",
+          "enunciado": "How many hours do children need to sleep every night? (number)",
+          "ayuda": "¿Cuántas horas tienen que dormir los niños cada noche? (número)",
+          "respuestas": [
+            "10",
+            "ten"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "We need to sleep 10 hours to rest our mind and body. (Necesitamos dormir 10 horas.)"
+        },
+        {
+          "id": "science-t02-p06",
+          "tipo": "vf",
+          "enunciado": "We should brush our teeth after every meal.",
+          "ayuda": "Debemos lavarnos los dientes después de cada comida.",
+          "correcta": true,
+          "explicacion": "Brushing our teeth prevents germs. (Así evitamos los gérmenes.)"
+        },
+        {
+          "id": "science-t02-p07",
+          "tipo": "eleccion",
+          "enunciado": "Which object do we use to brush our teeth?",
+          "ayuda": "¿Qué objeto usamos para lavarnos los dientes?",
+          "opciones": [
+            "toothbrush",
+            "hairbrush",
+            "towel"
+          ],
+          "correcta": 0,
+          "explicacion": "A toothbrush keeps our teeth clean. (El cepillo de dientes.)"
+        },
+        {
+          "id": "science-t02-p08",
+          "tipo": "eleccion",
+          "enunciado": "Why do we need good posture?",
+          "ayuda": "¿Para qué necesitamos una buena postura?",
+          "opciones": [
+            "to prevent back pain",
+            "to get the flu",
+            "to sleep less"
+          ],
+          "correcta": 0,
+          "explicacion": "Good posture helps prevent back pain. (Evita el dolor de espalda.)"
+        },
+        {
+          "id": "science-t02-p09",
+          "tipo": "escribir",
+          "enunciado": "How many meals a day should we eat? (number)",
+          "ayuda": "¿Cuántas comidas al día debemos hacer? (número)",
+          "respuestas": [
+            "5",
+            "five"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "We should eat five meals a day. (Cinco comidas al día.)"
+        },
+        {
+          "id": "science-t02-p10",
+          "tipo": "relacionar",
+          "enunciado": "Match the food to what it gives us.",
+          "ayuda": "Une cada alimento con lo que nos da.",
+          "pares": [
+            [
+              "broccoli",
+              "vitamins and fibre"
+            ],
+            [
+              "pasta",
+              "energy"
+            ],
+            [
+              "fish",
+              "helps us to grow"
+            ]
+          ],
+          "explicacion": "Fruit and vegetables give vitamins, cereals give energy, fish helps us grow. (Verduras: vitaminas; pasta: energía; pescado: crecer.)"
+        },
+        {
+          "id": "science-t02-p11",
+          "tipo": "eleccion",
+          "enunciado": "Which food provides energy?",
+          "ayuda": "¿Qué alimento da energía?",
+          "opciones": [
+            "rice",
+            "lettuce",
+            "apple"
+          ],
+          "correcta": 0,
+          "explicacion": "Rice, bread and potatoes give us energy. (El arroz da energía.)"
+        },
+        {
+          "id": "science-t02-p12",
+          "tipo": "eleccion",
+          "enunciado": "Which food helps us to grow?",
+          "ayuda": "¿Qué alimento nos ayuda a crecer?",
+          "opciones": [
+            "eggs",
+            "banana",
+            "tomato"
+          ],
+          "correcta": 0,
+          "explicacion": "Eggs, meat, fish and lentils help us to grow. (Los huevos nos ayudan a crecer.)"
+        },
+        {
+          "id": "science-t02-p13",
+          "tipo": "vf",
+          "enunciado": "Fizzy drinks are the best drink for a healthy meal.",
+          "ayuda": "Los refrescos son la mejor bebida para una comida sana.",
+          "correcta": false,
+          "explicacion": "Water is the best drink! (¡El agua es la mejor bebida!)"
+        },
+        {
+          "id": "science-t02-p14",
+          "tipo": "vf",
+          "enunciado": "It is safe to play with electric cables.",
+          "ayuda": "Es seguro jugar con cables eléctricos.",
+          "correcta": false,
+          "explicacion": "Never play with cables or sockets. (Nunca juegues con cables ni enchufes.)"
+        },
+        {
+          "id": "science-t02-p15",
+          "tipo": "relacionar",
+          "enunciado": "Match the activity to the protection.",
+          "ayuda": "Une la actividad con la protección.",
+          "pares": [
+            [
+              "swimming",
+              "goggles"
+            ],
+            [
+              "cycling",
+              "helmet"
+            ],
+            [
+              "skating",
+              "knee pads"
+            ]
+          ],
+          "explicacion": "Protection keeps us safe when we do sport. (La protección nos cuida al hacer deporte.)"
+        },
+        {
+          "id": "science-t02-p16",
+          "tipo": "escribir",
+          "enunciado": "We wear a ___ on our head when we ride a bike.",
+          "ayuda": "Llevamos un ___ en la cabeza al ir en bici. (casco)",
+          "respuestas": [
+            "helmet",
+            "a helmet"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "A helmet protects our head. (El casco protege la cabeza.)"
+        },
+        {
+          "id": "science-t02-p17",
+          "tipo": "eleccion",
+          "enunciado": "How can we prevent accidents at home?",
+          "ayuda": "¿Cómo evitamos accidentes en casa?",
+          "opciones": [
+            "tidy up the floor",
+            "play on the stairs",
+            "run in the shower"
+          ],
+          "correcta": 0,
+          "explicacion": "If we tidy up, nobody slips on objects. (Si recogemos, nadie se resbala.)"
+        }
+      ]
+    },
+    {
+      "id": "science-t03",
+      "numero": 3,
+      "titulo": "We like animals",
+      "paginas": "42-57",
+      "resumen": "Vertebrados e invertebrados, mamíferos, aves, peces, reptiles, anfibios, insectos y hábitats.",
+      "explicacion": "Vertebrates have bones inside. There are five groups: mammals, birds, fish, reptiles and amphibians. Invertebrates have no bones, like insects. Animals live in habitats on land or in water. (Los vertebrados tienen huesos. Hay cinco grupos: mamíferos, aves, peces, reptiles y anfibios. Los invertebrados no tienen huesos, como los insectos. Los animales viven en hábitats terrestres o acuáticos.)",
+      "preguntas": [
+        {
+          "id": "science-t03-p01",
+          "tipo": "vf",
+          "enunciado": "Vertebrates have an internal skeleton made of bones.",
+          "ayuda": "Los vertebrados tienen un esqueleto interno de huesos.",
+          "correcta": true,
+          "explicacion": "Yes! Vertebrates have bones inside. (¡Sí! Tienen huesos.)"
+        },
+        {
+          "id": "science-t03-p02",
+          "tipo": "eleccion",
+          "enunciado": "Which animal is an invertebrate?",
+          "ayuda": "¿Qué animal es invertebrado?",
+          "opciones": [
+            "snail",
+            "wolf",
+            "lizard"
+          ],
+          "correcta": 0,
+          "explicacion": "Snails have no bones inside. (El caracol no tiene huesos.)"
+        },
+        {
+          "id": "science-t03-p03",
+          "tipo": "escribir",
+          "enunciado": "How many groups of vertebrates are there? (number)",
+          "ayuda": "¿Cuántos grupos de vertebrados hay? (número)",
+          "respuestas": [
+            "5",
+            "five"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Mammals, birds, fish, reptiles and amphibians. (Cinco grupos.)"
+        },
+        {
+          "id": "science-t03-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the animal to its group.",
+          "ayuda": "Une cada animal con su grupo.",
+          "pares": [
+            [
+              "pigeon",
+              "bird"
+            ],
+            [
+              "lizard",
+              "reptile"
+            ],
+            [
+              "frog",
+              "amphibian"
+            ],
+            [
+              "lion",
+              "mammal"
+            ]
+          ],
+          "explicacion": "Each vertebrate belongs to one group. (Cada vertebrado pertenece a un grupo.)"
+        },
+        {
+          "id": "science-t03-p05",
+          "tipo": "eleccion",
+          "enunciado": "What are most mammals covered with?",
+          "ayuda": "¿De qué están cubiertos la mayoría de los mamíferos?",
+          "opciones": [
+            "fur",
+            "feathers",
+            "scales"
+          ],
+          "correcta": 0,
+          "explicacion": "Most mammals have fur. (Pelo.)"
+        },
+        {
+          "id": "science-t03-p06",
+          "tipo": "vf",
+          "enunciado": "Birds are viviparous.",
+          "ayuda": "Las aves son vivíparas.",
+          "correcta": false,
+          "explicacion": "Birds are oviparous: they are born from eggs. (Son ovíparas: nacen de huevos.)"
+        },
+        {
+          "id": "science-t03-p07",
+          "tipo": "eleccion",
+          "enunciado": "Which is the only mammal with wings?",
+          "ayuda": "¿Cuál es el único mamífero con alas?",
+          "opciones": [
+            "bat",
+            "owl",
+            "bee"
+          ],
+          "correcta": 0,
+          "explicacion": "Bats are mammals that can fly. (El murciélago.)"
+        },
+        {
+          "id": "science-t03-p08",
+          "tipo": "escribir",
+          "enunciado": "Animals that are born from eggs are ___.",
+          "ayuda": "Los animales que nacen de huevos son... (ovíparos)",
+          "respuestas": [
+            "oviparous"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Oviparous animals come from eggs. (Ovíparos.)"
+        },
+        {
+          "id": "science-t03-p09",
+          "tipo": "eleccion",
+          "enunciado": "How do fish breathe?",
+          "ayuda": "¿Cómo respiran los peces?",
+          "opciones": [
+            "through gills",
+            "through lungs",
+            "through feathers"
+          ],
+          "correcta": 0,
+          "explicacion": "Fish breathe through gills. (Por branquias.)"
+        },
+        {
+          "id": "science-t03-p10",
+          "tipo": "relacionar",
+          "enunciado": "Match the animal to its body covering.",
+          "ayuda": "Une el animal con lo que cubre su cuerpo.",
+          "pares": [
+            [
+              "parrot",
+              "feathers"
+            ],
+            [
+              "salmon",
+              "scales"
+            ],
+            [
+              "salamander",
+              "bare skin"
+            ]
+          ],
+          "explicacion": "Birds have feathers, fish have scales, amphibians have bare skin. (Plumas, escamas, piel desnuda.)"
+        },
+        {
+          "id": "science-t03-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the life cycle of a frog in order.",
+          "ayuda": "Ordena el ciclo de vida de la rana.",
+          "elementos": [
+            "frogs lay eggs",
+            "tadpoles are born",
+            "tadpoles grow legs",
+            "tadpoles become frogs"
+          ],
+          "explicacion": "Eggs, tadpoles, legs, and then a frog! (Huevos, renacuajo, patas, ¡rana!)"
+        },
+        {
+          "id": "science-t03-p12",
+          "tipo": "vf",
+          "enunciado": "A tortoise is a reptile with a hard shell.",
+          "ayuda": "La tortuga es un reptil con caparazón duro.",
+          "correcta": true,
+          "explicacion": "Tortoises are reptiles. (Las tortugas son reptiles.)"
+        },
+        {
+          "id": "science-t03-p13",
+          "tipo": "escribir",
+          "enunciado": "How many legs do insects have? (number)",
+          "ayuda": "¿Cuántas patas tienen los insectos? (número)",
+          "respuestas": [
+            "6",
+            "six"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Insects have six legs and two antennae. (Seis patas.)"
+        },
+        {
+          "id": "science-t03-p14",
+          "tipo": "ordenar",
+          "enunciado": "Put the life of a butterfly in order.",
+          "ayuda": "Ordena la vida de la mariposa.",
+          "elementos": [
+            "egg",
+            "caterpillar",
+            "chrysalis",
+            "butterfly"
+          ],
+          "explicacion": "Egg, caterpillar, chrysalis and butterfly. (Huevo, oruga, crisálida, mariposa.)"
+        },
+        {
+          "id": "science-t03-p15",
+          "tipo": "eleccion",
+          "enunciado": "Which habitat is aquatic?",
+          "ayuda": "¿Qué hábitat es acuático?",
+          "opciones": [
+            "a river",
+            "a desert",
+            "a forest"
+          ],
+          "correcta": 0,
+          "explicacion": "Rivers, lakes and seas are aquatic habitats. (El río es acuático.)"
+        },
+        {
+          "id": "science-t03-p16",
+          "tipo": "eleccion",
+          "enunciado": "Where do polar bears live?",
+          "ayuda": "¿Dónde viven los osos polares?",
+          "opciones": [
+            "the poles",
+            "the desert",
+            "the rainforest"
+          ],
+          "correcta": 0,
+          "explicacion": "Polar bears live at the poles. (En los polos.)"
+        },
+        {
+          "id": "science-t03-p17",
+          "tipo": "vf",
+          "enunciado": "Taking our litter home helps protect animal habitats.",
+          "ayuda": "Llevarnos la basura a casa ayuda a proteger los hábitats.",
+          "correcta": true,
+          "explicacion": "Litter can harm animals. (La basura daña a los animales.)"
+        }
+      ]
+    },
+    {
+      "id": "science-t04",
+      "numero": 4,
+      "titulo": "We protect plants",
+      "paginas": "58-77",
+      "resumen": "Partes de la planta, árboles, arbustos y hierbas, perennes y caducos, reproducción y la importancia de las plantas y del agua.",
+      "explicacion": "Plants are living things. They have roots, a stem and leaves, and make their own food. There are trees, shrubs and herbs. Some plants make seeds and others make spores. Plants give us food, materials and oxygen. (Las plantas son seres vivos. Tienen raíz, tallo y hojas y fabrican su alimento. Hay árboles, arbustos y hierbas. Unas tienen semillas y otras esporas. Nos dan alimento, materiales y oxígeno.)",
+      "preguntas": [
+        {
+          "id": "science-t04-p01",
+          "tipo": "relacionar",
+          "enunciado": "Match the part of the plant to its job.",
+          "ayuda": "Une cada parte de la planta con su función.",
+          "pares": [
+            [
+              "root",
+              "fixes the plant in the ground"
+            ],
+            [
+              "stem",
+              "supports the plant"
+            ],
+            [
+              "leaf",
+              "makes food with sunlight"
+            ],
+            [
+              "flower",
+              "becomes a fruit"
+            ]
+          ],
+          "explicacion": "Each part of a plant has a job. (Cada parte tiene una función.)"
+        },
+        {
+          "id": "science-t04-p02",
+          "tipo": "vf",
+          "enunciado": "Plants make their own food.",
+          "ayuda": "Las plantas fabrican su propio alimento.",
+          "correcta": true,
+          "explicacion": "They use sunlight in a process called photosynthesis. (Por la fotosíntesis.)"
+        },
+        {
+          "id": "science-t04-p03",
+          "tipo": "vf",
+          "enunciado": "Plants can move about.",
+          "ayuda": "Las plantas pueden desplazarse.",
+          "correcta": false,
+          "explicacion": "Plants are fixed in the ground. (Están fijas en el suelo.)"
+        },
+        {
+          "id": "science-t04-p04",
+          "tipo": "escribir",
+          "enunciado": "The process plants use to make food is called ___.",
+          "ayuda": "El proceso con el que las plantas fabrican alimento se llama... (fotosíntesis)",
+          "respuestas": [
+            "photosynthesis"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Photosynthesis uses sunlight, air and water. (Fotosíntesis.)"
+        },
+        {
+          "id": "science-t04-p05",
+          "tipo": "eleccion",
+          "enunciado": "Which plant part absorbs water from the soil?",
+          "ayuda": "¿Qué parte absorbe agua del suelo?",
+          "opciones": [
+            "roots",
+            "flowers",
+            "fruits"
+          ],
+          "correcta": 0,
+          "explicacion": "Roots absorb water and nutrients. (Las raíces.)"
+        },
+        {
+          "id": "science-t04-p06",
+          "tipo": "eleccion",
+          "enunciado": "What is the hard, thick stem of a tree called?",
+          "ayuda": "¿Cómo se llama el tallo duro y grueso del árbol?",
+          "opciones": [
+            "trunk",
+            "leaf",
+            "root"
+          ],
+          "correcta": 0,
+          "explicacion": "A tree's stem is a trunk. (Tronco.)"
+        },
+        {
+          "id": "science-t04-p07",
+          "tipo": "relacionar",
+          "enunciado": "Match the plant to its stem.",
+          "ayuda": "Une cada planta con su tallo.",
+          "pares": [
+            [
+              "tree",
+              "hard, thick trunk"
+            ],
+            [
+              "shrub",
+              "short, hard stems"
+            ],
+            [
+              "herb",
+              "soft, flexible stems"
+            ]
+          ],
+          "explicacion": "We classify plants by their stems. (Se clasifican por el tallo.)"
+        },
+        {
+          "id": "science-t04-p08",
+          "tipo": "eleccion",
+          "enunciado": "Which tree loses its leaves in autumn?",
+          "ayuda": "¿Qué árbol pierde las hojas en otoño?",
+          "opciones": [
+            "deciduous",
+            "evergreen",
+            "fir"
+          ],
+          "correcta": 0,
+          "explicacion": "Deciduous trees lose their leaves in autumn. (Los de hoja caduca.)"
+        },
+        {
+          "id": "science-t04-p09",
+          "tipo": "escribir",
+          "enunciado": "Trees that have leaves all year round are ___.",
+          "ayuda": "Los árboles que tienen hojas todo el año son... (perennes)",
+          "respuestas": [
+            "evergreen",
+            "evergreen trees"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Evergreen trees, like the fir tree, keep their leaves. (Perennes.)"
+        },
+        {
+          "id": "science-t04-p10",
+          "tipo": "ordenar",
+          "enunciado": "Put the life cycle of a flowering plant in order.",
+          "ayuda": "Ordena el ciclo de vida de una planta con flor.",
+          "elementos": [
+            "a seed falls to the ground",
+            "a new plant grows",
+            "flowers grow",
+            "flowers make fruits with seeds"
+          ],
+          "explicacion": "Seed, plant, flowers, fruits with new seeds! (Semilla, planta, flores, frutos.)"
+        },
+        {
+          "id": "science-t04-p11",
+          "tipo": "eleccion",
+          "enunciado": "What do mosses and ferns produce?",
+          "ayuda": "¿Qué producen los musgos y los helechos?",
+          "opciones": [
+            "spores",
+            "fruits",
+            "flowers"
+          ],
+          "correcta": 0,
+          "explicacion": "They are seedless plants: they make spores. (Esporas.)"
+        },
+        {
+          "id": "science-t04-p12",
+          "tipo": "eleccion",
+          "enunciado": "Which one is a seed plant?",
+          "ayuda": "¿Cuál es una planta con semillas?",
+          "opciones": [
+            "sunflower",
+            "moss",
+            "fern"
+          ],
+          "correcta": 0,
+          "explicacion": "Sunflowers make seeds. (El girasol.)"
+        },
+        {
+          "id": "science-t04-p13",
+          "tipo": "vf",
+          "enunciado": "Wild plants give food and shelter to animals.",
+          "ayuda": "Las plantas silvestres dan alimento y refugio a los animales.",
+          "correcta": true,
+          "explicacion": "Cows eat grass and owls live in trees. (Las vacas comen hierba y los búhos viven en árboles.)"
+        },
+        {
+          "id": "science-t04-p14",
+          "tipo": "ordenar",
+          "enunciado": "Put the steps to grow cultivated plants in order.",
+          "ayuda": "Ordena los pasos para cultivar plantas.",
+          "elementos": [
+            "sow the seeds",
+            "water the plants",
+            "collect the fruits"
+          ],
+          "explicacion": "First sow, then water, then collect. (Sembrar, regar, recoger.)"
+        },
+        {
+          "id": "science-t04-p15",
+          "tipo": "eleccion",
+          "enunciado": "Which gas do plants produce?",
+          "ayuda": "¿Qué gas producen las plantas?",
+          "opciones": [
+            "oxygen",
+            "smoke",
+            "water vapour"
+          ],
+          "correcta": 0,
+          "explicacion": "Plants produce oxygen for all living things. (Oxígeno.)"
+        },
+        {
+          "id": "science-t04-p16",
+          "tipo": "relacionar",
+          "enunciado": "Match the food to the part of the plant.",
+          "ayuda": "Une el alimento con la parte de la planta.",
+          "pares": [
+            [
+              "carrot",
+              "root"
+            ],
+            [
+              "lettuce",
+              "leaf"
+            ],
+            [
+              "asparagus",
+              "stem"
+            ],
+            [
+              "apple",
+              "fruit"
+            ]
+          ],
+          "explicacion": "We eat many parts of plants! (¡Comemos muchas partes de las plantas!)"
+        },
+        {
+          "id": "science-t04-p17",
+          "tipo": "vf",
+          "enunciado": "Leaving the tap running saves water.",
+          "ayuda": "Dejar el grifo abierto ahorra agua.",
+          "correcta": false,
+          "explicacion": "Turn off the tap to save water. (Cierra el grifo para ahorrar agua.)"
+        }
+      ]
+    },
+    {
+      "id": "science-t05",
+      "numero": 5,
+      "titulo": "We recycle materials",
+      "paginas": "78-93",
+      "resumen": "Método científico, estados de la materia, sustancias puras y mezclas, materiales y propiedades, luz, sonido y las tres R.",
+      "explicacion": "Scientists use the scientific method. Matter can be solid, liquid or gaseous. Materials can be natural or human-made and have properties. Light helps us see and sound travels in waves. We reduce, reuse and recycle. (Los científicos usan el método científico. La materia puede ser sólida, líquida o gaseosa. Los materiales son naturales o artificiales y tienen propiedades. La luz nos deja ver y el sonido viaja en ondas. Reducimos, reutilizamos y reciclamos.)",
+      "preguntas": [
+        {
+          "id": "science-t05-p01",
+          "tipo": "ordenar",
+          "enunciado": "Put the steps of the scientific method in order.",
+          "ayuda": "Ordena los pasos del método científico.",
+          "elementos": [
+            "make an observation",
+            "ask a question",
+            "do an experiment",
+            "reach a conclusion"
+          ],
+          "explicacion": "Observe, ask, experiment and conclude. (Observar, preguntar, experimentar, concluir.)"
+        },
+        {
+          "id": "science-t05-p02",
+          "tipo": "vf",
+          "enunciado": "Everything around us is matter.",
+          "ayuda": "Todo lo que nos rodea es materia.",
+          "correcta": true,
+          "explicacion": "Water, air and our bodies are matter. (Agua, aire y nuestro cuerpo son materia.)"
+        },
+        {
+          "id": "science-t05-p03",
+          "tipo": "relacionar",
+          "enunciado": "Match the matter to its state.",
+          "ayuda": "Une cada cosa con su estado.",
+          "pares": [
+            [
+              "sand",
+              "solid"
+            ],
+            [
+              "sea water",
+              "liquid"
+            ],
+            [
+              "air",
+              "gaseous"
+            ]
+          ],
+          "explicacion": "Matter can be solid, liquid or gaseous. (Sólido, líquido o gaseoso.)"
+        },
+        {
+          "id": "science-t05-p04",
+          "tipo": "eleccion",
+          "enunciado": "What happens to ice when we heat it?",
+          "ayuda": "¿Qué le pasa al hielo si lo calentamos?",
+          "opciones": [
+            "it changes to a liquid",
+            "it changes to a solid",
+            "nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "Heat changes solid ice into liquid water. (Se vuelve líquido.)"
+        },
+        {
+          "id": "science-t05-p05",
+          "tipo": "eleccion",
+          "enunciado": "What does water need to change to a solid?",
+          "ayuda": "¿Qué necesita el agua para volverse sólida?",
+          "opciones": [
+            "cold",
+            "heat",
+            "light"
+          ],
+          "correcta": 0,
+          "explicacion": "Cold changes water into ice. (Frío.)"
+        },
+        {
+          "id": "science-t05-p06",
+          "tipo": "escribir",
+          "enunciado": "Liquid water changes to water ___ when we heat it.",
+          "ayuda": "El agua líquida se convierte en ___ de agua al calentarla. (vapor)",
+          "respuestas": [
+            "vapour",
+            "vapor"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Heated water becomes water vapour. (Vapor de agua.)"
+        },
+        {
+          "id": "science-t05-p07",
+          "tipo": "eleccion",
+          "enunciado": "Which one is a pure substance?",
+          "ayuda": "¿Cuál es una sustancia pura?",
+          "opciones": [
+            "gold",
+            "fruit salad",
+            "milkshake"
+          ],
+          "correcta": 0,
+          "explicacion": "Gold is a pure substance; the others are mixtures. (El oro.)"
+        },
+        {
+          "id": "science-t05-p08",
+          "tipo": "vf",
+          "enunciado": "Salt and water is a solution.",
+          "ayuda": "Agua con sal es una disolución.",
+          "correcta": true,
+          "explicacion": "In a solution we cannot see the different substances. (No se ven las sustancias.)"
+        },
+        {
+          "id": "science-t05-p09",
+          "tipo": "eleccion",
+          "enunciado": "What do we use to separate pasta from water?",
+          "ayuda": "¿Qué usamos para separar la pasta del agua?",
+          "opciones": [
+            "a sieve",
+            "a funnel",
+            "a torch"
+          ],
+          "correcta": 0,
+          "explicacion": "A sieve lets the water pass. (Un colador.)"
+        },
+        {
+          "id": "science-t05-p10",
+          "tipo": "relacionar",
+          "enunciado": "Match the property to its meaning.",
+          "ayuda": "Une la propiedad con su significado.",
+          "pares": [
+            [
+              "fragile",
+              "breaks easily"
+            ],
+            [
+              "flexible",
+              "bends without breaking"
+            ],
+            [
+              "rigid",
+              "does not bend"
+            ],
+            [
+              "soft",
+              "changes shape easily"
+            ]
+          ],
+          "explicacion": "Materials have different properties. (Los materiales tienen propiedades.)"
+        },
+        {
+          "id": "science-t05-p11",
+          "tipo": "eleccion",
+          "enunciado": "Where does cork come from?",
+          "ayuda": "¿De dónde viene el corcho?",
+          "opciones": [
+            "a plant",
+            "an animal",
+            "a factory"
+          ],
+          "correcta": 0,
+          "explicacion": "Cork is a natural material from a tree. (De una planta.)"
+        },
+        {
+          "id": "science-t05-p12",
+          "tipo": "vf",
+          "enunciado": "Plastic is a natural material.",
+          "ayuda": "El plástico es un material natural.",
+          "correcta": false,
+          "explicacion": "Plastic is human-made. (Es artificial.)"
+        },
+        {
+          "id": "science-t05-p13",
+          "tipo": "relacionar",
+          "enunciado": "Match the material to how light passes.",
+          "ayuda": "Une el material con cómo pasa la luz.",
+          "pares": [
+            [
+              "transparent",
+              "light passes easily"
+            ],
+            [
+              "translucent",
+              "some light passes"
+            ],
+            [
+              "opaque",
+              "light cannot pass"
+            ]
+          ],
+          "explicacion": "Light passes through some materials but not others. (La luz pasa por unos y no por otros.)"
+        },
+        {
+          "id": "science-t05-p14",
+          "tipo": "eleccion",
+          "enunciado": "Which is a natural light source?",
+          "ayuda": "¿Qué es una fuente de luz natural?",
+          "opciones": [
+            "the Sun",
+            "a light bulb",
+            "a torch"
+          ],
+          "correcta": 0,
+          "explicacion": "The Sun, stars and lightning are natural. (El Sol.)"
+        },
+        {
+          "id": "science-t05-p15",
+          "tipo": "eleccion",
+          "enunciado": "Which animal makes a low sound?",
+          "ayuda": "¿Qué animal hace un sonido grave?",
+          "opciones": [
+            "a cow",
+            "a bird",
+            "a sparrow"
+          ],
+          "correcta": 0,
+          "explicacion": "A cow makes a low sound; a bird makes a high sound. (La vaca: grave.)"
+        },
+        {
+          "id": "science-t05-p16",
+          "tipo": "escribir",
+          "enunciado": "Sound travels in ___.",
+          "ayuda": "El sonido viaja en... (ondas)",
+          "respuestas": [
+            "waves",
+            "sound waves"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Sound is energy that travels in waves. (Ondas.)"
+        },
+        {
+          "id": "science-t05-p17",
+          "tipo": "relacionar",
+          "enunciado": "Match the R to its meaning.",
+          "ayuda": "Une cada R con su significado.",
+          "pares": [
+            [
+              "reduce",
+              "cut down on waste"
+            ],
+            [
+              "reuse",
+              "use things again"
+            ],
+            [
+              "recycle",
+              "use different bins"
+            ]
+          ],
+          "explicacion": "The three Rs help protect nature. (Las tres R.)"
+        },
+        {
+          "id": "science-t05-p18",
+          "tipo": "vf",
+          "enunciado": "Wind energy and solar energy are clean energy.",
+          "ayuda": "La energía eólica y solar son energía limpia.",
+          "correcta": true,
+          "explicacion": "They do not pollute. (No contaminan.)"
+        }
+      ]
+    },
+    {
+      "id": "science-t06",
+      "numero": 6,
+      "titulo": "We use technology responsibly",
+      "paginas": "94-113",
+      "resumen": "Dispositivos digitales, internet y búsqueda de información, programas informáticos y uso seguro de la tecnología.",
+      "explicacion": "Digital devices are computers, like laptops, tablets and mobile phones. We use a browser and a search engine to find information. We write with a word processor and make slides with a presentation program. We use technology safely and ask an adult for help. (Los dispositivos digitales son ordenadores, como portátiles, tabletas y móviles. Buscamos con navegador y buscador. Escribimos con procesador de textos y hacemos diapositivas con un programa de presentaciones. Usamos la tecnología con seguridad y pedimos ayuda a un adulto.)",
+      "preguntas": [
+        {
+          "id": "science-t06-p01",
+          "tipo": "eleccion",
+          "enunciado": "Which one is a digital device?",
+          "ayuda": "¿Cuál es un dispositivo digital?",
+          "opciones": [
+            "tablet",
+            "pencil",
+            "ball"
+          ],
+          "correcta": 0,
+          "explicacion": "A tablet is a small computer. (La tableta.)"
+        },
+        {
+          "id": "science-t06-p02",
+          "tipo": "vf",
+          "enunciado": "A tablet has a touchscreen.",
+          "ayuda": "Una tableta tiene pantalla táctil.",
+          "correcta": true,
+          "explicacion": "We touch the screen to use it. (Se usa tocando la pantalla.)"
+        },
+        {
+          "id": "science-t06-p03",
+          "tipo": "relacionar",
+          "enunciado": "Match the device to its use.",
+          "ayuda": "Une el aparato con su uso.",
+          "pares": [
+            [
+              "mobile phone",
+              "make calls"
+            ],
+            [
+              "games console",
+              "play games"
+            ],
+            [
+              "laptop",
+              "write and study"
+            ]
+          ],
+          "explicacion": "Each device helps us do different things. (Cada aparato sirve para algo.)"
+        },
+        {
+          "id": "science-t06-p04",
+          "tipo": "ordenar",
+          "enunciado": "Put the steps to search for information in order.",
+          "ayuda": "Ordena los pasos para buscar información.",
+          "elementos": [
+            "open a browser",
+            "type words in the search engine",
+            "read the list of websites",
+            "click on a webpage"
+          ],
+          "explicacion": "Browser, search, list, webpage. (Navegador, buscador, lista, página.)"
+        },
+        {
+          "id": "science-t06-p05",
+          "tipo": "escribir",
+          "enunciado": "We type our search words in the search ___.",
+          "ayuda": "Escribimos las palabras en el ... de búsqueda (engine)",
+          "respuestas": [
+            "engine",
+            "search engine"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "A search engine finds webpages. (El buscador.)"
+        },
+        {
+          "id": "science-t06-p06",
+          "tipo": "vf",
+          "enunciado": "Everything on the internet is true.",
+          "ayuda": "Todo lo de internet es verdad.",
+          "correcta": false,
+          "explicacion": "Some webpages show fake news. Be careful! (Hay noticias falsas.)"
+        },
+        {
+          "id": "science-t06-p07",
+          "tipo": "eleccion",
+          "enunciado": "Which headline is fake?",
+          "ayuda": "¿Qué titular es falso?",
+          "opciones": [
+            "Rover the dog can speak English.",
+            "Dogs can be afraid of loud noises.",
+            "Dogs can communicate with people."
+          ],
+          "correcta": 0,
+          "explicacion": "Dogs cannot speak English! (¡Los perros no hablan inglés!)"
+        },
+        {
+          "id": "science-t06-p08",
+          "tipo": "eleccion",
+          "enunciado": "Which program do we use to write texts?",
+          "ayuda": "¿Qué programa usamos para escribir textos?",
+          "opciones": [
+            "word processor",
+            "presentation program",
+            "browser"
+          ],
+          "correcta": 0,
+          "explicacion": "A word processor is for writing. (Procesador de textos.)"
+        },
+        {
+          "id": "science-t06-p09",
+          "tipo": "eleccion",
+          "enunciado": "Which program do we use to make slides?",
+          "ayuda": "¿Qué programa usamos para hacer diapositivas?",
+          "opciones": [
+            "presentation program",
+            "word processor",
+            "search engine"
+          ],
+          "correcta": 0,
+          "explicacion": "Slides are made with a presentation program. (Programa de presentaciones.)"
+        },
+        {
+          "id": "science-t06-p10",
+          "tipo": "escribir",
+          "enunciado": "A way to show information with images and short texts is an ___.",
+          "ayuda": "Forma de mostrar información con imágenes y textos cortos (infografía)",
+          "respuestas": [
+            "infographic",
+            "an infographic"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Infographics are clear and visual. (Infografía.)"
+        },
+        {
+          "id": "science-t06-p11",
+          "tipo": "eleccion",
+          "enunciado": "What do we use to organise a lot of data?",
+          "ayuda": "¿Qué usamos para organizar muchos datos?",
+          "opciones": [
+            "a table",
+            "a virus",
+            "a game"
+          ],
+          "correcta": 0,
+          "explicacion": "A table organises data. (Una tabla.)"
+        },
+        {
+          "id": "science-t06-p12",
+          "tipo": "escribir",
+          "enunciado": "A program that can destroy data is a computer ___.",
+          "ayuda": "Un programa que puede destruir datos es un ___ informático (virus)",
+          "respuestas": [
+            "virus",
+            "computer virus"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Viruses can hide in unreliable webpages. (Virus.)"
+        },
+        {
+          "id": "science-t06-p13",
+          "tipo": "vf",
+          "enunciado": "We should click on advertisements.",
+          "ayuda": "Debemos hacer clic en los anuncios.",
+          "correcta": false,
+          "explicacion": "Never click on advertisements: they may have viruses. (Nunca en anuncios.)"
+        },
+        {
+          "id": "science-t06-p14",
+          "tipo": "vf",
+          "enunciado": "We should limit our screen time.",
+          "ayuda": "Debemos limitar el tiempo de pantalla.",
+          "correcta": true,
+          "explicacion": "Too much screen time is not healthy. (Demasiada pantalla no es sano.)"
+        },
+        {
+          "id": "science-t06-p15",
+          "tipo": "eleccion",
+          "enunciado": "Who is a good user of technology?",
+          "ayuda": "¿Quién usa bien la tecnología?",
+          "opciones": [
+            "John asks his parents for help.",
+            "Tom uses his mum's tablet without asking.",
+            "Susan plays video games for three hours."
+          ],
+          "correcta": 0,
+          "explicacion": "Always ask an adult for help. (Pide siempre ayuda a un adulto.)"
+        },
+        {
+          "id": "science-t06-p16",
+          "tipo": "relacionar",
+          "enunciado": "Match the rule to the reason.",
+          "ayuda": "Une la norma con su motivo.",
+          "pares": [
+            [
+              "sit with a straight back",
+              "good posture"
+            ],
+            [
+              "don't give personal information",
+              "stay safe"
+            ],
+            [
+              "limit screen time",
+              "rest our eyes and body"
+            ]
+          ],
+          "explicacion": "Rules help us use technology responsibly. (Las normas nos protegen.)"
+        },
+        {
+          "id": "science-t06-p17",
+          "tipo": "ordenar",
+          "enunciado": "Put these inventions in order, from oldest to newest.",
+          "ayuda": "Ordena los inventos del más antiguo al más nuevo.",
+          "elementos": [
+            "sharp stones",
+            "the wheel",
+            "the computer",
+            "cars without a driver"
+          ],
+          "explicacion": "First stone tools, then the wheel, computers and now driverless cars. (Piedras, rueda, ordenador, coches sin conductor.)"
+        }
+      ]
+    }
+  ]
+}

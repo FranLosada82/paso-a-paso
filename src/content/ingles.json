@@ -1,0 +1,2488 @@
+{
+  "id": "ingles",
+  "nombre": "Inglés",
+  "libro": "Inglés 2.º Primaria (Santillana)",
+  "idioma": "en",
+  "temas": [
+    {
+      "id": "ingles-t01",
+      "numero": 0,
+      "titulo": "Starter: Hello again!",
+      "paginas": "4-5",
+      "resumen": "Saludos, días de la semana, abecedario y números del 11 al 100.",
+      "explicacion": "¡Hola otra vez! Para saludar decimos «Hello! How are you?» y contestamos «I'm fine, thanks». Los días de la semana son Monday, Tuesday, Wednesday, Thursday, Friday, Saturday y Sunday. Para preguntar qué día es: «What day is it?» – «It's Monday». También repasamos los números del 11 al 100.",
+      "preguntas": [
+        {
+          "id": "ingles-t01-p01",
+          "tipo": "eleccion",
+          "enunciado": "Hello! How are you?",
+          "opciones": [
+            "I'm fine, thanks.",
+            "I'm seven.",
+            "It's Monday."
+          ],
+          "correcta": 0,
+          "explicacion": "Cuando te preguntan «How are you?» (¿Cómo estás?) contestas «I'm fine, thanks» (Estoy bien, gracias).",
+          "ayuda": "¿Qué respondes si te preguntan cómo estás?"
+        },
+        {
+          "id": "ingles-t01-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «lunes» en inglés?",
+          "respuestas": [
+            "Monday"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Genial! Lunes es «Monday». Los días en inglés se escriben con mayúscula."
+        },
+        {
+          "id": "ingles-t01-p03",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «viernes» en inglés?",
+          "respuestas": [
+            "Friday"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Viernes es «Friday»."
+        },
+        {
+          "id": "ingles-t01-p04",
+          "tipo": "eleccion",
+          "enunciado": "Which day comes after Tuesday?",
+          "opciones": [
+            "Wednesday",
+            "Monday",
+            "Sunday"
+          ],
+          "correcta": 0,
+          "explicacion": "Después de Tuesday (martes) viene Wednesday (miércoles).",
+          "ayuda": "¿Qué día va después del martes?"
+        },
+        {
+          "id": "ingles-t01-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "Saturday",
+              "sábado"
+            ],
+            [
+              "Sunday",
+              "domingo"
+            ],
+            [
+              "Thursday",
+              "jueves"
+            ],
+            [
+              "Tuesday",
+              "martes"
+            ]
+          ],
+          "explicacion": "¡Bien! Así se llaman los días de la semana en inglés.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t01-p06",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "What",
+            "day",
+            "is",
+            "it?"
+          ],
+          "explicacion": "«What day is it?» significa «¿Qué día es?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t01-p07",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "It's",
+            "Sunday",
+            "today"
+          ],
+          "explicacion": "«It's Sunday today» = «Hoy es domingo».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t01-p08",
+          "tipo": "eleccion",
+          "enunciado": "What number is «twenty-five»?",
+          "opciones": [
+            "25",
+            "52",
+            "15"
+          ],
+          "correcta": 0,
+          "explicacion": "Twenty (20) + five (5) = 25.",
+          "ayuda": "¿Qué número es «twenty-five»?"
+        },
+        {
+          "id": "ingles-t01-p09",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice 13 en inglés?",
+          "opciones": [
+            "thirteen",
+            "thirty",
+            "three"
+          ],
+          "correcta": 0,
+          "explicacion": "13 es «thirteen». ¡Ojo! «thirty» es 30."
+        },
+        {
+          "id": "ingles-t01-p10",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice 80 en inglés?",
+          "opciones": [
+            "eighty",
+            "eighteen",
+            "eight"
+          ],
+          "correcta": 0,
+          "explicacion": "80 es «eighty». «eighteen» es 18."
+        },
+        {
+          "id": "ingles-t01-p11",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «cien» en inglés?",
+          "respuestas": [
+            "one hundred",
+            "a hundred",
+            "hundred"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! 100 se dice «one hundred»."
+        },
+        {
+          "id": "ingles-t01-p12",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "forty",
+              "40"
+            ],
+            [
+              "fifty",
+              "50"
+            ],
+            [
+              "sixty",
+              "60"
+            ],
+            [
+              "seventy",
+              "70"
+            ]
+          ],
+          "explicacion": "Las decenas en inglés terminan en «-ty».",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t01-p13",
+          "tipo": "escribir",
+          "enunciado": "Write the number 12 in English.",
+          "respuestas": [
+            "twelve"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "12 se dice «twelve».",
+          "ayuda": "Escribe el número 12 en inglés."
+        },
+        {
+          "id": "ingles-t01-p14",
+          "tipo": "eleccion",
+          "enunciado": "How do you spell 'May'?",
+          "opciones": [
+            "M-A-Y",
+            "M-E-Y",
+            "M-A-I"
+          ],
+          "correcta": 0,
+          "explicacion": "May se deletrea M-A-Y.",
+          "ayuda": "¿Cómo se deletrea «May»?"
+        },
+        {
+          "id": "ingles-t01-p15",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "How",
+            "do",
+            "you",
+            "spell",
+            "Omar?"
+          ],
+          "explicacion": "«How do you spell...?» = «¿Cómo se deletrea...?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t01-p16",
+          "tipo": "eleccion",
+          "enunciado": "What number is «ninety»?",
+          "opciones": [
+            "90",
+            "19",
+            "9"
+          ],
+          "correcta": 0,
+          "explicacion": "Ninety es 90. Nineteen sería 19.",
+          "ayuda": "¿Qué número es «ninety»?"
+        }
+      ]
+    },
+    {
+      "id": "ingles-t02",
+      "numero": 1,
+      "titulo": "Unit 1: Time for school",
+      "paginas": "6-15",
+      "resumen": "Material escolar y equipo de deporte; Have you got...? / Can I use your...?",
+      "explicacion": "En esta unidad aprendemos el material del cole: pencil case (estuche), scissors (tijeras), glue stick (pegamento), folder (carpeta), dictionary, lunch box, water bottle y sharpener. Para pedir algo: «Can I use your...?» – «Sure! Here you are». Para preguntar si alguien tiene algo: «Have you got a...?» – «Yes, I have / No, I haven't». ¡Y la ropa de deporte: trainers, shorts, tracksuit, sports bag!",
+      "preguntas": [
+        {
+          "id": "ingles-t02-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «tijeras» en inglés?",
+          "respuestas": [
+            "scissors",
+            "the scissors"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Tijeras es «scissors»."
+        },
+        {
+          "id": "ingles-t02-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «estuche» en inglés?",
+          "respuestas": [
+            "pencil case"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «estuche» se dice «pencil case»."
+        },
+        {
+          "id": "ingles-t02-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «glue stick»?",
+          "opciones": [
+            "pegamento de barra",
+            "regla",
+            "goma"
+          ],
+          "correcta": 0,
+          "explicacion": "«Glue stick» es el pegamento de barra."
+        },
+        {
+          "id": "ingles-t02-p04",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice «sacapuntas»?",
+          "opciones": [
+            "sharpener",
+            "folder",
+            "dictionary"
+          ],
+          "correcta": 0,
+          "explicacion": "Sacapuntas es «sharpener»."
+        },
+        {
+          "id": "ingles-t02-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "lunch box",
+              "fiambrera"
+            ],
+            [
+              "water bottle",
+              "botella de agua"
+            ],
+            [
+              "folder",
+              "carpeta"
+            ],
+            [
+              "dictionary",
+              "diccionario"
+            ]
+          ],
+          "explicacion": "¡Genial! Ya conoces más cosas del cole.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t02-p06",
+          "tipo": "eleccion",
+          "enunciado": "Can I use your scissors?",
+          "opciones": [
+            "Sure! Here you are.",
+            "Yes, I have.",
+            "It's Monday."
+          ],
+          "correcta": 0,
+          "explicacion": "Si alguien pide usar algo tuyo, contestas «Sure! Here you are» (¡Claro! Aquí tienes).",
+          "ayuda": "¿Puedo usar tus tijeras?"
+        },
+        {
+          "id": "ingles-t02-p07",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Have",
+            "you",
+            "got",
+            "a",
+            "folder?"
+          ],
+          "explicacion": "«Have you got a folder?» = «¿Tienes una carpeta?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t02-p08",
+          "tipo": "eleccion",
+          "enunciado": "Have you got a dictionary? – No, I ...",
+          "opciones": [
+            "haven't",
+            "have",
+            "hasn't"
+          ],
+          "correcta": 0,
+          "explicacion": "La respuesta negativa con «I» es «No, I haven't».",
+          "ayuda": "¿Tienes un diccionario? – No, ..."
+        },
+        {
+          "id": "ingles-t02-p09",
+          "tipo": "eleccion",
+          "enunciado": "... she got a lunch box?",
+          "opciones": [
+            "Has",
+            "Have",
+            "Is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she usamos «Has»: «Has she got...?».",
+          "ayuda": "Elige la palabra correcta."
+        },
+        {
+          "id": "ingles-t02-p10",
+          "tipo": "eleccion",
+          "enunciado": "Has he got a pencil? – Yes, he ...",
+          "opciones": [
+            "has",
+            "have",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he usamos «has»: «Yes, he has».",
+          "ayuda": "¿Tiene él un lápiz? – Sí, ..."
+        },
+        {
+          "id": "ingles-t02-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Can",
+            "I",
+            "use",
+            "your",
+            "sharpener?"
+          ],
+          "explicacion": "«Can I use your sharpener?» = «¿Puedo usar tu sacapuntas?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t02-p12",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «zapatillas de deporte» en inglés?",
+          "respuestas": [
+            "trainers",
+            "the trainers"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Zapatillas de deporte es «trainers»."
+        },
+        {
+          "id": "ingles-t02-p13",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "shorts",
+              "pantalones cortos"
+            ],
+            [
+              "tracksuit",
+              "chándal"
+            ],
+            [
+              "sports bag",
+              "bolsa de deporte"
+            ],
+            [
+              "football boots",
+              "botas de fútbol"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Esta es la ropa y el equipo de deporte.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t02-p14",
+          "tipo": "eleccion",
+          "enunciado": "We've got ... football shirts.",
+          "opciones": [
+            "our",
+            "their",
+            "my"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «we» usamos «our» (nuestro): «We've got our...».",
+          "ayuda": "Tenemos nuestras camisetas de fútbol."
+        },
+        {
+          "id": "ingles-t02-p15",
+          "tipo": "eleccion",
+          "enunciado": "They've got ... trainers.",
+          "opciones": [
+            "their",
+            "our",
+            "your"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «they» usamos «their» (su/sus de ellos).",
+          "ayuda": "Ellos tienen sus zapatillas."
+        },
+        {
+          "id": "ingles-t02-p16",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I've",
+            "got",
+            "my",
+            "sports",
+            "bag"
+          ],
+          "explicacion": "«I've got my sports bag» = «Tengo mi bolsa de deporte».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t03",
+      "numero": 2,
+      "titulo": "Unit 2: Mealtime",
+      "paginas": "16-25",
+      "resumen": "Comida y verduras; desayuno, comida y cena; Do you like...? / Does he have...?",
+      "explicacion": "Hablamos de comida: cereal, yoghurt, sandwiches, biscuits (galletas), chicken (pollo), rice (arroz), meatballs (albóndigas) y chips (patatas fritas). Las verduras: carrots (zanahorias), peas (guisantes), potatoes, peppers (pimientos), cucumbers (pepinos) y beans (judías). Las comidas del día son breakfast (desayuno), lunch (comida) y dinner (cena). Decimos «I have cereal for breakfast» y preguntamos «Do you like carrots?» – «Yes, I do / No, I don't».",
+      "preguntas": [
+        {
+          "id": "ingles-t03-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «arroz» en inglés?",
+          "respuestas": [
+            "rice",
+            "the rice"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Arroz es «rice»."
+        },
+        {
+          "id": "ingles-t03-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «pollo» en inglés?",
+          "respuestas": [
+            "chicken",
+            "the chicken"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Pollo es «chicken»."
+        },
+        {
+          "id": "ingles-t03-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué son «biscuits»?",
+          "opciones": [
+            "galletas",
+            "bizcochos",
+            "patatas"
+          ],
+          "correcta": 0,
+          "explicacion": "«Biscuits» son galletas."
+        },
+        {
+          "id": "ingles-t03-p04",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice «albóndigas»?",
+          "opciones": [
+            "meatballs",
+            "chips",
+            "sandwiches"
+          ],
+          "correcta": 0,
+          "explicacion": "Albóndigas es «meatballs»."
+        },
+        {
+          "id": "ingles-t03-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "breakfast",
+              "desayuno"
+            ],
+            [
+              "lunch",
+              "comida"
+            ],
+            [
+              "dinner",
+              "cena"
+            ]
+          ],
+          "explicacion": "Las tres comidas del día: breakfast, lunch y dinner.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t03-p06",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "carrots",
+              "zanahorias"
+            ],
+            [
+              "peas",
+              "guisantes"
+            ],
+            [
+              "peppers",
+              "pimientos"
+            ],
+            [
+              "cucumbers",
+              "pepinos"
+            ]
+          ],
+          "explicacion": "¡Genial! Así se llaman las verduras.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t03-p07",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «patatas» en inglés?",
+          "respuestas": [
+            "potatoes",
+            "the potatoes"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Patatas es «potatoes»."
+        },
+        {
+          "id": "ingles-t03-p08",
+          "tipo": "eleccion",
+          "enunciado": "Do you like beans? – Yes, I ...",
+          "opciones": [
+            "do",
+            "does",
+            "am"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «I» respondemos «Yes, I do».",
+          "ayuda": "¿Te gustan las judías? – Sí, ..."
+        },
+        {
+          "id": "ingles-t03-p09",
+          "tipo": "eleccion",
+          "enunciado": "... she have rice for lunch?",
+          "opciones": [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she preguntamos con «Does».",
+          "ayuda": "¿Come ella arroz?"
+        },
+        {
+          "id": "ingles-t03-p10",
+          "tipo": "eleccion",
+          "enunciado": "He ... cereal for breakfast.",
+          "opciones": [
+            "has",
+            "have",
+            "having"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she, «have» se convierte en «has».",
+          "ayuda": "Él toma cereales para desayunar."
+        },
+        {
+          "id": "ingles-t03-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I",
+            "have",
+            "yoghurt",
+            "for",
+            "breakfast"
+          ],
+          "explicacion": "«I have yoghurt for breakfast» = «Desayuno yogur».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t03-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Do",
+            "you",
+            "like",
+            "carrots?"
+          ],
+          "explicacion": "«Do you like carrots?» = «¿Te gustan las zanahorias?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t03-p13",
+          "tipo": "eleccion",
+          "enunciado": "Does he like peas? – No, he ...",
+          "opciones": [
+            "doesn't",
+            "don't",
+            "isn't"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she la negativa es «doesn't».",
+          "ayuda": "¿Le gustan los guisantes? – No, ..."
+        },
+        {
+          "id": "ingles-t03-p14",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I'd",
+            "like",
+            "some",
+            "chicken"
+          ],
+          "explicacion": "«I'd like some chicken» = «Me gustaría un poco de pollo».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t03-p15",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «cena».",
+          "respuestas": [
+            "dinner"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Cena es «dinner»."
+        },
+        {
+          "id": "ingles-t03-p16",
+          "tipo": "eleccion",
+          "enunciado": "Which one is a vegetable?",
+          "opciones": [
+            "peppers",
+            "biscuits",
+            "meatballs"
+          ],
+          "correcta": 0,
+          "explicacion": "Peppers (pimientos) son una verdura.",
+          "ayuda": "¿Cuál es una verdura?"
+        }
+      ]
+    },
+    {
+      "id": "ingles-t04",
+      "numero": 3,
+      "titulo": "Unit 3: Wild animals",
+      "paginas": "28-37",
+      "resumen": "Animales salvajes, qué comen y dónde viven; Can it...? / Do they live...?",
+      "explicacion": "Conocemos animales salvajes: elephant, giraffe (jirafa), hippo (hipopótamo), monkey (mono), zebra (cebra), penguin (pingüino), dolphin (delfín) y tiger (tigre). Preguntamos «Can it swim?» – «Yes, it can / No, it can't». Decimos dónde viven: «on land» (en tierra) o «in water» (en el agua). Y lo que comen: grass (hierba), leaves (hojas), insects, meat (carne), nuts (frutos secos) y seeds (semillas): «They eat leaves».",
+      "preguntas": [
+        {
+          "id": "ingles-t04-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «mono» en inglés?",
+          "respuestas": [
+            "monkey",
+            "a monkey",
+            "the monkey"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «mono» se dice «monkey»."
+        },
+        {
+          "id": "ingles-t04-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «jirafa» en inglés?",
+          "respuestas": [
+            "giraffe",
+            "a giraffe",
+            "the giraffe"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «jirafa» se dice «giraffe»."
+        },
+        {
+          "id": "ingles-t04-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué animal es «dolphin»?",
+          "opciones": [
+            "delfín",
+            "pingüino",
+            "hipopótamo"
+          ],
+          "correcta": 0,
+          "explicacion": "«Dolphin» es delfín."
+        },
+        {
+          "id": "ingles-t04-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "tiger",
+              "tigre"
+            ],
+            [
+              "zebra",
+              "cebra"
+            ],
+            [
+              "penguin",
+              "pingüino"
+            ],
+            [
+              "hippo",
+              "hipopótamo"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Ya conoces muchos animales salvajes.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t04-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "grass",
+              "hierba"
+            ],
+            [
+              "leaves",
+              "hojas"
+            ],
+            [
+              "seeds",
+              "semillas"
+            ],
+            [
+              "meat",
+              "carne"
+            ]
+          ],
+          "explicacion": "Esto es lo que comen muchos animales.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t04-p06",
+          "tipo": "eleccion",
+          "enunciado": "Can a dolphin swim?",
+          "opciones": [
+            "Yes, it can.",
+            "No, it can't.",
+            "Yes, they do."
+          ],
+          "correcta": 0,
+          "explicacion": "¡Claro! Los delfines nadan: «Yes, it can».",
+          "ayuda": "¿Puede nadar un delfín?"
+        },
+        {
+          "id": "ingles-t04-p07",
+          "tipo": "eleccion",
+          "enunciado": "Can an elephant fly?",
+          "opciones": [
+            "No, it can't.",
+            "Yes, it can.",
+            "Yes, I do."
+          ],
+          "correcta": 0,
+          "explicacion": "Los elefantes no vuelan: «No, it can't».",
+          "ayuda": "¿Puede volar un elefante?"
+        },
+        {
+          "id": "ingles-t04-p08",
+          "tipo": "eleccion",
+          "enunciado": "Penguins live on land and ... water.",
+          "opciones": [
+            "in",
+            "on",
+            "at"
+          ],
+          "correcta": 0,
+          "explicacion": "Decimos «in water» (en el agua) y «on land» (en tierra).",
+          "ayuda": "Los pingüinos viven en tierra y en el agua."
+        },
+        {
+          "id": "ingles-t04-p09",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Do",
+            "zebras",
+            "live",
+            "on",
+            "land?"
+          ],
+          "explicacion": "«Do zebras live on land?» = «¿Viven las cebras en tierra?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t04-p10",
+          "tipo": "eleccion",
+          "enunciado": "Do dolphins live on land? – No, they ...",
+          "opciones": [
+            "don't",
+            "doesn't",
+            "can't"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «they» la negativa es «don't»: los delfines viven en el agua.",
+          "ayuda": "¿Viven los delfines en tierra? – No, ..."
+        },
+        {
+          "id": "ingles-t04-p11",
+          "tipo": "eleccion",
+          "enunciado": "What do tigers eat?",
+          "opciones": [
+            "They eat meat.",
+            "They eat grass.",
+            "They eat seeds."
+          ],
+          "correcta": 0,
+          "explicacion": "Los tigres comen carne: «They eat meat».",
+          "ayuda": "¿Qué comen los tigres?"
+        },
+        {
+          "id": "ingles-t04-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Giraffes",
+            "eat",
+            "leaves"
+          ],
+          "explicacion": "«Giraffes eat leaves» = «Las jirafas comen hojas».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t04-p13",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Monkeys",
+            "don't",
+            "eat",
+            "meat"
+          ],
+          "explicacion": "«don't eat» significa «no comen».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t04-p14",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «insectos» en inglés?",
+          "respuestas": [
+            "insects",
+            "the insects"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Insectos es «insects»."
+        },
+        {
+          "id": "ingles-t04-p15",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice «frutos secos»?",
+          "opciones": [
+            "nuts",
+            "seeds",
+            "leaves"
+          ],
+          "correcta": 0,
+          "explicacion": "Frutos secos es «nuts»."
+        },
+        {
+          "id": "ingles-t04-p16",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Can",
+            "it",
+            "climb",
+            "trees?"
+          ],
+          "explicacion": "«Can it climb trees?» = «¿Puede trepar a los árboles?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t05",
+      "numero": 4,
+      "titulo": "Unit 4: My favourite things",
+      "paginas": "38-47",
+      "resumen": "Objetos favoritos y ropa; posesivos (Sam's, mine, yours...) y What are you wearing?",
+      "explicacion": "Hablamos de nuestras cosas favoritas: watch (reloj), video game, guitar, poster, helicopter, bracelet (pulsera), trophy (trofeo) y puppet (marioneta). Para decir de quién es algo usamos «'s»: «It's Eva's guitar». Preguntamos «Whose watch is it?» y contestamos «It's mine / yours / his / hers / ours / theirs». También la ropa: hoodie (sudadera), jeans, sandals, boots, coat (abrigo) y pyjamas: «I'm wearing a coat».",
+      "preguntas": [
+        {
+          "id": "ingles-t05-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «reloj» en inglés?",
+          "respuestas": [
+            "watch",
+            "a watch",
+            "the watch"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «reloj» se dice «watch»."
+        },
+        {
+          "id": "ingles-t05-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «pulsera» en inglés?",
+          "respuestas": [
+            "bracelet",
+            "a bracelet",
+            "the bracelet"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «pulsera» se dice «bracelet»."
+        },
+        {
+          "id": "ingles-t05-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «puppet»?",
+          "opciones": [
+            "marioneta",
+            "muñeca",
+            "pelota"
+          ],
+          "correcta": 0,
+          "explicacion": "«Puppet» es una marioneta."
+        },
+        {
+          "id": "ingles-t05-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "trophy",
+              "trofeo"
+            ],
+            [
+              "guitar",
+              "guitarra"
+            ],
+            [
+              "video game",
+              "videojuego"
+            ],
+            [
+              "helicopter",
+              "helicóptero"
+            ]
+          ],
+          "explicacion": "¡Genial! Son cosas favoritas.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t05-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "hoodie",
+              "sudadera"
+            ],
+            [
+              "coat",
+              "abrigo"
+            ],
+            [
+              "boots",
+              "botas"
+            ],
+            [
+              "sandals",
+              "sandalias"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Ya sabes nombrar ropa.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t05-p06",
+          "tipo": "eleccion",
+          "enunciado": "Is this Sam's watch? – No, it isn't. It's ... watch.",
+          "opciones": [
+            "Eva's",
+            "Eva",
+            "Evas"
+          ],
+          "correcta": 0,
+          "explicacion": "Para decir «de Eva» añadimos «'s»: «Eva's watch».",
+          "ayuda": "¿Es este el reloj de Sam? – No, es el reloj de Eva."
+        },
+        {
+          "id": "ingles-t05-p07",
+          "tipo": "eleccion",
+          "enunciado": "Whose guitar is it? (Es mía) It's ...",
+          "opciones": [
+            "mine",
+            "my",
+            "me"
+          ],
+          "correcta": 0,
+          "explicacion": "«Mine» significa «mío / mía».",
+          "ayuda": "¿De quién es la guitarra? Es mía."
+        },
+        {
+          "id": "ingles-t05-p08",
+          "tipo": "eleccion",
+          "enunciado": "It's Tom's poster. It's ...",
+          "opciones": [
+            "his",
+            "hers",
+            "mine"
+          ],
+          "correcta": 0,
+          "explicacion": "Tom es un chico, así que decimos «his» (suyo, de él).",
+          "ayuda": "Es el póster de Tom. Es suyo (de él)."
+        },
+        {
+          "id": "ingles-t05-p09",
+          "tipo": "eleccion",
+          "enunciado": "It's Anna's bracelet. It's ...",
+          "opciones": [
+            "hers",
+            "his",
+            "ours"
+          ],
+          "correcta": 0,
+          "explicacion": "Anna es una chica: «hers» (suya, de ella).",
+          "ayuda": "Es la pulsera de Anna. Es suya (de ella)."
+        },
+        {
+          "id": "ingles-t05-p10",
+          "tipo": "eleccion",
+          "enunciado": "It's our trophy. It's ...",
+          "opciones": [
+            "ours",
+            "theirs",
+            "mine"
+          ],
+          "correcta": 0,
+          "explicacion": "«Our» trophy → «It's ours» (es nuestro).",
+          "ayuda": "Es nuestro trofeo. Es nuestro."
+        },
+        {
+          "id": "ingles-t05-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Whose",
+            "puppet",
+            "is",
+            "it?"
+          ],
+          "explicacion": "«Whose puppet is it?» = «¿De quién es la marioneta?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t05-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I'm",
+            "wearing",
+            "a",
+            "hoodie"
+          ],
+          "explicacion": "«I'm wearing a hoodie» = «Llevo puesta una sudadera».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t05-p13",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "What",
+            "are",
+            "you",
+            "wearing?"
+          ],
+          "explicacion": "«What are you wearing?» = «¿Qué llevas puesto?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t05-p14",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «pijama» en inglés?",
+          "respuestas": [
+            "pyjamas"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! Pijama se dice «pyjamas»."
+        },
+        {
+          "id": "ingles-t05-p15",
+          "tipo": "eleccion",
+          "enunciado": "Which one is clothes?",
+          "opciones": [
+            "jeans",
+            "guitar",
+            "poster"
+          ],
+          "correcta": 0,
+          "explicacion": "«Jeans» (vaqueros) es ropa.",
+          "ayuda": "¿Cuál es ropa?"
+        },
+        {
+          "id": "ingles-t05-p16",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «vaqueros».",
+          "respuestas": [
+            "jeans"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Vaqueros se dice «jeans»."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t06",
+      "numero": 5,
+      "titulo": "Unit 5: Around town",
+      "paginas": "50-59",
+      "resumen": "Lugares de la ciudad y transportes; there is/there are y preposiciones de lugar.",
+      "explicacion": "Vamos por la ciudad: hospital, police station (comisaría), supermarket, school, toy shop (juguetería), park, hotel y bus stop (parada de autobús). Los transportes: car, bike, motorbike (moto), train, van (furgoneta) y lorry (camión). Decimos «Is there a park in your street? – Yes, there is» y «Are there any vans? – No, there aren't». Para decir dónde está algo: in front of (delante de), next to (al lado de), behind (detrás de) y between (entre).",
+      "preguntas": [
+        {
+          "id": "ingles-t06-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «comisaría» en inglés?",
+          "respuestas": [
+            "police station"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «comisaría» se dice «police station»."
+        },
+        {
+          "id": "ingles-t06-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «parada de autobús» en inglés?",
+          "respuestas": [
+            "bus stop"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «parada de autobús» se dice «bus stop»."
+        },
+        {
+          "id": "ingles-t06-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «toy shop»?",
+          "opciones": [
+            "juguetería",
+            "supermercado",
+            "hotel"
+          ],
+          "correcta": 0,
+          "explicacion": "«Toy shop» es la tienda de juguetes, la juguetería."
+        },
+        {
+          "id": "ingles-t06-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "lorry",
+              "camión"
+            ],
+            [
+              "van",
+              "furgoneta"
+            ],
+            [
+              "motorbike",
+              "moto"
+            ],
+            [
+              "bike",
+              "bicicleta"
+            ]
+          ],
+          "explicacion": "¡Genial! Son medios de transporte.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t06-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "behind",
+              "detrás de"
+            ],
+            [
+              "next to",
+              "al lado de"
+            ],
+            [
+              "in front of",
+              "delante de"
+            ],
+            [
+              "between",
+              "entre"
+            ]
+          ],
+          "explicacion": "Estas palabras dicen dónde está algo.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t06-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «tren» en inglés?",
+          "respuestas": [
+            "train",
+            "a train",
+            "the train"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «tren» se dice «train»."
+        },
+        {
+          "id": "ingles-t06-p07",
+          "tipo": "eleccion",
+          "enunciado": "Is there a hospital in your street? – Yes, there ...",
+          "opciones": [
+            "is",
+            "are",
+            "has"
+          ],
+          "correcta": 0,
+          "explicacion": "Para una sola cosa: «Yes, there is».",
+          "ayuda": "¿Hay un hospital en tu calle? – Sí, ..."
+        },
+        {
+          "id": "ingles-t06-p08",
+          "tipo": "eleccion",
+          "enunciado": "Are there any lorries? – No, there ...",
+          "opciones": [
+            "aren't",
+            "isn't",
+            "don't"
+          ],
+          "correcta": 0,
+          "explicacion": "Para varias cosas: «No, there aren't».",
+          "ayuda": "¿Hay camiones? – No, ..."
+        },
+        {
+          "id": "ingles-t06-p09",
+          "tipo": "eleccion",
+          "enunciado": "... there a park in your town?",
+          "opciones": [
+            "Is",
+            "Are",
+            "Has"
+          ],
+          "correcta": 0,
+          "explicacion": "Con una cosa (a park) usamos «Is there...?».",
+          "ayuda": "¿Hay un parque en tu ciudad?"
+        },
+        {
+          "id": "ingles-t06-p10",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Shall we",
+            "go",
+            "to the",
+            "park?"
+          ],
+          "explicacion": "«Shall we go to the park?» = «¿Vamos al parque?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t06-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Where's",
+            "the",
+            "bus",
+            "stop?"
+          ],
+          "explicacion": "«Where's...?» = «¿Dónde está...?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t06-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "The car",
+            "is",
+            "behind",
+            "the van"
+          ],
+          "explicacion": "«behind» = detrás de.",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t06-p13",
+          "tipo": "eleccion",
+          "enunciado": "The cat is ... the car and the bike.",
+          "opciones": [
+            "between",
+            "behind",
+            "next"
+          ],
+          "correcta": 0,
+          "explicacion": "«Between» significa «entre» dos cosas.",
+          "ayuda": "El gato está entre el coche y la bici."
+        },
+        {
+          "id": "ingles-t06-p14",
+          "tipo": "eleccion",
+          "enunciado": "Where do you buy food?",
+          "opciones": [
+            "supermarket",
+            "hospital",
+            "police station"
+          ],
+          "correcta": 0,
+          "explicacion": "La comida se compra en el supermercado: «supermarket».",
+          "ayuda": "¿Dónde compras comida?"
+        },
+        {
+          "id": "ingles-t06-p15",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «coche».",
+          "respuestas": [
+            "car",
+            "a car",
+            "the car"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Coche se dice «car»."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t07",
+      "numero": 6,
+      "titulo": "Unit 6: At the weekend",
+      "paginas": "60-69",
+      "resumen": "Deportes, juegos y actividades de tiempo libre; presente continuo (He's playing...).",
+      "explicacion": "El fin de semana jugamos: play table tennis (ping-pong), tag (pilla-pilla), ice hockey, badminton, hide and seek (escondite), frisbee, chess (ajedrez) y dominoes. En tiempo libre: listen to music, read comics, watch TV, do judo, fly a kite (volar una cometa) y play with friends. Para decir qué está haciendo alguien: «What's he doing? – He's playing chess». «What are they doing? – They're reading comics».",
+      "preguntas": [
+        {
+          "id": "ingles-t07-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «ajedrez» en inglés?",
+          "respuestas": [
+            "chess"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «ajedrez» se dice «chess»."
+        },
+        {
+          "id": "ingles-t07-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «hide and seek»?",
+          "opciones": [
+            "el escondite",
+            "el pilla-pilla",
+            "el dominó"
+          ],
+          "correcta": 0,
+          "explicacion": "«Hide and seek» es el escondite."
+        },
+        {
+          "id": "ingles-t07-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «tag»?",
+          "opciones": [
+            "el pilla-pilla",
+            "el ajedrez",
+            "el bádminton"
+          ],
+          "correcta": 0,
+          "explicacion": "«Play tag» es jugar al pilla-pilla."
+        },
+        {
+          "id": "ingles-t07-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "fly a kite",
+              "volar una cometa"
+            ],
+            [
+              "read comics",
+              "leer cómics"
+            ],
+            [
+              "listen to music",
+              "escuchar música"
+            ],
+            [
+              "watch TV",
+              "ver la tele"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Son actividades de tiempo libre.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t07-p05",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «ping-pong» en inglés?",
+          "respuestas": [
+            "table tennis"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Bien! Al ping-pong se le llama «table tennis»."
+        },
+        {
+          "id": "ingles-t07-p06",
+          "tipo": "eleccion",
+          "enunciado": "What's she doing? – She's ... badminton.",
+          "opciones": [
+            "playing",
+            "play",
+            "plays"
+          ],
+          "correcta": 0,
+          "explicacion": "Para algo que pasa ahora usamos -ing: «She's playing».",
+          "ayuda": "¿Qué está haciendo ella? – Está jugando al bádminton."
+        },
+        {
+          "id": "ingles-t07-p07",
+          "tipo": "eleccion",
+          "enunciado": "What are they doing? – ... playing dominoes.",
+          "opciones": [
+            "They're",
+            "He's",
+            "She's"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «they» decimos «They're» (ellos están).",
+          "ayuda": "¿Qué están haciendo ellos?"
+        },
+        {
+          "id": "ingles-t07-p08",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "He's",
+            "playing",
+            "ice",
+            "hockey"
+          ],
+          "explicacion": "«He's playing ice hockey» = «Está jugando al hockey sobre hielo».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t07-p09",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "What",
+            "games",
+            "do",
+            "you",
+            "like?"
+          ],
+          "explicacion": "«What games do you like?» = «¿Qué juegos te gustan?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t07-p10",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Is",
+            "she",
+            "reading",
+            "comics?"
+          ],
+          "explicacion": "«Is she reading comics?» = «¿Está leyendo cómics?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t07-p11",
+          "tipo": "eleccion",
+          "enunciado": "Is he doing judo? – Yes, he ...",
+          "opciones": [
+            "is",
+            "does",
+            "has"
+          ],
+          "correcta": 0,
+          "explicacion": "Si preguntamos con «Is he...?», contestamos «Yes, he is».",
+          "ayuda": "¿Está haciendo judo? – Sí, ..."
+        },
+        {
+          "id": "ingles-t07-p12",
+          "tipo": "eleccion",
+          "enunciado": "Is she flying a kite? – No, she ...",
+          "opciones": [
+            "isn't",
+            "doesn't",
+            "aren't"
+          ],
+          "correcta": 0,
+          "explicacion": "La negativa es «No, she isn't».",
+          "ayuda": "¿Está volando una cometa? – No, ..."
+        },
+        {
+          "id": "ingles-t07-p13",
+          "tipo": "eleccion",
+          "enunciado": "They're ... with friends.",
+          "opciones": [
+            "playing",
+            "play",
+            "plays"
+          ],
+          "correcta": 0,
+          "explicacion": "«They're playing» = están jugando.",
+          "ayuda": "Están jugando con amigos."
+        },
+        {
+          "id": "ingles-t07-p14",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «dominó» (el juego).",
+          "respuestas": [
+            "dominoes"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "El dominó se dice «dominoes»."
+        },
+        {
+          "id": "ingles-t07-p15",
+          "tipo": "eleccion",
+          "enunciado": "I like chess ... frisbee.",
+          "opciones": [
+            "and",
+            "the",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Para unir dos cosas usamos «and» (y).",
+          "ayuda": "Me gusta el ajedrez y el frisbee."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t08",
+      "numero": 7,
+      "titulo": "Unit 7: My day",
+      "paginas": "72-81",
+      "resumen": "Rutinas diarias y la hora; presente simple (He gets up at...).",
+      "explicacion": "Contamos nuestro día: get up (levantarse), get dressed (vestirse), brush my hair (peinarme), brush my teeth (lavarme los dientes), have a shower (ducharme), go to school, do my homework y go to bed. Las partes del día: in the morning, afternoon, evening. La hora: «What time is it? – It's nine o'clock / one thirty / one fifteen». Con he/she añadimos -s: «She gets up at seven o'clock».",
+      "preguntas": [
+        {
+          "id": "ingles-t08-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «levantarse» en inglés?",
+          "respuestas": [
+            "get up"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "«Get up» es levantarse."
+        },
+        {
+          "id": "ingles-t08-p02",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "get dressed",
+              "vestirse"
+            ],
+            [
+              "have a shower",
+              "ducharse"
+            ],
+            [
+              "go to bed",
+              "irse a la cama"
+            ],
+            [
+              "do my homework",
+              "hacer mis deberes"
+            ]
+          ],
+          "explicacion": "¡Genial! Son rutinas diarias.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t08-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «brush my teeth»?",
+          "opciones": [
+            "lavarme los dientes",
+            "peinarme",
+            "vestirme"
+          ],
+          "correcta": 0,
+          "explicacion": "«Brush my teeth» = lavarme los dientes."
+        },
+        {
+          "id": "ingles-t08-p04",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «brush my hair»?",
+          "opciones": [
+            "peinarme",
+            "ducharme",
+            "lavarme los dientes"
+          ],
+          "correcta": 0,
+          "explicacion": "«Brush my hair» = peinarme (cepillarme el pelo)."
+        },
+        {
+          "id": "ingles-t08-p05",
+          "tipo": "eleccion",
+          "enunciado": "It's 1:30. It's one ...",
+          "opciones": [
+            "thirty",
+            "fifteen",
+            "twenty"
+          ],
+          "correcta": 0,
+          "explicacion": "1:30 se dice «one thirty».",
+          "ayuda": "Son la una y media."
+        },
+        {
+          "id": "ingles-t08-p06",
+          "tipo": "eleccion",
+          "enunciado": "It's 3:00. It's three ...",
+          "opciones": [
+            "o'clock",
+            "thirty",
+            "fifteen"
+          ],
+          "correcta": 0,
+          "explicacion": "Las horas en punto: «three o'clock».",
+          "ayuda": "Son las tres en punto."
+        },
+        {
+          "id": "ingles-t08-p07",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "one fifteen",
+              "1:15"
+            ],
+            [
+              "one forty-five",
+              "1:45"
+            ],
+            [
+              "one twenty",
+              "1:20"
+            ],
+            [
+              "one fifty",
+              "1:50"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Así se dice la hora en inglés.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t08-p08",
+          "tipo": "eleccion",
+          "enunciado": "She ... up at seven o'clock.",
+          "opciones": [
+            "gets",
+            "get",
+            "getting"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she añadimos -s: «she gets up».",
+          "ayuda": "Ella se levanta a las siete."
+        },
+        {
+          "id": "ingles-t08-p09",
+          "tipo": "eleccion",
+          "enunciado": "When ... he go to bed?",
+          "opciones": [
+            "does",
+            "do",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she preguntamos con «does».",
+          "ayuda": "¿Cuándo se va a la cama él?"
+        },
+        {
+          "id": "ingles-t08-p10",
+          "tipo": "eleccion",
+          "enunciado": "He ... get up at six o'clock.",
+          "opciones": [
+            "doesn't",
+            "don't",
+            "isn't"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she la negativa es «doesn't».",
+          "ayuda": "Él no se levanta a las seis."
+        },
+        {
+          "id": "ingles-t08-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "What",
+            "time",
+            "is",
+            "it?"
+          ],
+          "explicacion": "«What time is it?» = «¿Qué hora es?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t08-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I",
+            "go",
+            "to",
+            "school"
+          ],
+          "explicacion": "«I go to school» = «Voy al colegio».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t08-p13",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I",
+            "do",
+            "my",
+            "homework"
+          ],
+          "explicacion": "«I do my homework» = «Hago mis deberes».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t08-p14",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "He",
+            "gets",
+            "dressed",
+            "at",
+            "eight"
+          ],
+          "explicacion": "«He gets dressed at eight» = «Se viste a las ocho».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t08-p15",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «ir a la cama».",
+          "respuestas": [
+            "go to bed"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Irse a la cama es «go to bed»."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t09",
+      "numero": 8,
+      "titulo": "Unit 8: My talents",
+      "paginas": "82-91",
+      "resumen": "Habilidades y talentos; can, like + -ing y good at.",
+      "explicacion": "Aprendemos habilidades: throw (lanzar), kick (dar patadas), skateboard, hop (saltar a la pata coja), skip (saltar a la comba), ride a bike, bounce (botar) y rollerblade (patinar en línea). Y talentos: bake cupcakes (hornear magdalenas), act (actuar), paint pictures, juggle (hacer malabares), do gymnastics y play the keyboard. Decimos «I can kick», «She likes painting pictures» y «I'm good at juggling».",
+      "preguntas": [
+        {
+          "id": "ingles-t09-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «lanzar» en inglés?",
+          "respuestas": [
+            "throw",
+            "a throw",
+            "the throw"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «lanzar» se dice «throw»."
+        },
+        {
+          "id": "ingles-t09-p02",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «kick»?",
+          "opciones": [
+            "dar una patada",
+            "lanzar",
+            "botar"
+          ],
+          "correcta": 0,
+          "explicacion": "«Kick» es dar una patada."
+        },
+        {
+          "id": "ingles-t09-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «juggle»?",
+          "opciones": [
+            "hacer malabares",
+            "bailar",
+            "actuar"
+          ],
+          "correcta": 0,
+          "explicacion": "«Juggle» es hacer malabares."
+        },
+        {
+          "id": "ingles-t09-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "hop",
+              "saltar a la pata coja"
+            ],
+            [
+              "bounce",
+              "botar"
+            ],
+            [
+              "ride a bike",
+              "montar en bici"
+            ],
+            [
+              "skip",
+              "saltar a la comba"
+            ]
+          ],
+          "explicacion": "¡Genial! Son habilidades.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t09-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "bake cupcakes",
+              "hornear magdalenas"
+            ],
+            [
+              "paint pictures",
+              "pintar cuadros"
+            ],
+            [
+              "act",
+              "actuar"
+            ],
+            [
+              "play the keyboard",
+              "tocar el teclado"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Son talentos.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t09-p06",
+          "tipo": "eleccion",
+          "enunciado": "What can you do? – I ... skateboard.",
+          "opciones": [
+            "can",
+            "am",
+            "does"
+          ],
+          "correcta": 0,
+          "explicacion": "«I can skateboard» = «Sé montar en monopatín».",
+          "ayuda": "¿Qué sabes hacer?"
+        },
+        {
+          "id": "ingles-t09-p07",
+          "tipo": "eleccion",
+          "enunciado": "She ... painting pictures.",
+          "opciones": [
+            "likes",
+            "like",
+            "liking"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he/she: «likes».",
+          "ayuda": "A ella le gusta pintar cuadros."
+        },
+        {
+          "id": "ingles-t09-p08",
+          "tipo": "eleccion",
+          "enunciado": "Does he like acting? – Yes, he ...",
+          "opciones": [
+            "does",
+            "do",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con he: «Yes, he does».",
+          "ayuda": "¿Le gusta actuar? – Sí, ..."
+        },
+        {
+          "id": "ingles-t09-p09",
+          "tipo": "eleccion",
+          "enunciado": "I'm good at ...",
+          "opciones": [
+            "juggling",
+            "juggle",
+            "juggles"
+          ],
+          "correcta": 0,
+          "explicacion": "Después de «good at» usamos -ing: «good at juggling».",
+          "ayuda": "Se me dan bien los malabares."
+        },
+        {
+          "id": "ingles-t09-p10",
+          "tipo": "eleccion",
+          "enunciado": "Are you good at acting? – No, I'm ...",
+          "opciones": [
+            "not",
+            "don't",
+            "can't"
+          ],
+          "correcta": 0,
+          "explicacion": "La negativa es «No, I'm not».",
+          "ayuda": "¿Se te da bien actuar? – No, ..."
+        },
+        {
+          "id": "ingles-t09-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I'm",
+            "good",
+            "at",
+            "doing",
+            "gymnastics"
+          ],
+          "explicacion": "«I'm good at doing gymnastics» = «Se me da bien la gimnasia».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t09-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "He",
+            "doesn't",
+            "like",
+            "baking",
+            "cupcakes"
+          ],
+          "explicacion": "«He doesn't like...» = «A él no le gusta...».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t09-p13",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Can",
+            "you",
+            "ride",
+            "a",
+            "bike?"
+          ],
+          "explicacion": "«Can you ride a bike?» = «¿Sabes montar en bici?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t09-p14",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «patinar en línea» en inglés?",
+          "respuestas": [
+            "rollerblade",
+            "a rollerblade",
+            "the rollerblade"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «patinar en línea» se dice «rollerblade»."
+        },
+        {
+          "id": "ingles-t09-p15",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «actuar».",
+          "respuestas": [
+            "act"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Actuar es «act»."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t10",
+      "numero": 9,
+      "titulo": "Unit 9: My home",
+      "paginas": "94-103",
+      "resumen": "Muebles del salón y cosas de la cocina; there is/are, preposiciones y comparativos (longer/shorter).",
+      "explicacion": "En el salón hay armchair (sillón), rug (alfombra), painting (cuadro), fireplace (chimenea), curtains (cortinas), coffee table (mesita), vase (jarrón) y shelf (estantería). En la cocina: plate (plato), knife (cuchillo), fork (tenedor), spoon (cuchara), glass (vaso) y jug (jarra). Decimos «There's a vase on the shelf», «There aren't any plates on the table» y comparamos: «The knife is longer than the spoon».",
+      "preguntas": [
+        {
+          "id": "ingles-t10-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «sillón» en inglés?",
+          "respuestas": [
+            "armchair",
+            "a armchair",
+            "the armchair"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «sillón» se dice «armchair»."
+        },
+        {
+          "id": "ingles-t10-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «cortinas» en inglés?",
+          "respuestas": [
+            "curtains"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «cortinas» se dice «curtains»."
+        },
+        {
+          "id": "ingles-t10-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «fireplace»?",
+          "opciones": [
+            "chimenea",
+            "estantería",
+            "jarrón"
+          ],
+          "correcta": 0,
+          "explicacion": "«Fireplace» es la chimenea."
+        },
+        {
+          "id": "ingles-t10-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "rug",
+              "alfombra"
+            ],
+            [
+              "vase",
+              "jarrón"
+            ],
+            [
+              "shelf",
+              "estantería"
+            ],
+            [
+              "painting",
+              "cuadro"
+            ]
+          ],
+          "explicacion": "¡Genial! Son cosas del salón.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t10-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "knife",
+              "cuchillo"
+            ],
+            [
+              "fork",
+              "tenedor"
+            ],
+            [
+              "spoon",
+              "cuchara"
+            ],
+            [
+              "plate",
+              "plato"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Son cosas de la cocina.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t10-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «vaso» en inglés?",
+          "respuestas": [
+            "glass"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «vaso» se dice «glass»."
+        },
+        {
+          "id": "ingles-t10-p07",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «jarra» en inglés?",
+          "respuestas": [
+            "jug",
+            "a jug",
+            "the jug"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «jarra» se dice «jug»."
+        },
+        {
+          "id": "ingles-t10-p08",
+          "tipo": "eleccion",
+          "enunciado": "Where shall I put the vase? – ... the shelf.",
+          "opciones": [
+            "On",
+            "Between",
+            "Next"
+          ],
+          "correcta": 0,
+          "explicacion": "«On the shelf» = encima de la estantería.",
+          "ayuda": "¿Dónde pongo el jarrón? – En la estantería."
+        },
+        {
+          "id": "ingles-t10-p09",
+          "tipo": "eleccion",
+          "enunciado": "There ... three plates on the table.",
+          "opciones": [
+            "are",
+            "is",
+            "isn't"
+          ],
+          "correcta": 0,
+          "explicacion": "Con varias cosas: «There are».",
+          "ayuda": "Hay tres platos en la mesa."
+        },
+        {
+          "id": "ingles-t10-p10",
+          "tipo": "eleccion",
+          "enunciado": "There ... a rug on the floor.",
+          "opciones": [
+            "is",
+            "are",
+            "aren't"
+          ],
+          "correcta": 0,
+          "explicacion": "Con una cosa: «There is / There's».",
+          "ayuda": "Hay una alfombra en el suelo."
+        },
+        {
+          "id": "ingles-t10-p11",
+          "tipo": "eleccion",
+          "enunciado": "The knife is ... than the spoon.",
+          "opciones": [
+            "longer",
+            "long",
+            "longest"
+          ],
+          "correcta": 0,
+          "explicacion": "Para comparar añadimos -er + than: «longer than».",
+          "ayuda": "El cuchillo es más largo que la cuchara."
+        },
+        {
+          "id": "ingles-t10-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "There",
+            "isn't",
+            "a",
+            "jug"
+          ],
+          "explicacion": "«There isn't a jug» = «No hay una jarra».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t10-p13",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "The",
+            "fork",
+            "is",
+            "shorter",
+            "than"
+          ],
+          "explicacion": "«shorter than» = «más corto que».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t10-p14",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "Is",
+            "there",
+            "a",
+            "glass?"
+          ],
+          "explicacion": "«Is there a glass?» = «¿Hay un vaso?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t10-p15",
+          "tipo": "eleccion",
+          "enunciado": "There aren't ... cups on the table.",
+          "opciones": [
+            "any",
+            "a",
+            "some"
+          ],
+          "correcta": 0,
+          "explicacion": "En negativo con varias cosas usamos «any».",
+          "ayuda": "No hay tazas en la mesa."
+        }
+      ]
+    },
+    {
+      "id": "ingles-t11",
+      "numero": 10,
+      "titulo": "Unit 10: Days out",
+      "paginas": "104-113",
+      "resumen": "Lugares de ocio y el tiempo atmosférico; pasado de to be (was/were).",
+      "explicacion": "Salimos de excursión: funfair (feria), wildlife park (parque de animales), skate park, bowling alley (bolera), café, swimming pool (piscina), adventure playground (parque de aventuras) y castle (castillo). El tiempo: sunny (soleado), snowy, rainy (lluvioso), cloudy (nublado), windy (ventoso) y foggy (con niebla). Para hablar del pasado: «I was at the castle on Saturday», «Where were you yesterday?» y «What was the weather like? – It was sunny».",
+      "preguntas": [
+        {
+          "id": "ingles-t11-p01",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «castillo» en inglés?",
+          "respuestas": [
+            "castle",
+            "a castle",
+            "the castle"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «castillo» se dice «castle»."
+        },
+        {
+          "id": "ingles-t11-p02",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «piscina» en inglés?",
+          "respuestas": [
+            "swimming pool"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "¡Muy bien! «piscina» se dice «swimming pool»."
+        },
+        {
+          "id": "ingles-t11-p03",
+          "tipo": "eleccion",
+          "enunciado": "¿Qué es «bowling alley»?",
+          "opciones": [
+            "la bolera",
+            "la feria",
+            "la piscina"
+          ],
+          "correcta": 0,
+          "explicacion": "«Bowling alley» es la bolera."
+        },
+        {
+          "id": "ingles-t11-p04",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "funfair",
+              "feria"
+            ],
+            [
+              "wildlife park",
+              "parque de animales"
+            ],
+            [
+              "adventure playground",
+              "parque de aventuras"
+            ],
+            [
+              "skate park",
+              "pista de skate"
+            ]
+          ],
+          "explicacion": "¡Genial! Son lugares para divertirse.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t11-p05",
+          "tipo": "relacionar",
+          "enunciado": "Match the English words with Spanish.",
+          "pares": [
+            [
+              "sunny",
+              "soleado"
+            ],
+            [
+              "rainy",
+              "lluvioso"
+            ],
+            [
+              "cloudy",
+              "nublado"
+            ],
+            [
+              "foggy",
+              "con niebla"
+            ]
+          ],
+          "explicacion": "¡Muy bien! Así hablamos del tiempo.",
+          "ayuda": "Une cada palabra en inglés con su significado en español."
+        },
+        {
+          "id": "ingles-t11-p06",
+          "tipo": "escribir",
+          "enunciado": "¿Cómo se dice «ventoso (hace viento)» en inglés?",
+          "respuestas": [
+            "windy",
+            "a windy",
+            "the windy"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Ventoso se dice «windy»."
+        },
+        {
+          "id": "ingles-t11-p07",
+          "tipo": "eleccion",
+          "enunciado": "Where were you yesterday? – I ... at the funfair.",
+          "opciones": [
+            "was",
+            "were",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «I» el pasado de «am» es «was».",
+          "ayuda": "¿Dónde estabas ayer? – Estaba en la feria."
+        },
+        {
+          "id": "ingles-t11-p08",
+          "tipo": "eleccion",
+          "enunciado": "Where ... you yesterday?",
+          "opciones": [
+            "were",
+            "was",
+            "are"
+          ],
+          "correcta": 0,
+          "explicacion": "Con «you» el pasado es «were».",
+          "ayuda": "¿Dónde estabas ayer?"
+        },
+        {
+          "id": "ingles-t11-p09",
+          "tipo": "eleccion",
+          "enunciado": "What was the weather like? – It ... snowy.",
+          "opciones": [
+            "was",
+            "were",
+            "is"
+          ],
+          "correcta": 0,
+          "explicacion": "Para el tiempo de ayer: «It was snowy».",
+          "ayuda": "¿Qué tiempo hizo? – Nevó."
+        },
+        {
+          "id": "ingles-t11-p10",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "What",
+            "was",
+            "the",
+            "weather",
+            "like?"
+          ],
+          "explicacion": "«What was the weather like?» = «¿Qué tiempo hizo?».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t11-p11",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "I",
+            "was",
+            "at",
+            "the",
+            "castle"
+          ],
+          "explicacion": "«I was at the castle» = «Estuve en el castillo».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t11-p12",
+          "tipo": "ordenar",
+          "enunciado": "Put the words in order.",
+          "elementos": [
+            "It",
+            "was",
+            "cloudy",
+            "yesterday"
+          ],
+          "explicacion": "«It was cloudy yesterday» = «Ayer estuvo nublado».",
+          "ayuda": "Ordena las palabras para formar la frase."
+        },
+        {
+          "id": "ingles-t11-p13",
+          "tipo": "eleccion",
+          "enunciado": "I like the funfair. – So ... I.",
+          "opciones": [
+            "do",
+            "am",
+            "was"
+          ],
+          "correcta": 0,
+          "explicacion": "«So do I» = «A mí también».",
+          "ayuda": "Me gusta la feria. – A mí también."
+        },
+        {
+          "id": "ingles-t11-p14",
+          "tipo": "eleccion",
+          "enunciado": "¿Cómo se dice «nevado / con nieve»?",
+          "opciones": [
+            "snowy",
+            "sunny",
+            "windy"
+          ],
+          "correcta": 0,
+          "explicacion": "Con nieve es «snowy»."
+        },
+        {
+          "id": "ingles-t11-p15",
+          "tipo": "escribir",
+          "enunciado": "Escribe en inglés: «soleado».",
+          "respuestas": [
+            "sunny"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Soleado es «sunny»."
+        }
+      ]
+    }
+  ]
+}

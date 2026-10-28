@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/types.ts","./src/content/asignaturas.ts","./src/logic/aleatorio.ts","./src/logic/correccion.ts","./src/logic/sesion.ts","./src/storage/db.ts","./src/storage/estado.ts","./src/ui/adulto.tsx","./src/ui/app.tsx","./src/ui/ejercicio.tsx","./src/ui/practica.tsx","./src/ui/ruta.ts","./src/ui/sonido.ts","./src/ui/useestado.ts"],"version":"5.9.3"}
