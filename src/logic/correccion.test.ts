@@ -53,3 +53,13 @@ describe('esCorrecta', () => {
     expect(esCorrecta(r, { tipo: 'relacionar', pares: [['a', 'A']] })).toBe(false);
   });
 });
+
+describe('orden de las opciones', () => {
+  it('se barajan de forma estable por pregunta y no siempre con la correcta primero', async () => {
+    const { azarDe, barajar } = await import('./aleatorio');
+    const orden = (id: string) => barajar([0, 1, 2], azarDe(id, 42));
+    expect(orden('a')).toEqual(orden('a'));
+    const primeras = Array.from({ length: 60 }, (_, k) => orden(`p${k}`)[0]);
+    for (const i of [0, 1, 2]) expect(primeras.filter((x) => x === i).length).toBeGreaterThan(8);
+  });
+});

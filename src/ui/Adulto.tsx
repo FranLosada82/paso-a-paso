@@ -5,7 +5,11 @@ import { estadoInicial, exportarCopia, importarCopia, type Estado } from '../sto
 import type { Asignatura } from '../types';
 import { Cabecera } from './Practica';
 import { ir } from './ruta';
-import { dominio, paginaClase, temasDisponibles } from './App';
+import { paginaClase } from './App';
+import { resumenAsignatura, type FilaConcepto } from '../logic/tutor/resumen';
+import { conceptosDe } from '../logic/tutor/modelo';
+import { DURACIONES, PARAMETROS, type Duracion } from '../logic/tutor/parametros';
+import { hayVoz } from './voz';
 
 type Act = (f: (e: Estado) => Estado) => void;
 
@@ -109,11 +113,15 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
         <h2>Página por la que vais en clase</h2>
         <ul className="lista-asig">
           {ASIGNATURAS.map((a) => {
-            const d = temasDisponibles(estado, a); const pag = paginaClase(estado, a); const s = estado.sesiones.filter((x) => x.asignatura === a.id);
+            const pag = paginaClase(estado, a); const s = estado.sesiones.filter((x) => x.asignatura === a.id); const r = resumenAsignatura(estado, a);
             return (
               <li key={a.id}>
-                <span>{meta(a.id).emoji} <b>{a.nombre}</b><br /><small>{pag !== undefined ? `pág. ${pag}` : 'sin página'} · dominio {dominio(estado, a, d)}% · {s.length} sesiones</small></span>
-                <button className="boton peq" onClick={() => ir({ pantalla: 'temas', asig: a.id })}>Página</button>
+                <span>{meta(a.id).emoji} <b>{a.nombre}</b><br />
+                  <small>{pag !== undefined ? `pág. ${pag}` : 'sin página'} · {s.length} sesiones{r.filas.length > 0 && <> · {r.dominados} dominadas, {r.ayuda} con dificultad, {r.porRepasar} por repasar</>}</small></span>
+                <span className="botones">
+                  <button className="boton peq secundario" onClick={() => ir({ pantalla: 'progreso', asig: a.id })}>Progreso</button>
+                  <button className="boton peq" onClick={() => ir({ pantalla: 'temas', asig: a.id })}>Página</button>
+                </span>
               </li>
             );
           })}
@@ -123,6 +131,14 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
         <h2>Ajustes</h2>
         <label className="interruptor"><input type="checkbox" checked={estado.ajustes.textoGrande} onChange={(e) => actualizar((s) => ({ ...s, ajustes: { ...s.ajustes, textoGrande: e.target.checked } }))} /> Texto grande</label>
         <label className="interruptor"><input type="checkbox" checked={estado.ajustes.sonido} onChange={(e) => actualizar((s) => ({ ...s, ajustes: { ...s.ajustes, sonido: e.target.checked } }))} /> Sonido suave al responder</label>
+        <label className="interruptor"><input type="checkbox" checked={estado.ajustes.voz} onChange={(e) => actualizar((s) => ({ ...s, ajustes: { ...s.ajustes, voz: e.target.checked } }))} /> Botones para escuchar en voz alta 🔊</label>
+        {!hayVoz() && <p className="nota">Este navegador no tiene voz: los botones 🔊 no aparecerán.</p>}
+        <label className="interruptor">Duración de cada sesión
+          <select className="selector" value={estado.ajustes.duracion} onChange={(e) => actualizar((s) => ({ ...s, ajustes: { ...s.ajustes, duracion: e.target.value as Duracion } }))}>
+            {DURACIONES.map((d) => <option key={d} value={d}>{`unos ${PARAMETROS.sesion[d].minutos} minutos`}</option>)}
+          </select>
+        </label>
+        <p className="nota">Orientativa: no hay cronómetro y nunca se corta una actividad a medias.</p>
       </section>
       <section className="tarjeta">
         <h2>Copia de seguridad</h2>
@@ -144,8 +160,62 @@ export function Adulto({ estado, actualizar, reemplazar }: { estado: Estado; act
       <section className="tarjeta nota">
         <h2>Sobre el contenido</h2>
         <p>{total} preguntas originales organizadas según el índice de los libros de 2.º. Están inspiradas en sus temas, pero no son una copia del libro ni garantizan cubrir todo lo que se trabaja en clase. Si una pregunta no encaja, se puede corregir en el archivo de contenidos.</p>
+        <p>Cómo funciona: en «Aprender» la app presenta una idea, practica con ayuda, propone aplicarla y termina con un reto; en «Repasar» mezcla lo dado sin pistas al principio. Ajusta la dificultad según los aciertos, los intentos y las pistas (nunca según la rapidez) y vuelve a sacar cada idea al cabo de 1, 3, 7, 14 y 30 días.</p>
         <p>Sin cuentas, sin anuncios, sin analítica. Funciona sin conexión.</p>
       </section>
+    </main>
+  );
+}
+
+const SITUACION: Record<FilaConcepto['situacion'], string> = { dominado: '✔ Dominada', aprendiendo: '◐ Aprendiendo', ayuda: '⚠ Le cuesta', nuevo: '○ Sin empezar' };
+const fecha = (t: number) => (t ? new Date(t).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' }) : '—');
+
+/** Vista para el adulto: qué ha estudiado, qué domina, dónde necesita ayuda y qué conviene repasar. */
+export function ProgresoAsignatura({ asig, estado }: { asig: Asignatura; estado: Estado }) {
+  const r = resumenAsignatura(estado, asig);
+  const sesiones = estado.sesiones.filter((s) => s.asignatura === asig.id).slice(-8).reverse();
+  const nombres = new Map(conceptosDe(asig).map((c) => [c.id, c.nombre]));
+  const grupos: { titulo: string; filas: FilaConcepto[] }[] = [
+    { titulo: 'Necesita ayuda', filas: r.filas.filter((f) => f.situacion === 'ayuda') },
+    { titulo: 'Conviene repasar', filas: r.filas.filter((f) => f.repasar && f.situacion !== 'ayuda') },
+    { titulo: 'Aprendiendo', filas: r.filas.filter((f) => f.situacion === 'aprendiendo' && !f.repasar) },
+    { titulo: 'Domina', filas: r.filas.filter((f) => f.situacion === 'dominado' && !f.repasar) },
+    { titulo: 'Aún sin empezar', filas: r.filas.filter((f) => f.situacion === 'nuevo') },
+  ];
+  return (
+    <main className="pantalla" style={{ ['--acento' as string]: meta(asig.id).color }}>
+      <Cabecera titulo={`Progreso · ${asig.nombre}`} volver={{ pantalla: 'adulto' }} />
+      {r.filas.length === 0 ? <p className="tarjeta">Marca primero la página por la que vais en clase.</p> : (
+        <section className="tarjeta">
+          <p><b>{r.dominados}</b> ideas dominadas · <b>{r.aprendiendo}</b> aprendiendo · <b>{r.ayuda}</b> con dificultad · <b>{r.nuevos}</b> sin empezar · <b>{r.porRepasar}</b> por repasar</p>
+          <p className="nota">Esta información es solo para el adulto. El niño no ve aciertos, fallos ni comparaciones.</p>
+        </section>
+      )}
+      {grupos.filter((g) => g.filas.length).map((g) => (
+        <section className="tarjeta" key={g.titulo}>
+          <h2>{g.titulo}</h2>
+          <ul className="lista-temas">
+            {g.filas.map(({ c, e, situacion }) => (
+              <li key={c.id}>
+                <span><b>{c.nombre}</b> <small>· tema {c.tema.numero}</small><br />
+                  <small>{SITUACION[situacion]}{e ? ` · nivel ${e.nivel} · ${e.actividades} actividades, ${e.fallos} con error, ${e.pistas} pistas · último: ${fecha(e.ultima)} · próximo repaso: ${fecha(e.proximo)}` : ''}</small><br />
+                  <small className="nota">{c.objetivo}</small></span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      {sesiones.length > 0 && (
+        <section className="tarjeta">
+          <h2>Últimas sesiones</h2>
+          <ul className="lista-temas">
+            {sesiones.map((s) => (
+              <li key={s.fecha}><span>{new Date(s.fecha).toLocaleString('es-ES', { dateStyle: 'short', timeStyle: 'short' })} · {s.modo === 'aprender' ? 'Aprender' : 'Repasar'}<br />
+                <small>{s.aciertos} de {s.total} a la primera{s.conceptos?.length ? ` · ${s.conceptos.map((id) => nombres.get(id) ?? id).join(', ')}` : ''}</small></span></li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
   );
 }

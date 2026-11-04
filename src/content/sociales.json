@@ -11,6 +11,118 @@
       "paginas": "6-23",
       "resumen": "Paisajes naturales y humanizados, costa, interior, ríos, rocas, puntos cardinales y cuidado del paisaje.",
       "explicacion": "Un paisaje es todo lo que ves desde un lugar. Hay elementos naturales, como montañas y ríos, y elementos construidos por las personas, como casas y carreteras. Hay paisajes de costa, junto al mar, y de interior, lejos del mar. ¡Y todos debemos cuidarlos!",
+      "conceptos": [
+        {
+          "id": "sociales-t01-c01",
+          "nombre": "El paisaje y sus elementos",
+          "pagina": 8,
+          "objetivo": "Saber que un paisaje es todo lo que se ve desde un lugar y distinguir sus elementos naturales de los construidos por las personas (paisaje humanizado).",
+          "descubre": "Un paisaje es todo lo que ves desde un lugar. Tiene elementos naturales, que hace la naturaleza, como un lago o un árbol, y elementos construidos por las personas, como un colegio o una farola. Si las personas lo han cambiado mucho, es un paisaje humanizado.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Asómate a la ventana de tu clase: todo lo que ves es un paisaje. Las nubes, los pájaros y los árboles son naturales: nadie los ha fabricado. Los bancos, las farolas y los edificios los han construido las personas."
+            },
+            {
+              "estilo": "visual",
+              "texto": "Naturales, los hace la naturaleza: ⛰️ 🌳 ☁️ 🐦\nConstruidos, los hacen las personas: 🏫 🏢 🚦\nSi en un paisaje hay muchos 🏢🏢🏢, está humanizado."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Piensa en un bosque y en el centro de una ciudad. En el bosque casi todo lo ha hecho la naturaleza. En el centro de la ciudad casi todo lo han construido las personas: es un paisaje muy humanizado."
+            }
+          ]
+        },
+        {
+          "id": "sociales-t01-c02",
+          "nombre": "Paisajes de costa y de interior",
+          "pagina": 10,
+          "objetivo": "Distinguir los paisajes de costa (junto al mar) de los de interior (montaña y llanura) y reconocer que la Comunidad de Madrid solo tiene paisajes de interior.",
+          "descubre": "Si un lugar está junto al mar, su paisaje es de costa. Si está lejos del mar, es de interior: puede tener montañas o ser una llanura, un terreno plano. Piensa en tus vacaciones: ¿has visto el mar o las montañas?",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "Piensa en dos excursiones. En la primera hueles a sal, ves barcos y oyes las olas: es un paisaje de costa. En la segunda no hay mar por ningún lado, solo campos y montañas: es un paisaje de interior."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para saber qué paisaje es:\n1. Busca el mar. ¿Está al lado?\n2. Si está al lado, es un paisaje de costa.\n3. Si está muy lejos, es de interior.\n4. Después mira el terreno: ¿hay montañas o es todo plano?"
+            },
+            {
+              "estilo": "visual",
+              "texto": "🌊 ⛵ 🐚 → junto al mar → paisaje de COSTA\n⛰️ 🌲 🌾 → lejos del mar → paisaje de INTERIOR"
+            }
+          ]
+        },
+        {
+          "id": "sociales-t01-c03",
+          "nombre": "El recorrido de un río",
+          "pagina": 14,
+          "objetivo": "Conocer las partes del recorrido de un río: nacimiento, curso y desembocadura.",
+          "descubre": "Un río es agua que corre por la tierra. Su recorrido tiene tres partes: el nacimiento, donde empieza; el curso, el camino que hace; y la desembocadura, donde termina. ¿Has visto alguna vez un río en una excursión?",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Imagina que pones un barquito de papel en un arroyo. Sale desde un punto, viaja con el agua por un camino y al final llega muy lejos. El agua de un río también empieza en un sitio, avanza y termina en otro."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Un río se parece a una carrera del colegio: tiene una salida, un camino y una meta. Piensa qué parte del río se parece a cada una."
+            }
+          ]
+        },
+        {
+          "id": "sociales-t01-c04",
+          "nombre": "Las rocas",
+          "pagina": 18,
+          "objetivo": "Saber que las rocas se sacan de canteras (al aire libre) y de minas (bajo tierra) y que se usan para construir.",
+          "descubre": "Las rocas son un material muy útil para construir. Las personas las sacan de la tierra en canteras, que están al aire libre, y en minas, que están bajo tierra. Busca cosas de piedra cuando pasees por tu barrio.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Muchas cosas que ves cada día están hechas con rocas: el bordillo de la acera, una escalera de piedra o la fuente de una plaza. Antes de llegar a tu barrio, esas rocas se sacaron de la tierra."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Una cantera es como un gran hueco abierto en el suelo: se trabaja al aire libre. Una mina es distinta: se trabaja por debajo de la tierra. En las dos se sacan rocas."
+            }
+          ]
+        },
+        {
+          "id": "sociales-t01-c05",
+          "nombre": "Los puntos cardinales",
+          "pagina": 20,
+          "objetivo": "Conocer los puntos cardinales (norte, sur, este y oeste), sus letras y que sirven para orientarnos.",
+          "descubre": "Para no perdernos, usamos los puntos cardinales: norte, sur, este y oeste. Nos ayudan a orientarnos, es decir, a saber hacia dónde tenemos que ir, en el campo, en la ciudad o cuando miramos un mapa.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Imagina que buscas un tesoro en el patio. El mapa dice: «camina hacia el norte hasta el árbol». Gracias a los puntos cardinales sabes hacia dónde ir y no te pierdes."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para orientarte con un mapa:\n1. Busca dónde estás tú.\n2. Busca el sitio al que quieres ir.\n3. Mira hacia qué punto cardinal está ese sitio.\n4. ¡Camina en esa dirección!"
+            }
+          ]
+        },
+        {
+          "id": "sociales-t01-c06",
+          "nombre": "Cuidamos el paisaje",
+          "pagina": 21,
+          "objetivo": "Reconocer acciones que cuidan el paisaje (reciclar, no ensuciar, contaminar menos el aire) y las que lo dañan.",
+          "descubre": "El paisaje es de todos y todos debemos cuidarlo. Podemos no ensuciarlo, no hacer daño a las plantas y echar menos humo al aire. Por ejemplo, en el parque, deja los bancos y el césped limpios para los demás.",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "Imagina dos parques. En uno hay latas y bolsas por el suelo y las flores están pisadas. En el otro, cada cosa está en su papelera y las flores crecen. El segundo parque está bien cuidado."
+            },
+            {
+              "estilo": "visual",
+              "texto": "🗑️ basura en la papelera → paisaje limpio\n🌷 plantas cuidadas → paisaje bonito\n🚶 menos humo → aire limpio"
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "sociales-t01-p01",
@@ -23,7 +135,12 @@
             "Un dibujo de una casa"
           ],
           "correcta": 0,
-          "explicacion": "¡Eso es! Un paisaje es todo lo que podemos ver desde un sitio."
+          "explicacion": "¡Eso es! Un paisaje es todo lo que podemos ver desde un sitio.",
+          "concepto": "sociales-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en lo que ves cuando miras por una ventana: ¿hay una sola cosa o muchas?"
+          ]
         },
         {
           "id": "sociales-t01-p02",
@@ -36,7 +153,12 @@
             "Una carretera"
           ],
           "correcta": 1,
-          "explicacion": "¡Muy bien! El río lo ha hecho la naturaleza, no las personas."
+          "explicacion": "¡Muy bien! El río lo ha hecho la naturaleza, no las personas.",
+          "concepto": "sociales-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Busca el que no han construido las personas."
+          ]
         },
         {
           "id": "sociales-t01-p03",
@@ -44,7 +166,12 @@
           "pagina": 8,
           "enunciado": "Un paisaje con muchas casas y carreteras es un paisaje humanizado.",
           "correcta": true,
-          "explicacion": "¡Correcto! Si las personas lo han cambiado mucho, decimos que está humanizado."
+          "explicacion": "¡Correcto! Si las personas lo han cambiado mucho, decimos que está humanizado.",
+          "concepto": "sociales-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en quién ha hecho las casas y las carreteras: ¿la naturaleza o las personas?"
+          ]
         },
         {
           "id": "sociales-t01-p04",
@@ -52,7 +179,12 @@
           "pagina": 8,
           "enunciado": "Los paisajes nunca cambian.",
           "correcta": false,
-          "explicacion": "Los paisajes cambian con el tiempo y con las estaciones. Por ejemplo, un río lleva más agua en primavera."
+          "explicacion": "Los paisajes cambian con el tiempo y con las estaciones. Por ejemplo, un río lleva más agua en primavera.",
+          "concepto": "sociales-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en un árbol del parque en verano y en invierno: ¿está igual?"
+          ]
         },
         {
           "id": "sociales-t01-p05",
@@ -66,7 +198,12 @@
             "el litoral"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Genial! La costa es la tierra que está cerca del mar."
+          "explicacion": "¡Genial! La costa es la tierra que está cerca del mar.",
+          "concepto": "sociales-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en el paisaje que ves cuando vas a la playa."
+          ]
         },
         {
           "id": "sociales-t01-p06",
@@ -87,7 +224,12 @@
               "Paisaje de llanura"
             ]
           ],
-          "explicacion": "La playa está junto al mar, los valles están entre montañas y las llanuras son terrenos planos."
+          "explicacion": "La playa está junto al mar, los valles están entre montañas y las llanuras son terrenos planos.",
+          "concepto": "sociales-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Pregúntate en cada caso: ¿está junto al mar?, ¿hay montañas alrededor?, ¿el terreno es plano?"
+          ]
         },
         {
           "id": "sociales-t01-p07",
@@ -100,7 +242,12 @@
             "de playa"
           ],
           "correcta": 1,
-          "explicacion": "¡Bien! Lejos del mar están los paisajes de interior, de montaña o de llanura."
+          "explicacion": "¡Bien! Lejos del mar están los paisajes de interior, de montaña o de llanura.",
+          "concepto": "sociales-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Piensa: si un paisaje está lejos del mar, ¿puede tener playa o costa?"
+          ]
         },
         {
           "id": "sociales-t01-p08",
@@ -112,7 +259,12 @@
             "Curso",
             "Desembocadura"
           ],
-          "explicacion": "El río nace, recorre su curso y al final desemboca en el mar o en otro río."
+          "explicacion": "El río nace, recorre su curso y al final desemboca en el mar o en otro río.",
+          "concepto": "sociales-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en el orden de un viaje: salir, recorrer el camino y llegar."
+          ]
         },
         {
           "id": "sociales-t01-p09",
@@ -120,7 +272,12 @@
           "pagina": 16,
           "enunciado": "La Comunidad de Madrid tiene playas porque está junto al mar.",
           "correcta": false,
-          "explicacion": "Madrid está lejos del mar, así que solo tiene paisajes de interior: montañas y llanuras."
+          "explicacion": "Madrid está lejos del mar, así que solo tiene paisajes de interior: montañas y llanuras.",
+          "concepto": "sociales-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Piensa: ¿dónde hay playas? ¿Está Madrid cerca del mar?"
+          ]
         },
         {
           "id": "sociales-t01-p10",
@@ -133,7 +290,12 @@
             "Los Pirineos"
           ],
           "correcta": 0,
-          "explicacion": "¡Muy bien! La sierra de Guadarrama tiene las montañas más altas de Madrid."
+          "explicacion": "¡Muy bien! La sierra de Guadarrama tiene las montañas más altas de Madrid.",
+          "concepto": "sociales-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Solo una de estas sierras está en la Comunidad de Madrid."
+          ]
         },
         {
           "id": "sociales-t01-p11",
@@ -146,7 +308,12 @@
             "canteras"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Eso es! Las canteras están al aire libre; las minas, bajo tierra."
+          "explicacion": "¡Eso es! Las canteras están al aire libre; las minas, bajo tierra.",
+          "concepto": "sociales-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "No es una mina, porque las minas están bajo tierra."
+          ]
         },
         {
           "id": "sociales-t01-p12",
@@ -154,7 +321,12 @@
           "pagina": 18,
           "enunciado": "Las rocas se usan para construir casas, puentes y muros.",
           "correcta": true,
-          "explicacion": "¡Correcto! Las rocas son un material muy útil para construir."
+          "explicacion": "¡Correcto! Las rocas son un material muy útil para construir.",
+          "concepto": "sociales-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en los puentes y muros antiguos: ¿de qué material están hechos?"
+          ]
         },
         {
           "id": "sociales-t01-p13",
@@ -179,7 +351,12 @@
               "O"
             ]
           ],
-          "explicacion": "Los cuatro puntos cardinales nos ayudan a orientarnos."
+          "explicacion": "Los cuatro puntos cardinales nos ayudan a orientarnos.",
+          "concepto": "sociales-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Fíjate en la primera letra de cada palabra."
+          ]
         },
         {
           "id": "sociales-t01-p14",
@@ -192,7 +369,12 @@
             "Arrancar plantas"
           ],
           "correcta": 1,
-          "explicacion": "¡Genial! Reciclar ayuda a que la basura no ensucie el paisaje."
+          "explicacion": "¡Genial! Reciclar ayuda a que la basura no ensucie el paisaje.",
+          "concepto": "sociales-t01-c06",
+          "nivel": 1,
+          "pistas": [
+            "¿Cuál de las tres cosas deja el paisaje más limpio?"
+          ]
         },
         {
           "id": "sociales-t01-p15",
@@ -205,7 +387,12 @@
             "Ir en moto"
           ],
           "correcta": 0,
-          "explicacion": "¡Bien! Andar o ir en bici no echa humo."
+          "explicacion": "¡Bien! Andar o ir en bici no echa humo.",
+          "concepto": "sociales-t01-c06",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en qué vehículos tienen un tubo que echa humo."
+          ]
         },
         {
           "id": "sociales-t01-p16",
@@ -213,7 +400,112 @@
           "pagina": 8,
           "enunciado": "Un campo de cultivo es un elemento hecho por las personas.",
           "correcta": true,
-          "explicacion": "Sí: los cultivos los preparan y cuidan las personas."
+          "explicacion": "Sí: los cultivos los preparan y cuidan las personas.",
+          "concepto": "sociales-t01-c01",
+          "nivel": 3,
+          "pistas": [
+            "¿Quién siembra las semillas y riega un campo de cultivo?"
+          ]
+        },
+        {
+          "id": "sociales-t01-p17",
+          "tipo": "vf",
+          "pagina": 14,
+          "enunciado": "El nacimiento es el lugar donde empieza un río.",
+          "correcta": true,
+          "explicacion": "Sí: el río empieza en su nacimiento, después recorre su curso y termina en su desembocadura.",
+          "concepto": "sociales-t01-c03",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en la palabra «nacer»: ¿algo nace al principio o al final?"
+          ]
+        },
+        {
+          "id": "sociales-t01-p18",
+          "tipo": "eleccion",
+          "pagina": 14,
+          "enunciado": "Un río pequeño termina al juntarse con un río más grande. ¿Cómo se llama esa parte del río pequeño?",
+          "opciones": [
+            "Nacimiento",
+            "Desembocadura",
+            "Curso"
+          ],
+          "correcta": 1,
+          "explicacion": "La desembocadura es el lugar donde termina un río. Puede estar en el mar o en otro río.",
+          "concepto": "sociales-t01-c03",
+          "nivel": 3,
+          "pistas": [
+            "Un río no siempre termina en el mar.",
+            "¿Cuál es la última parte del recorrido de un río?"
+          ]
+        },
+        {
+          "id": "sociales-t01-p19",
+          "tipo": "eleccion",
+          "pagina": 18,
+          "enunciado": "Ana visita un sitio donde se sacan rocas. Se pone un casco con linterna y baja muy hondo, debajo de la tierra. ¿Dónde está?",
+          "opciones": [
+            "En una cantera",
+            "En una mina",
+            "En un parque"
+          ],
+          "correcta": 1,
+          "explicacion": "Las minas están bajo tierra. Las canteras, en cambio, están al aire libre.",
+          "concepto": "sociales-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "Piensa en los dos sitios donde se sacan rocas: uno está al aire libre y otro, bajo tierra."
+          ]
+        },
+        {
+          "id": "sociales-t01-p20",
+          "tipo": "escribir",
+          "pagina": 20,
+          "enunciado": "¿Cuántos puntos cardinales hay?",
+          "respuestas": [
+            "4",
+            "cuatro",
+            "4 puntos cardinales",
+            "cuatro puntos cardinales"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "Hay cuatro puntos cardinales: norte, sur, este y oeste.",
+          "concepto": "sociales-t01-c05",
+          "nivel": 1,
+          "pistas": [
+            "Di en voz alta sus nombres y cuéntalos con los dedos."
+          ]
+        },
+        {
+          "id": "sociales-t01-p21",
+          "tipo": "eleccion",
+          "pagina": 20,
+          "enunciado": "¿Cuál de estas palabras NO es un punto cardinal?",
+          "opciones": [
+            "Sur",
+            "Delante",
+            "Este"
+          ],
+          "correcta": 1,
+          "explicacion": "Los puntos cardinales son norte, sur, este y oeste. «Delante» no es uno de ellos.",
+          "concepto": "sociales-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Di en voz alta los puntos cardinales y busca la palabra que no es ninguno de ellos."
+          ]
+        },
+        {
+          "id": "sociales-t01-p22",
+          "tipo": "vf",
+          "pagina": 21,
+          "enunciado": "En una excursión al campo, lo correcto es guardar tu basura y tirarla después en su contenedor.",
+          "correcta": true,
+          "explicacion": "Así la basura no ensucia el paisaje y después se puede reciclar.",
+          "concepto": "sociales-t01-c06",
+          "nivel": 3,
+          "pistas": [
+            "Piensa en cómo quedaría el campo si todo el mundo dejara allí su basura."
+          ]
         }
       ]
     },

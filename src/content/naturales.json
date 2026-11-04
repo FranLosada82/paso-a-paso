@@ -11,6 +11,118 @@
       "paginas": "6-21",
       "resumen": "Etapas de la vida, funciones vitales, sentidos, huesos y músculos, respiración y digestión.",
       "explicacion": "Desde que nacemos, nuestro cuerpo crece y cambia. Como todos los seres vivos, hacemos tres funciones vitales: relación, nutrición y reproducción. Los huesos y los músculos nos permiten movernos, los pulmones nos dan oxígeno y la digestión saca de los alimentos lo que necesitamos.",
+      "conceptos": [
+        {
+          "id": "naturales-t01-c01",
+          "nombre": "Crecemos y cambiamos",
+          "pagina": 8,
+          "objetivo": "Ordenar las etapas de la vida y reconocer qué cambia en el cuerpo al crecer (altura, peso, pie, dientes) y qué no (el color de los ojos).",
+          "descubre": "Desde que nacemos, nuestro cuerpo crece y cambia. Mira una foto tuya de bebé: eras más bajito, pesabas menos y tus pies eran diminutos. Ahora eres más alto y necesitas zapatos más grandes.",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "¿Cómo sabes que has crecido?\n1. Ponte junto a una pared y marca tu altura.\n2. Espera unos meses y vuelve a medirte.\n3. ¡La marca nueva está más arriba! Tu cuerpo ha cambiado."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Compara una camiseta de cuando tenías 3 años con una de ahora: la de ahora es mucho más grande, porque tu cuerpo ha crecido."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Un cachorro nace pequeñito y, con el tiempo, se convierte en un perro grande. A las personas nos pasa igual: crecemos y cambiamos durante toda la vida."
+            }
+          ]
+        },
+        {
+          "id": "naturales-t01-c02",
+          "nombre": "Las funciones vitales",
+          "pagina": 10,
+          "objetivo": "Nombrar las tres funciones vitales (nutrición, relación y reproducción) y reconocer que comer y respirar forman parte de la nutrición.",
+          "descubre": "Las personas, como todos los seres vivos, hacemos tres funciones vitales: nutrición, relación y reproducción. «Vital» quiere decir «de la vida». Por ejemplo, cuando merendamos fruta hacemos la función de nutrición.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Tu perro come su pienso y tú comes macarrones: los dos estáis haciendo la función de nutrición. Los animales también son seres vivos y hacen las tres funciones vitales."
+            },
+            {
+              "estilo": "visual",
+              "texto": "Tres funciones vitales para todos los seres vivos 🧒🐶🌻:\n1️⃣ nutrición\n2️⃣ relación\n3️⃣ reproducción\nPersonas, animales y plantas hacen las tres."
+            }
+          ]
+        },
+        {
+          "id": "naturales-t01-c03",
+          "nombre": "Los sentidos",
+          "pagina": 10,
+          "objetivo": "Relacionar cada sentido con su órgano y reconocer qué sentido usamos en situaciones cotidianas.",
+          "descubre": "Gracias a los sentidos sabemos cómo es lo que nos rodea: si una sopa está rica, si suena el timbre del recreo o si un gatito es suave. Cada sentido usa una parte del cuerpo, que es su órgano.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Imagina que comes una mandarina 🍊. Primero la miras, después la hueles, la pelas con los dedos y, al final, la saboreas. ¡Has usado varios sentidos con una sola fruta!"
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para saber qué sentido usas:\n1. Piensa qué estás haciendo: ¿miras, hueles, saboreas, escuchas o tocas?\n2. Piensa qué parte del cuerpo está trabajando.\n3. Esa parte es el órgano de ese sentido."
+            },
+            {
+              "estilo": "visual",
+              "texto": "Con los sentidos notamos muchas cosas:\n🌈 colores · 🎵 sonidos · 🍓 sabores · 🌸 olores · 🧸 cosas suaves o ásperas\nCada una la notamos con un sentido distinto."
+            }
+          ]
+        },
+        {
+          "id": "naturales-t01-c04",
+          "nombre": "Huesos y músculos",
+          "pagina": 12,
+          "objetivo": "Saber que los huesos (el esqueleto) y los músculos nos permiten movernos, cómo son y qué hacen las articulaciones.",
+          "descubre": "Para movernos, el cuerpo usa huesos y músculos, que trabajan en equipo. Cuando saltas a la comba, subes una escalera o lanzas una pelota, tus huesos y tus músculos se ponen en marcha a la vez.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "🦴 + 💪 = 🏃\nLos huesos 🦴 y los músculos 💪 trabajan juntos para que puedas correr 🏃, saltar o bailar 💃."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Abre y cierra la mano como una pinza de cangrejo 🦀. Tus dedos se doblan por varios sitios: ahí se unen unos huesos con otros. Esas uniones se llaman articulaciones."
+            }
+          ]
+        },
+        {
+          "id": "naturales-t01-c05",
+          "nombre": "La respiración",
+          "pagina": 14,
+          "objetivo": "Conocer el camino del aire al respirar, que respiramos para tomar oxígeno y que al hacer ejercicio respiramos más rápido.",
+          "descubre": "Respiramos sin parar, también cuando dormimos. El aire entra en el cuerpo, recorre un camino por dentro y luego sale. Pon la mano en el pecho y respira hondo: notarás que sube y baja.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Infla un globo 🎈: el aire entra y el globo se hace grande; lo sueltas y el aire sale. Algo parecido pasa dentro de tu pecho cada vez que respiras."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Haz esta prueba:\n1. Pon un espejo cerca de tu boca.\n2. Echa el aire despacito.\n3. ¡El espejo se empaña! Es el aire que sale de tu cuerpo al respirar."
+            }
+          ]
+        },
+        {
+          "id": "naturales-t01-c06",
+          "nombre": "La digestión",
+          "pagina": 16,
+          "objetivo": "Ordenar el camino de los alimentos en la digestión y saber que se transforman en nutrientes que nos dan materia para crecer y energía.",
+          "descubre": "Cuando comes un bocadillo, empieza un viaje dentro de tu cuerpo: la digestión. Poco a poco, el alimento se transforma para que el cuerpo saque de él lo que necesita para crecer y tener energía.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "La digestión es como un viaje en tren 🚂 con varias estaciones. El bocadillo 🥪 sube al tren y en cada estación se hace más y más pequeñito, hasta que el cuerpo se queda con lo que le sirve."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Cuando exprimes un limón 🍋 para hacer limonada, te quedas con el zumo y tiras la cáscara. En la digestión pasa algo parecido: el cuerpo se queda con lo que necesita y los restos salen fuera."
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "naturales-t01-p01",
@@ -23,7 +135,12 @@
             "Edad adulta",
             "Ancianidad"
           ],
-          "explicacion": "¡Bien! Primero somos niños, luego adolescentes, después adultos y por último ancianos."
+          "explicacion": "¡Bien! Primero somos niños, luego adolescentes, después adultos y por último ancianos.",
+          "concepto": "naturales-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en las personas de tu familia, de la más joven a la más mayor."
+          ]
         },
         {
           "id": "naturales-t01-p02",
@@ -36,7 +153,12 @@
             "Dientes de adulto"
           ],
           "correcta": 0,
-          "explicacion": "Los dientes de leche se caen y en su lugar salen los definitivos."
+          "explicacion": "Los dientes de leche se caen y en su lugar salen los definitivos.",
+          "concepto": "naturales-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Son los dientes que se caen cuando eres pequeño para que salgan otros nuevos."
+          ]
         },
         {
           "id": "naturales-t01-p03",
@@ -44,7 +166,12 @@
           "pagina": 9,
           "enunciado": "El color de los ojos cambia a medida que crecemos.",
           "correcta": false,
-          "explicacion": "El color de los ojos no cambia al crecer. Lo que sí cambia es la altura, el peso, el número de pie o los dientes."
+          "explicacion": "El color de los ojos no cambia al crecer. Lo que sí cambia es la altura, el peso, el número de pie o los dientes.",
+          "concepto": "naturales-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en tus padres o tus abuelos: ¿han tenido siempre los ojos del mismo color?"
+          ]
         },
         {
           "id": "naturales-t01-p04",
@@ -58,7 +185,12 @@
             "Diversión"
           ],
           "correcta": 3,
-          "explicacion": "Las tres funciones vitales son nutrición, relación y reproducción. ¡Divertirse es genial, pero no es una de ellas!"
+          "explicacion": "Las tres funciones vitales son nutrición, relación y reproducción. ¡Divertirse es genial, pero no es una de ellas!",
+          "concepto": "naturales-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Las funciones vitales son solo tres. Busca la palabra que sobra."
+          ]
         },
         {
           "id": "naturales-t01-p05",
@@ -83,7 +215,12 @@
               "Oídos"
             ]
           ],
-          "explicacion": "Cada sentido tiene su órgano: vemos con los ojos, olemos con la nariz, saboreamos con la lengua y oímos con los oídos."
+          "explicacion": "Cada sentido tiene su órgano: vemos con los ojos, olemos con la nariz, saboreamos con la lengua y oímos con los oídos.",
+          "concepto": "naturales-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "Piensa qué haces con cada parte del cuerpo: ¿ver, oler, saborear u oír?"
+          ]
         },
         {
           "id": "naturales-t01-p06",
@@ -95,7 +232,12 @@
             "el tacto"
           ],
           "exigeAcentos": false,
-          "explicacion": "El tacto está en la piel, sobre todo en las manos. ¡Por eso notas lo suave o lo áspero!"
+          "explicacion": "El tacto está en la piel, sobre todo en las manos. ¡Por eso notas lo suave o lo áspero!",
+          "concepto": "naturales-t01-c03",
+          "nivel": 3,
+          "pistas": [
+            "Piensa en los cinco sentidos: ¿cuál usas cuando tocas las cosas?"
+          ]
         },
         {
           "id": "naturales-t01-p07",
@@ -108,7 +250,12 @@
             "Reproducción"
           ],
           "correcta": 0,
-          "explicacion": "Comer y respirar forman parte de la función de nutrición."
+          "explicacion": "Comer y respirar forman parte de la función de nutrición.",
+          "concepto": "naturales-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Piensa para qué comemos: ¿qué le damos al cuerpo?"
+          ]
         },
         {
           "id": "naturales-t01-p08",
@@ -121,7 +268,12 @@
             "Blandos y rígidos"
           ],
           "correcta": 0,
-          "explicacion": "Los huesos son duros y no se pueden doblar. ¡Los blandos y elásticos son los músculos!"
+          "explicacion": "Los huesos son duros y no se pueden doblar. ¡Los blandos y elásticos son los músculos!",
+          "concepto": "naturales-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Tócate la espinilla o el codo con los dedos: ¿qué notas debajo de la piel?"
+          ]
         },
         {
           "id": "naturales-t01-p09",
@@ -133,7 +285,12 @@
             "el esqueleto"
           ],
           "exigeAcentos": false,
-          "explicacion": "El esqueleto sostiene y protege nuestro cuerpo."
+          "explicacion": "El esqueleto sostiene y protege nuestro cuerpo.",
+          "concepto": "naturales-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Es la palabra para todos los huesos juntos, como los de los dinosaurios que se ven en los museos."
+          ]
         },
         {
           "id": "naturales-t01-p10",
@@ -154,7 +311,12 @@
               "Músculo"
             ]
           ],
-          "explicacion": "La rodilla une huesos (articulación), el fémur es un hueso de la pierna y el bíceps es un músculo del brazo."
+          "explicacion": "La rodilla une huesos (articulación), el fémur es un hueso de la pierna y el bíceps es un músculo del brazo.",
+          "concepto": "naturales-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "Empieza por la pareja que tengas más clara y deja para el final la que dudes."
+          ]
         },
         {
           "id": "naturales-t01-p11",
@@ -162,7 +324,12 @@
           "pagina": 12,
           "enunciado": "Las articulaciones nos permiten doblar partes del cuerpo, como el codo.",
           "correcta": true,
-          "explicacion": "¡Correcto! Las articulaciones unen los huesos y nos dejan doblarnos."
+          "explicacion": "¡Correcto! Las articulaciones unen los huesos y nos dejan doblarnos.",
+          "concepto": "naturales-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Dobla el brazo despacio y fíjate por dónde se dobla."
+          ]
         },
         {
           "id": "naturales-t01-p12",
@@ -170,7 +337,12 @@
           "pagina": 12,
           "enunciado": "Cuanto más usamos los músculos, más débiles se vuelven.",
           "correcta": false,
-          "explicacion": "Al revés: cuanto más los usamos, más fuertes se hacen. ¡Por eso es bueno hacer ejercicio!"
+          "explicacion": "Al revés: cuanto más los usamos, más fuertes se hacen. ¡Por eso es bueno hacer ejercicio!",
+          "concepto": "naturales-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en los deportistas que entrenan cada día: ¿tienen los músculos débiles o fuertes?"
+          ]
         },
         {
           "id": "naturales-t01-p13",
@@ -182,7 +354,12 @@
             "Tráquea",
             "Pulmones"
           ],
-          "explicacion": "El aire entra por la nariz (o la boca), baja por la tráquea y llega a los pulmones."
+          "explicacion": "El aire entra por la nariz (o la boca), baja por la tráquea y llega a los pulmones.",
+          "concepto": "naturales-t01-c05",
+          "nivel": 1,
+          "pistas": [
+            "El aire entra desde fuera y viaja hacia dentro del pecho."
+          ]
         },
         {
           "id": "naturales-t01-p14",
@@ -194,7 +371,12 @@
             "el oxigeno"
           ],
           "exigeAcentos": false,
-          "explicacion": "Respiramos para tomar oxígeno, que nuestro cuerpo necesita para vivir."
+          "explicacion": "Respiramos para tomar oxígeno, que nuestro cuerpo necesita para vivir.",
+          "concepto": "naturales-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en lo que nos dan los pulmones cuando respiramos."
+          ]
         },
         {
           "id": "naturales-t01-p15",
@@ -207,7 +389,12 @@
             "Igual que dormido"
           ],
           "correcta": 0,
-          "explicacion": "Al hacer ejercicio respiramos más rápido porque el cuerpo necesita más oxígeno."
+          "explicacion": "Al hacer ejercicio respiramos más rápido porque el cuerpo necesita más oxígeno.",
+          "concepto": "naturales-t01-c05",
+          "nivel": 3,
+          "pistas": [
+            "Recuerda la última vez que corriste mucho en el recreo: ¿cómo respirabas al terminar?"
+          ]
         },
         {
           "id": "naturales-t01-p16",
@@ -221,7 +408,13 @@
             "Intestinos",
             "Ano"
           ],
-          "explicacion": "¡Muy bien! Masticamos en la boca, bajan por el esófago al estómago, en los intestinos se absorben los nutrientes y los restos salen por el ano."
+          "explicacion": "¡Muy bien! Masticamos en la boca, bajan por el esófago al estómago, en los intestinos se absorben los nutrientes y los restos salen por el ano.",
+          "concepto": "naturales-t01-c06",
+          "nivel": 2,
+          "pistas": [
+            "Empieza donde masticamos y termina por donde salen los restos.",
+            "Antes de llegar al estómago, la comida baja por un tubo."
+          ]
         },
         {
           "id": "naturales-t01-p17",
@@ -234,7 +427,61 @@
             "los nutrientes"
           ],
           "exigeAcentos": false,
-          "explicacion": "Los nutrientes nos dan materia para crecer y energía para nuestras actividades."
+          "explicacion": "Los nutrientes nos dan materia para crecer y energía para nuestras actividades.",
+          "concepto": "naturales-t01-c06",
+          "nivel": 3,
+          "pistas": [
+            "Son las sustancias que nos dan materia para crecer y energía para jugar."
+          ]
+        },
+        {
+          "id": "naturales-t01-p18",
+          "tipo": "vf",
+          "pagina": 10,
+          "enunciado": "Cuando respiramos, también hacemos la función de nutrición.",
+          "correcta": true,
+          "explicacion": "Comer y respirar forman parte de la función de nutrición. Al respirar, el cuerpo toma del aire lo que necesita para vivir.",
+          "concepto": "naturales-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Piensa para qué respiramos: el cuerpo toma algo del aire que necesita, igual que toma alimentos cuando comemos."
+          ]
+        },
+        {
+          "id": "naturales-t01-p19",
+          "tipo": "eleccion",
+          "pagina": 10,
+          "enunciado": "¿En qué parte del cuerpo está el sentido del tacto?",
+          "opciones": [
+            "En la piel",
+            "En la nariz",
+            "En los oídos"
+          ],
+          "correcta": 0,
+          "explicacion": "El tacto está en la piel, sobre todo en las manos. Con él notamos si algo es suave o áspero.",
+          "concepto": "naturales-t01-c03",
+          "nivel": 1,
+          "pistas": [
+            "Piensa con qué notas que un peluche es blandito cuando lo acaricias."
+          ]
+        },
+        {
+          "id": "naturales-t01-p20",
+          "tipo": "eleccion",
+          "pagina": 16,
+          "enunciado": "¿En qué parte del cuerpo masticamos los alimentos?",
+          "opciones": [
+            "En la boca",
+            "En el estómago",
+            "En los intestinos"
+          ],
+          "correcta": 0,
+          "explicacion": "La digestión empieza en la boca: allí masticamos los alimentos antes de que bajen por el esófago.",
+          "concepto": "naturales-t01-c06",
+          "nivel": 1,
+          "pistas": [
+            "Piensa dónde tienes los dientes."
+          ]
         }
       ]
     },

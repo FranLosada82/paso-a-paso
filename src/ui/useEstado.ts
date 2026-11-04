@@ -3,6 +3,7 @@ import { cargarEstado, guardarEstado, pedirPersistencia } from '../storage/db';
 import type { Estado } from '../storage/estado';
 import { ASIGNATURAS } from '../content/asignaturas';
 import { finDeTemaEn } from '../logic/paginas';
+import { sembrarConceptos } from '../logic/tutor/resumen';
 
 export function useEstado() {
   const [estado, setEstado] = useState<Estado | null>(null);
@@ -10,7 +11,7 @@ export function useEstado() {
   const cargado = useRef(false);
 
   useEffect(() => {
-    cargarEstado(finDeTemaEn(ASIGNATURAS)).then((e) => { cargado.current = true; setEstado(e); });
+    cargarEstado(finDeTemaEn(ASIGNATURAS)).then((e) => { cargado.current = true; setEstado(sembrarConceptos(e, ASIGNATURAS)); });
     pedirPersistencia();
   }, []);
 

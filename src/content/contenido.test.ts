@@ -5,6 +5,8 @@ import type { Asignatura, Pregunta, Respuesta } from '../types';
 import { esCorrecta } from '../logic/correccion';
 import { META } from './asignaturas';
 import { rangoTema } from '../logic/paginas';
+import { problemasConcepto, problemasPregunta } from '../logic/tutor/validar';
+import { conceptosDe } from '../logic/tutor/modelo';
 
 const dir = join(__dirname);
 const asignaturas: Asignatura[] = readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(dir, f), 'utf8')));
@@ -67,13 +69,37 @@ describe('contenidos', () => {
           }
           expect(esCorrecta(p, respuestaCorrecta(p)), p.id).toBe(true);
           expect(esCorrecta(p, respuestaIncorrecta(p)), p.id).toBe(false);
+          expect(problemasPregunta(p), p.id).toEqual([]);
+          if (p.tipo === 'eleccion') for (const [i, o] of p.opciones.entries()) if (i !== p.correcta) {
+            // Ningún distractor puede ser también una respuesta aceptada.
+            expect(esCorrecta(p, { tipo: 'eleccion', indice: i }), `${p.id}: ${o}`).toBe(false);
+          }
         }
+      });
+      it('capa pedagógica: conceptos válidos y cada pregunta apunta a un concepto que existe', () => {
+        for (const t of a.temas) {
+          const ids = new Set((t.conceptos ?? []).map((c) => c.id));
+          for (const c of t.conceptos ?? []) {
+            expect(problemasConcepto(c, t), c.id).toEqual([]);
+            const r = rangoTema(t);
+            if (c.pagina !== undefined) expect(c.pagina >= r.ini && c.pagina <= r.fin, `${c.id} página`).toBe(true);
+            // El concepto no puede presentarse después de sus preguntas.
+            for (const p of t.preguntas.filter((x) => x.concepto === c.id)) expect(p.pagina! >= (c.pagina ?? 0), `${p.id} antes que su concepto`).toBe(true);
+          }
+          for (const p of t.preguntas) if (p.concepto) expect(ids.has(p.concepto), `${p.id} → ${p.concepto}`).toBe(true);
+          // Si un tema tiene conceptos, todas sus preguntas deben estar asignadas a uno.
+          if (ids.size) expect(t.preguntas.filter((p) => !p.concepto).map((p) => p.id)).toEqual([]);
+        }
+        // Todas las preguntas válidas llegan al tutor (ninguna se pierde por error de formato).
+        const enTutor = conceptosDe(a).reduce((k, c) => k + c.actividades.length, 0);
+        expect(enTutor).toBe(a.temas.reduce((k, t) => k + t.preguntas.filter((p) => !p.revisar).length, 0));
       });
     });
   }
   it('total de preguntas', () => {
     const n = asignaturas.reduce((k, a) => k + a.temas.reduce((j, t) => j + t.preguntas.length, 0), 0);
-    console.log(`Total: ${n} preguntas en ${asignaturas.reduce((k, a) => k + a.temas.length, 0)} temas`);
+    const conConceptos = asignaturas.flatMap((a) => a.temas.filter((t) => t.conceptos?.length).map((t) => t.id));
+    console.log(`Total: ${n} preguntas en ${asignaturas.reduce((k, a) => k + a.temas.length, 0)} temas; temas con conceptos: ${conConceptos.join(', ') || 'ninguno'}`);
     expect(n).toBeGreaterThanOrEqual(180);
   });
 });

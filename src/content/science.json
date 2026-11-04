@@ -11,6 +11,116 @@
       "paginas": "6-21",
       "resumen": "Etapas de la vida, funciones vitales, huesos, articulaciones y músculos, respiración y digestión.",
       "explicacion": "We grow and change in four stages of life. Our bones, joints and muscles help us move. We breathe air with our lungs and we digest food to get energy. (Crecemos y cambiamos en cuatro etapas de la vida. Los huesos, articulaciones y músculos nos ayudan a movernos. Respiramos con los pulmones y digerimos la comida para tener energía.)",
+      "conceptos": [
+        {
+          "id": "science-t01-c01",
+          "nombre": "Life processes",
+          "pagina": 7,
+          "objetivo": "Saber que las personas realizamos tres funciones vitales (nutrición, relación y reproducción) y reconocer la función de relación (sensitivity) en situaciones cotidianas.",
+          "descubre": "Life processes are the things we do to live. People carry out these life processes: nutrition, sensitivity and reproduction. Sensitivity is sensing changes around us, like a loud bell or a bright light.",
+          "ayuda": "Las funciones vitales son las cosas que hacemos para vivir. Las personas realizamos estas funciones vitales: nutrición, relación y reproducción. La relación es notar los cambios a nuestro alrededor, como un timbre fuerte o una luz brillante.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Piensa en el recreo. Suena el timbre, lo oyes y sales al patio. Ves que empieza a llover y abres el paraguas. Tu cuerpo nota lo que cambia a tu alrededor: eso es la función de relación (sensitivity)."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para saber de qué función vital se habla:\n1. ¿Habla de notar algo de alrededor: un ruido, una luz, un olor?\n2. Entonces es la función de relación (sensitivity).\n3. Si habla de otra cosa, piensa en las otras dos: nutrición (nutrition) o reproducción (reproduction)."
+            }
+          ]
+        },
+        {
+          "id": "science-t01-c02",
+          "nombre": "Stages of life",
+          "pagina": 8,
+          "objetivo": "Conocer y ordenar las cuatro etapas de la vida: niñez, adolescencia, edad adulta y vejez.",
+          "descubre": "We grow and change all our lives. These are the stages of life, in order: childhood, adolescence, adulthood and old age. You are in childhood now, like your friends at school!",
+          "ayuda": "Crecemos y cambiamos toda la vida. Estas son las etapas de la vida, en orden: niñez, adolescencia, edad adulta y vejez. ¡Ahora tú estás en la niñez, como tus amigos del cole!",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "Mira una foto tuya de bebé y después mírate en el espejo: has crecido y has cambiado mucho. Las personas seguimos cambiando toda la vida. Por eso decimos que la vida tiene etapas."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Piensa en tu familia: tú eres niño o niña, tus padres son adultos y muchos abuelos ya son personas mayores. Cada uno está en una etapa distinta de la vida."
+            }
+          ]
+        },
+        {
+          "id": "science-t01-c03",
+          "nombre": "The senses",
+          "pagina": 11,
+          "objetivo": "Conocer los cinco sentidos y su órgano: vista y ojos, oído y oídos, olfato y nariz, gusto y lengua, tacto y piel.",
+          "descubre": "We have five senses: sight, hearing, smell, taste and touch. For each sense we use a sense organ, a part of our body. At the park, our senses tell us about the green trees, the birds and the warm sun.",
+          "ayuda": "Tenemos cinco sentidos: vista, oído, olfato, gusto y tacto. Para cada sentido usamos un órgano de los sentidos, una parte de nuestro cuerpo. En el parque, los sentidos nos hablan de los árboles verdes, los pájaros y el sol calentito.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Imagina que te comes un helado de fresa: lo ves rosa, notas su olor, saboreas lo dulce que está y sientes lo frío que está. ¡Has usado varios sentidos a la vez!"
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para saber qué sentido usas:\n1. Piensa en lo que haces: ¿mirar, escuchar, oler, saborear o tocar?\n2. Piensa en qué parte del cuerpo trabaja.\n3. Esa parte es el órgano de ese sentido."
+            }
+          ]
+        },
+        {
+          "id": "science-t01-c04",
+          "nombre": "Bones, joints and muscles",
+          "pagina": 12,
+          "objetivo": "Distinguir huesos (duros, forman el esqueleto), articulaciones (donde se unen los huesos y el cuerpo se dobla) y músculos (blandos y elásticos), que nos ayudan a movernos.",
+          "descubre": "Bones, joints and muscles help us to move. Bones are hard and make our skeleton. Joints are where two bones meet. Muscles are soft and elastic. When you jump or kick a ball, they all work together!",
+          "ayuda": "Los huesos, las articulaciones y los músculos nos ayudan a movernos. Los huesos son duros y forman nuestro esqueleto. Las articulaciones son los sitios donde se juntan dos huesos. Los músculos son blandos y elásticos. ¡Cuando saltas o das una patada a un balón, trabajan todos juntos!",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Piensa en una marioneta de madera. Tiene piezas duras, unas uniones que se doblan y unos hilos que la mueven. Nuestro cuerpo se parece: los huesos son las piezas duras, las articulaciones son las uniones y los músculos nos ayudan a movernos."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para saber qué es cada parte:\n1. ¿Es dura y rígida? Es un hueso.\n2. ¿Es el sitio donde se juntan dos huesos y nos doblamos? Es una articulación.\n3. ¿Es blanda y elástica? Es un músculo."
+            }
+          ]
+        },
+        {
+          "id": "science-t01-c05",
+          "nombre": "Breathing",
+          "pagina": 14,
+          "objetivo": "Saber que respiramos con los pulmones, que al inspirar entra aire y al espirar sale, que necesitamos oxígeno y el camino del aire (nariz, tráquea y pulmones).",
+          "descubre": "We breathe air with our lungs. When we inhale, air goes in. When we exhale, air goes out. Air has oxygen, and we need oxygen to live. Put your hand on your chest and feel it move!",
+          "ayuda": "Respiramos aire con los pulmones. Al inspirar, el aire entra. Al espirar, el aire sale. El aire tiene oxígeno, y necesitamos oxígeno para vivir. ¡Pon la mano en el pecho y nota cómo se mueve!",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Infla un globo: primero coges mucho aire y después lo soplas dentro del globo. Al coger aire, inspiras. Al soplar, espiras. ¡Respirar es hacer eso todo el rato, pero sin globo!"
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Pon una mano delante de la boca y sopla: notas el aire salir. Ahora huele una flor despacio: notas el aire entrar. Inspirar y espirar son dos movimientos contrarios, uno detrás de otro."
+            }
+          ]
+        },
+        {
+          "id": "science-t01-c06",
+          "nombre": "Digestion",
+          "pagina": 17,
+          "objetivo": "Saber que digerimos la comida para tener energía, el camino de la comida (boca, esófago, estómago, intestinos y ano), que masticamos con los dientes y que los nutrientes se absorben en los intestinos.",
+          "descubre": "We digest food to get energy. When you eat a sandwich, the food makes a long trip inside your body. On the way, your body absorbs the nutrients, the good parts of food. What we do not need goes out.",
+          "ayuda": "Digerimos la comida para tener energía. Cuando comes un bocadillo, la comida hace un viaje largo por dentro de tu cuerpo. Por el camino, tu cuerpo absorbe los nutrientes, las partes buenas de la comida. Lo que no necesitamos sale fuera.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Piensa en un tren con varias estaciones. La comida es como un viajero: sube al tren, para en varias estaciones y en cada una el cuerpo hace un trabajo distinto. Al final, lo que sobra se baja del tren y sale fuera."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Comer y digerir no es lo mismo. Comer es meter la comida en la boca. Digerir es todo el trabajo que hace después tu cuerpo para sacar de la comida la energía que necesitas para jugar y aprender."
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "science-t01-p01",
@@ -24,7 +134,12 @@
             "adulthood",
             "old age"
           ],
-          "explicacion": "First we are children, then teenagers, then adults and then elderly people. (Primero niñez, luego adolescencia, edad adulta y vejez.)"
+          "explicacion": "First we are children, then teenagers, then adults and then elderly people. (Primero niñez, luego adolescencia, edad adulta y vejez.)",
+          "concepto": "science-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en tu familia: ¿quién es más joven y quién es más mayor?"
+          ]
         },
         {
           "id": "science-t01-p02",
@@ -38,7 +153,12 @@
             "old age"
           ],
           "correcta": 1,
-          "explicacion": "Teenagers are in adolescence. (Los adolescentes están en la adolescencia.)"
+          "explicacion": "Teenagers are in adolescence. (Los adolescentes están en la adolescencia.)",
+          "concepto": "science-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Busca la etapa que va entre ser niño y ser adulto."
+          ]
         },
         {
           "id": "science-t01-p03",
@@ -52,7 +172,12 @@
             "five"
           ],
           "correcta": 1,
-          "explicacion": "Nutrition, sensitivity and reproduction: three! (Nutrición, relación y reproducción: ¡tres!)"
+          "explicacion": "Nutrition, sensitivity and reproduction: three! (Nutrición, relación y reproducción: ¡tres!)",
+          "concepto": "science-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Recuerda los nombres de las funciones vitales y cuéntalos con los dedos."
+          ]
         },
         {
           "id": "science-t01-p04",
@@ -78,7 +203,13 @@
               "tongue"
             ]
           ],
-          "explicacion": "We see with our eyes, hear with our ears, smell with our nose and taste with our tongue. (Vemos con los ojos, oímos con los oídos, olemos con la nariz y saboreamos con la lengua.)"
+          "explicacion": "We see with our eyes, hear with our ears, smell with our nose and taste with our tongue. (Vemos con los ojos, oímos con los oídos, olemos con la nariz y saboreamos con la lengua.)",
+          "concepto": "science-t01-c03",
+          "nivel": 1,
+          "pistas": [
+            "En español: sight es la vista, hearing el oído, smell el olfato y taste el gusto.",
+            "Piensa qué parte de la cara usas para cada sentido."
+          ]
         },
         {
           "id": "science-t01-p05",
@@ -92,7 +223,12 @@
             "our skin"
           ],
           "exigeAcentos": false,
-          "explicacion": "Our skin is the organ of touch. (La piel es el órgano del tacto.)"
+          "explicacion": "Our skin is the organ of touch. (La piel es el órgano del tacto.)",
+          "concepto": "science-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "No son solo las manos: piensa en lo que cubre todo tu cuerpo."
+          ]
         },
         {
           "id": "science-t01-p06",
@@ -106,7 +242,12 @@
             "reproduction"
           ],
           "correcta": 1,
-          "explicacion": "We sense changes around us: that is sensitivity. (Notamos los cambios: es la función de relación.)"
+          "explicacion": "We sense changes around us: that is sensitivity. (Notamos los cambios: es la función de relación.)",
+          "concepto": "science-t01-c01",
+          "nivel": 3,
+          "pistas": [
+            "¿Qué función vital sirve para notar lo que pasa a nuestro alrededor?"
+          ]
         },
         {
           "id": "science-t01-p07",
@@ -115,7 +256,12 @@
           "enunciado": "Bones are soft and elastic.",
           "ayuda": "Los huesos son blandos y elásticos.",
           "correcta": false,
-          "explicacion": "Bones are hard and rigid. Muscles are soft and elastic. (Los huesos son duros y rígidos; los músculos son blandos y elásticos.)"
+          "explicacion": "Bones are hard and rigid. Muscles are soft and elastic. (Los huesos son duros y rígidos; los músculos son blandos y elásticos.)",
+          "concepto": "science-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Tócate la frente: debajo de la piel hay un hueso. ¿Lo notas blando o duro?"
+          ]
         },
         {
           "id": "science-t01-p08",
@@ -124,7 +270,12 @@
           "enunciado": "Joints help our body to bend.",
           "ayuda": "Las articulaciones ayudan al cuerpo a doblarse.",
           "correcta": true,
-          "explicacion": "Yes! Bones join at the joints, so we can bend. (¡Sí! Los huesos se unen en las articulaciones y podemos doblarnos.)"
+          "explicacion": "Yes! Bones join at the joints, so we can bend. (¡Sí! Los huesos se unen en las articulaciones y podemos doblarnos.)",
+          "concepto": "science-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Dobla el brazo y la pierna: ¿por dónde se doblan?"
+          ]
         },
         {
           "id": "science-t01-p09",
@@ -138,7 +289,12 @@
             "biceps"
           ],
           "correcta": 0,
-          "explicacion": "The knee is a joint. Ribs are bones and the biceps is a muscle. (La rodilla es una articulación.)"
+          "explicacion": "The knee is a joint. Ribs are bones and the biceps is a muscle. (La rodilla es una articulación.)",
+          "concepto": "science-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Una articulación es un sitio donde el cuerpo se dobla. Dobla la pierna: ¿qué parte se dobla?"
+          ]
         },
         {
           "id": "science-t01-p10",
@@ -160,7 +316,13 @@
               "muscle"
             ]
           ],
-          "explicacion": "Skull = bone, elbow = joint, biceps = muscle. (Cráneo = hueso, codo = articulación, bíceps = músculo.)"
+          "explicacion": "Skull = bone, elbow = joint, biceps = muscle. (Cráneo = hueso, codo = articulación, bíceps = músculo.)",
+          "concepto": "science-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "En español: skull es el cráneo, elbow es el codo y biceps es el bíceps.",
+            "Piensa: ¿cuál es duro, cuál se dobla y cuál es blando y elástico?"
+          ]
         },
         {
           "id": "science-t01-p11",
@@ -174,7 +336,13 @@
             "our skeleton"
           ],
           "exigeAcentos": false,
-          "explicacion": "Bones make up our skeleton. (Los huesos forman el esqueleto.)"
+          "explicacion": "Bones make up our skeleton. (Los huesos forman el esqueleto.)",
+          "concepto": "science-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en cómo se llama en español el conjunto de todos los huesos.",
+            "En inglés, esa palabra se parece mucho a la española."
+          ]
         },
         {
           "id": "science-t01-p12",
@@ -187,7 +355,13 @@
             "trachea",
             "lungs"
           ],
-          "explicacion": "Air goes in through the nose, down the trachea and into the lungs. (Nariz, tráquea y pulmones.)"
+          "explicacion": "Air goes in through the nose, down the trachea and into the lungs. (Nariz, tráquea y pulmones.)",
+          "concepto": "science-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Piensa por dónde entra el aire en tu cara y adónde llega al final, dentro del pecho.",
+            "«Trachea» es la tráquea, el tubo que lleva el aire."
+          ]
         },
         {
           "id": "science-t01-p13",
@@ -201,7 +375,12 @@
             "smoke"
           ],
           "correcta": 0,
-          "explicacion": "We need oxygen to live. (Necesitamos oxígeno para vivir.)"
+          "explicacion": "We need oxygen to live. (Necesitamos oxígeno para vivir.)",
+          "concepto": "science-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en el gas que tu cuerpo toma del aire cada vez que inspiras."
+          ]
         },
         {
           "id": "science-t01-p14",
@@ -210,7 +389,12 @@
           "enunciado": "When we exhale, we breathe out air.",
           "ayuda": "Al espirar, expulsamos aire.",
           "correcta": true,
-          "explicacion": "Exhale means breathe out. (Espirar es expulsar el aire.)"
+          "explicacion": "Exhale means breathe out. (Espirar es expulsar el aire.)",
+          "concepto": "science-t01-c05",
+          "nivel": 1,
+          "pistas": [
+            "«Exhale» significa «espirar». Al espirar, ¿el aire entra o sale?"
+          ]
         },
         {
           "id": "science-t01-p15",
@@ -225,7 +409,13 @@
             "intestines",
             "anus"
           ],
-          "explicacion": "Food goes from the mouth to the oesophagus, stomach, intestines and out through the anus. (Boca, esófago, estómago, intestinos y ano.)"
+          "explicacion": "Food goes from the mouth to the oesophagus, stomach, intestines and out through the anus. (Boca, esófago, estómago, intestinos y ano.)",
+          "concepto": "science-t01-c06",
+          "nivel": 3,
+          "pistas": [
+            "Piensa por dónde entra la comida y por dónde sale lo que el cuerpo no necesita.",
+            "En español: oesophagus es el esófago e intestines son los intestinos."
+          ]
         },
         {
           "id": "science-t01-p16",
@@ -239,7 +429,12 @@
             "lungs"
           ],
           "correcta": 1,
-          "explicacion": "Nutrients are absorbed in the intestines. (Los nutrientes se absorben en los intestinos.)"
+          "explicacion": "Nutrients are absorbed in the intestines. (Los nutrientes se absorben en los intestinos.)",
+          "concepto": "science-t01-c06",
+          "nivel": 2,
+          "pistas": [
+            "Los pulmones (lungs) son para respirar, no para la comida."
+          ]
         },
         {
           "id": "science-t01-p17",
@@ -254,7 +449,79 @@
             "tooth"
           ],
           "exigeAcentos": false,
-          "explicacion": "Teeth cut and chew food. (Los dientes trituran la comida.)"
+          "explicacion": "Teeth cut and chew food. (Los dientes trituran la comida.)",
+          "concepto": "science-t01-c06",
+          "nivel": 1,
+          "pistas": [
+            "Abre la boca delante de un espejo: ¿qué usas para morder y masticar?"
+          ]
+        },
+        {
+          "id": "science-t01-p18",
+          "tipo": "vf",
+          "pagina": 8,
+          "enunciado": "There are four stages of life.",
+          "ayuda": "Hay cuatro etapas de la vida.",
+          "correcta": true,
+          "explicacion": "Yes: childhood, adolescence, adulthood and old age. (Sí: niñez, adolescencia, edad adulta y vejez.)",
+          "concepto": "science-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en las etapas de la vida y cuéntalas con los dedos."
+          ]
+        },
+        {
+          "id": "science-t01-p19",
+          "tipo": "eleccion",
+          "pagina": 8,
+          "enunciado": "Ana is a teenager. What stage of life comes next for her?",
+          "ayuda": "Ana es adolescente. ¿Qué etapa de la vida viene después para ella?",
+          "opciones": [
+            "childhood",
+            "adulthood",
+            "old age"
+          ],
+          "correcta": 1,
+          "explicacion": "Ana is in adolescence. After adolescence comes adulthood. (Ana está en la adolescencia. Después viene la edad adulta.)",
+          "concepto": "science-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Primero piensa en qué etapa está Ana ahora.",
+            "Busca la etapa que viene justo después de la suya."
+          ]
+        },
+        {
+          "id": "science-t01-p20",
+          "tipo": "vf",
+          "pagina": 7,
+          "enunciado": "Reproduction is a life process.",
+          "ayuda": "La reproducción es una función vital.",
+          "correcta": true,
+          "explicacion": "Yes! Nutrition, sensitivity and reproduction are our life processes. (¡Sí! Nutrición, relación y reproducción son nuestras funciones vitales.)",
+          "concepto": "science-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Di en voz alta las funciones vitales que conoces."
+          ]
+        },
+        {
+          "id": "science-t01-p21",
+          "tipo": "eleccion",
+          "pagina": 11,
+          "enunciado": "You listen to your favourite song. Which sense are you using?",
+          "ayuda": "Escuchas tu canción favorita. ¿Qué sentido estás usando?",
+          "opciones": [
+            "sight",
+            "hearing",
+            "taste"
+          ],
+          "correcta": 1,
+          "explicacion": "We hear music with our ears: that is the sense of hearing. (Oímos la música con los oídos: es el sentido del oído.)",
+          "concepto": "science-t01-c03",
+          "nivel": 3,
+          "pistas": [
+            "¿Qué parte del cuerpo usas para escuchar una canción? Busca el sentido que va con ella."
+          ]
         }
       ]
     },

@@ -1,7 +1,9 @@
 import 'fake-indexeddb/auto';
 import { describe, expect, it } from 'vitest';
-import { estadoInicial, exportarCopia, importarCopia, migrarYValidar, registrarRespuesta, VERSION_ESQUEMA } from './estado';
+import { estadoInicial, exportarCopia, importarCopia, migrarYValidar, registrarActividad, registrarRespuesta, VERSION_ESQUEMA } from './estado';
 import { cargarEstado, guardarEstado } from './db';
+import { sembrarConceptos } from '../logic/tutor/resumen';
+import { ASIGNATURAS } from '../content/asignaturas';
 
 describe('progreso', () => {
   it('registra aciertos y fallos', () => {
@@ -24,14 +26,33 @@ describe('migración', () => {
     expect(e.version).toBe(VERSION_ESQUEMA);
     expect(e.paginaActual).toEqual({ mates: 51 });
   });
+  it('v2 (progreso por pregunta) pasa a v3 conservando respuestas, páginas y ajustes', () => {
+    const v2 = { version: 2, paginaActual: { mates: 30 }, preguntas: { 'mates-t01-p01': { aciertos: 2, fallos: 0, ultimaCorrecta: true, ultima: 5 } }, sesiones: [], ajustes: { textoGrande: true, sonido: false } };
+    const e = migrarYValidar(v2);
+    expect(e.version).toBe(3);
+    expect(e.preguntas['mates-t01-p01'].aciertos).toBe(2);
+    expect(e.conceptos).toEqual({});
+    expect(e.ajustes).toEqual({ textoGrande: true, sonido: false, voz: true, duracion: 'normal' });
+  });
+  it('al migrar, estima el dominio inicial de cada concepto a partir de las preguntas respondidas', () => {
+    const e = sembrarConceptos(registrarRespuesta(registrarRespuesta(estadoInicial(), 'mates-t01-p01', true, 5), 'mates-t01-p03', true, 9), ASIGNATURAS);
+    expect(e.conceptos['mates-t01-c01']).toMatchObject({ actividades: 2, caja: 1, nivel: 1, ultima: 9 });
+    expect(sembrarConceptos(e, ASIGNATURAS)).toBe(e);
+  });
+  it('rechaza registros de concepto no válidos', () => {
+    const base = { version: 3, paginaActual: {}, preguntas: {}, sesiones: [] };
+    expect(() => migrarYValidar({ ...base, conceptos: { c: { nivel: 7 } } })).toThrow(/concepto/);
+    expect(() => migrarYValidar({ ...base })).toThrow(/obligatorias/);
+  });
   it('rechaza páginas no válidas', () => {
     expect(() => migrarYValidar({ version: 2, paginaActual: { mates: -3 }, preguntas: {}, sesiones: [] })).toThrow(/Página/);
   });
 });
 
 describe('copias', () => {
-  it('exporta e importa sin pérdida', () => {
-    const e = { ...registrarRespuesta(estadoInicial(), 'p1', true, 5), paginaActual: { lengua: 40 }, ultimaAsignatura: 'lengua' };
+  it('exporta e importa sin pérdida (también el dominio por concepto)', () => {
+    const conConcepto = registrarActividad(registrarRespuesta(estadoInicial(), 'p1', true, 5), 'c1', { tipo: 'vf', correcta: true, intentos: 1, pistas: 0, otraManera: false }, 5).estado;
+    const e = { ...conConcepto, paginaActual: { lengua: 40 }, ultimaAsignatura: 'lengua' };
     expect(importarCopia(exportarCopia(e))).toEqual(e);
   });
   it('rechaza archivos no válidos', () => {

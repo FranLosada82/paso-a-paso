@@ -11,6 +11,105 @@
       "paginas": "14-33",
       "resumen": "Sinónimos, uso de la mayúscula, palabras del colegio, alargar oraciones y la variedad de lenguas.",
       "explicacion": "Los sinónimos son palabras que significan casi lo mismo, como 'contento' y 'alegre'. Escribimos con mayúscula la primera letra al empezar a escribir, después de un punto y en los nombres de personas, animales y lugares. ¡Y en España se hablan varias lenguas!",
+      "conceptos": [
+        {
+          "id": "lengua-t01-c01",
+          "nombre": "Alargar oraciones",
+          "pagina": 20,
+          "objetivo": "Formar oraciones ordenando las palabras (quién y qué hace) y alargarlas con detalles: con qué, dónde y cómo.",
+          "descubre": "Una oración corta dice quién hace algo y qué hace: «El gato duerme». Podemos alargarla con detalles que cuentan dónde, cómo o con qué: «El gato duerme tranquilo en su cesta». Así se entiende mucho mejor.",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "Para alargar «Pedro canta»:\n1. Pregunta ¿dónde? → en la ducha.\n2. Pregunta ¿cómo? → muy alto.\n3. Júntalo todo: «Pedro canta muy alto en la ducha»."
+            },
+            {
+              "estilo": "visual",
+              "texto": "Una oración es como un tren 🚂. Delante va quién lo hace y qué hace: 🚂 Mi hermana come.\nCada detalle es un vagón más: 🚃 una manzana 🚃 en el parque.\n¡Cuantos más vagones, más larga es la oración!"
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Compara «Leo dibuja.» con «Leo dibuja un dragón con sus rotuladores.». Las dos dicen quién y qué hace, pero la segunda añade detalles: qué dibuja y con qué lo dibuja."
+            }
+          ]
+        },
+        {
+          "id": "lengua-t01-c02",
+          "nombre": "Los sinónimos",
+          "pagina": 21,
+          "objetivo": "Reconocer y buscar sinónimos: palabras distintas que significan casi lo mismo.",
+          "descubre": "Los sinónimos son palabras distintas que significan casi lo mismo. Puedes decir «andar» o «caminar», «barriga» o «tripa»: cambias la palabra, pero la frase se entiende igual.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "En la granja, Marcos dice «cerdo» y su abuela dice «cochino». Los dos hablan del mismo animal con palabras distintas: «cerdo» y «cochino» son sinónimos."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "¿Son sinónimos «hablar» y «charlar»?\n1. Di una frase: «Me gusta hablar con mi amiga».\n2. Cambia la palabra: «Me gusta charlar con mi amiga».\n3. Si se entiende igual, ¡son sinónimos!"
+            },
+            {
+              "estilo": "comparar",
+              "texto": "«Pequeño» y «chiquito» significan casi lo mismo: son sinónimos. «Pequeño» y «grande» significan lo contrario: no son sinónimos."
+            }
+          ]
+        },
+        {
+          "id": "lengua-t01-c03",
+          "nombre": "Palabras del colegio",
+          "pagina": 21,
+          "objetivo": "Conocer palabras del colegio: cosas de la clase, para qué sirven los materiales y quién nos enseña.",
+          "descubre": "En el colegio usamos muchas palabras. Hay nombres de cosas de la clase, como la mesa o la papelera, y de materiales que sirven para algo, como el sacapuntas, que sirve para sacar punta a los lápices.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "Piensa en tu clase:\n🎒 la mochila sirve para llevar tus cosas,\n📚 los libros, para leer y aprender,\n🖍️ las ceras, para pintar.\nCada cosa del colegio tiene su nombre y sirve para algo."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Preparas la mochila para mañana: el estuche, el cuaderno, el libro de Lengua y el almuerzo. ¡Todas son palabras que usamos en el colegio!"
+            }
+          ]
+        },
+        {
+          "id": "lengua-t01-c04",
+          "nombre": "La mayúscula",
+          "pagina": 22,
+          "objetivo": "Usar la mayúscula al empezar a escribir, después de un punto y en los nombres propios de personas, animales y lugares.",
+          "descubre": "La mayúscula es una letra grande. La usamos al empezar a escribir, después de un punto y en los nombres propios de personas, animales y lugares, como Pablo, la gata Misi o Toledo. Un nombre común, como silla, va en minúscula.",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "Para revisar una oración:\n1. ¿La primera letra es mayúscula?\n2. ¿Hay un punto? La palabra de después, con mayúscula.\n3. ¿Hay nombres de personas, animales o lugares? También con mayúscula.\nEjemplo: «Mañana iré con Leo a Cádiz.»"
+            },
+            {
+              "estilo": "visual",
+              "texto": "Imagina que la mayúscula es una corona 👑 para los nombres propios:\n👑 Irene (persona) · 👑 Bigotes (gato) · 👑 Madrid (lugar)\nLos nombres comunes no llevan corona: mesa, libro, coche."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Compara «oso» y «Pancho». «Oso» sirve para todos los osos: va en minúscula. «Pancho» es el nombre de un oso concreto del zoo: va con mayúscula."
+            }
+          ]
+        },
+        {
+          "id": "lengua-t01-c05",
+          "nombre": "Las lenguas de España",
+          "pagina": 26,
+          "objetivo": "Saber que en España se hablan varias lenguas y relacionar algunas con el lugar donde se hablan.",
+          "descubre": "Una lengua es una forma de hablar, con sus propias palabras, que usan muchas personas para entenderse. En España no se habla una sola: además del castellano, en algunos lugares se habla también otra lengua.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "Imagina que España es un puzle 🧩 y cada pieza es un lugar.\nEn algunas piezas se habla castellano 🗣️ y, además, otra lengua 🗣️: allí se oyen dos lenguas."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Nora y Sara son amigas y viven en España. En el cole hablan castellano, pero Nora, en casa con sus abuelos, habla también otra lengua. ¡Las dos lenguas son de España!"
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "lengua-t01-p01",
@@ -23,7 +122,12 @@
             "cansado"
           ],
           "correcta": 0,
-          "explicacion": "'Contento' y 'alegre' significan casi lo mismo. ¡Son sinónimos!"
+          "explicacion": "'Contento' y 'alegre' significan casi lo mismo. ¡Son sinónimos!",
+          "concepto": "lengua-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Prueba a decir «Hoy estoy contento» con cada palabra: ¿con cuál se entiende igual?"
+          ]
         },
         {
           "id": "lengua-t01-p02",
@@ -36,7 +140,12 @@
             "parar"
           ],
           "correcta": 1,
-          "explicacion": "Empezar y comenzar quieren decir lo mismo."
+          "explicacion": "Empezar y comenzar quieren decir lo mismo.",
+          "concepto": "lengua-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Cuidado: una de las palabras significa justo lo contrario. Busca la que significa casi lo mismo."
+          ]
         },
         {
           "id": "lengua-t01-p03",
@@ -61,7 +170,12 @@
               "rostro"
             ]
           ],
-          "explicacion": "Los sinónimos significan casi lo mismo."
+          "explicacion": "Los sinónimos significan casi lo mismo.",
+          "concepto": "lengua-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Prueba a poner las dos palabras en la misma frase: si se entiende igual, son sinónimos."
+          ]
         },
         {
           "id": "lengua-t01-p04",
@@ -74,7 +188,12 @@
             "Marta vive en sevilla."
           ],
           "correcta": 1,
-          "explicacion": "Marta es nombre de persona y Sevilla de lugar: los dos llevan mayúscula. Además, la oración empieza con mayúscula."
+          "explicacion": "Marta es nombre de persona y Sevilla de lugar: los dos llevan mayúscula. Además, la oración empieza con mayúscula.",
+          "concepto": "lengua-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "Revisa tres cosas: la primera letra, el nombre de la persona y el nombre de la ciudad."
+          ]
         },
         {
           "id": "lengua-t01-p05",
@@ -87,7 +206,12 @@
             "mesa"
           ],
           "correcta": 1,
-          "explicacion": "Los nombres propios de animales llevan mayúscula."
+          "explicacion": "Los nombres propios de animales llevan mayúscula.",
+          "concepto": "lengua-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Piensa cuál de las tres palabras podría ser el nombre de tu mascota."
+          ]
         },
         {
           "id": "lengua-t01-p06",
@@ -95,7 +219,12 @@
           "pagina": 22,
           "enunciado": "Después de un punto, la siguiente palabra empieza con mayúscula.",
           "correcta": true,
-          "explicacion": "¡Muy bien! Tras el punto empezamos con mayúscula."
+          "explicacion": "¡Muy bien! Tras el punto empezamos con mayúscula.",
+          "concepto": "lengua-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "Abre un cuento y mira cómo es la primera letra que hay después de cada punto."
+          ]
         },
         {
           "id": "lengua-t01-p07",
@@ -103,7 +232,12 @@
           "pagina": 22,
           "enunciado": "La palabra 'lápiz' es un nombre propio y va con mayúscula.",
           "correcta": false,
-          "explicacion": "'Lápiz' es un nombre común: va en minúscula."
+          "explicacion": "'Lápiz' es un nombre común: va en minúscula.",
+          "concepto": "lengua-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "¿«Lápiz» es el nombre de una persona, de un animal o de un lugar?"
+          ]
         },
         {
           "id": "lengua-t01-p08",
@@ -116,7 +250,12 @@
             "la ducha del barco"
           ],
           "correcta": 0,
-          "explicacion": "La pizarra está en la clase."
+          "explicacion": "La pizarra está en la clase.",
+          "concepto": "lengua-t01-c03",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en lo que ves desde tu silla cuando estás en clase."
+          ]
         },
         {
           "id": "lengua-t01-p09",
@@ -141,7 +280,12 @@
               "medir"
             ]
           ],
-          "explicacion": "Cada material sirve para algo distinto."
+          "explicacion": "Cada material sirve para algo distinto.",
+          "concepto": "lengua-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "Piensa qué haces con cada cosa cuando la usas en clase."
+          ]
         },
         {
           "id": "lengua-t01-p10",
@@ -155,7 +299,12 @@
             "la maestra"
           ],
           "exigeAcentos": false,
-          "explicacion": "El maestro o la maestra nos enseña en el colegio."
+          "explicacion": "El maestro o la maestra nos enseña en el colegio.",
+          "concepto": "lengua-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "Es la persona mayor que está con vosotros en clase y os explica las cosas."
+          ]
         },
         {
           "id": "lengua-t01-p11",
@@ -168,7 +317,12 @@
             "Juega."
           ],
           "correcta": 1,
-          "explicacion": "Alargar una oración es añadir detalles: con qué, dónde, cómo..."
+          "explicacion": "Alargar una oración es añadir detalles: con qué, dónde, cómo...",
+          "concepto": "lengua-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Fíjate en cuántas cosas nos cuenta cada oración: quién, qué hace, con qué, dónde…"
+          ]
         },
         {
           "id": "lengua-t01-p12",
@@ -181,7 +335,12 @@
             "un",
             "cuento"
           ],
-          "explicacion": "Primero quién (Lucía), luego qué hace (lee) y qué (un cuento)."
+          "explicacion": "Primero quién (Lucía), luego qué hace (lee) y qué (un cuento).",
+          "concepto": "lengua-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Empieza por quién hace algo; después, qué hace."
+          ]
         },
         {
           "id": "lengua-t01-p13",
@@ -194,7 +353,12 @@
             "chino"
           ],
           "correcta": 0,
-          "explicacion": "En España hay varias lenguas: castellano, catalán, gallego, euskera..."
+          "explicacion": "En España hay varias lenguas: castellano, catalán, gallego, euskera...",
+          "concepto": "lengua-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Fíjate en el nombre del lugar: una de las lenguas tiene un nombre muy parecido."
+          ]
         },
         {
           "id": "lengua-t01-p14",
@@ -202,7 +366,12 @@
           "pagina": 26,
           "enunciado": "En España solo se habla una lengua.",
           "correcta": false,
-          "explicacion": "Se hablan varias: castellano, catalán, gallego, euskera, valenciano..."
+          "explicacion": "Se hablan varias: castellano, catalán, gallego, euskera, valenciano...",
+          "concepto": "lengua-t01-c05",
+          "nivel": 1,
+          "pistas": [
+            "Piensa: ¿todas las personas de España hablan solo castellano?"
+          ]
         },
         {
           "id": "lengua-t01-p15",
@@ -223,7 +392,12 @@
               "Cataluña"
             ]
           ],
-          "explicacion": "Todas son lenguas de España."
+          "explicacion": "Todas son lenguas de España.",
+          "concepto": "lengua-t01-c05",
+          "nivel": 3,
+          "pistas": [
+            "Algunas lenguas tienen un nombre parecido al del lugar donde se hablan. Empieza por esas."
+          ]
         },
         {
           "id": "lengua-t01-p16",
@@ -234,7 +408,30 @@
             "niño"
           ],
           "exigeAcentos": false,
-          "explicacion": "Chico y niño son sinónimos."
+          "explicacion": "Chico y niño son sinónimos.",
+          "concepto": "lengua-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Piensa en otra palabra para llamar a un chico pequeño, como tus compañeros de clase."
+          ]
+        },
+        {
+          "id": "lengua-t01-p17",
+          "tipo": "eleccion",
+          "pagina": 20,
+          "enunciado": "Queremos alargar 'Ana pinta' contando DÓNDE pinta. ¿Qué oración lo hace?",
+          "opciones": [
+            "Ana pinta en el jardín.",
+            "Ana pinta con ceras.",
+            "Ana pinta muy despacio."
+          ],
+          "correcta": 0,
+          "explicacion": "'En el jardín' dice dónde pinta Ana. 'Con ceras' dice con qué pinta y 'muy despacio', cómo pinta.",
+          "concepto": "lengua-t01-c01",
+          "nivel": 3,
+          "pistas": [
+            "Lee cada oración y pregúntate: ¿dónde pinta Ana? Solo una lo dice."
+          ]
         }
       ]
     },

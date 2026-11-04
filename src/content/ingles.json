@@ -258,6 +258,102 @@
       "paginas": "6-15",
       "resumen": "Material escolar y equipo de deporte; Have you got...? / Can I use your...?",
       "explicacion": "En esta unidad aprendemos el material del cole: pencil case (estuche), scissors (tijeras), glue stick (pegamento), folder (carpeta), dictionary, lunch box, water bottle y sharpener. Para pedir algo: «Can I use your...?» – «Sure! Here you are». Para preguntar si alguien tiene algo: «Have you got a...?» – «Yes, I have / No, I haven't». ¡Y la ropa de deporte: trainers, shorts, tracksuit, sports bag!",
+      "conceptos": [
+        {
+          "id": "ingles-t02-c01",
+          "nombre": "School things",
+          "pagina": 6,
+          "objetivo": "Reconocer y decir en inglés el material del cole de la unidad: scissors, pencil case, glue stick, sharpener, folder, dictionary, lunch box y water bottle.",
+          "descubre": "Open your school bag. What have you got? Every school thing has got a name in English. Look, this is a pencil! Let's learn the names of your school things.",
+          "ayuda": "Abre tu mochila. ¿Qué tienes? Cada cosa del cole tiene un nombre en inglés. ¡Mira, esto es un lápiz (pencil)! Vamos a aprender los nombres de tus cosas del cole.",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "Para aprender una palabra nueva en inglés:\n1. Mira la cosa, por ejemplo tu lápiz.\n2. Di su nombre en inglés en voz alta: «pencil».\n3. Repítelo tres veces.\n4. Tócala y dilo otra vez. ¡Así no se te olvida!"
+            },
+            {
+              "estilo": "visual",
+              "texto": "✏️ Esto es «pencil», el lápiz.\nAhora mira estas cosas del cole: ✂️ 📁 🍱\nSeñálalas una a una y di su nombre en inglés."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Algunas palabras en inglés se parecen mucho al español y son fáciles de recordar. Otras no se parecen nada y hay que practicarlas más. Cuando veas una palabra nueva, pregúntate: ¿se parece a alguna palabra que ya conozco?"
+            }
+          ]
+        },
+        {
+          "id": "ingles-t02-c02",
+          "nombre": "Can I use your...?",
+          "pagina": 7,
+          "objetivo": "Pedir prestado algo con «Can I use your...?» y contestar «Sure! Here you are».",
+          "descubre": "Do you want to use your friend's things? Ask first! Tom asks Ana: «Can I use your pencil?» Ana says: «Sure! Here you are.» Now Tom can use it.",
+          "ayuda": "¿Quieres usar las cosas de un amigo? ¡Pide primero! Tom le pregunta a Ana: «Can I use your pencil?» (¿Puedo usar tu lápiz?). Ana le contesta: «Sure! Here you are.» (¡Claro! Aquí tienes). Ahora Tom puede usarlo.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Imagina que quieres mirar el diccionario de tu compañera. Se lo pides así: «Can I use your dictionary?». Si te lo deja, te dirá que claro y te lo dará."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "Quien pide y quien da dicen cosas distintas. Quien pide hace una pregunta, que termina con «?». Quien da contesta y entrega la cosa. ¡No las confundas!"
+            }
+          ]
+        },
+        {
+          "id": "ingles-t02-c03",
+          "nombre": "Have you got...?",
+          "pagina": 8,
+          "objetivo": "Preguntar si alguien tiene algo con «Have you got...?» («Has he/she got...?» si hablamos de otra persona) y contestar con respuestas cortas: «Yes, I have», «No, I haven't», «Yes, he has».",
+          "descubre": "Do you want to know what your friend has got? Ask: «Have you got a glue stick?» If yes, your friend says: «Yes, I have.» If not, your friend says: «No, I haven't.»",
+          "ayuda": "¿Quieres saber qué tiene tu amigo? Pregunta: «Have you got a glue stick?» (¿Tienes un pegamento de barra?). Si lo tiene, dice: «Yes, I have.» (Sí, tengo). Si no, dice: «No, I haven't.» (No, no tengo).",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "Para preguntar si alguien tiene algo:\n1. Si hablas con tu amigo, empieza con «Have you got…?», por ejemplo: «Have you got a water bottle?».\n2. Si hablas de un niño (he) o de una niña (she), «have» cambia y se dice «has».\n3. La respuesta corta usa la misma palabra que la pregunta."
+            },
+            {
+              "estilo": "comparar",
+              "texto": "En español también cambia la palabra según la persona: yo tengo, tú tienes, él tiene. En inglés pasa igual: no se dice lo mismo con «I» que con «she»."
+            }
+          ]
+        },
+        {
+          "id": "ingles-t02-c04",
+          "nombre": "Sports things",
+          "pagina": 10,
+          "objetivo": "Reconocer y decir en inglés la ropa y el equipo de deporte de la unidad: trainers, shorts, tracksuit, sports bag y football boots.",
+          "descubre": "Do you like sport? For sport we need special clothes. Look! Tom has got a football shirt. Let's learn the names of the sports clothes and things!",
+          "ayuda": "¿Te gusta el deporte? Para hacer deporte necesitamos ropa especial. ¡Mira! Tom tiene una camiseta de fútbol (football shirt). ¡Vamos a aprender los nombres de la ropa y las cosas de deporte!",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "Hay ropa para ir a clase y ropa para hacer deporte. Para jugar al fútbol te pones una camiseta de fútbol: en inglés, «football shirt». ¿Y qué te pones en los pies para correr? ¿Y en las piernas cuando hace calor?"
+            },
+            {
+              "estilo": "visual",
+              "texto": "⚽👕 «football shirt», la camiseta de fútbol.\nAhora mira estos dibujos: 👟 🩳\nSeñala cada uno y di su nombre en inglés."
+            }
+          ]
+        },
+        {
+          "id": "ingles-t02-c05",
+          "nombre": "My, our, their",
+          "pagina": 10,
+          "objetivo": "Elegir my, our o their según quién tiene la cosa (I, we, they) en frases como «We've got our...».",
+          "descubre": "Look at the person. I've got my folder. You've got your folder. We've got our folders. They've got their folders. The little word changes with the person!",
+          "ayuda": "Fíjate en la persona. I've got my folder (tengo mi carpeta). You've got your folder (tienes tu carpeta). We've got our folders (tenemos nuestras carpetas). They've got their folders (tienen sus carpetas). ¡La palabrita cambia según la persona!",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "En español también cambia la palabra según quién tiene la cosa: yo tengo mi botella, nosotros tenemos nuestra botella, ellos tienen su botella. En inglés pasa lo mismo: cada persona tiene su palabrita."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "1. Busca quién tiene la cosa: I, you, we o they.\n2. Piensa cómo lo dirías en español: mi, tu, nuestro o su.\n3. Elige la palabra inglesa que significa eso y ponla justo antes de la cosa."
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "ingles-t02-p01",
@@ -270,7 +366,13 @@
             "a pair of scissors"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Muy bien! Tijeras es «scissors»."
+          "explicacion": "¡Muy bien! Tijeras es «scissors».",
+          "concepto": "ingles-t02-c01",
+          "nivel": 2,
+          "pistas": [
+            "Empieza y termina por la misma letra.",
+            "Tiene dos eses juntas en el medio."
+          ]
         },
         {
           "id": "ingles-t02-p02",
@@ -284,7 +386,13 @@
             "pencilcase"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Muy bien! «estuche» se dice «pencil case»."
+          "explicacion": "¡Muy bien! «estuche» se dice «pencil case».",
+          "concepto": "ingles-t02-c01",
+          "nivel": 2,
+          "pistas": [
+            "Son dos palabras.",
+            "La primera palabra es «lápiz» en inglés."
+          ]
         },
         {
           "id": "ingles-t02-p03",
@@ -297,7 +405,12 @@
             "goma"
           ],
           "correcta": 0,
-          "explicacion": "«Glue stick» es el pegamento de barra."
+          "explicacion": "«Glue stick» es el pegamento de barra.",
+          "concepto": "ingles-t02-c01",
+          "nivel": 1,
+          "pistas": [
+            "Con «glue» pegas papeles en tu cuaderno."
+          ]
         },
         {
           "id": "ingles-t02-p04",
@@ -310,7 +423,12 @@
             "dictionary"
           ],
           "correcta": 0,
-          "explicacion": "Sacapuntas es «sharpener»."
+          "explicacion": "Sacapuntas es «sharpener».",
+          "concepto": "ingles-t02-c01",
+          "nivel": 1,
+          "pistas": [
+            "Descarta las palabras que ya conoces: ¿qué es «folder»? ¿Y «dictionary»?"
+          ]
         },
         {
           "id": "ingles-t02-p05",
@@ -336,7 +454,13 @@
             ]
           ],
           "explicacion": "¡Genial! Ya conoces más cosas del cole.",
-          "ayuda": "Une cada palabra en inglés con su significado en español."
+          "ayuda": "Une cada palabra en inglés con su significado en español.",
+          "concepto": "ingles-t02-c01",
+          "nivel": 2,
+          "pistas": [
+            "Empieza por la palabra inglesa que se parece mucho a una española.",
+            "Une primero las que sepas seguro y deja para el final la que dudes."
+          ]
         },
         {
           "id": "ingles-t02-p06",
@@ -350,7 +474,12 @@
           ],
           "correcta": 0,
           "explicacion": "Si alguien pide usar algo tuyo, contestas «Sure! Here you are» (¡Claro! Aquí tienes).",
-          "ayuda": "¿Puedo usar tus tijeras?"
+          "ayuda": "¿Puedo usar tus tijeras?",
+          "concepto": "ingles-t02-c02",
+          "nivel": 1,
+          "pistas": [
+            "Te están pidiendo algo prestado. ¿Qué dices cuando se lo das a alguien?"
+          ]
         },
         {
           "id": "ingles-t02-p07",
@@ -365,7 +494,13 @@
             "folder?"
           ],
           "explicacion": "«Have you got a folder?» = «¿Tienes una carpeta?».",
-          "ayuda": "Ordena las palabras para formar la frase."
+          "ayuda": "Ordena las palabras para formar la frase.",
+          "concepto": "ingles-t02-c03",
+          "nivel": 2,
+          "pistas": [
+            "Es una pregunta para saber si alguien tiene algo.",
+            "La palabra que lleva «?» va al final."
+          ]
         },
         {
           "id": "ingles-t02-p08",
@@ -379,7 +514,13 @@
           ],
           "correcta": 0,
           "explicacion": "La respuesta negativa con «I» es «No, I haven't».",
-          "ayuda": "¿Tienes un diccionario? – No, ..."
+          "ayuda": "¿Tienes un diccionario? – No, ...",
+          "concepto": "ingles-t02-c03",
+          "nivel": 1,
+          "pistas": [
+            "La respuesta empieza por «No»: busca la palabra que dice que no lo tienes.",
+            "Fíjate en quién contesta: «I» (yo)."
+          ]
         },
         {
           "id": "ingles-t02-p09",
@@ -393,7 +534,13 @@
           ],
           "correcta": 0,
           "explicacion": "Con he/she usamos «Has»: «Has she got...?».",
-          "ayuda": "Elige la palabra correcta."
+          "ayuda": "Elige la palabra correcta.",
+          "concepto": "ingles-t02-c03",
+          "nivel": 3,
+          "pistas": [
+            "Fíjate en quién tiene la fiambrera: «she» (ella).",
+            "Con «I» y «you» se pregunta «Have you got…?». Con «he» y «she» la palabra cambia."
+          ]
         },
         {
           "id": "ingles-t02-p10",
@@ -407,7 +554,13 @@
           ],
           "correcta": 0,
           "explicacion": "Con he usamos «has»: «Yes, he has».",
-          "ayuda": "¿Tiene él un lápiz? – Sí, ..."
+          "ayuda": "¿Tiene él un lápiz? – Sí, ...",
+          "concepto": "ingles-t02-c03",
+          "nivel": 2,
+          "pistas": [
+            "Es una respuesta corta sobre «he» (él).",
+            "Con «he» y «she» no se dice «have»."
+          ]
         },
         {
           "id": "ingles-t02-p11",
@@ -422,7 +575,13 @@
             "sharpener?"
           ],
           "explicacion": "«Can I use your sharpener?» = «¿Puedo usar tu sacapuntas?».",
-          "ayuda": "Ordena las palabras para formar la frase."
+          "ayuda": "Ordena las palabras para formar la frase.",
+          "concepto": "ingles-t02-c02",
+          "nivel": 2,
+          "pistas": [
+            "Es una pregunta para pedir algo prestado.",
+            "La palabra que lleva «?» va al final."
+          ]
         },
         {
           "id": "ingles-t02-p12",
@@ -435,7 +594,13 @@
             "sneakers"
           ],
           "exigeAcentos": false,
-          "explicacion": "¡Muy bien! Zapatillas de deporte es «trainers»."
+          "explicacion": "¡Muy bien! Zapatillas de deporte es «trainers».",
+          "concepto": "ingles-t02-c04",
+          "nivel": 2,
+          "pistas": [
+            "Recuerda la ropa de deporte: shorts, football boots…",
+            "Termina en «s», porque son dos zapatillas."
+          ]
         },
         {
           "id": "ingles-t02-p13",
@@ -461,7 +626,13 @@
             ]
           ],
           "explicacion": "¡Muy bien! Esta es la ropa y el equipo de deporte.",
-          "ayuda": "Une cada palabra en inglés con su significado en español."
+          "ayuda": "Une cada palabra en inglés con su significado en español.",
+          "concepto": "ingles-t02-c04",
+          "nivel": 2,
+          "pistas": [
+            "Busca primero las palabras inglesas que se parecen al español, como «sports» o «football».",
+            "Une primero las que sepas seguro y deja para el final la que dudes."
+          ]
         },
         {
           "id": "ingles-t02-p14",
@@ -475,7 +646,12 @@
           ],
           "correcta": 0,
           "explicacion": "Con «we» usamos «our» (nuestro): «We've got our...».",
-          "ayuda": "Fíjate en quién habla: «We» (nosotros)."
+          "ayuda": "Fíjate en quién habla: «We» (nosotros).",
+          "concepto": "ingles-t02-c05",
+          "nivel": 1,
+          "pistas": [
+            "Con «I» (yo) se dice «my» (mi). ¿Qué palabra va con «we» (nosotros)?"
+          ]
         },
         {
           "id": "ingles-t02-p15",
@@ -489,7 +665,12 @@
           ],
           "correcta": 0,
           "explicacion": "Con «they» usamos «their» (su/sus de ellos).",
-          "ayuda": "Fíjate en quién tiene las zapatillas: «They» (ellos)."
+          "ayuda": "Fíjate en quién tiene las zapatillas: «They» (ellos).",
+          "concepto": "ingles-t02-c05",
+          "nivel": 2,
+          "pistas": [
+            "Cada persona tiene su palabrita: con «I» se dice «my». Busca la que va con «they» (ellos)."
+          ]
         },
         {
           "id": "ingles-t02-p16",
@@ -504,7 +685,51 @@
             "bag"
           ],
           "explicacion": "«I've got my sports bag» = «Tengo mi bolsa de deporte».",
-          "ayuda": "Ordena las palabras para formar la frase."
+          "ayuda": "Ordena las palabras para formar la frase.",
+          "concepto": "ingles-t02-c05",
+          "nivel": 3,
+          "pistas": [
+            "Empieza por quién tiene algo y termina por lo que tiene.",
+            "«My» va justo antes de la cosa que es tuya."
+          ]
+        },
+        {
+          "id": "ingles-t02-p17",
+          "tipo": "eleccion",
+          "pagina": 7,
+          "enunciado": "Your friend has got a glue stick. You want to use it. What do you say?",
+          "opciones": [
+            "Sure! Here you are.",
+            "Can I use your glue stick?",
+            "No, I haven't."
+          ],
+          "correcta": 1,
+          "explicacion": "Para pedir usar algo de otra persona decimos «Can I use your...?». «Sure! Here you are» es lo que contesta quien te lo deja.",
+          "ayuda": "Tu amigo tiene un pegamento de barra y tú quieres usarlo. ¿Qué le dices?",
+          "concepto": "ingles-t02-c02",
+          "nivel": 3,
+          "pistas": [
+            "Tú eres quien pide, no quien contesta."
+          ]
+        },
+        {
+          "id": "ingles-t02-p18",
+          "tipo": "eleccion",
+          "pagina": 10,
+          "enunciado": "Which one is for sport?",
+          "opciones": [
+            "folder",
+            "tracksuit",
+            "dictionary"
+          ],
+          "correcta": 1,
+          "explicacion": "«Tracksuit» es el chándal, ropa de deporte. «Folder» (carpeta) y «dictionary» (diccionario) son material del cole.",
+          "ayuda": "¿Cuál de estas cosas es para hacer deporte?",
+          "concepto": "ingles-t02-c04",
+          "nivel": 1,
+          "pistas": [
+            "Dos de estas palabras son material del cole. Busca la otra."
+          ]
         }
       ]
     },

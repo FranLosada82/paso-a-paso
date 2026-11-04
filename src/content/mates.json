@@ -11,6 +11,105 @@
       "paginas": "12-31",
       "resumen": "Decenas y unidades, comparar con > y <, números hasta el 99, sumas y restas sin llevar y la decena más cercana.",
       "explicacion": "Una decena son 10 unidades. El número 47 tiene 4 decenas y 7 unidades. Para comparar, mira primero las decenas: el número con más decenas es mayor. El pico del signo > o < siempre apunta al número más pequeño.",
+      "conceptos": [
+        {
+          "id": "mates-t01-c01",
+          "nombre": "Decenas y unidades",
+          "pagina": 14,
+          "objetivo": "Agrupar de 10 en 10 y reconocer cuántas decenas y unidades tiene un número de dos cifras.",
+          "descubre": "Cuando contamos muchas cosas, las agrupamos de 10 en 10. Un grupo de 10 se llama decena y lo que sobra son unidades sueltas. En 45 hay 4 decenas y 5 unidades: 4 cajas de 10 lápices y 5 lápices sueltos.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "Imagina paquetes de 10 caramelos. En 24 hay 2 paquetes y 4 caramelos sueltos:\n📦📦 🍬🍬🍬🍬\nLa cifra de la izquierda dice cuántos paquetes hay (decenas). La de la derecha, cuántos sueltos (unidades)."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Tus dos manos tienen 10 dedos: ¡una decena! Si cuatro amigos enseñan sus dos manos, hay 4 decenas de dedos, que son 40 dedos."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "1. Mira un número, por ejemplo 61.\n2. La primera cifra, 6, son las decenas: 6 grupos de 10.\n3. La segunda cifra, 1, es la unidad suelta.\n4. 6 decenas y 1 unidad forman el 61."
+            }
+          ]
+        },
+        {
+          "id": "mates-t01-c02",
+          "nombre": "Comparar números",
+          "pagina": 16,
+          "objetivo": "Comparar números de dos cifras mirando primero las decenas y usar los signos > y <.",
+          "descubre": "Para saber qué número es mayor, mira primero las decenas: gana el que tiene más. Si tienen las mismas decenas, mira las unidades. El signo > o < es como una boca abierta que siempre quiere comerse el número más grande.",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "¿Quién tiene más cromos, Leo con 52 o Sara con 25? 52 son 5 paquetes de 10 y 25 solo 2 paquetes. Más paquetes, más cromos: 52 > 25."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "1. Compara las decenas (la primera cifra).\n2. Si una es mayor, ese número es el mayor.\n3. Si son iguales, compara las unidades.\n4. Pon el signo con la boca abierta hacia el mayor: 71 > 17."
+            },
+            {
+              "estilo": "visual",
+              "texto": "Piensa en una fila de números: 10 · 20 · 30 · 40 · 50 · 60 · 70 · 80 · 90.\nCuanto más a la derecha está un número, mayor es."
+            }
+          ]
+        },
+        {
+          "id": "mates-t01-c03",
+          "nombre": "Anterior, posterior y cómo se leen",
+          "pagina": 18,
+          "objetivo": "Decir el número anterior y el posterior hasta el 99 y leer números de dos cifras.",
+          "descubre": "Cada número tiene un vecino anterior, uno menos, y uno posterior, uno más. Después de 29 viene 30: cuando las unidades pasan de 9 se completa una decena nueva. Para leer un número, di primero las decenas: 47 se lee cuarenta y siete.",
+          "otraManera": [
+            {
+              "estilo": "ejemplo",
+              "texto": "Piensa en la fila para entrar en clase. Quien va justo delante de ti es el anterior y quien va justo detrás, el posterior. Con los números pasa igual: el anterior de 35 es 34 y el posterior es 36."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para leer 64:\n1. Mira las decenas: 6 decenas se dicen «sesenta».\n2. Mira las unidades: 4 se dice «cuatro».\n3. Únelos con «y»: sesenta y cuatro."
+            }
+          ]
+        },
+        {
+          "id": "mates-t01-c04",
+          "nombre": "Sumar y restar sin llevar",
+          "pagina": 20,
+          "objetivo": "Sumar y restar números de dos cifras sin llevar, operando unidades con unidades y decenas con decenas, también en problemas.",
+          "descubre": "Para sumar o restar números de dos cifras, pon unidades con unidades y decenas con decenas. Primero calcula las unidades y después las decenas. Por ejemplo, 32 + 15: 2 + 5 = 7 y 3 + 1 = 4. El resultado es 47.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "Sumamos 21 + 14 con paquetes de 10 y caramelos sueltos:\n📦📦 🍬  +  📦 🍬🍬🍬🍬\nJunta los paquetes: 3. Junta los sueltos: 5. En total, 35."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Restamos 57 − 23:\n1. Unidades: 7 − 3 = 4.\n2. Decenas: 5 − 2 = 3.\n3. Resultado: 34."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Tienes 46 cromos y te regalan 12. Primero los sueltos: 6 + 2 = 8. Después los paquetes de 10: 4 + 1 = 5. Ahora tienes 58 cromos."
+            }
+          ]
+        },
+        {
+          "id": "mates-t01-c05",
+          "nombre": "La decena más cercana",
+          "pagina": 22,
+          "objetivo": "Encontrar la decena más cercana a un número de dos cifras.",
+          "descubre": "La decena más cercana es la decena redonda (10, 20, 30…) que está más cerca de un número. Fíjate en las unidades: si son 1, 2, 3 o 4, vas a la decena de abajo; si son 6, 7, 8 o 9, a la de arriba.",
+          "otraManera": [
+            {
+              "estilo": "visual",
+              "texto": "Imagina un camino:\n30 · 31 · 32 · 33 · 34 · 35 · 36 · 37 · 38 · 39 · 40\nDesde el 32 hay 2 pasos hasta el 30 y 8 pasos hasta el 40. ¡Gana el 30!"
+            },
+            {
+              "estilo": "pasos",
+              "texto": "1. Busca entre qué dos decenas está el número: 47 está entre 40 y 50.\n2. Cuenta los pasos hasta cada una: 7 hasta 40 y 3 hasta 50.\n3. La más cercana es la que necesita menos pasos: 50."
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "mates-t01-p01",
@@ -23,7 +122,12 @@
             "100"
           ],
           "correcta": 1,
-          "explicacion": "¡Bien! Una decena es un grupo de 10 unidades."
+          "explicacion": "¡Bien! Una decena es un grupo de 10 unidades.",
+          "concepto": "mates-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Cuenta los dedos de tus dos manos."
+          ]
         },
         {
           "id": "mates-t01-p02",
@@ -36,7 +140,13 @@
             "36 lapices"
           ],
           "exigeAcentos": false,
-          "explicacion": "3 decenas y 6 unidades forman el 36."
+          "explicacion": "3 decenas y 6 unidades forman el 36.",
+          "concepto": "mates-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Cada caja tiene 10 lápices: cuenta las cajas de 10 en 10.",
+            "Después suma los lápices sueltos."
+          ]
         },
         {
           "id": "mates-t01-p03",
@@ -49,7 +159,12 @@
             "502"
           ],
           "correcta": 1,
-          "explicacion": "Las decenas van a la izquierda: 5 decenas y 2 unidades es 52."
+          "explicacion": "Las decenas van a la izquierda: 5 decenas y 2 unidades es 52.",
+          "concepto": "mates-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Las decenas se escriben a la izquierda y las unidades a la derecha."
+          ]
         },
         {
           "id": "mates-t01-p04",
@@ -57,7 +172,12 @@
           "pagina": 16,
           "enunciado": "¿Es cierto que 38 > 83?",
           "correcta": false,
-          "explicacion": "38 tiene 3 decenas y 83 tiene 8. Por eso 38 < 83."
+          "explicacion": "38 tiene 3 decenas y 83 tiene 8. Por eso 38 < 83.",
+          "concepto": "mates-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Mira primero las decenas de cada número."
+          ]
         },
         {
           "id": "mates-t01-p05",
@@ -69,7 +189,12 @@
             "<"
           ],
           "correcta": 0,
-          "explicacion": "64 tiene más decenas que 46, así que 64 > 46."
+          "explicacion": "64 tiene más decenas que 46, así que 64 > 46.",
+          "concepto": "mates-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "¿Qué número tiene más decenas? La boca del signo se abre hacia él."
+          ]
         },
         {
           "id": "mates-t01-p06",
@@ -83,7 +208,12 @@
             "72",
             "90"
           ],
-          "explicacion": "Compara las decenas: 1, 2, 4, 7 y 9."
+          "explicacion": "Compara las decenas: 1, 2, 4, 7 y 9.",
+          "concepto": "mates-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Busca primero el número con menos decenas."
+          ]
         },
         {
           "id": "mates-t01-p07",
@@ -108,7 +238,12 @@
               "cincuenta"
             ]
           ],
-          "explicacion": "Lee primero las decenas y después las unidades."
+          "explicacion": "Lee primero las decenas y después las unidades.",
+          "concepto": "mates-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "Lee primero las decenas y después las unidades."
+          ]
         },
         {
           "id": "mates-t01-p08",
@@ -122,7 +257,13 @@
             "37 pinas"
           ],
           "exigeAcentos": false,
-          "explicacion": "24 + 13: 4 + 3 = 7 unidades y 2 + 1 = 3 decenas. Total: 37."
+          "explicacion": "24 + 13: 4 + 3 = 7 unidades y 2 + 1 = 3 decenas. Total: 37.",
+          "concepto": "mates-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "Suma primero las unidades: 4 + 3.",
+            "Después suma las decenas: 2 + 1."
+          ]
         },
         {
           "id": "mates-t01-p09",
@@ -136,7 +277,13 @@
             "23 asientos"
           ],
           "exigeAcentos": false,
-          "explicacion": "48 − 25: 8 − 5 = 3 y 4 − 2 = 2. Quedan 23."
+          "explicacion": "48 − 25: 8 − 5 = 3 y 4 − 2 = 2. Quedan 23.",
+          "concepto": "mates-t01-c04",
+          "nivel": 3,
+          "pistas": [
+            "Resta primero las unidades: 8 − 5.",
+            "Después resta las decenas: 4 − 2."
+          ]
         },
         {
           "id": "mates-t01-p10",
@@ -149,7 +296,12 @@
             "80"
           ],
           "correcta": 1,
-          "explicacion": "68 está más cerca de 70 que de 60, porque 8 es mayor que 5."
+          "explicacion": "68 está más cerca de 70 que de 60, porque 8 es mayor que 5.",
+          "concepto": "mates-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Fíjate en las unidades de 68: ¿son más de 5?"
+          ]
         },
         {
           "id": "mates-t01-p11",
@@ -162,7 +314,12 @@
             "20"
           ],
           "correcta": 0,
-          "explicacion": "31 está a solo 1 de 30."
+          "explicacion": "31 está a solo 1 de 30.",
+          "concepto": "mates-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "Busca las dos decenas entre las que está el 31 y cuenta los pasos hasta cada una."
+          ]
         },
         {
           "id": "mates-t01-p12",
@@ -170,7 +327,12 @@
           "pagina": 18,
           "enunciado": "El número que va justo después de 59 es 60.",
           "correcta": true,
-          "explicacion": "¡Eso es! Después de 59 se completa una decena nueva: 60."
+          "explicacion": "¡Eso es! Después de 59 se completa una decena nueva: 60.",
+          "concepto": "mates-t01-c03",
+          "nivel": 1,
+          "pistas": [
+            "Cuenta en voz alta: 57, 58, 59…"
+          ]
         },
         {
           "id": "mates-t01-p13",
@@ -182,7 +344,12 @@
             "setenta y nueve"
           ],
           "exigeAcentos": false,
-          "explicacion": "El anterior de 80 es 79."
+          "explicacion": "El anterior de 80 es 79.",
+          "concepto": "mates-t01-c03",
+          "nivel": 2,
+          "pistas": [
+            "El número anterior es uno menos."
+          ]
         },
         {
           "id": "mates-t01-p14",
@@ -207,7 +374,12 @@
               "40"
             ]
           ],
-          "explicacion": "Suma unidades con unidades y decenas con decenas."
+          "explicacion": "Suma unidades con unidades y decenas con decenas.",
+          "concepto": "mates-t01-c04",
+          "nivel": 2,
+          "pistas": [
+            "Suma unidades con unidades y decenas con decenas."
+          ]
         },
         {
           "id": "mates-t01-p15",
@@ -220,7 +392,12 @@
             "61",
             "16"
           ],
-          "explicacion": "96 tiene 9 decenas, 69 y 61 tienen 6 (69 tiene más unidades) y 16 tiene 1."
+          "explicacion": "96 tiene 9 decenas, 69 y 61 tienen 6 (69 tiene más unidades) y 16 tiene 1.",
+          "concepto": "mates-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Dos números tienen las mismas decenas: mira sus unidades."
+          ]
         },
         {
           "id": "mates-t01-p16",
@@ -233,7 +410,59 @@
             "70"
           ],
           "correcta": 0,
-          "explicacion": "70 son 7 decenas justas y 0 unidades."
+          "explicacion": "70 son 7 decenas justas y 0 unidades.",
+          "concepto": "mates-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en 70 como paquetes de 10: ¿cuántos paquetes son?"
+          ]
+        },
+        {
+          "id": "mates-t01-p17",
+          "tipo": "vf",
+          "pagina": 22,
+          "enunciado": "La decena más cercana a 89 es 90.",
+          "correcta": true,
+          "explicacion": "De 89 a 90 hay solo 1 paso; hasta 80 hay 9. Por eso la más cercana es 90.",
+          "concepto": "mates-t01-c05",
+          "nivel": 1,
+          "pistas": [
+            "Cuenta los pasos de 89 hasta 90 y hasta 80."
+          ]
+        },
+        {
+          "id": "mates-t01-p18",
+          "tipo": "escribir",
+          "pagina": 22,
+          "enunciado": "¿Cuál es la decena más cercana a 42?",
+          "respuestas": [
+            "40",
+            "cuarenta"
+          ],
+          "exigeAcentos": false,
+          "explicacion": "42 está entre 40 y 50: hay 2 pasos hasta 40 y 8 hasta 50. La más cercana es 40.",
+          "concepto": "mates-t01-c05",
+          "nivel": 2,
+          "pistas": [
+            "¿Entre qué dos decenas está el 42? Cuenta los pasos hasta cada una."
+          ]
+        },
+        {
+          "id": "mates-t01-p19",
+          "tipo": "eleccion",
+          "pagina": 20,
+          "enunciado": "¿Cuánto es 31 + 6?",
+          "opciones": [
+            "37",
+            "91"
+          ],
+          "correcta": 0,
+          "explicacion": "El 6 son unidades: 1 + 6 = 7 unidades, y las 3 decenas no cambian. Resultado: 37.",
+          "concepto": "mates-t01-c04",
+          "nivel": 1,
+          "pistas": [
+            "El 6 son unidades sueltas: súmalo a las unidades del 31."
+          ]
         }
       ]
     },

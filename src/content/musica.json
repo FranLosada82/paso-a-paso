@@ -11,6 +11,42 @@
       "paginas": "6-7",
       "resumen": "Las notas mi y sol en el pentagrama y la clave de sol.",
       "explicacion": "La música se escribe en el pentagrama, que tiene 5 líneas. La nota mi vive en la primera línea y la nota sol en la segunda línea. ¡Las líneas se cuentan de abajo arriba!",
+      "conceptos": [
+        {
+          "id": "musica-t01-c01",
+          "nombre": "El pentagrama",
+          "pagina": 6,
+          "objetivo": "Saber que la música se escribe en el pentagrama, que tiene 5 líneas que se cuentan de abajo arriba, y que al principio va la clave de sol.",
+          "descubre": "La música se escribe en el pentagrama, que tiene 5 líneas, una encima de otra, como los escalones de una escalera. Las líneas se cuentan desde abajo, igual que subes una escalera. Al principio de tus canciones va la clave de sol.",
+          "otraManera": [
+            {
+              "estilo": "comparar",
+              "texto": "Cuando escribes en tu cuaderno, usas sus líneas para que las letras queden rectas. La música también tiene líneas para escribir las notas: eso es el pentagrama. Y, igual que una ficha empieza con tu nombre, el pentagrama empieza con un signo que nos ayuda a leer."
+            },
+            {
+              "estilo": "pasos",
+              "texto": "Para leer la música de una canción:\n1. Busca el signo que hay al principio del pentagrama: te ayuda a leer las notas.\n2. Mira en qué línea está cada nota.\n3. Cuenta las líneas para saber cuál es. ¡Cada nota tiene la suya!"
+            }
+          ]
+        },
+        {
+          "id": "musica-t01-c02",
+          "nombre": "Las notas mi y sol",
+          "pagina": 7,
+          "objetivo": "Situar la nota mi en la primera línea y la nota sol en la segunda, compararlas y relacionar la altura en el pentagrama con un sonido más agudo.",
+          "descubre": "Cada nota tiene su sitio en el pentagrama, como los vecinos en los pisos de un edificio. La nota mi vive en la primera línea, la de abajo del todo. La nota sol vive justo encima, en la segunda línea.",
+          "otraManera": [
+            {
+              "estilo": "pasos",
+              "texto": "Para saber en qué línea está una nota:\n1. Pon el dedo en la línea de abajo del todo y di «una».\n2. Sube a la siguiente y di «dos».\n3. Sube otra más y di «tres».\nCada nota vive siempre en la misma línea, así que, contando, la encontrarás."
+            },
+            {
+              "estilo": "ejemplo",
+              "texto": "Las notas son como los niños de tu clase: cada uno tiene su silla y siempre se sienta en ella. Si sabes cuál es la silla de cada nota, sabrás cómo se llama solo con mirar dónde está."
+            }
+          ]
+        }
+      ],
       "preguntas": [
         {
           "id": "musica-t01-p01",
@@ -23,7 +59,12 @@
             "6"
           ],
           "correcta": 1,
-          "explicacion": "¡Bien! El pentagrama tiene 5 líneas, como los dedos de una mano."
+          "explicacion": "¡Bien! El pentagrama tiene 5 líneas, como los dedos de una mano.",
+          "concepto": "musica-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Imagina el pentagrama de tus canciones y cuenta sus líneas una a una."
+          ]
         },
         {
           "id": "musica-t01-p02",
@@ -36,7 +77,13 @@
             "En la tercera línea"
           ],
           "correcta": 0,
-          "explicacion": "La nota mi se escribe en la primera línea, la de más abajo."
+          "explicacion": "La nota mi se escribe en la primera línea, la de más abajo.",
+          "concepto": "musica-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Las líneas se cuentan de abajo arriba.",
+            "De las dos notas del tema, mi es la que está más abajo."
+          ]
         },
         {
           "id": "musica-t01-p03",
@@ -49,7 +96,13 @@
             "En la quinta línea"
           ],
           "correcta": 1,
-          "explicacion": "La nota sol está en la segunda línea, justo encima de mi."
+          "explicacion": "La nota sol está en la segunda línea, justo encima de mi.",
+          "concepto": "musica-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Primero piensa en qué línea está mi.",
+            "Sol está justo encima de mi."
+          ]
         },
         {
           "id": "musica-t01-p04",
@@ -62,7 +115,12 @@
             "Una corchea"
           ],
           "correcta": 0,
-          "explicacion": "La clave de sol va al principio del pentagrama y nos ayuda a leer las notas."
+          "explicacion": "La clave de sol va al principio del pentagrama y nos ayuda a leer las notas.",
+          "concepto": "musica-t01-c01",
+          "nivel": 1,
+          "pistas": [
+            "Su nombre lleva dentro el nombre de una nota musical."
+          ]
         },
         {
           "id": "musica-t01-p05",
@@ -70,7 +128,12 @@
           "pagina": 7,
           "enunciado": "Las líneas del pentagrama se cuentan de abajo arriba.",
           "correcta": true,
-          "explicacion": "¡Correcto! La primera línea es la de abajo del todo."
+          "explicacion": "¡Correcto! La primera línea es la de abajo del todo.",
+          "concepto": "musica-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en la nota mi, que está en la primera línea: ¿está arriba o abajo del todo?"
+          ]
         },
         {
           "id": "musica-t01-p06",
@@ -78,7 +141,12 @@
           "pagina": 7,
           "enunciado": "La nota sol se escribe más abajo que la nota mi.",
           "correcta": false,
-          "explicacion": "Al revés: sol está en la segunda línea y mi en la primera, así que sol está más arriba."
+          "explicacion": "Al revés: sol está en la segunda línea y mi en la primera, así que sol está más arriba.",
+          "concepto": "musica-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "Piensa en qué línea está cada nota y recuerda que las líneas se cuentan desde abajo."
+          ]
         },
         {
           "id": "musica-t01-p07",
@@ -86,7 +154,12 @@
           "pagina": 7,
           "enunciado": "Mi y sol son nombres de notas musicales.",
           "correcta": true,
-          "explicacion": "Sí, mi y sol son dos de las siete notas musicales."
+          "explicacion": "Sí, mi y sol son dos de las siete notas musicales.",
+          "concepto": "musica-t01-c02",
+          "nivel": 1,
+          "pistas": [
+            "Piensa en lo que se escribe en las líneas del pentagrama."
+          ]
         },
         {
           "id": "musica-t01-p08",
@@ -97,7 +170,12 @@
             "mi"
           ],
           "exigeAcentos": false,
-          "explicacion": "Es la nota mi. ¡Primera línea, nota mi!"
+          "explicacion": "Es la nota mi. ¡Primera línea, nota mi!",
+          "concepto": "musica-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en las dos notas del tema: ¿cuál está más abajo?"
+          ]
         },
         {
           "id": "musica-t01-p09",
@@ -108,7 +186,12 @@
             "sol"
           ],
           "exigeAcentos": false,
-          "explicacion": "Es la nota sol. ¡Segunda línea, nota sol!"
+          "explicacion": "Es la nota sol. ¡Segunda línea, nota sol!",
+          "concepto": "musica-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Piensa en las dos notas del tema: ¿cuál está más arriba?"
+          ]
         },
         {
           "id": "musica-t01-p10",
@@ -120,7 +203,12 @@
             "Segunda línea (sol)",
             "Tercera línea"
           ],
-          "explicacion": "Contamos desde abajo: primero la línea de mi, después la de sol y luego la tercera."
+          "explicacion": "Contamos desde abajo: primero la línea de mi, después la de sol y luego la tercera.",
+          "concepto": "musica-t01-c01",
+          "nivel": 2,
+          "pistas": [
+            "Empieza por la línea que está más abajo."
+          ]
         },
         {
           "id": "musica-t01-p11",
@@ -141,7 +229,13 @@
               "al principio del pentagrama"
             ]
           ],
-          "explicacion": "¡Muy bien! Cada cosa tiene su sitio en el pentagrama."
+          "explicacion": "¡Muy bien! Cada cosa tiene su sitio en el pentagrama.",
+          "concepto": "musica-t01-c02",
+          "nivel": 2,
+          "pistas": [
+            "Las líneas se cuentan de abajo arriba.",
+            "Una de las tres cosas no es una nota, sino un signo."
+          ]
         },
         {
           "id": "musica-t01-p12",
@@ -154,7 +248,13 @@
             "más largo"
           ],
           "correcta": 0,
-          "explicacion": "Cuanto más arriba está la nota, más agudo (fino) suena. Por eso sol es más aguda que mi."
+          "explicacion": "Cuanto más arriba está la nota, más agudo (fino) suena. Por eso sol es más aguda que mi.",
+          "concepto": "musica-t01-c02",
+          "nivel": 3,
+          "pistas": [
+            "«Más largo» habla de cuánto dura un sonido, no de si está arriba o abajo.",
+            "Piensa en la voz de un pajarito y en la de un oso: ¿cuál suena más arriba?"
+          ]
         }
       ]
     },

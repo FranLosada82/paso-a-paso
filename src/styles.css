@@ -121,3 +121,35 @@ body { background: var(--fondo); isolation: isolate; }
 .selector-pagina .escribir { width: 140px; text-align: center; margin: 0; font-size: 1.6rem; font-weight: 800; }
 .pagina-chip { margin: 4px 0 0; color: var(--suave); }
 .sub.medias { color: var(--acento); font-weight: 700; }
+
+/* v2: tutor (modos, descubrir, pistas, otra manera) */
+.modos { display: grid; gap: 12px; margin: 8px 0 20px; }
+@media (min-width: 640px) { .modos { grid-template-columns: 1fr 1fr; } }
+.modo { display: flex; align-items: center; gap: 14px; min-height: 84px; padding: 14px 18px; border-radius: var(--radio); border: 3px solid var(--acento); text-align: left; box-shadow: 0 5px 0 var(--acento); }
+.modo:active { transform: translateY(4px); box-shadow: none; }
+.modo.aprender { background: var(--acento); color: #fff; }
+.modo.repasar { background: #fff; color: var(--tinta); }
+.modo .emoji { font-size: 2rem; }
+.modo b { display: block; font-size: 1.15rem; }
+.modo small { display: block; font-size: .85rem; opacity: .9; }
+.enunciado-fila { display: flex; align-items: flex-start; gap: 10px; }
+.enunciado-fila > :first-child { flex: 1; }
+.escuchar { flex: none; width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--borde); background: #fff; font-size: 1.3rem; margin-top: 6px; }
+.tema-chip .fase { font-weight: 800; color: var(--acento); }
+.fase-reto .tema-chip .fase::before { content: "🏆 "; }
+.fase-reto .enunciado { color: var(--acento); }
+.descubre { margin-top: 16px; }
+.descubre h1 { font-size: 1.6rem; color: var(--acento); }
+.texto-descubre { font-size: 1.3rem; line-height: 1.5; margin: 6px 0 14px; }
+.pistas { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
+.pistas li { background: #FFF3C9; border-radius: 12px; padding: 8px 12px; }
+.otra-manera { background: var(--claro); border: 2px dashed var(--acento); border-radius: 14px; padding: 10px 14px; margin: 8px 0; }
+.otra-manera .nota { margin: 0 0 4px; }
+.texto-otra, .texto-descubre { white-space: pre-line; }
+.ayudas { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.opcion.descartada { text-decoration: line-through; opacity: .45; box-shadow: none; border-style: dashed; }
+.pie.intento { background: #FFF3C9; border-color: #E8D27C; }
+.pie.intento .feedback strong { color: var(--tinta); font-size: 1.1rem; }
+.logros { list-style: none; padding: 0; margin: 4px 0 12px; color: var(--suave); }
+.selector { min-height: 44px; font: inherit; padding: 6px 10px; border-radius: 12px; border: 2px solid var(--borde); background: #fff; margin-left: auto; }
+.botones { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }

@@ -6,21 +6,32 @@ async function entrarAdulto(page: Page) {
   await page.getByRole('button', { name: 'Entrar' }).click();
 }
 
-/** Responde cualquier tipo de pregunta (no siempre bien) y avanza. */
-async function responderUna(page: Page) {
-  await expect(page.getByRole('button', { name: 'Comprobar' })).toBeVisible();
-  const radios = page.getByRole('radio');
+/** Rellena una respuesta cualquiera (no siempre bien) en la actividad que esté en pantalla. */
+async function rellenar(page: Page) {
+  const radios = page.locator('[role=radio]:not([disabled])');
   if (await radios.count()) await radios.first().click();
   else if (await page.getByLabel('Escribe tu respuesta').count()) await page.getByLabel('Escribe tu respuesta').fill('7');
   else if (await page.getByText('Toca en orden').count()) {
     const fichas = page.locator('.fichas .ficha:not([disabled])');
     while (await fichas.count()) await fichas.first().click();
   } else {
-    const izq = page.locator('.relacionar .columna').nth(0).locator('.ficha');
-    const der = page.locator('.relacionar .columna').nth(1).locator('.ficha');
-    for (let i = 0; i < (await izq.count()); i++) { await izq.nth(i).click(); await der.nth(i).click(); }
+    const libre = ':not(.c1):not(.c2):not(.c3):not(.c4)';
+    const izq = page.locator(`.relacionar .columna:nth-child(1) .ficha${libre}`);
+    const der = page.locator(`.relacionar .columna:nth-child(2) .ficha${libre}`);
+    while (await izq.count()) { await izq.first().click(); await der.first().click(); }
   }
+}
+
+/** Avanza un paso de la sesión: tarjeta «Descubre» o actividad (con su posible segundo intento). */
+async function responderUna(page: Page) {
+  const tarjeta = page.getByRole('button', { name: /¡Vamos a practicar!|¡Ahora lo pruebo!/ });
+  await expect(tarjeta.or(page.getByRole('button', { name: /^Comprobar/ }))).toBeVisible();
+  if (await tarjeta.count()) { await tarjeta.click(); return; }
+  await rellenar(page);
   await page.getByRole('button', { name: 'Comprobar' }).click();
+  const otraVez = page.getByRole('button', { name: 'Comprobar otra vez' });
+  await expect(otraVez.or(page.getByRole('button', { name: 'Continuar' }))).toBeVisible();
+  if (await otraVez.count()) { await rellenar(page); await otraVez.click(); }
   await expect(page.locator('.pie.ok, .pie.ko')).toBeVisible();
   await page.getByRole('button', { name: 'Continuar' }).click();
 }
@@ -49,15 +60,29 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   await expect(page.getByRole('button', { name: /Tema 2:.*A medias/ })).toBeEnabled();
   await expect(page.getByRole('button', { name: /Tema 3:.*Aún no dado/ })).toBeDisabled();
 
-  // 3. Sesión completa (incluye repetición de las falladas).
+  // 3. «Aprender»: presenta el concepto, ofrece pistas y «Explícamelo de otra manera», y termina con un reto.
+  await page.getByRole('button', { name: /Aprender/ }).click();
+  await expect(page.getByText('Descubre')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Decenas y unidades' })).toBeVisible();
+  await page.getByRole('button', { name: '¡Vamos a practicar!' }).click();
+  await page.getByRole('button', { name: /Explícamelo de otra manera/ }).click();
+  await expect(page.locator('.otra-manera')).toBeVisible();
+  await page.getByRole('button', { name: /Pista/ }).click();
+  await expect(page.locator('.pistas li').first()).toBeVisible();
+  for (let i = 0; i < 40 && !(await page.getByText('¡Misión cumplida!').count()); i++) await responderUna(page);
+  await expect(page.getByText('¡Misión cumplida!')).toBeVisible();
+  await page.getByRole('button', { name: 'Volver a temas' }).click();
+
+  // 4. «Repasar»: sesión completa (incluye refuerzo de las falladas), sin pistas al principio.
   await page.getByRole('button', { name: /Repasar todo lo dado/ }).click();
-  for (let i = 0; i < 25 && !(await page.getByText('¡Sesión terminada!').count()); i++) {
-    await expect(page.locator('.tema-chip')).toContainText(/Tema [12]:/);
+  await expect(page.getByRole('button', { name: /Pista/ })).toHaveCount(0);
+  for (let i = 0; i < 40 && !(await page.getByText('¡Repaso terminado!').count()); i++) {
+    await expect(page.locator('.tema-chip')).toContainText(/Tema [12]/);
     await responderUna(page);
   }
-  await expect(page.getByText('¡Sesión terminada!')).toBeVisible();
+  await expect(page.getByText('¡Repaso terminado!')).toBeVisible();
 
-  // 4. Sin conexión: recarga y navegación por las 7 asignaturas.
+  // 5. Sin conexión: recarga y navegación por las 7 asignaturas.
   if (sinRed) await context.setOffline(true);
   await page.goto('/');
   await expect(page.getByRole('heading', { name: 'CHENCHO REPASO' })).toBeVisible();
@@ -79,7 +104,7 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   await page.reload();
   await expect(page.locator('.enunciado')).toBeVisible();
 
-  // 5. Cerrar y reabrir (offline): el progreso sigue.
+  // 6. Cerrar y reabrir (offline): el progreso sigue.
   await page.close();
   const otra = await context.newPage();
   await otra.goto('/');
@@ -87,5 +112,9 @@ test('primera carga, marcar temas, practicar, offline, reapertura', async ({ pag
   await expect(otra.getByRole('button', { name: /Continuar/ })).toBeVisible();
   await otra.getByRole('button', { name: /Zona de adultos/ }).click();
   await entrarAdulto(otra);
-  await expect(otra.getByText(/1 sesiones/).first()).toBeVisible();
+  await expect(otra.getByText(/2 sesiones/).first()).toBeVisible();
+  // Vista de progreso del adulto: conceptos trabajados.
+  await otra.getByRole('button', { name: 'Progreso' }).first().click();
+  await expect(otra.getByText('Decenas y unidades', { exact: true })).toBeVisible();
+  await expect(otra.getByText(/ideas dominadas/)).toBeVisible();
 });
